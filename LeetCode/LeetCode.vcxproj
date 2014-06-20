@@ -11,8 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Algorithm Practice\addBinary.cpp" />
-    <ClCompile Include="..\..\..\..\Algorithm Practice\flatten.cpp" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LeetCode.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{61F35A4D-B7C4-4603-BF3C-208339263266}</ProjectGuid>
