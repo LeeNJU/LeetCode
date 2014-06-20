@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Algorithm Practice\addBinary.cpp" />
     <ClCompile Include="..\..\..\..\Algorithm Practice\flatten.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

@@ -18,5 +18,8 @@
     <ClCompile Include="..\..\..\..\Algorithm Practice\flatten.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Algorithm Practice\addBinary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
