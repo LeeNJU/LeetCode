@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isSameTree.cpp" />
+    <ClCompile Include="K:\Algorithm Practice\isValidBST.cpp" />
     <ClCompile Include="levelOrder.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
