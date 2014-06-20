@@ -54,15 +54,15 @@ TreeNode* build(ListNode* first, ListNode* last, int length)
 
 TreeNode* sortedListToBST(ListNode* head)
 {
-	if (head == NULL)
-		return NULL;
+	if (head == nullptr)
+		return nullptr;
 
-	if (head->next == NULL)
+	if (head->next == nullptr)
 		return new TreeNode(head->val);
 
 	int length = 0;
 	ListNode* tail = head;
-	while (tail->next != NULL)
+	while (tail->next != nullptr)
 	{
 		tail = tail->next;
 		++length;
