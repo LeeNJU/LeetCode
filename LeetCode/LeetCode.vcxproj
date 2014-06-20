@@ -13,9 +13,8 @@
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isSameTree.cpp" />
-    <ClCompile Include="K:\Algorithm Practice\isValidBST.cpp" />
-    <ClCompile Include="K:\Algorithm Practice\maxDepth.cpp" />
     <ClCompile Include="levelOrder.cpp" />
+    <ClCompile Include="preorderTraversal.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{61F35A4D-B7C4-4603-BF3C-208339263266}</ProjectGuid>
