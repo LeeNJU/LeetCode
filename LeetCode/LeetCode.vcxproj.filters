@@ -36,5 +36,8 @@
     <ClCompile Include="sortedListToBST.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
+    <ClCompile Include="isValidBST.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
