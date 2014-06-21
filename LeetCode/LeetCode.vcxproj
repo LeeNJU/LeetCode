@@ -15,7 +15,10 @@
     <ClCompile Include="..\..\..\..\Algorithm Practice\minDepth.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isSameTree.cpp" />
+    <ClCompile Include="isValidBST.cpp" />
     <ClCompile Include="levelOrder.cpp" />
+    <ClCompile Include="preorderTraversal.cpp" />
+    <ClCompile Include="sortedListToBST.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{61F35A4D-B7C4-4603-BF3C-208339263266}</ProjectGuid>
