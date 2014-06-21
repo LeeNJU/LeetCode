@@ -11,8 +11,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Algorithm Practice\maxDepth.cpp" />
-    <ClCompile Include="..\..\..\..\Algorithm Practice\minDepth.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isSameTree.cpp" />
     <ClCompile Include="isValidBST.cpp" />
