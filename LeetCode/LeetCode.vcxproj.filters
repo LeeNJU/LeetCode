@@ -27,19 +27,19 @@
     <ClCompile Include="isSameTree.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
-    <ClCompile Include="preorderTraversal.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="levelOrder.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
-    <ClCompile Include="sortedListToBST.cpp">
-      <Filter>Source Files\List</Filter>
+    <ClCompile Include="..\..\..\..\Algorithm Practice\maxDepth.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Algorithm Practice\minDepth.cpp">
+      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="isValidBST.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
-    <ClCompile Include="K:\Algorithm Practice\maxDepth.cpp">
+    <ClCompile Include="preorderTraversal.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
   </ItemGroup>
