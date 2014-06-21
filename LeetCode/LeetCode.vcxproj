@@ -14,6 +14,7 @@
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isSameTree.cpp" />
     <ClCompile Include="isValidBST.cpp" />
+    <ClCompile Include="K:\Algorithm Practice\flatten.cpp" />
     <ClCompile Include="K:\Algorithm Practice\maxDepth.cpp" />
     <ClCompile Include="preorderTraversal.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
