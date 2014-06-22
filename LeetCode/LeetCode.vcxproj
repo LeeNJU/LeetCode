@@ -16,7 +16,6 @@
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isSameTree.cpp" />
     <ClCompile Include="isValidBST.cpp" />
-    <ClCompile Include="levelOrder.cpp" />
     <ClCompile Include="preorderTraversal.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
   </ItemGroup>

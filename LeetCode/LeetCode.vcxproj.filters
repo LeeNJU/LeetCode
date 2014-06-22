@@ -27,9 +27,6 @@
     <ClCompile Include="isSameTree.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
-    <ClCompile Include="levelOrder.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\Algorithm Practice\maxDepth.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
