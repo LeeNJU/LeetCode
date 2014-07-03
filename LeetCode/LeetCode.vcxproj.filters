@@ -19,6 +19,9 @@
     <Filter Include="Source Files\List">
       <UniqueIdentifier>{8d1f4d53-f8f9-44f7-b266-bf9af4666ac2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\String">
+      <UniqueIdentifier>{d4663687-36db-47ad-991e-7b35c0c66753}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp">
@@ -38,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="sortedListToBST.cpp">
       <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="isValid.cpp">
+      <Filter>Source Files\String</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

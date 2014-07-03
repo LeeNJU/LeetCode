@@ -33,14 +33,3 @@ ListNode *swapPairs(ListNode *head)
 
 	return head;
 }
-
-int main()
-{
-	ListNode one(1),two(2), three(3), four(4);
-	one.next = &two;
-	two.next = &three;
-	three.next = &four;
-	ListNode* p = swapPairs(&one);
-	cout << p->val << p->next->val << p->next->next->val << p->next->next->next->val << endl;
-	return 0;
-}
