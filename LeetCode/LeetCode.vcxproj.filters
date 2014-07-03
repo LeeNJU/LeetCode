@@ -48,5 +48,8 @@
     <ClCompile Include="numDecodings.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="permute.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

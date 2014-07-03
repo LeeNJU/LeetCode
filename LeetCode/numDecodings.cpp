@@ -37,8 +37,3 @@ int numDecodings(string s)//总的思路是两两分组，统计有一对的情况
 	return 0;
 }
 
-int main()
-{
-	string s("111");
-	cout << numDecodings(s) << endl;
-}
