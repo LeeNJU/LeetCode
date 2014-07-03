@@ -15,6 +15,7 @@
     <ClCompile Include="isSameTree.cpp" />
     <ClCompile Include="isValid.cpp" />
     <ClCompile Include="isValidBST.cpp" />
+    <ClCompile Include="numDecodings.cpp" />
     <ClCompile Include="preorderTraversal.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
     <ClCompile Include="swapPairs.cpp" />
