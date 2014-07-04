@@ -69,5 +69,8 @@
     <ClCompile Include="lengthOfLastWord.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="maxDepth.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

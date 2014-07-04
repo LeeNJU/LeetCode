@@ -21,6 +21,7 @@
     <ClCompile Include="isValid.cpp" />
     <ClCompile Include="isValidBST.cpp" />
     <ClCompile Include="lengthOfLastWord.cpp" />
+    <ClCompile Include="maxDepth.cpp" />
     <ClCompile Include="numDecodings.cpp" />
     <ClCompile Include="permute.cpp" />
     <ClCompile Include="preorderTraversal.cpp" />
