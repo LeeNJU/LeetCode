@@ -9,16 +9,6 @@ void permutation(vector<vector<int> >& vec, const vector<int>& num, vector<int>&
 {
 	for (size_t i = 0; i < num.size(); ++i)
 	{
-		/*
-		bool existed = false;
-		for (size_t j = 0; j < item.size() - depth; ++j)
-		{
-			if (item[j] == num[i])
-			{
-				existed = true;
-				break;
-			}
-		}*/
 		vector<int>::iterator iter = item.end();
 		if (find(item.begin(), iter - depth, num[i]) == iter - depth)
 		{
