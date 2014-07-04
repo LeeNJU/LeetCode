@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="addBinary.cpp" />
+    <ClCompile Include="connect.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isSameTree.cpp" />
     <ClCompile Include="isValid.cpp" />
