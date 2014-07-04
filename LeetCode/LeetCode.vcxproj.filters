@@ -51,5 +51,8 @@
     <ClCompile Include="permute.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="addBinary.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
