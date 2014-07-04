@@ -29,6 +29,7 @@
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reverseBetween.cpp" />
     <ClCompile Include="rotateRight.cpp" />
+    <ClCompile Include="search.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
     <ClCompile Include="swapPairs.cpp" />
   </ItemGroup>

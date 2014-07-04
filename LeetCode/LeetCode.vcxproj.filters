@@ -22,6 +22,9 @@
     <Filter Include="Source Files\String">
       <UniqueIdentifier>{d4663687-36db-47ad-991e-7b35c0c66753}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Array">
+      <UniqueIdentifier>{1156e2c0-23a7-459f-b11e-cd4f828a2280}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp">
@@ -83,6 +86,9 @@
     </ClCompile>
     <ClCompile Include="rotateRight.cpp">
       <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="search.cpp">
+      <Filter>Source Files\Array</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
