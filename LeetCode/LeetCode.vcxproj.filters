@@ -66,5 +66,8 @@
     <ClCompile Include="hasPathSum.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="lengthOfLastWord.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
