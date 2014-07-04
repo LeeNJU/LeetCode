@@ -72,5 +72,8 @@
     <ClCompile Include="maxDepth.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="minDepth.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
