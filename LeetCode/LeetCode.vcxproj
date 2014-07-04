@@ -15,6 +15,7 @@
     <ClCompile Include="connect.cpp" />
     <ClCompile Include="flatten.cpp" />
     <ClCompile Include="hasCycle.cpp" />
+    <ClCompile Include="hasPathSum.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isSameTree.cpp" />
     <ClCompile Include="isValid.cpp" />
