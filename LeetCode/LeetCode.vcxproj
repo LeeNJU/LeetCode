@@ -27,6 +27,7 @@
     <ClCompile Include="permute.cpp" />
     <ClCompile Include="preorderTraversal.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
+    <ClCompile Include="reverseBetween.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
     <ClCompile Include="swapPairs.cpp" />
   </ItemGroup>
