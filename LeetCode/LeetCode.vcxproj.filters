@@ -111,5 +111,8 @@
     <ClCompile Include="buildTreeFromInorderAndPostorder.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="buildTreeFromPreorderAndInorder.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
