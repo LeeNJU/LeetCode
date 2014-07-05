@@ -30,6 +30,7 @@
     <ClCompile Include="reverseBetween.cpp" />
     <ClCompile Include="rotateRight.cpp" />
     <ClCompile Include="search.cpp" />
+    <ClCompile Include="searchInsert.cpp" />
     <ClCompile Include="singleNumber.cpp" />
     <ClCompile Include="sortColors.cpp" />
     <ClCompile Include="sortedArrayToBST.cpp" />

@@ -102,5 +102,8 @@
     <ClCompile Include="singleNumber.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="searchInsert.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
