@@ -28,6 +28,7 @@
     <ClCompile Include="preorderTraversal.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reverseBetween.cpp" />
+    <ClCompile Include="reverseWords.cpp" />
     <ClCompile Include="rotateRight.cpp" />
     <ClCompile Include="search.cpp" />
     <ClCompile Include="searchInsert.cpp" />

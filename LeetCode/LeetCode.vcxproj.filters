@@ -105,5 +105,8 @@
     <ClCompile Include="searchInsert.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="reverseWords.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
