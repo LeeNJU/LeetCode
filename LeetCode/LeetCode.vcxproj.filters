@@ -99,5 +99,8 @@
     <ClCompile Include="sortColors.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="singleNumber.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
