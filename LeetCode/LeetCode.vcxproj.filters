@@ -108,5 +108,8 @@
     <ClCompile Include="reverseWords.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="buildTreeFromInorderAndPostorder.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
