@@ -9,14 +9,14 @@ struct TreeNode
 	int val;
 	TreeNode* left;
 	TreeNode* right;
-	TreeNode(int x) : val(x), left(NULL), right(NULL){}
+	TreeNode(int x) : val(x), left(nullptr), right(nullptr){}
 };
 
 TreeNode* build(vector<int>::iterator prefirst, vector<int>::iterator prelast,
 	vector<int>::iterator infirst, vector<int>::iterator inlast)
 {
 	if (prefirst >= prelast || infirst >= inlast)
-		return NULL;
+		return nullptr;
 
 	TreeNode* root = new TreeNode(*prefirst);
 	vector<int>::iterator iter = find(infirst, inlast, root->val);

@@ -8,12 +8,12 @@ struct TreeNode
 	int val;
 	TreeNode* left;
 	TreeNode* right;
-	TreeNode(int x) : val(x), left(NULL), right(NULL){}
+	TreeNode(int x) : val(x), left(nullptr), right(nullptr){}
 };
 
 int depth(TreeNode* root)
 {
-	if (root == NULL)
+	if (root == nullptr)
 		return 0;
 
 	return max(depth(root->left), depth(root->right)) + 1;
@@ -21,7 +21,7 @@ int depth(TreeNode* root)
 
 bool isBalanced(TreeNode* root)
 {
-	if (root == NULL)
+	if (root == nullptr)
 		return true;
 	if (abs(depth(root->left) - depth(root->right)) > 1)
 		return false;

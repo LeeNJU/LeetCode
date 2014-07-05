@@ -6,17 +6,17 @@ struct ListNode
 {
 	int val;
 	ListNode* next;
-	ListNode(int x) : val(x), next(NULL){}
+	ListNode(int x) : val(x), next(nullptr){}
 };
 
 ListNode* removeNthFromEnd(ListNode* head, int n)
 {
-	if (head == NULL)
-		return NULL;
+	if (head == nullptr)
+		return nullptr;
 
 	int length = 1;
 	ListNode* p = head;
-	while (p->next != NULL)
+	while (p->next != nullptr)
 	{
 		++length;
 		p = p->next;
