@@ -96,5 +96,8 @@
     <ClCompile Include="sortedArrayToBST.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="sortColors.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
