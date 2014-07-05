@@ -32,6 +32,7 @@
     <ClCompile Include="search.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
     <ClCompile Include="swapPairs.cpp" />
+    <ClCompile Include="twoSum.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{61F35A4D-B7C4-4603-BF3C-208339263266}</ProjectGuid>
