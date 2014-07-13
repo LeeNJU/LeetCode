@@ -22,7 +22,7 @@ std::vector<std::string> letterCombinations(std::string digits)
 {
 	std::vector<std::string> result;
 	std::map<char, std::vector<char>> data;
-	data['2'] = { 'a', 'b', 'c' };
+	data['2'] = { 'b', 'a', 'c' };
 	data['3'] = {'d', 'e', 'f'};
 	data['4'] = {'g', 'h', 'i'};
 	data['5'] = {'j', 'k', 'l'};
