@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="addBinary.cpp" />
+    <ClCompile Include="addTwoNumbers.cpp" />
     <ClCompile Include="buildTreeFromInorderAndPostorder.cpp" />
     <ClCompile Include="buildTreeFromPreorderAndInorder.cpp" />
     <ClCompile Include="connect.cpp" />
@@ -20,6 +21,7 @@
     <ClCompile Include="hasCycle.cpp" />
     <ClCompile Include="hasPathSum.cpp" />
     <ClCompile Include="isBalanced.cpp" />
+    <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="isSameTree.cpp" />
     <ClCompile Include="isValid.cpp" />
     <ClCompile Include="isValidBST.cpp" />

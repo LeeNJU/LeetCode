@@ -120,5 +120,11 @@
     <ClCompile Include="generate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="isPalindrome.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="addTwoNumbers.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
