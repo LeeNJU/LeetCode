@@ -26,6 +26,7 @@
     <ClCompile Include="isValid.cpp" />
     <ClCompile Include="isValidBST.cpp" />
     <ClCompile Include="lengthOfLastWord.cpp" />
+    <ClCompile Include="letterCombinations.cpp" />
     <ClCompile Include="maxDepth.cpp" />
     <ClCompile Include="mergeSortedArray.cpp" />
     <ClCompile Include="minDepth.cpp" />
