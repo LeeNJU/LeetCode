@@ -25,24 +25,10 @@ void twoSum(std::vector<std::vector<int>>& result, std::vector<int> num, int ind
 			++first;
 		else
 		{
-			if (index <= first)
-			{
-				vec.push_back(num[index]);
-				vec.push_back(num[first]);
-				vec.push_back(num[last]);
-			}
-			else if (index > first && index <= last)
-			{
-				vec.push_back(num[first]);
-				vec.push_back(num[index]);
-				vec.push_back(num[last]);
-			}
-			else
-			{
-				vec.push_back(num[first]);
-				vec.push_back(num[last]);
-				vec.push_back(num[index]);
-			}
+			vec.push_back(num[index]);
+			vec.push_back(num[first]);
+			vec.push_back(num[last]);
+			sort(vec.begin(), vec.end());
 			result.push_back(vec);
 		}
 	}
