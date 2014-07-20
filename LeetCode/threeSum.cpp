@@ -4,7 +4,7 @@
 
 void twoSum(std::vector<std::vector<int>>& result, std::vector<int> num, int index, int target)
 {
-	std::vector<int> vec;
+	std::vector<int> vec(3);
 	int first = 0, last = num.size() - 1;
 	while (first < last)
 	{
