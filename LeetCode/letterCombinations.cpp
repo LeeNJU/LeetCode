@@ -14,7 +14,7 @@ void dfs(std::vector<std::string>& result, std::map<char, std::vector<char>>& da
 	std::vector<char> t = data[s[depth]];
 	for (size_t i = 0; i < t.size(); ++i)
 	{
-		dfs(result, data, s, ret + t[i], ++depth);
+		dfs(result, data, s, ret + t[i], depth + 1);
 	}
 }
 
@@ -22,7 +22,7 @@ std::vector<std::string> letterCombinations(std::string digits)
 {
 	std::vector<std::string> result;
 	std::map<char, std::vector<char>> data;
-	data['2'] = { 'b', 'a', 'c' };
+	data['2'] = { 'a', 'b', 'c' };
 	data['3'] = {'d', 'e', 'f'};
 	data['4'] = {'g', 'h', 'i'};
 	data['5'] = {'j', 'k', 'l'};
@@ -36,6 +36,7 @@ std::vector<std::string> letterCombinations(std::string digits)
 
 int main()
 {
-	letterCombinations("2");
+	std::vector<std::string> vec = letterCombinations("2");
+	std::cout << vec.size() << std::endl;
 	return 0;
 }

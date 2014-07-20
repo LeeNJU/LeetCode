@@ -32,15 +32,3 @@ vector<vector<int> > permute(vector<int>& num)
 	permutation(result, num, item, num.size());
 	return result;
 }
-
-int main()
-{
-	vector<int> num;
-	num.push_back(0);
-	num.push_back(1);
-	vector<vector<int> > vec = permute(num);
-	cout << vec.size() << endl;
-	cout << vec[0][0] << " " << vec[0][1] << endl;
-	cout << vec[1][0] << " " << vec[0][1] << endl;
-	return 0;
-}
