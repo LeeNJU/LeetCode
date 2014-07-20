@@ -34,9 +34,3 @@ std::vector<std::string> letterCombinations(std::string digits)
 	return result;
 }
 
-int main()
-{
-	std::vector<std::string> vec = letterCombinations("2");
-	std::cout << vec.size() << std::endl;
-	return 0;
-}
