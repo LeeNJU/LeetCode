@@ -3,13 +3,12 @@
 #include<deque>
 #include<algorithm>
 
-using namespace std;
 
-void permutation(vector<vector<int> >& vec, const vector<int>& num, vector<int>& item, int depth)
+void permutation(std::vector<std::vector<int> >& vec, const std::vector<int>& num, std::vector<int>& item, int depth)
 {
 	for (size_t i = 0; i < num.size(); ++i)
 	{
-		vector<int>::iterator iter = item.end();
+		std::vector<int>::iterator iter = item.end();
 		if (find(item.begin(), iter - depth, num[i]) == iter - depth)
 		{
 			item[num.size() - depth] = num[i];
@@ -25,10 +24,10 @@ void permutation(vector<vector<int> >& vec, const vector<int>& num, vector<int>&
 	}
 }
 
-vector<vector<int> > permute(vector<int>& num)
+std::vector<std::vector<int> > permute(std::vector<int>& num)
 {
-	vector<vector<int> > result;
-	vector<int> item(num.size());
+	std::vector<std::vector<int> > result;
+	std::vector<int> item(num.size());
 	permutation(result, num, item, num.size());
 	return result;
 }

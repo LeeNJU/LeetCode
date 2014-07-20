@@ -2,11 +2,10 @@
 #include<string>
 #include<algorithm>
 
-using namespace std;
 
-string addBinary(string a, string b)
+std::string addBinary(std::string a, std::string b)
 {
-	string result(max(a.length(), b.length()) + 1, ' ');
+	std::string result(std::max(a.length(), b.length()) + 1, ' ');
 
 	int index = result.length() - 1;
 	int indexA = a.length() - 1, indexB = b.length() - 1;

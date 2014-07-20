@@ -2,9 +2,9 @@
 #include<algorithm>
 
 
-void twoSum(std::vector<std::vector<int>>& result, std::vector<int> num, int index, int target)
+void twoSum(std::vector<std::vector<int>>& result, const std::vector<int>& num, int index, int target)
 {
-	std::vector<int> vec(3);
+	std::vector<int> vec;
 	int first = 0, last = num.size() - 1;
 	while (first < last)
 	{
@@ -30,6 +30,8 @@ void twoSum(std::vector<std::vector<int>>& result, std::vector<int> num, int ind
 			vec.push_back(num[last]);
 			sort(vec.begin(), vec.end());
 			result.push_back(vec);
+			++first;
+			--last;
 		}
 	}
 }

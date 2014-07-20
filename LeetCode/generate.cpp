@@ -1,12 +1,11 @@
 #include<iostream>
 #include<vector>
 
-using namespace std;
 
-vector<vector<int> > generate(int numRows)
+std::vector<std::vector<int> > generate(int numRows)
 {
-	vector<vector<int> > result;
-	vector<int> vec;
+	std::vector<std::vector<int> > result;
+	std::vector<int> vec;
 	for (int i = 0; i < numRows; ++i)
 	{
 		vec.resize(i + 1);
