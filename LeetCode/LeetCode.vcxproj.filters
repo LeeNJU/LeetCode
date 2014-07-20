@@ -129,5 +129,8 @@
     <ClCompile Include="letterCombinations.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="insert.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
