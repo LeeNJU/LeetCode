@@ -1,6 +1,6 @@
 #include<vector>
 #include<algorithm>
-
+#include <iostream>
 
 void twoSum(std::vector<std::vector<int>>& result, const std::vector<int>& num, int index, int target)
 {
