@@ -1,13 +1,5 @@
-#include<iostream>
-
+#include"TreeNode.h"
 using namespace std;
-
-struct TreeLinkNode
-{
-	int val;
-	TreeLinkNode* left, *right, *next;
-	TreeLinkNode(int x) : val(x), left(nullptr), right(nullptr), next(nullptr){}
-};
 
 
 void connects(TreeLinkNode* root, TreeLinkNode* next)

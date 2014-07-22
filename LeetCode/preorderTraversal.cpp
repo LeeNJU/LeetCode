@@ -1,15 +1,9 @@
 #include<iostream>
 #include<vector>
 #include<stack>
+#include"TreeNode.h"
 using namespace std;
 
-struct TreeNode
-{
-	int val;
-	TreeNode* left;
-	TreeNode* right;
-	TreeNode(int x) : val(x), left(NULL), right(NULL){}
-};
 
 vector<int> preorderTraversal(TreeNode *root) {
 	vector<int> result;
