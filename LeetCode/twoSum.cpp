@@ -6,33 +6,31 @@
 
 using namespace std;
 
-
-vector<int> twoSum(vector<int>& numbers, int target)
+vector<int> twoSums(vector<int>& numbers, int target)
 {
-	vector<int> result(2, 0);
-
-	multimap<int, int> m;
-	for (size_t i = 0; i < numbers.size(); ++i)
-		m.insert(pair<int, int>(numbers[i], i + 1));
-
-	multimap<int, int>::iterator iter = m.begin();
-	while (iter != m.end())
+	vector<int> number(numbers.begin(), numbers.end());
+	sort(number.begin(), number.end());
+	vector<int> result;
+	int first = 0, last = number.size() - 1;
+	while (first < last)
 	{
-		multimap<int, int>::iterator index = m.find(target - iter->first);
-		if (index != m.end())
+		if (number[first] + number[last] < target)
+			++first;
+		else if (number[first] + number[last] > target)
+			--last;
+		else
 		{
-			multimap<int, int>::iterator next = ++index;//防止找到同一个下标
-			if (next != m.end() && (--index)->second != iter->second)
-			{
-				result[0] = iter->second;
-				result[1] = index->second;
-				break;
-			}
-
+			break;
 		}
-		++iter;
 	}
-
+	vector<int>::iterator iter = find(numbers.begin(), numbers.end(), number[first]);
+	result.push_back(iter - numbers.begin() + 1);
+	vector<int>::iterator iters = find(numbers.begin(), numbers.end(), number[last]);
+	if (iter == iters)//防止找到同一个下标  例如0,0,3,2 始终会找到第一个元素0
+	{
+		iters = find(++iters, numbers.end(), number[last]);
+	}
+	result.push_back(iters - numbers.begin() + 1);
 	sort(result.begin(), result.end());
 	return result;
 }
