@@ -1,12 +1,9 @@
-#include<iostream>
 #include<vector>
-#include<map>
-#include<utility>
 #include<algorithm>
 
 using namespace std;
 
-vector<int> twoSums(vector<int>& numbers, int target)
+vector<int> twoSum(vector<int>& numbers, int target)
 {
 	vector<int> number(numbers.begin(), numbers.end());
 	sort(number.begin(), number.end());
