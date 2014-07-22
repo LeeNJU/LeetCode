@@ -48,6 +48,9 @@
     <ClCompile Include="threeSum.cpp" />
     <ClCompile Include="twoSum.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TreeNode.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{61F35A4D-B7C4-4603-BF3C-208339263266}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

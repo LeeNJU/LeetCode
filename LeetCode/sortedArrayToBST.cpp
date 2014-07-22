@@ -1,15 +1,8 @@
 #include<iostream>
 #include<vector>
-
+#include"TreeNode.h"
 using namespace std;
 
-struct TreeNode
-{
-	int val;
-	TreeNode* left;
-	TreeNode* right;
-	TreeNode(int x) :val(x), left(nullptr), right(nullptr){}
-};
 
 TreeNode* build(int first, int last, const vector<int>& num)
 {
