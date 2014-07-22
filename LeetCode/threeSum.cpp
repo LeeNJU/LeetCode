@@ -34,7 +34,7 @@ std::vector<std::vector<int>> threeSum(std::vector<int>& num)
 {
 	sort(num.begin(), num.end());
 	std::vector<std::vector<int>> result;
-	for (size_t i = 0; i < num.size() - 2; ++i)
+	for (int i = 0; i < (int)num.size() - 2; ++i)//num.size返回的是无符号类型，无符号类型0减去一个数，结果不是负数，会变大
 	{
 		if (i != 0 && num[i] == num[i - 1])
 			continue;
