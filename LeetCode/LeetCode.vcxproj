@@ -46,6 +46,7 @@
     <ClCompile Include="sortedListToBST.cpp" />
     <ClCompile Include="swapPairs.cpp" />
     <ClCompile Include="threeSum.cpp" />
+    <ClCompile Include="threeSumClosest.cpp" />
     <ClCompile Include="twoSum.cpp" />
   </ItemGroup>
   <ItemGroup>
