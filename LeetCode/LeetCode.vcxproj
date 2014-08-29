@@ -15,6 +15,7 @@
     <ClCompile Include="addTwoNumbers.cpp" />
     <ClCompile Include="buildTreeFromInorderAndPostorder.cpp" />
     <ClCompile Include="buildTreeFromPreorderAndInorder.cpp" />
+    <ClCompile Include="combine.cpp" />
     <ClCompile Include="connect.cpp" />
     <ClCompile Include="flatten.cpp" />
     <ClCompile Include="generate.cpp" />
