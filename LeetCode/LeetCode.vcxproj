@@ -17,6 +17,7 @@
     <ClCompile Include="buildTreeFromPreorderAndInorder.cpp" />
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="connect.cpp" />
+    <ClCompile Include="convertToTitle.cpp" />
     <ClCompile Include="flatten.cpp" />
     <ClCompile Include="generate.cpp" />
     <ClCompile Include="getPermutation.cpp" />
@@ -50,6 +51,7 @@
     <ClCompile Include="swapPairs.cpp" />
     <ClCompile Include="threeSum.cpp" />
     <ClCompile Include="threeSumClosest.cpp" />
+    <ClCompile Include="titileToNumber.cpp" />
     <ClCompile Include="trailingZeroes.cpp" />
     <ClCompile Include="twoSum.cpp" />
   </ItemGroup>
