@@ -26,7 +26,7 @@
       <UniqueIdentifier>{1156e2c0-23a7-459f-b11e-cd4f828a2280}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Math">
-      <UniqueIdentifier>{5151e622-855e-43eb-ac9d-15d33629dd0b}</UniqueIdentifier>
+      <UniqueIdentifier>{e70e4675-3919-4a94-a1db-d7f81dc642d5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -145,18 +145,18 @@
       <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="getPermutation.cpp">
-      <Filter>Source Files\String</Filter>
+      <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="maxPathSum.cpp">
-      <Filter>Source Files\Tree</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="trailingZeroes.cpp">
+    <ClCompile Include="convertToTitle.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
     <ClCompile Include="titileToNumber.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
-    <ClCompile Include="convertToTitle.cpp">
+    <ClCompile Include="trailingZeroes.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
   </ItemGroup>
