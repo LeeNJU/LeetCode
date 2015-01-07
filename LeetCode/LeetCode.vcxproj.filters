@@ -25,6 +25,9 @@
     <Filter Include="Source Files\Array">
       <UniqueIdentifier>{1156e2c0-23a7-459f-b11e-cd4f828a2280}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{5151e622-855e-43eb-ac9d-15d33629dd0b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp">
@@ -142,7 +145,19 @@
       <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="getPermutation.cpp">
-      <Filter>Source Files\Array</Filter>
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="maxPathSum.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="trailingZeroes.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="titileToNumber.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="convertToTitle.cpp">
+      <Filter>Source Files\Math</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
