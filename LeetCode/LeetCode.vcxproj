@@ -17,7 +17,6 @@
     <ClCompile Include="buildTreeFromPreorderAndInorder.cpp" />
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="connect.cpp" />
-    <ClCompile Include="convertToTitle.cpp" />
     <ClCompile Include="flatten.cpp" />
     <ClCompile Include="generate.cpp" />
     <ClCompile Include="getPermutation.cpp" />

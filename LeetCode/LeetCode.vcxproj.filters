@@ -150,9 +150,6 @@
     <ClCompile Include="maxPathSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="convertToTitle.cpp">
-      <Filter>Source Files\Math</Filter>
-    </ClCompile>
     <ClCompile Include="titileToNumber.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
