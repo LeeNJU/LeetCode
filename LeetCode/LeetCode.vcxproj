@@ -27,6 +27,7 @@
     <ClCompile Include="insert.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
+    <ClCompile Include="isPalindromeNumber.cpp" />
     <ClCompile Include="isSameTree.cpp" />
     <ClCompile Include="isValid.cpp" />
     <ClCompile Include="isValidBST.cpp" />

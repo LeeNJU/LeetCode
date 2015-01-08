@@ -1,6 +1,7 @@
 #include <vector>
 
-int findMin(std::vector<int> &num)//将中间的元素与最右边的元素比较，用二分法缩小范围 
+//假设数组中没有重复的元素
+int findMin(std::vector<int> &num)//将中间的元素与最右边的元素比较，用二分法缩小范围，复杂度为O(lgn)
 {
 	int left = 0, right = num.size() - 1, middle = (left + right) / 2;
 	while (left < right)

@@ -10,7 +10,7 @@ vector<vector<int>> combine(int n, int k)
 	for (int i = 1; i <= n - k + 1; ++i)
 	{
 		vec[0] = i;
-		combinations(n, k, result, vec, i + 1, 1);
+		//combinations(n, k, result, vec, i + 1, 1);
 	}
 	return result;
 }

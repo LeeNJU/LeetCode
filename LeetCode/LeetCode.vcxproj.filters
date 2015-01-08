@@ -123,9 +123,6 @@
     <ClCompile Include="generate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="isPalindrome.cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="addTwoNumbers.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
@@ -161,6 +158,12 @@
     </ClCompile>
     <ClCompile Include="findMin.cpp">
       <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="isPalindrome.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="isPalindromeNumber.cpp">
+      <Filter>Source Files\Math</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

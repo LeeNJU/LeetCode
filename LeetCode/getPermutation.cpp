@@ -5,6 +5,6 @@ using namespace std;
 
 string getPermutation(int n, int k)
 {
-	
+	return  " ";
 }
 

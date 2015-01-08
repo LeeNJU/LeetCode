@@ -10,4 +10,5 @@ int maxPathSum(TreeNode* root)
 	stack<TreeNode*> s;
 	s.push(root);
 	
+	return 0;
 }
