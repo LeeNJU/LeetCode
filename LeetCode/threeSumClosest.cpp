@@ -27,4 +27,4 @@ int threeSumClosest(std::vector<int> &num, int target)
 		}
 	}
 	return sum;
-}-3 0 1 2 
+}
