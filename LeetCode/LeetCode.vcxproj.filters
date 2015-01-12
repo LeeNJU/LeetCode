@@ -28,6 +28,9 @@
     <Filter Include="Source Files\Math">
       <UniqueIdentifier>{e70e4675-3919-4a94-a1db-d7f81dc642d5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Bit Manipulation">
+      <UniqueIdentifier>{20e5830a-1889-485e-b7ee-4d16aa1cf909}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp">
@@ -102,9 +105,6 @@
     <ClCompile Include="sortColors.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="singleNumber.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="searchInsert.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -176,6 +176,9 @@
     </ClCompile>
     <ClCompile Include="generateMatrix.cpp">
       <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="singleNumber.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
