@@ -1,14 +1,8 @@
-#include<iostream>
-
-using namespace std;
+//给定一个数组和一个target，从数组中找到target并返回其下标，如果数组中不存在target，则返回可以插入改元素的位置的下标
+//解法：二分法查找结束后，如果找到该元素则成功返回，如果没有找到该元素，first指向该插入的位置
 
 int searchInsert(int A[], int n, int target)
 {
-	if (A[n - 1] < target)
-		return n;
-	if (A[0] > target)
-		return 0;
-
 	int first = 0, last = n - 1, middle = 0;
 	while (first <= last)
 	{
@@ -20,9 +14,5 @@ int searchInsert(int A[], int n, int target)
 		else
 			last = middle - 1;
 	}
-
-	if (A[middle] > target)
-		return middle;
-	if (A[middle] < target)
-		return middle + 1;
+	return first;
 }
