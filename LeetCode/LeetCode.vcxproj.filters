@@ -168,6 +168,12 @@
     <ClCompile Include="canJump.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="fourSum.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="spirialOrder.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
