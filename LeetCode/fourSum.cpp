@@ -9,12 +9,12 @@ std::vector<std::vector<int> > fourSum(std::vector<int> &num, int target)
 	sort(num.begin(), num.end());
 	std::vector<std::vector<int>> result;
 
-	for (int i = 0; i < num.size(); ++i)//第一层for循环，确定第一个数字
+	for (int i = 0; i < (int)num.size(); ++i)//第一层for循环，确定第一个数字
 	{
 		if (i > 0 && num[i] == num[i - 1])//防止重复
 			continue;
 
-		for (int j = i + 1; j < num.size(); ++j)//第二层for循环，确定第二个数字
+		for (int j = i + 1; j < (int)num.size(); ++j)//第二层for循环，确定第二个数字
 		{
 			if (j > i + 1 && num[j] == num[j - 1])//防止重复
 				continue;
