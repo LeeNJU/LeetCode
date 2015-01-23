@@ -1,44 +1,21 @@
 #include"TreeNode.h"
-
+//题目描述：给定两个链表，分别表示两个数，将这个两个数相加
+//解法：类似于addBinary
 
 ListNode *addTwoNumbers(ListNode *l1, ListNode *l2) 
 {
-	if (l1 == nullptr)
-		return l2;
-	if (l2 == nullptr)
-		return l1;
-
-	int temp = 0;
-	ListNode* head = nullptr, *p = nullptr;
-	while (l1 != nullptr || l2 != nullptr)
+	ListNode head(-1);
+	int carry = 0;
+	ListNode* prev = &head;
+	for (ListNode* pa = l1, *pb = l2; pa != nullptr || pb != nullptr; pa = pa == nullptr ? nullptr : pa->next, pb = pb == nullptr ? nullptr : pb->next, prev = prev->next)
 	{
-		int add1 = 0, add2 = 0;
-		if (l1 != nullptr)
-			add1 = l1->val;
-		if (l2 != nullptr)
-			add2 = l2->val;
-
-		if (p == nullptr)
-		{
-			p = new ListNode((add1 + add2 + temp) % 10);
-			head = p;
-		}
-		else
-		{
-			p->next = new ListNode((add1 + add2 + temp) % 10 );
-			p = p->next;
-		}
-
-		temp = (add1 + add2 + temp) / 10;
-		if (l1 != nullptr)
-			l1 = l1->next;
-		if (l2 != nullptr)
-			l2 = l2->next;
+		const int ai = pa == nullptr ? 0 : pa->val;
+		const int bi = pb == nullptr ? 0 : pb->val;
+		const int value = (ai + bi + carry) % 10;
+		carry = (ai + bi + carry) / 10;
+		prev->next = new ListNode(value);//尾插法
 	}
-
-	if (temp)
-	{
-		p->next = new ListNode(temp);
-	}
-	return head;
+	if (carry > 0)
+		prev->next = new ListNode(carry);
+	return head.next;
 }
