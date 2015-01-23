@@ -1,66 +1,26 @@
 #include<iostream>
 #include<string>
 #include<algorithm>
-
+//给定两个数字字符串，将这两个字符串按照二进制进行相加，返回结果
+//解法：先反转两个字符串，然后两个指针分别遍历两个字符串进行相加
 
 std::string addBinary(std::string a, std::string b)
 {
-	std::string result(std::max(a.length(), b.length()) + 1, ' ');
-
-	int index = result.length() - 1;
-	int indexA = a.length() - 1, indexB = b.length() - 1;
-	bool add = false;
-	while (index > 0)
+	std::string result;
+	const size_t length = a.size() > b.size() ? a.size() : b.size();//长度取最大
+	reverse(a.begin(), a.end());
+	reverse(b.begin(), b.end());
+	int carry = 0;
+	for (size_t i = 0; i < length; ++i)
 	{
-		char A = ' ', B = ' ';
-		if (indexA < 0)
-			A = '0';
-		else
-			A = a[indexA];
-		if (indexB < 0)
-			B = '0';
-		else
-			B = b[indexB];
-
-		if (add == true)
-		{
-			if (A == '1' && B == '1')
-			{
-				result[index] = '1';
-			}
-			else if (A == '1' || B == '1')
-			{
-				result[index] = '0';
-			}
-			else
-			{
-				result[index] = '1';
-				add = false;
-			}
-		}
-		else
-		{
-			if (A == '1' && B == '1')
-			{
-				result[index] = '0';
-				add = true;
-			}
-			else if (A == '1' || B == '1')
-			{
-				result[index] = '1';
-			}
-			else
-			{
-				result[index] = '0';
-			}
-		}
-		--index;
-		--indexB;
-		--indexA;
+		const int ai = i < a.size() ? a[i] - '0' : 0;//如果下标超过字符串长度，则用0代替，否则用字符串中的值
+		const int bi = i < b.size() ? b[i] - '0' : 0;
+		const int value = (ai + bi + carry) % 2;
+		carry = (ai + bi + carry) / 2;
+		result.insert(result.begin(), value + '0');
 	}
-	if (add == true)
-		result[0] = '1';
-	else
-		result = result.substr(1);
+
+	if (carry == 1)//最后的进位
+		result.insert(result.begin(), '1');
 	return result;
 }

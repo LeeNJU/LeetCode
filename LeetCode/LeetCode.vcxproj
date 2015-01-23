@@ -16,6 +16,7 @@
     <ClCompile Include="buildTreeFromInorderAndPostorder.cpp" />
     <ClCompile Include="buildTreeFromPreorderAndInorder.cpp" />
     <ClCompile Include="canJump.cpp" />
+    <ClCompile Include="combinationSum.cpp" />
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="connect.cpp" />
     <ClCompile Include="findMin.cpp" />

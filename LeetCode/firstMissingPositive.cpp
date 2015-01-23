@@ -7,7 +7,8 @@ int firstMissingPositive(int A [], int n)
 	{
 		if (A[i] != i + 1)
 		{
-			std::swap(A[i], A[++index])
+			std::swap(A[i], A[++index]);
 		}
 	}
+	return 0;
 }
