@@ -44,6 +44,7 @@
     <ClCompile Include="numDecodings.cpp" />
     <ClCompile Include="permute.cpp" />
     <ClCompile Include="preorderTraversal.cpp" />
+    <ClCompile Include="removeDuplicates.cpp" />
     <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reverseBetween.cpp" />
