@@ -20,6 +20,7 @@
     <ClCompile Include="connect.cpp" />
     <ClCompile Include="findMin.cpp" />
     <ClCompile Include="findPeakElement.cpp" />
+    <ClCompile Include="firstMissingPositive.cpp" />
     <ClCompile Include="flatten.cpp" />
     <ClCompile Include="fourSum.cpp" />
     <ClCompile Include="generate.cpp" />
@@ -43,12 +44,14 @@
     <ClCompile Include="numDecodings.cpp" />
     <ClCompile Include="permute.cpp" />
     <ClCompile Include="preorderTraversal.cpp" />
+    <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reverseBetween.cpp" />
     <ClCompile Include="reverseWords.cpp" />
     <ClCompile Include="rotateRight.cpp" />
     <ClCompile Include="search.cpp" />
     <ClCompile Include="searchInsert.cpp" />
+    <ClCompile Include="searchMatrix.cpp" />
     <ClCompile Include="searchRange.cpp" />
     <ClCompile Include="singleNumber.cpp" />
     <ClCompile Include="sortColors.cpp" />

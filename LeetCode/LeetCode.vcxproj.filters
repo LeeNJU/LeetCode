@@ -183,6 +183,15 @@
     <ClCompile Include="searchRange.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="searchMatrix.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="firstMissingPositive.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="removeElement.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
