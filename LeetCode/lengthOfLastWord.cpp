@@ -1,7 +1,4 @@
 #include<iostream>
-
-using namespace std;
-
 int lengthOfLastWord(const char* s)
 {
 	if (s == nullptr || strlen(s) == 0)
