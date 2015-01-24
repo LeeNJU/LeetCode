@@ -62,6 +62,7 @@
     <ClCompile Include="sortedArrayToBST.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
     <ClCompile Include="spirialOrder.cpp" />
+    <ClCompile Include="strStr.cpp" />
     <ClCompile Include="swapPairs.cpp" />
     <ClCompile Include="threeSum.cpp" />
     <ClCompile Include="threeSumClosest.cpp" />
