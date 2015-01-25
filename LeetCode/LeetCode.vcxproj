@@ -43,6 +43,7 @@
     <ClCompile Include="merge.cpp" />
     <ClCompile Include="mergeSortedArray.cpp" />
     <ClCompile Include="minDepth.cpp" />
+    <ClCompile Include="multiply.cpp" />
     <ClCompile Include="numDecodings.cpp" />
     <ClCompile Include="permute.cpp" />
     <ClCompile Include="plusOne.cpp" />

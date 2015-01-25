@@ -207,6 +207,9 @@
     <ClCompile Include="strStr.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="multiply.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
