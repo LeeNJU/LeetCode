@@ -58,12 +58,14 @@
     <ClCompile Include="searchInsert.cpp" />
     <ClCompile Include="searchMatrix.cpp" />
     <ClCompile Include="searchRange.cpp" />
+    <ClCompile Include="setZeroes.cpp" />
     <ClCompile Include="singleNumber.cpp" />
     <ClCompile Include="sortColors.cpp" />
     <ClCompile Include="sortedArrayToBST.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
     <ClCompile Include="spirialOrder.cpp" />
     <ClCompile Include="strStr.cpp" />
+    <ClCompile Include="subsets.cpp" />
     <ClCompile Include="swapPairs.cpp" />
     <ClCompile Include="threeSum.cpp" />
     <ClCompile Include="threeSumClosest.cpp" />

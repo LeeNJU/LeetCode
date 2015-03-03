@@ -210,6 +210,12 @@
     <ClCompile Include="multiply.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="subsets.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="setZeroes.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
