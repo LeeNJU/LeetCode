@@ -34,6 +34,9 @@
     <Filter Include="Source Files\Array\Binary Search">
       <UniqueIdentifier>{efbf4d5c-2f4c-4412-8c6a-afb6f1357f33}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Array\Dynamic Programming">
+      <UniqueIdentifier>{604167dd-35ad-49b3-93f1-c03bbf01ce60}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp">
@@ -224,6 +227,9 @@
     </ClCompile>
     <ClCompile Include="findMedianSortedArrays.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
+    </ClCompile>
+    <ClCompile Include="climbStairs.cpp">
+      <Filter>Source Files\Array\Dynamic Programming</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
