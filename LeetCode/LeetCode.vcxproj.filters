@@ -96,9 +96,6 @@
     <ClCompile Include="rotateRight.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
-    <ClCompile Include="search.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="twoSum.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -230,6 +227,9 @@
     </ClCompile>
     <ClCompile Include="climbStairs.cpp">
       <Filter>Source Files\Array\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="search.cpp">
+      <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
