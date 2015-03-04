@@ -31,6 +31,9 @@
     <Filter Include="Source Files\Bit Manipulation">
       <UniqueIdentifier>{20e5830a-1889-485e-b7ee-4d16aa1cf909}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Array\Binary Search">
+      <UniqueIdentifier>{efbf4d5c-2f4c-4412-8c6a-afb6f1357f33}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp">
@@ -218,6 +221,9 @@
     </ClCompile>
     <ClCompile Include="rotate.cpp">
       <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="findMedianSortedArrays.cpp">
+      <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

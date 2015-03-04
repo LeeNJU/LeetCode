@@ -19,6 +19,7 @@
     <ClCompile Include="combinationSum.cpp" />
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="connect.cpp" />
+    <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="findMin.cpp" />
     <ClCompile Include="findPeakElement.cpp" />
     <ClCompile Include="firstMissingPositive.cpp" />
