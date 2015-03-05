@@ -37,6 +37,9 @@
     <Filter Include="Source Files\Array\Dynamic Programming">
       <UniqueIdentifier>{604167dd-35ad-49b3-93f1-c03bbf01ce60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Array\Greedy">
+      <UniqueIdentifier>{541d03b6-d3c5-456d-b3c5-55676a30a2bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp">
@@ -230,6 +233,9 @@
     </ClCompile>
     <ClCompile Include="search.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
+    </ClCompile>
+    <ClCompile Include="canCompleteCircuit.cpp">
+      <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
