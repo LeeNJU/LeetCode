@@ -16,6 +16,7 @@
     <ClCompile Include="buildTreeFromInorderAndPostorder.cpp" />
     <ClCompile Include="buildTreeFromPreorderAndInorder.cpp" />
     <ClCompile Include="canCompleteCircuit.cpp" />
+    <ClCompile Include="candy.cpp" />
     <ClCompile Include="canJump.cpp" />
     <ClCompile Include="climbStairs.cpp" />
     <ClCompile Include="combinationSum.cpp" />

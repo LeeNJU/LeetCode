@@ -237,6 +237,9 @@
     <ClCompile Include="canCompleteCircuit.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
+    <ClCompile Include="candy.cpp">
+      <Filter>Source Files\Array\Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
