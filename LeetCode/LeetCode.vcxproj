@@ -13,6 +13,7 @@
   <ItemGroup>
     <ClCompile Include="addBinary.cpp" />
     <ClCompile Include="addTwoNumbers.cpp" />
+    <ClCompile Include="atoi.cpp" />
     <ClCompile Include="buildTreeFromInorderAndPostorder.cpp" />
     <ClCompile Include="buildTreeFromPreorderAndInorder.cpp" />
     <ClCompile Include="canCompleteCircuit.cpp" />
