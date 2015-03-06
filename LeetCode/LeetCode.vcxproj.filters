@@ -168,9 +168,6 @@
     <ClCompile Include="isPalindromeNumber.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
-    <ClCompile Include="canJump.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="fourSum.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -238,6 +235,9 @@
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
     <ClCompile Include="candy.cpp">
+      <Filter>Source Files\Array\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="canJump.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
   </ItemGroup>
