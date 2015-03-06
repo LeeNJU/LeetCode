@@ -8,7 +8,7 @@ std::vector<std::vector<int> > subsets(std::vector<int> &S)
 	sort(S.begin(), S.end());
 	std::vector<std::vector<int>> result;
 	std::vector<int> path;
-	subset(S, result, path, 0);
+//	subset(S, result, path, 0);
 	return result;
 }
 
