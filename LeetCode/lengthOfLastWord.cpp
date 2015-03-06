@@ -1,28 +1,19 @@
 #include<iostream>
+//题目描述：给定一个只包含字母和空格的字符串，求出最后一个单词的长度，例如"Hello World"的最后一个单词长度为5
+//解法描述：从后扫描，先找到第一个非空字符，然后再往前扫描，直到碰到一个空格或者下标等于0
 int lengthOfLastWord(const char* s)
 {
-	if (s == nullptr || strlen(s) == 0)
-		return 0;
+	int length = strlen(s) - 1, result = 0;
+	while (s[length] == ' ')//忽略后面的空格，找到第一个非空字符
+		--length;
 
-	int left = 0, right = 0, length = strlen(s) - 1;
-	while (length >= 0)
+	for (; length>= 0; --length)//向前扫描，直到碰到非空格
 	{
 		if (s[length] != ' ')
-		{
-			right = right == 0 ? length : right;
-		}
-		if (s[length] == ' ' && right != 0)
-		{
-			left = length + 1;
+			++result;
+		else
 			break;
-		}
-		--length;
 	}
 
-	if (left == right && s[right] == ' ')
-		return 0;
-	if (left == right && s[right] != ' ')
-		return 1;
-
-	return right - left + 1;
+	return result;
 }
