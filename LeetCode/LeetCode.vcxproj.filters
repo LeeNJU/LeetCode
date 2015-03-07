@@ -198,9 +198,6 @@
     <ClCompile Include="plusOne.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="merge.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="combinationSum.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
