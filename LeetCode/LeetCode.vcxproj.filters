@@ -243,6 +243,9 @@
     <ClCompile Include="atoi.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="anagrams.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
