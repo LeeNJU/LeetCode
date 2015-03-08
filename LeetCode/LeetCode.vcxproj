@@ -38,6 +38,7 @@
     <ClCompile Include="hasPathSum.cpp" />
     <ClCompile Include="insert.cpp" />
     <ClCompile Include="isBalanced.cpp" />
+    <ClCompile Include="isMatch.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="isPalindromeNumber.cpp" />
     <ClCompile Include="isSameTree.cpp" />
@@ -59,6 +60,7 @@
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reverseBetween.cpp" />
     <ClCompile Include="reverseWords.cpp" />
+    <ClCompile Include="romanToInt.cpp" />
     <ClCompile Include="rotate.cpp" />
     <ClCompile Include="rotateRight.cpp" />
     <ClCompile Include="search.cpp" />
