@@ -25,6 +25,7 @@
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="connect.cpp" />
     <ClCompile Include="countAndSay.cpp" />
+    <ClCompile Include="evalRPN.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="findMin.cpp" />
     <ClCompile Include="findPeakElement.cpp" />
@@ -46,6 +47,7 @@
     <ClCompile Include="isValidBST.cpp" />
     <ClCompile Include="lengthOfLastWord.cpp" />
     <ClCompile Include="letterCombinations.cpp" />
+    <ClCompile Include="longestValidParentheses.cpp" />
     <ClCompile Include="maxDepth.cpp" />
     <ClCompile Include="maxPathSum.cpp" />
     <ClCompile Include="mergeSortedArray.cpp" />

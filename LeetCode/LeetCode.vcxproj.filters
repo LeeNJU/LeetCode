@@ -40,6 +40,9 @@
     <Filter Include="Source Files\Array\Greedy">
       <UniqueIdentifier>{541d03b6-d3c5-456d-b3c5-55676a30a2bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Stack">
+      <UniqueIdentifier>{57d04a17-aeaf-455e-926b-2a639cb319f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp">
@@ -251,6 +254,12 @@
     </ClCompile>
     <ClCompile Include="isMatch.cpp">
       <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="longestValidParentheses.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="evalRPN.cpp">
+      <Filter>Source Files\Stack</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
