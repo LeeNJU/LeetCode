@@ -2,14 +2,15 @@
 #include<string>
 #include<stack>
 
-using namespace std;
+//题目描述：给定一个字符串，只包含([{)]}几种字符，判断是否是有效的字符串，即(),[],{}是有效的，(],([)]等都是无效的
+//解法描述：用一个栈把([[压入栈中，遇到)]}时，判断与栈顶元素是否相配
 
-bool isValid(string s)
+bool isValid(std::string s)
 {
 	if (s.length() % 2 != 0)//如果是奇数直接返回false
 		return false;
 
-	stack<char> stack;//用栈记录之前的符号
+	std::stack<char> stack;//用栈记录之前的符号
 	for (size_t i = 0; i < s.length(); ++i)
 	{
 		if (s[i] == '(' || s[i] == '[' || s[i] == '{')
@@ -33,8 +34,7 @@ bool isValid(string s)
 			stack.pop();
 		}
 	}
-	if (!stack.empty())//循环结束，如果栈不为空，则为false
-		return false;
-	return true;
+	
+	return stack.empty();//循环结束，如果栈不为空，则为false
 }
 

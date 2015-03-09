@@ -38,3 +38,32 @@ bool isMatch(const char *s, const char *p)
 	return *ptr == '\0';
 
 }
+
+
+//版本二
+//题目描述：匹配字符串.和*，.表示任意单一字符，*表示前一个字符出现0次或多次
+//解法描述：注意在匹配某一个字符时，要看下一个字符是否是*
+
+bool isMatchs(const char* s, const char* p)
+{
+	if (*p == '\0')
+		return *s == '\0';
+
+	if (*(p + 1) != '*')//下一个字符不是*
+	{
+		if (*p == *s || *p == '.' && *s != '\0')//匹配成功，就递归匹配下一个字符
+			return isMatchs(s + 1, p + 1);
+		else
+			return false;
+	}
+	else
+	{
+		while (*p == *s || *p == '.' && *s != '\0')
+		{
+			if (isMatchs(s, p + 2))
+				return true;
+			++s;
+		}
+		return isMatchs(s, p + 2);
+	}
+}
