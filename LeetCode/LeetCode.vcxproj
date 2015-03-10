@@ -35,6 +35,7 @@
     <ClCompile Include="generate.cpp" />
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="getPermutation.cpp" />
+    <ClCompile Include="hammingWeight.cpp" />
     <ClCompile Include="hasCycle.cpp" />
     <ClCompile Include="hasPathSum.cpp" />
     <ClCompile Include="inorderTraversal.cpp" />
