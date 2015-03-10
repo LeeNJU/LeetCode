@@ -1,7 +1,8 @@
 #include<iostream>
 #include<algorithm>
 #include"TreeNode.h"
-using namespace std;
+//题目描述：给定一棵二叉树，求出它的最小深度
+//解法描述：递归
 
 
 int minDepth(TreeNode* root)
@@ -14,5 +15,5 @@ int minDepth(TreeNode* root)
 	else if (root->right == nullptr)
 		return minDepth(root->left) + 1;
 	else
-		return min(minDepth(root->left), minDepth(root->right)) + 1;
+		return std::min(minDepth(root->left), minDepth(root->right)) + 1;
 }
