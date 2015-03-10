@@ -1,8 +1,6 @@
-#include<iostream>
-#include<vector>
-#include<stack>
 #include"TreeNode.h"
-using namespace std;
+//题目描述：给定一棵二叉树和一个值，判断这课树是否有一条路径，使得这条路径上的数字之和等于给定的值
+//解法描述：递归
 
 
 bool hasPathSum(TreeNode* root, int sum)
@@ -12,10 +10,7 @@ bool hasPathSum(TreeNode* root, int sum)
 
 	if (root->left == nullptr && root->right == nullptr)
 	{
-		if (root->val == sum)
-			return true;
-		else
-			return false;
+		return sum == root->val;
 	}
 	return hasPathSum(root->left, sum - root->val) || hasPathSum(root->right, sum - root->val);
 }
