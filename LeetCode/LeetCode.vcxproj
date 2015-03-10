@@ -50,6 +50,7 @@
     <ClCompile Include="isValidBST.cpp" />
     <ClCompile Include="lengthOfLastWord.cpp" />
     <ClCompile Include="letterCombinations.cpp" />
+    <ClCompile Include="longestCommonPrefix.cpp" />
     <ClCompile Include="longestValidParentheses.cpp" />
     <ClCompile Include="maxDepth.cpp" />
     <ClCompile Include="maxPathSum.cpp" />
