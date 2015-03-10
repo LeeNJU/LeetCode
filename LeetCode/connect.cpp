@@ -1,5 +1,5 @@
 #include"TreeNode.h"
-using namespace std;
+/
 
 
 void connects(TreeLinkNode* root, TreeLinkNode* next)

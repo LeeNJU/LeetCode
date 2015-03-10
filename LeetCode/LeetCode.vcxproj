@@ -24,6 +24,7 @@
     <ClCompile Include="combinationSum.cpp" />
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="connect.cpp" />
+    <ClCompile Include="convert.cpp" />
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="evalRPN.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
@@ -63,6 +64,7 @@
     <ClCompile Include="removeDuplicates.cpp" />
     <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
+    <ClCompile Include="reverse.cpp" />
     <ClCompile Include="reverseBetween.cpp" />
     <ClCompile Include="reverseWords.cpp" />
     <ClCompile Include="romanToInt.cpp" />
