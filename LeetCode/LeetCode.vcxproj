@@ -70,6 +70,7 @@
     <ClCompile Include="reverseWords.cpp" />
     <ClCompile Include="romanToInt.cpp" />
     <ClCompile Include="rotate.cpp" />
+    <ClCompile Include="rotateArray.cpp" />
     <ClCompile Include="rotateRight.cpp" />
     <ClCompile Include="search.cpp" />
     <ClCompile Include="searchInsert.cpp" />

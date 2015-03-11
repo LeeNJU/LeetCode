@@ -282,6 +282,9 @@
     <ClCompile Include="longestCommonPrefix.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="rotateArray.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
