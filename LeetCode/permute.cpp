@@ -1,25 +1,22 @@
-#include<iostream>
 #include<vector>
-#include<deque>
 #include<algorithm>
 
 
-void permutation(std::vector<std::vector<int> >& vec, const std::vector<int>& num, std::vector<int>& item, int depth)
+void dfs(std::vector<std::vector<int>>& result, std::vector<int> temp, const std::vector<int>& num)
 {
-	for (size_t i = 0; i < num.size(); ++i)
+	if (temp.size() == num.size())
 	{
-		std::vector<int>::iterator iter = item.end();
-		if (find(item.begin(), iter - depth, num[i]) == iter - depth)
+		result.push_back(temp);
+		return;
+	}
+
+	for (int i = 0; i < num.size(); ++i)//依次扫描，每一层递归只负责一个元素，所以要pop_back
+	{
+		if (std::find(temp.begin(), temp.end(), num[i]) == temp.end())
 		{
-			item[num.size() - depth] = num[i];
-			if (depth == 1)
-			{
-				vec.push_back(item);
-			}
-			else
-			{
-				permutation(vec, num, item, depth - 1);
-			}
+			temp.push_back(num[i]);
+			dfs(result, temp, num);
+			temp.pop_back();//一层递归只负责一个元素
 		}
 	}
 }
@@ -27,7 +24,7 @@ void permutation(std::vector<std::vector<int> >& vec, const std::vector<int>& nu
 std::vector<std::vector<int> > permute(std::vector<int>& num)
 {
 	std::vector<std::vector<int> > result;
-	std::vector<int> item(num.size());
-	permutation(result, num, item, num.size());
+	std::vector<int> temp;
+	dfs(result, temp, num);
 	return result;
 }
