@@ -65,6 +65,7 @@
     <ClCompile Include="removeDuplicates.cpp" />
     <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
+    <ClCompile Include="restoreIpAddresses.cpp" />
     <ClCompile Include="reverse.cpp" />
     <ClCompile Include="reverseBetween.cpp" />
     <ClCompile Include="reverseWords.cpp" />
