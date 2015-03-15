@@ -288,6 +288,15 @@
     <ClCompile Include="restoreIpAddresses.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="lengthOfLongestSubstring.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="maxProfit.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="combinationSum2.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
