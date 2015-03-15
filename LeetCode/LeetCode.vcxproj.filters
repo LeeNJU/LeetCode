@@ -300,6 +300,9 @@
     <ClCompile Include="maxArea.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="jump.cpp">
+      <Filter>Source Files\Array\Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
