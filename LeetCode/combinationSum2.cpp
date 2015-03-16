@@ -2,7 +2,7 @@
 #include<algorithm>
 #include<numeric>
 
-//题目描述：给定一个数组和一个值，找到数组中所有和等于该值的元素
+//题目描述：给定一个数组和一个值，找到数组中所有和等于该值的元素的组合，每个元素只能使用一次
 //解法描述：先排序，再递归，注意避免重复
 void dfs(std::vector<std::vector<int>>& result, const std::vector<int>& num, std::vector<int> temp, int index, int target)
 {
