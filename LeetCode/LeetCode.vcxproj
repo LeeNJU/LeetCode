@@ -88,6 +88,7 @@
     <ClCompile Include="sortedArrayToBST.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
     <ClCompile Include="spirialOrder.cpp" />
+    <ClCompile Include="sqrt.cpp" />
     <ClCompile Include="strStr.cpp" />
     <ClCompile Include="subsets.cpp" />
     <ClCompile Include="sumNumbers.cpp" />

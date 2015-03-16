@@ -303,6 +303,9 @@
     <ClCompile Include="jump.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
+    <ClCompile Include="sqrt.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
