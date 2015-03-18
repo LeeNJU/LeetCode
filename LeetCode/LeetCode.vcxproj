@@ -27,6 +27,8 @@
     <ClCompile Include="connect.cpp" />
     <ClCompile Include="convert.cpp" />
     <ClCompile Include="countAndSay.cpp" />
+    <ClCompile Include="deleteDuplicates.cpp" />
+    <ClCompile Include="detectCycle.cpp" />
     <ClCompile Include="evalRPN.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="findMin.cpp" />
