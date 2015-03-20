@@ -50,6 +50,7 @@
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="isPalindromeNumber.cpp" />
     <ClCompile Include="isSameTree.cpp" />
+    <ClCompile Include="isSymmetric.cpp" />
     <ClCompile Include="isValid.cpp" />
     <ClCompile Include="isValidBST.cpp" />
     <ClCompile Include="jump.cpp" />
