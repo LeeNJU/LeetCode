@@ -69,6 +69,7 @@
     <ClCompile Include="minStack.cpp" />
     <ClCompile Include="multiply.cpp" />
     <ClCompile Include="numDecodings.cpp" />
+    <ClCompile Include="partition.cpp" />
     <ClCompile Include="pathSum.cpp" />
     <ClCompile Include="permute.cpp" />
     <ClCompile Include="plusOne.cpp" />
