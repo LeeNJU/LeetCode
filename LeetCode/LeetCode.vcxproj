@@ -64,6 +64,7 @@
     <ClCompile Include="maxPathSum.cpp" />
     <ClCompile Include="maxProfit.cpp" />
     <ClCompile Include="mergeSortedArray.cpp" />
+    <ClCompile Include="mergeTwoLists.cpp" />
     <ClCompile Include="minDepth.cpp" />
     <ClCompile Include="minStack.cpp" />
     <ClCompile Include="multiply.cpp" />
