@@ -26,6 +26,7 @@
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="connect.cpp" />
     <ClCompile Include="convert.cpp" />
+    <ClCompile Include="copyRandomList.cpp" />
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="deleteDuplicates.cpp" />
     <ClCompile Include="detectCycle.cpp" />

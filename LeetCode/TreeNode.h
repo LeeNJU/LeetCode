@@ -17,6 +17,11 @@ struct ListNode {
 	ListNode(int x) : val(x), next(nullptr) {}
 };
 
+struct RandomListNode {
+	int label;
+	RandomListNode *next, *random;
+	RandomListNode(int x) : label(x), next(nullptr), random(nullptr) {}
+};
 
 struct Interval {
 	int start;
