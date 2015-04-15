@@ -46,6 +46,7 @@
     <ClCompile Include="hasPathSum.cpp" />
     <ClCompile Include="inorderTraversal.cpp" />
     <ClCompile Include="insert.cpp" />
+    <ClCompile Include="insertionSortList.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isMatch.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
@@ -71,6 +72,7 @@
     <ClCompile Include="minStack.cpp" />
     <ClCompile Include="multiply.cpp" />
     <ClCompile Include="numDecodings.cpp" />
+    <ClCompile Include="numTrees.cpp" />
     <ClCompile Include="partition.cpp" />
     <ClCompile Include="pathSum.cpp" />
     <ClCompile Include="permute.cpp" />
