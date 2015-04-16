@@ -69,6 +69,7 @@
     <ClCompile Include="mergeSortedArray.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
     <ClCompile Include="minDepth.cpp" />
+    <ClCompile Include="minPathSum.cpp" />
     <ClCompile Include="minStack.cpp" />
     <ClCompile Include="multiply.cpp" />
     <ClCompile Include="numDecodings.cpp" />

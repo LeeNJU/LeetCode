@@ -66,9 +66,6 @@
     <ClCompile Include="isValid.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="numDecodings.cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="permute.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -343,6 +340,12 @@
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
     <ClCompile Include="uniquePathsWithObstacles.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="minPathSum.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="numDecodings.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
   </ItemGroup>
