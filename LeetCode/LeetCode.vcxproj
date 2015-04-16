@@ -109,6 +109,8 @@
     <ClCompile Include="titileToNumber.cpp" />
     <ClCompile Include="trailingZeroes.cpp" />
     <ClCompile Include="twoSum.cpp" />
+    <ClCompile Include="uniquePaths.cpp" />
+    <ClCompile Include="uniquePathsWithObstacles.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h" />
