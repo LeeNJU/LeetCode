@@ -34,6 +34,7 @@
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="findMin.cpp" />
     <ClCompile Include="findPeakElement.cpp" />
+    <ClCompile Include="findSubstring.cpp" />
     <ClCompile Include="firstMissingPositive.cpp" />
     <ClCompile Include="flatten.cpp" />
     <ClCompile Include="fourSum.cpp" />
