@@ -48,6 +48,7 @@
     <ClCompile Include="insert.cpp" />
     <ClCompile Include="insertionSortList.cpp" />
     <ClCompile Include="isBalanced.cpp" />
+    <ClCompile Include="isHappy.cpp" />
     <ClCompile Include="isMatch.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="isPalindromeNumber.cpp" />
