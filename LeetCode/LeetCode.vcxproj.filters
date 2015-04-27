@@ -123,9 +123,6 @@
     <ClCompile Include="mergeSortedArray.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="generate.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="addTwoNumbers.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
@@ -356,6 +353,12 @@
     </ClCompile>
     <ClCompile Include="wordBreak.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="generate.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="getRow.cpp">
+      <Filter>Source Files\Array</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
