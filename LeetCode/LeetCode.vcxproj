@@ -81,6 +81,7 @@
     <ClCompile Include="preorderTraversal.cpp" />
     <ClCompile Include="removeDuplicates.cpp" />
     <ClCompile Include="removeElement.cpp" />
+    <ClCompile Include="removeElements.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="restoreIpAddresses.cpp" />
     <ClCompile Include="reverse.cpp" />
