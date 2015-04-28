@@ -24,6 +24,7 @@
     <ClCompile Include="combinationSum.cpp" />
     <ClCompile Include="combinationSum2.cpp" />
     <ClCompile Include="combine.cpp" />
+    <ClCompile Include="compareVersion.cpp" />
     <ClCompile Include="connect.cpp" />
     <ClCompile Include="convert.cpp" />
     <ClCompile Include="copyRandomList.cpp" />
