@@ -64,6 +64,7 @@
     <ClCompile Include="letterCombinations.cpp" />
     <ClCompile Include="longestCommonPrefix.cpp" />
     <ClCompile Include="longestConsecutive.cpp" />
+    <ClCompile Include="longestPalindrome.cpp" />
     <ClCompile Include="longestValidParentheses.cpp" />
     <ClCompile Include="maxArea.cpp" />
     <ClCompile Include="maxDepth.cpp" />
