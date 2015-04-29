@@ -78,6 +78,7 @@
     <ClCompile Include="minPathSum.cpp" />
     <ClCompile Include="minStack.cpp" />
     <ClCompile Include="multiply.cpp" />
+    <ClCompile Include="nextPermutation.cpp" />
     <ClCompile Include="numDecodings.cpp" />
     <ClCompile Include="numTrees.cpp" />
     <ClCompile Include="partition.cpp" />
