@@ -60,6 +60,7 @@
     <ClCompile Include="isValid.cpp" />
     <ClCompile Include="isValidBST.cpp" />
     <ClCompile Include="jump.cpp" />
+    <ClCompile Include="largestNumber.cpp" />
     <ClCompile Include="lengthOfLastWord.cpp" />
     <ClCompile Include="lengthOfLongestSubstring.cpp" />
     <ClCompile Include="letterCombinations.cpp" />

@@ -369,6 +369,9 @@
     <ClCompile Include="compareVersion.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="largestNumber.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
