@@ -72,6 +72,7 @@
     <ClCompile Include="maxDepth.cpp" />
     <ClCompile Include="maxPathSum.cpp" />
     <ClCompile Include="maxProfit.cpp" />
+    <ClCompile Include="mergeKLists.cpp" />
     <ClCompile Include="mergeSortedArray.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
     <ClCompile Include="minDepth.cpp" />
@@ -90,6 +91,7 @@
     <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="removeElements.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
+    <ClCompile Include="reorderList.cpp" />
     <ClCompile Include="restoreIpAddresses.cpp" />
     <ClCompile Include="reverse.cpp" />
     <ClCompile Include="reverseBetween.cpp" />
