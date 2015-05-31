@@ -96,6 +96,7 @@
     <ClCompile Include="restoreIpAddresses.cpp" />
     <ClCompile Include="reverse.cpp" />
     <ClCompile Include="reverseBetween.cpp" />
+    <ClCompile Include="reverseList.cpp" />
     <ClCompile Include="reverseWords.cpp" />
     <ClCompile Include="rob.cpp" />
     <ClCompile Include="romanToInt.cpp" />
