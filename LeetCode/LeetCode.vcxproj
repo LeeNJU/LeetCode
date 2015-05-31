@@ -23,6 +23,7 @@
     <ClCompile Include="climbStairs.cpp" />
     <ClCompile Include="combinationSum.cpp" />
     <ClCompile Include="combinationSum2.cpp" />
+    <ClCompile Include="combinationSum3.cpp" />
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="compareVersion.cpp" />
     <ClCompile Include="connect.cpp" />
