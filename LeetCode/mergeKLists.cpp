@@ -1,7 +1,7 @@
 #include"TreeNode.h"
 #include<vector>
 //题目描述：合并k个已排序的链表
-//解法描述；两两合并，复用合并链表的函数
+//解法描述；复用合并链表的函数,两两合并会超时，采用归并排序的思想
 
 ListNode *mergeTwoLists(ListNode *l1, ListNode *l2)
 {
@@ -31,15 +31,20 @@ ListNode *mergeTwoLists(ListNode *l1, ListNode *l2)
 	return dummy.next;
 }
 
+ListNode* merge(const std::vector<ListNode*>& lists, int first, int last)//利用归并排序的思想进行合并
+{
+	if (first < last)
+	{
+		int middle = (first + last) / 2;
+		return mergeTwoLists(merge(lists, first, middle), merge(lists, middle + 1, last));
+	}
+	return lists[first];
+}
+
 ListNode* mergeKLists(std::vector<ListNode*>& lists)
 {
 	if (lists.size() == 0) 
 		return nullptr;
-	
-	ListNode *p = lists[0];
-	for (int i = 1; i < lists.size(); ++i) 
-	{
-		p = mergeTwoLists(p, lists[i]);
-	}
-	return p;
+    
+	return merge(lists, 0, lists.size() - 1);
 }
