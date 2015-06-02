@@ -129,6 +129,7 @@
     <ClCompile Include="twoSum.cpp" />
     <ClCompile Include="uniquePaths.cpp" />
     <ClCompile Include="uniquePathsWithObstacles.cpp" />
+    <ClCompile Include="Valid Sudokuk.cpp" />
     <ClCompile Include="wordBreak.cpp" />
   </ItemGroup>
   <ItemGroup>
