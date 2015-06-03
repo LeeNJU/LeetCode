@@ -1,8 +1,6 @@
-#include<iostream>
 #include"TreeNode.h"
-
-using namespace std;
-
+//题目描述：给定一个二叉树，将其扁平化成一个链表，即把左子节点连接到父节点的右指针上，右子节点连接到左子节点的右指针上
+//解法描述：递归，先扁平化左子树，然后扁平化右子树
 
 void flatten(TreeNode* root)//把二叉树扁平化
 {
