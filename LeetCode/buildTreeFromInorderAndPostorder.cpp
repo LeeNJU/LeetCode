@@ -1,13 +1,11 @@
-#include<iostream>
 #include<vector>
 #include<algorithm>
 #include"TreeNode.h"
-using namespace std;
+//题目描述：给定一个二叉树的后序遍历和中序遍历结果，据此构造出整个二叉树
+//解法描述：
 
-
-
-TreeNode* build(vector<int>::iterator infirst, vector<int>::iterator inlast,
-	vector<int>::iterator postfirst, vector<int>::iterator postlast)
+TreeNode* build(std::vector<int>::iterator infirst, std::vector<int>::iterator inlast,
+	std::vector<int>::iterator postfirst, std::vector<int>::iterator postlast)
 {
 	if (infirst >= inlast || postfirst >= postlast)
 		return nullptr;
@@ -15,8 +13,8 @@ TreeNode* build(vector<int>::iterator infirst, vector<int>::iterator inlast,
 	TreeNode* root = new TreeNode(*--postlast);
 	++postlast;
 
-	vector<int>::iterator iter = find(infirst, inlast, root->val);
-	vector<int>::iterator last = postfirst;
+	std::vector<int>::iterator iter = find(infirst, inlast, root->val);
+	std::vector<int>::iterator last = postfirst;
 	advance(last, distance(infirst, iter));
 
 	root->left = build(infirst, iter, postfirst, last);
@@ -24,7 +22,7 @@ TreeNode* build(vector<int>::iterator infirst, vector<int>::iterator inlast,
 	return root;
 }
 
-TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder)
+TreeNode* buildTree(std::vector<int>& inorder, std::vector<int>& postorder)
 {
 	return build(inorder.begin(), inorder.end(), postorder.begin(), postorder.end());
 
