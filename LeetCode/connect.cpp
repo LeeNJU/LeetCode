@@ -14,9 +14,35 @@ void connects(TreeLinkNode* root, TreeLinkNode* sibling)//sibling±íÊ¾rootµÄÐÖµÜ½
 		connects(root->right, sibling->left);
 	else//siblingÎª¿Õ£¬ÓÒ×Ó½ÚµãµÄnextÖ¸ÕëÒ²Îª¿Õ
 		connects(root->right, nullptr);
-
 }
+
 void connect(TreeLinkNode* root)
 {
 	connects(root, nullptr);
+}
+
+//±äÖÖ
+//ÌâÄ¿ÃèÊö£ºÉÏÒ»ÌâµÄ¶þ²æÊ÷ÊÇÂú¶þ²æÊ÷£¬ÏÖÔÚÒªÇó±äÎªÈÎÒâµÄ¶þ²æÊ÷
+//½â·¨ÃèÊö£ºµÝ¹éÇó½â£¬´ÓÃ¿Ò»²ãµÄ×î×ó±ßµÄ½Úµã¿ªÊ¼£¬±éÀúÍ¬Ò»²ãµÄ½Úµã£¬ÉèÖÃÍ¬Ò»²ãµÄ½ÚµãµÄnextÖ¸Õë£¬È»ºóµÝ¹éµ÷ÓÃÉèÖÃÏÂÒ»²ã£¬dummy½ÚµãÓÃÀ´¼ÇÂ¼Ã¿Ò»²ã
+//×î×ó±ßµÄ½Úµã
+void connect2(TreeLinkNode* root)
+{
+	if (root == nullptr) 
+		return;
+
+	TreeLinkNode dummy(-1);//dummy½ÚµãµÄÏÂÒ»¸ö½ÚµãÊÇÃ¿Ò»²ãµÄ×î×ó±ßµÄ½Úµã
+	for (TreeLinkNode *curr = root, *prev = &dummy; curr; curr = curr->next)//±éÀúÍ¬Ò»²ãµÄ½Úµã£¬ÉèÖÃ½ÚµãµÄnextÖ¸Õë 
+	{
+		if (curr->left != nullptr)
+		{
+			prev->next = curr->left;
+			prev = prev->next;
+		}
+		if (curr->right != nullptr)
+		{
+			prev->next = curr->right;
+			prev = prev->next;
+		}
+	}
+	connect(dummy.next);//µÝ¹éµ÷ÓÃ
 }

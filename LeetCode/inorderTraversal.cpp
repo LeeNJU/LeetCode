@@ -7,12 +7,15 @@ std::vector<int> inorderTraversal(TreeNode *root) {
 	std::vector<int> result;
 	const TreeNode *p = root;
 	std::stack<const TreeNode *> s;
-	while (!s.empty() || p != nullptr) {
-		if (p != nullptr) {//把从根节点开始一直到最左边的节点上的所有节点压入栈中
+	while (!s.empty() || p != nullptr) 
+	{
+		if (p != nullptr) //把从根节点开始一直到最左边的节点上的所有节点压入栈中
+		{
 			s.push(p);
 			p = p->left;
 		}
-		else {
+		else 
+		{
 			p = s.top();
 			s.pop();
 			result.push_back(p->val);

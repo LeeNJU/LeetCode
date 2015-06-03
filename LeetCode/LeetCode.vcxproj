@@ -68,6 +68,8 @@
     <ClCompile Include="lengthOfLastWord.cpp" />
     <ClCompile Include="lengthOfLongestSubstring.cpp" />
     <ClCompile Include="letterCombinations.cpp" />
+    <ClCompile Include="levelOrder.cpp" />
+    <ClCompile Include="levelOrderBottom.cpp" />
     <ClCompile Include="longestCommonPrefix.cpp" />
     <ClCompile Include="longestConsecutive.cpp" />
     <ClCompile Include="longestPalindrome.cpp" />
@@ -90,6 +92,7 @@
     <ClCompile Include="pathSum.cpp" />
     <ClCompile Include="permute.cpp" />
     <ClCompile Include="plusOne.cpp" />
+    <ClCompile Include="postorderTraversal.cpp" />
     <ClCompile Include="preorderTraversal.cpp" />
     <ClCompile Include="removeDuplicates.cpp" />
     <ClCompile Include="removeElement.cpp" />
@@ -131,6 +134,7 @@
     <ClCompile Include="uniquePathsWithObstacles.cpp" />
     <ClCompile Include="Valid Sudokuk.cpp" />
     <ClCompile Include="wordBreak.cpp" />
+    <ClCompile Include="zigzagLevelOrder.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h" />
