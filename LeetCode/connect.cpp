@@ -1,24 +1,19 @@
 #include"TreeNode.h"
-/
+//题目描述：给定一个二叉树，每一个节点都增加一个指针，该指针指向同一层的相邻节点（即同一层的相邻的右边那个节点），如果相邻节点不存在，指针设为null
+//解法描述：递归，构造另一个递归函数，增加一个参数sibling，表示该节点的兄弟节点
 
-
-void connects(TreeLinkNode* root, TreeLinkNode* next)
+void connects(TreeLinkNode* root, TreeLinkNode* sibling)//sibling表示root的兄弟节点，刚开始时，sibling为null，因为root没有兄弟节点
 {
-	if (root == nullptr)
+	if (root == nullptr)//设置root的next指针
 		return;
-	if (root->left == nullptr && root->right == nullptr)
-	{
-		root->next = next;
-		return;
-	}
-
-	root->left->next = root->right;
-	if (next != nullptr)
-		root->right->next = next->left;
 	else
-		root->right->next = nullptr;
-	connects(root->left, root->left->next);
-	connects(root->right, root->right->next);
+		root->next = sibling;
+
+	connects(root->left, root->right);//递归设置左子树
+	if (sibling)//当sibling不为空的时候，右子节点的兄弟节点为sibling的左子节点，这里要注意
+		connects(root->right, sibling->left);
+	else//sibling为空，右子节点的next指针也为空
+		connects(root->right, nullptr);
 
 }
 void connect(TreeLinkNode* root)
