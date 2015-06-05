@@ -104,6 +104,7 @@
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reorderList.cpp" />
     <ClCompile Include="restoreIpAddresses.cpp" />
+    <ClCompile Include="Reverse Nodes in k-Group.cpp" />
     <ClCompile Include="reverse.cpp" />
     <ClCompile Include="reverseBetween.cpp" />
     <ClCompile Include="reverseList.cpp" />
@@ -119,6 +120,7 @@
     <ClCompile Include="searchRange.cpp" />
     <ClCompile Include="setZeroes.cpp" />
     <ClCompile Include="singleNumber.cpp" />
+    <ClCompile Include="Sort List.cpp" />
     <ClCompile Include="sortColors.cpp" />
     <ClCompile Include="sortedArrayToBST.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
