@@ -426,6 +426,9 @@
     <ClCompile Include="Isomorphic Strings.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="Binary Tree Right Side View.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
