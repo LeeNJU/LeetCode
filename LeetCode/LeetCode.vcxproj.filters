@@ -417,6 +417,9 @@
     <ClCompile Include="levelOrderBottom.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Maximal Square.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

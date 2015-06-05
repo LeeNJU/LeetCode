@@ -76,6 +76,7 @@
     <ClCompile Include="longestValidParentheses.cpp" />
     <ClCompile Include="maxArea.cpp" />
     <ClCompile Include="maxDepth.cpp" />
+    <ClCompile Include="Maximal Square.cpp" />
     <ClCompile Include="maxPathSum.cpp" />
     <ClCompile Include="maxProfit.cpp" />
     <ClCompile Include="mergeKLists.cpp" />
