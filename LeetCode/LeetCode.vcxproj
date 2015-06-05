@@ -57,6 +57,7 @@
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isHappy.cpp" />
     <ClCompile Include="isMatch.cpp" />
+    <ClCompile Include="Isomorphic Strings.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="isPalindromeNumber.cpp" />
     <ClCompile Include="isSameTree.cpp" />
@@ -83,6 +84,7 @@
     <ClCompile Include="mergeSortedArray.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
     <ClCompile Include="minDepth.cpp" />
+    <ClCompile Include="Minimum Size Subarray Sum.cpp" />
     <ClCompile Include="minPathSum.cpp" />
     <ClCompile Include="minStack.cpp" />
     <ClCompile Include="multiply.cpp" />
