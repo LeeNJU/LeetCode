@@ -1,49 +1,36 @@
 #include"TreeNode.h"
 
 //题目描述：给定一个链表和一个值k，每k个节点进行一次反转，例如1->2->3->4->5，k=3，返回3->2->1->4->5
-//解法描述：
+//解法描述：用一个哨兵节点，每k个元素进行反转
 
-ListNode* reverseList(ListNode* head)
+ListNode* reverse(ListNode* prev, ListNode* first, ListNode* last) //first和last之间的元素需要反转，返回反转后的最后一个节点指针
 {
-	if (head == nullptr || head->next == nullptr)
-		return head;
-
-	ListNode node(-1);
-	node.next = head;
-	ListNode* p = head->next;//p指向要放到前面的节点
-	while (p != nullptr)
+	ListNode* start = first;// 保存反转后最后一个节点的指针
+	while (first != last)//反转链表，依次把first到last区间的元素进行反转，last向左移动
 	{
-		head->next = p->next;
-		p->next = node.next;
-		node.next = p;
-		p = head->next;
+		prev->next = first->next;
+		ListNode* p = last->next;
+		first->next = p;
+		last->next = first;
+		first = prev->next;
 	}
-	return node.next;
+	return start;
 }
 
 ListNode* reverseKGroup(ListNode* head, int k)
 {
-	if (!head)
+	if (head == nullptr || head->next == nullptr || k < 2) //排除特殊情况
 		return head;
 
-	ListNode* p = head;
-	while (p)
+	ListNode dummy(-1);
+	dummy.next = head;
+	for (ListNode *prev = &dummy, *end = head; end; end = prev->next) 
 	{
-		int count = k - 1;
-		ListNode* first = p;//保存一个group里的第一个节点，反转之后就是一个group的最后一个节点
-		while (count && p != nullptr)//找到要反转的链表group
-		{
-			p = p->next;
-			--count;
-		}
-
-		if (p != nullptr)
-		{
-			ListNode* q = p->next;
-			p->next = nullptr;//跟后面的节点断开
-			reverseList(first);
-			first->next = q;
-			p = q;
-		}
+		for (int i = 1; i < k && end; ++i) //end指针向后移动k-1位
+			end = end->next;
+		if (end == nullptr) // 不足k 个
+			break; 
+		prev = reverse(prev, prev->next, end); //prev，prev->next和end都不为null
 	}
+	return dummy.next;
 }
