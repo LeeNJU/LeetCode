@@ -12,7 +12,7 @@ bool isInterleave(std::string s1, std::string s2, std::string s3)
 	int m = s1.size();
 	int n = s2.size();
 	std::vector<std::vector<bool>> dp(m + 1, std::vector<bool>(n + 1, true));
-	for (int i = 1; i < n + 1; ++i)
+	for (int i = 1; i < n + 1; ++i) //注意下标运算
 		dp[0][i] = s2[i - 1] == s3[i - 1] && dp[0][i - 1];
 	for (int i = 1; i < m + 1; ++i)
 		dp[i][0] = s1[i - 1] == s3[i - 1] && dp[i - 1][0];
