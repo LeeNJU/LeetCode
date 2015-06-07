@@ -35,6 +35,7 @@
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="deleteDuplicates.cpp" />
     <ClCompile Include="detectCycle.cpp" />
+    <ClCompile Include="Distinct Subsequences.cpp" />
     <ClCompile Include="evalRPN.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="findMin.cpp" />
