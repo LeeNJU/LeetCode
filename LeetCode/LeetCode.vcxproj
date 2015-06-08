@@ -91,6 +91,7 @@
     <ClCompile Include="mergeTwoLists.cpp" />
     <ClCompile Include="minDepth.cpp" />
     <ClCompile Include="Minimum Size Subarray Sum.cpp" />
+    <ClCompile Include="Minimum Window Substring.cpp" />
     <ClCompile Include="minPathSum.cpp" />
     <ClCompile Include="minStack.cpp" />
     <ClCompile Include="multiply.cpp" />
