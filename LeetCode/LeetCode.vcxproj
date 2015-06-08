@@ -85,6 +85,7 @@
     <ClCompile Include="Maximal Square.cpp" />
     <ClCompile Include="maxPathSum.cpp" />
     <ClCompile Include="maxProfit.cpp" />
+    <ClCompile Include="Merge Intervals.cpp" />
     <ClCompile Include="mergeKLists.cpp" />
     <ClCompile Include="mergeSortedArray.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />

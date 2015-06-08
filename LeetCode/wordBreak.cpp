@@ -21,3 +21,8 @@ bool wordBreak(std::string s, std::unordered_set<std::string>& wordDict)
 	}
 	return vec[s.size()];
 }
+
+//变种二
+//题目描述：给定一个字符串和字符串数组，返回该字符串被拆分成字符串数组中的单词
+//解法描述：
+
