@@ -28,6 +28,7 @@
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="compareVersion.cpp" />
     <ClCompile Include="connect.cpp" />
+    <ClCompile Include="Contains Duplicate III.cpp" />
     <ClCompile Include="containsDuplicate.cpp" />
     <ClCompile Include="containsNearbyDuplicate.cpp" />
     <ClCompile Include="convert.cpp" />
