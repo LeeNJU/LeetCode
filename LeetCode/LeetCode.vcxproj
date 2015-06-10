@@ -102,6 +102,7 @@
     <ClCompile Include="nextPermutation.cpp" />
     <ClCompile Include="numDecodings.cpp" />
     <ClCompile Include="numTrees.cpp" />
+    <ClCompile Include="Palindrome Partitioning.cpp" />
     <ClCompile Include="partition.cpp" />
     <ClCompile Include="pathSum.cpp" />
     <ClCompile Include="permute.cpp" />
