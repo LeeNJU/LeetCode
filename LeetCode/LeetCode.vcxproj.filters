@@ -43,6 +43,9 @@
     <Filter Include="Source Files\Dynamic Programming">
       <UniqueIdentifier>{604167dd-35ad-49b3-93f1-c03bbf01ce60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Graph">
+      <UniqueIdentifier>{5918e5b1-f699-4ba9-baa8-6c14d53d5058}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp">
@@ -461,6 +464,9 @@
     </ClCompile>
     <ClCompile Include="Contains Duplicate III.cpp">
       <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Course Schedule.cpp">
+      <Filter>Source Files\Graph</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
