@@ -477,6 +477,9 @@
     <ClCompile Include="Palindrome Partitioning.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="Palindrome Partitioning II.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
