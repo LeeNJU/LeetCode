@@ -118,6 +118,7 @@
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reorderList.cpp" />
     <ClCompile Include="restoreIpAddresses.cpp" />
+    <ClCompile Include="Reverse Bits.cpp" />
     <ClCompile Include="Reverse Nodes in k-Group.cpp" />
     <ClCompile Include="reverse.cpp" />
     <ClCompile Include="reverseBetween.cpp" />

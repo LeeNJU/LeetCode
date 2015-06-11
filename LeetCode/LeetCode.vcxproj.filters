@@ -483,6 +483,9 @@
     <ClCompile Include="Bitwise AND of Numbers Range.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
+    <ClCompile Include="Reverse Bits.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
