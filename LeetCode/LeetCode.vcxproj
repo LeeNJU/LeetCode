@@ -35,6 +35,7 @@
     <ClCompile Include="containsNearbyDuplicate.cpp" />
     <ClCompile Include="convert.cpp" />
     <ClCompile Include="copyRandomList.cpp" />
+    <ClCompile Include="Count Complete Tree Nodes.cpp" />
     <ClCompile Include="Count Primes.cpp" />
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="Course Schedule II.cpp" />
