@@ -117,6 +117,7 @@
     <ClCompile Include="postorderTraversal.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />
     <ClCompile Include="preorderTraversal.cpp" />
+    <ClCompile Include="Rectangle Area.cpp" />
     <ClCompile Include="removeDuplicates.cpp" />
     <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="removeElements.cpp" />
