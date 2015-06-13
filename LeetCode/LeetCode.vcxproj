@@ -60,6 +60,7 @@
     <ClCompile Include="hammingWeight.cpp" />
     <ClCompile Include="hasCycle.cpp" />
     <ClCompile Include="hasPathSum.cpp" />
+    <ClCompile Include="Implement Stack using Queues.cpp" />
     <ClCompile Include="inorderTraversal.cpp" />
     <ClCompile Include="insert.cpp" />
     <ClCompile Include="insertionSortList.cpp" />
