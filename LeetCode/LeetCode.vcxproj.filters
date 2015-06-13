@@ -69,9 +69,6 @@
     <ClCompile Include="isValid.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="permute.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="connect.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
@@ -497,6 +494,9 @@
     </ClCompile>
     <ClCompile Include="Generate Parentheses.cpp">
       <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="permute.cpp">
+      <Filter>Source Files\Array</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

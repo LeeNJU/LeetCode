@@ -1,6 +1,7 @@
 #include<vector>
 #include<algorithm>
-
+//题目描述：给定一组数组，不包含重复元素，返回这组数组所有的组合情况。
+//解法描述：递归回溯
 
 void dfs(std::vector<std::vector<int>>& result, std::vector<int> temp, const std::vector<int>& num)
 {
