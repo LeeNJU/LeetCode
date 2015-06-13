@@ -501,6 +501,9 @@
     <ClCompile Include="Implement Stack using Queues.cpp">
       <Filter>Source Files\Stack</Filter>
     </ClCompile>
+    <ClCompile Include="Count Primes.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
