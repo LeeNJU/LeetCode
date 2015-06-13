@@ -51,6 +51,7 @@
     <ClCompile Include="firstMissingPositive.cpp" />
     <ClCompile Include="flatten.cpp" />
     <ClCompile Include="fourSum.cpp" />
+    <ClCompile Include="Generate Parentheses.cpp" />
     <ClCompile Include="generate.cpp" />
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
