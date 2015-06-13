@@ -62,6 +62,7 @@
     <ClCompile Include="insert.cpp" />
     <ClCompile Include="insertionSortList.cpp" />
     <ClCompile Include="Interleaving String.cpp" />
+    <ClCompile Include="Invert Binary Tree.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isHappy.cpp" />
     <ClCompile Include="isMatch.cpp" />
