@@ -15,6 +15,7 @@
     <ClCompile Include="addTwoNumbers.cpp" />
     <ClCompile Include="anagrams.cpp" />
     <ClCompile Include="atoi.cpp" />
+    <ClCompile Include="Basic Calculator.cpp" />
     <ClCompile Include="Binary Tree Right Side View.cpp" />
     <ClCompile Include="Bitwise AND of Numbers Range.cpp" />
     <ClCompile Include="buildTreeFromInorderAndPostorder.cpp" />
@@ -118,6 +119,7 @@
     <ClCompile Include="removeElements.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="reorderList.cpp" />
+    <ClCompile Include="Repeated DNA Sequences.cpp" />
     <ClCompile Include="restoreIpAddresses.cpp" />
     <ClCompile Include="Reverse Bits.cpp" />
     <ClCompile Include="Reverse Nodes in k-Group.cpp" />
