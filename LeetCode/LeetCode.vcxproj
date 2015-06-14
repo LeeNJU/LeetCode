@@ -158,6 +158,7 @@
     <ClCompile Include="threeSumClosest.cpp" />
     <ClCompile Include="titileToNumber.cpp" />
     <ClCompile Include="trailingZeroes.cpp" />
+    <ClCompile Include="Trapping Rain Water.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="twoSum.cpp" />
     <ClCompile Include="uniquePaths.cpp" />
