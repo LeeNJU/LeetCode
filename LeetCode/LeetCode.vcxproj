@@ -92,6 +92,7 @@
     <ClCompile Include="longestConsecutive.cpp" />
     <ClCompile Include="longestPalindrome.cpp" />
     <ClCompile Include="longestValidParentheses.cpp" />
+    <ClCompile Include="LRU Cache.cpp" />
     <ClCompile Include="Majority Element.cpp" />
     <ClCompile Include="maxArea.cpp" />
     <ClCompile Include="maxDepth.cpp" />
