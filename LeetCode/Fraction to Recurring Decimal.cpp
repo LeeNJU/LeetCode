@@ -2,7 +2,8 @@
 #include<algorithm>
 #include<unordered_set>
 //题目描述：给定两个整数，把这两个整数相除，结果用string的形式返回，循环部分用（）包围
-//解法描述：
+//解法描述：先把int转换成long long防止溢出，处理一些特殊情况之后，转换成正数进行计算，注意判断出现循环的标准，不是小数部分出现重复数字，而是重复出现
+//同一个除数去除被除数，这才叫循环了。
 
 std::string fractionToDecimal(int numerator, int denominator)
 {
