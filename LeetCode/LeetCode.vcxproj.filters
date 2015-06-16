@@ -46,6 +46,9 @@
     <Filter Include="Source Files\Graph">
       <UniqueIdentifier>{5918e5b1-f699-4ba9-baa8-6c14d53d5058}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Sort">
+      <UniqueIdentifier>{97f1d314-2ed4-476a-9a70-abe087843d95}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp">
@@ -102,9 +105,6 @@
     <ClCompile Include="twoSum.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="sortColors.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="searchInsert.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -125,9 +125,6 @@
     </ClCompile>
     <ClCompile Include="letterCombinations.cpp">
       <Filter>Source Files\String</Filter>
-    </ClCompile>
-    <ClCompile Include="insert.cpp">
-      <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="threeSum.cpp">
       <Filter>Source Files\Array</Filter>
@@ -324,9 +321,6 @@
     <ClCompile Include="copyRandomList.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
-    <ClCompile Include="insertionSortList.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
     <ClCompile Include="numTrees.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
@@ -364,9 +358,6 @@
       <Filter>Source Files\String</Filter>
     </ClCompile>
     <ClCompile Include="compareVersion.cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
-    <ClCompile Include="largestNumber.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
     <ClCompile Include="rob.cpp">
@@ -429,9 +420,6 @@
     <ClCompile Include="Binary Tree Right Side View.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
-    <ClCompile Include="Sort List.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
     <ClCompile Include="Reverse Nodes in k-Group.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
@@ -449,9 +437,6 @@
     </ClCompile>
     <ClCompile Include="Interleaving String.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
-    </ClCompile>
-    <ClCompile Include="Merge Intervals.cpp">
-      <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="Minimum Window Substring.cpp">
       <Filter>Source Files\String</Filter>
@@ -521,6 +506,24 @@
     </ClCompile>
     <ClCompile Include="LRU Cache.cpp">
       <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="sortColors.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort List.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Merge Intervals.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="largestNumber.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="insertionSortList.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="insert.cpp">
+      <Filter>Source Files\Sort</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
