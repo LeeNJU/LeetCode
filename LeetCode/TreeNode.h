@@ -1,3 +1,4 @@
+#include<vector>
 struct TreeNode
 {
 	int val;
@@ -28,4 +29,10 @@ struct Interval {
 	int end;
 	Interval() : start(0), end(0) {}
 	Interval(int s, int e) : start(s), end(e) {}
+};
+
+struct UndirectedGraphNode {
+	int label;
+	std::vector<UndirectedGraphNode *> neighbors;
+	UndirectedGraphNode(int x) : label(x) {};
 };

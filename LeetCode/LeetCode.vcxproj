@@ -24,6 +24,7 @@
     <ClCompile Include="candy.cpp" />
     <ClCompile Include="canJump.cpp" />
     <ClCompile Include="climbStairs.cpp" />
+    <ClCompile Include="Clone Graph.cpp" />
     <ClCompile Include="combinationSum.cpp" />
     <ClCompile Include="combinationSum2.cpp" />
     <ClCompile Include="combinationSum3.cpp" />
