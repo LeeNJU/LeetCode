@@ -537,6 +537,9 @@
     <ClCompile Include="Maximum Gap.cpp">
       <Filter>Source Files\Sort</Filter>
     </ClCompile>
+    <ClCompile Include="Simplify Path.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

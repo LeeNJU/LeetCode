@@ -149,6 +149,7 @@
     <ClCompile Include="searchMatrix.cpp" />
     <ClCompile Include="searchRange.cpp" />
     <ClCompile Include="setZeroes.cpp" />
+    <ClCompile Include="Simplify Path.cpp" />
     <ClCompile Include="singleNumber.cpp" />
     <ClCompile Include="Sort List.cpp" />
     <ClCompile Include="sortColors.cpp" />
