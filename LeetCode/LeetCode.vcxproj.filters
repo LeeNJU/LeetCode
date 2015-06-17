@@ -534,6 +534,9 @@
     <ClCompile Include="Binary Search Tree Iterator.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Maximum Gap.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
