@@ -540,6 +540,9 @@
     <ClCompile Include="Simplify Path.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="Gray Code.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

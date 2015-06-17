@@ -63,6 +63,7 @@
     <ClCompile Include="getIntersectionNode.cpp" />
     <ClCompile Include="getPermutation.cpp" />
     <ClCompile Include="getRow.cpp" />
+    <ClCompile Include="Gray Code.cpp" />
     <ClCompile Include="hammingWeight.cpp" />
     <ClCompile Include="hasCycle.cpp" />
     <ClCompile Include="hasPathSum.cpp" />
