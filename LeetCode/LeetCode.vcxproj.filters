@@ -558,6 +558,9 @@
     <ClCompile Include="Sudoku Solver.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
+    <ClCompile Include="Word Search.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

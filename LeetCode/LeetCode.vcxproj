@@ -177,6 +177,7 @@
     <ClCompile Include="uniquePaths.cpp" />
     <ClCompile Include="uniquePathsWithObstacles.cpp" />
     <ClCompile Include="Valid Sudokuk.cpp" />
+    <ClCompile Include="Word Search.cpp" />
     <ClCompile Include="wordBreak.cpp" />
     <ClCompile Include="zigzagLevelOrder.cpp" />
   </ItemGroup>
