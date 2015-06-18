@@ -555,6 +555,9 @@
     <ClCompile Include="Permutations II.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
+    <ClCompile Include="Sudoku Solver.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

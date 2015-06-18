@@ -164,6 +164,7 @@
     <ClCompile Include="strStr.cpp" />
     <ClCompile Include="subsets.cpp" />
     <ClCompile Include="subsetsWithDup.cpp" />
+    <ClCompile Include="Sudoku Solver.cpp" />
     <ClCompile Include="sumNumbers.cpp" />
     <ClCompile Include="swapPairs.cpp" />
     <ClCompile Include="threeSum.cpp" />
