@@ -122,7 +122,8 @@
     <ClCompile Include="Palindrome Partitioning.cpp" />
     <ClCompile Include="partition.cpp" />
     <ClCompile Include="pathSum.cpp" />
-    <ClCompile Include="permute.cpp" />
+    <ClCompile Include="Permutations II.cpp" />
+    <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="plusOne.cpp" />
     <ClCompile Include="postorderTraversal.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />

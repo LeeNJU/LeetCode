@@ -456,9 +456,6 @@
     <ClCompile Include="Repeated DNA Sequences.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
-    <ClCompile Include="permute.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="Implement Stack using Queues.cpp">
       <Filter>Source Files\Stack</Filter>
     </ClCompile>
@@ -550,6 +547,12 @@
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
     <ClCompile Include="Permutation Sequence.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutations.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutations II.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
   </ItemGroup>
