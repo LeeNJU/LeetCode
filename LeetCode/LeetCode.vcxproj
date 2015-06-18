@@ -61,7 +61,7 @@
     <ClCompile Include="generate.cpp" />
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
-    <ClCompile Include="getPermutation.cpp" />
+    <ClCompile Include="Permutation Sequence.cpp" />
     <ClCompile Include="getRow.cpp" />
     <ClCompile Include="Gray Code.cpp" />
     <ClCompile Include="hammingWeight.cpp" />
