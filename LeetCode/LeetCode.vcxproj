@@ -113,6 +113,7 @@
     <ClCompile Include="minPathSum.cpp" />
     <ClCompile Include="minStack.cpp" />
     <ClCompile Include="multiply.cpp" />
+    <ClCompile Include="N-Queens II.cpp" />
     <ClCompile Include="N-Queens.cpp" />
     <ClCompile Include="nextPermutation.cpp" />
     <ClCompile Include="numDecodings.cpp" />
