@@ -582,6 +582,9 @@
     <ClCompile Include="ZigZag Conversion.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="Largest Rectangle in Histogram.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
