@@ -169,6 +169,7 @@
     <ClCompile Include="Sudoku Solver.cpp" />
     <ClCompile Include="sumNumbers.cpp" />
     <ClCompile Include="swapPairs.cpp" />
+    <ClCompile Include="Text Justification.cpp" />
     <ClCompile Include="threeSum.cpp" />
     <ClCompile Include="threeSumClosest.cpp" />
     <ClCompile Include="titileToNumber.cpp" />
