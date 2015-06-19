@@ -579,6 +579,9 @@
     <ClCompile Include="Text Justification.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="ZigZag Conversion.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

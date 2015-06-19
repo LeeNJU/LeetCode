@@ -185,6 +185,7 @@
     <ClCompile Include="Word Ladder.cpp" />
     <ClCompile Include="Word Search.cpp" />
     <ClCompile Include="wordBreak.cpp" />
+    <ClCompile Include="ZigZag Conversion.cpp" />
     <ClCompile Include="zigzagLevelOrder.cpp" />
   </ItemGroup>
   <ItemGroup>
