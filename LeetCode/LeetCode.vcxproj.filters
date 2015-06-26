@@ -585,6 +585,9 @@
     <ClCompile Include="Largest Rectangle in Histogram.cpp">
       <Filter>Source Files\Stack</Filter>
     </ClCompile>
+    <ClCompile Include="Summary Ranges.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

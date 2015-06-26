@@ -168,6 +168,7 @@
     <ClCompile Include="subsets.cpp" />
     <ClCompile Include="subsetsWithDup.cpp" />
     <ClCompile Include="Sudoku Solver.cpp" />
+    <ClCompile Include="Summary Ranges.cpp" />
     <ClCompile Include="sumNumbers.cpp" />
     <ClCompile Include="swapPairs.cpp" />
     <ClCompile Include="Text Justification.cpp" />
