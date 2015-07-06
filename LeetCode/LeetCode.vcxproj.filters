@@ -585,6 +585,9 @@
     <ClCompile Include="Summary Ranges.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="Power of Two.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
