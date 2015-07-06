@@ -15,7 +15,7 @@ ListNode *addTwoNumbers(ListNode *l1, ListNode *l2)
 		carry = (ai + bi + carry) / 10;
 		prev->next = new ListNode(value);//尾插法
 	}
-	if (carry > 0)
+	if (carry > 0)  //别忘了最后还有可能进位
 		prev->next = new ListNode(carry);
 	return head.next;
 }
