@@ -1,58 +1,26 @@
-#include<iostream>
-#include<vector>
 #include"TreeNode.h"
-using namespace std;
+//题目描述：给定一个链表，把它转换成高度平衡的二叉搜索树
+//解法描述：用快慢指针找到链表的中间，断开链表，以中间节点为根节点，然后递归从右半部分找到右做节点，从左半部分找到左
+//         子节点
 
-
-TreeNode* build(ListNode* first, ListNode* last, int length)
+TreeNode *sortedListToBST(ListNode *head) 
 {
-	if (first->val > last->val || first == nullptr || last == nullptr)
-		return nullptr;
+	if (head == nullptr || head->next == nullptr)
+		return head == nullptr ? nullptr : new TreeNode(head->val);
 
-	if (first == last)
-		return new TreeNode(first->val);
-
-	ListNode* p = first;
-	int index = length / 2;
-	while (index > 0)
+	ListNode dummy(0);
+	dummy.next = head;
+	ListNode* slow = head, *fast = head, *prev = &dummy;
+	while (fast && fast->next)
 	{
-		p = p->next;
-		--index;
+		slow = slow->next;
+		fast = fast->next->next;
+		prev = prev->next;
 	}
 
-	TreeNode* root = new TreeNode(p->val);
-
-	ListNode* node = first;
-	if (node == p)
-		node = nullptr;
-	else
-	{
-		while (node->next != p)
-		{
-			node = node->next;
-		}
-	}
-	root->left = build(first, node, length / 2);
-	root->right = build(p->next, last, length - length / 2 - 1);
-
+	prev->next = nullptr; //注意这里要断开
+	TreeNode* root = new TreeNode(slow->val);
+	root->right = sortedListToBST(slow->next);
+	root->left = sortedListToBST(head);
 	return root;
-}
-
-TreeNode* sortedListToBST(ListNode* head)
-{
-	if (head == nullptr)
-		return nullptr;
-
-	if (head->next == nullptr)
-		return new TreeNode(head->val);
-
-	int length = 0;
-	ListNode* tail = head;
-	while (tail->next != nullptr)
-	{
-		tail = tail->next;
-		++length;
-	}
-
-	return build(head, tail, length);
 }
