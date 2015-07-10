@@ -63,6 +63,7 @@
     <ClCompile Include="Integer to Roman.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
     <ClCompile Include="Max Points on a Line.cpp" />
+    <ClCompile Include="Palindrome Linked List.cpp" />
     <ClCompile Include="Permutation Sequence.cpp" />
     <ClCompile Include="getRow.cpp" />
     <ClCompile Include="Gray Code.cpp" />
