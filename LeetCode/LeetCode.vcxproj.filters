@@ -594,6 +594,9 @@
     <ClCompile Include="Lowest Common Ancestor of a Binary Search Tree.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Kth Smallest Element in a BST.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

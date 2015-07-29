@@ -61,6 +61,7 @@
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
     <ClCompile Include="Integer to Roman.cpp" />
+    <ClCompile Include="Kth Smallest Element in a BST.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
     <ClCompile Include="Lowest Common Ancestor of a Binary Search Tree.cpp" />
     <ClCompile Include="Max Points on a Line.cpp" />
