@@ -62,6 +62,7 @@
     <ClCompile Include="getIntersectionNode.cpp" />
     <ClCompile Include="Integer to Roman.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
+    <ClCompile Include="Lowest Common Ancestor of a Binary Search Tree.cpp" />
     <ClCompile Include="Max Points on a Line.cpp" />
     <ClCompile Include="Palindrome Linked List.cpp" />
     <ClCompile Include="Permutation Sequence.cpp" />
