@@ -3,7 +3,7 @@
 
 //题目描述：给定一个2d矩阵，里面包含0和1，找出其中最大的全是1组成的正方形的面积
 //解法描述：动态规划 dp[i][j] = min(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1]) + 1
-
+//         dp[i][j]表示已i和j为右下角元素的全1的正方形的边长
 int maximalSquare(std::vector<std::vector<char>>& matrix)
 {
 	if (matrix.empty())
