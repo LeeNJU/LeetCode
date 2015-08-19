@@ -17,6 +17,7 @@
     <ClCompile Include="atoi.cpp" />
     <ClCompile Include="Basic Calculator.cpp" />
     <ClCompile Include="Binary Search Tree Iterator.cpp" />
+    <ClCompile Include="Binary Tree Paths.cpp" />
     <ClCompile Include="Binary Tree Right Side View.cpp" />
     <ClCompile Include="Bitwise AND of Numbers Range.cpp" />
     <ClCompile Include="buildTreeFromInorderAndPostorder.cpp" />

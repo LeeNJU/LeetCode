@@ -606,6 +606,9 @@
     <ClCompile Include="Maximum Subarray.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
+    <ClCompile Include="Binary Tree Paths.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
