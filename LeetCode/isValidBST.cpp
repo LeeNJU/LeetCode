@@ -18,6 +18,8 @@ bool isValidBST(TreeNode* root)
 	{
 		node = s.top();
 		s.pop();
+		if (!inorder.empty() && node->val <= inorder[inorder.size() - 1]) //在遍历过程中进行检查
+			return false;
 		inorder.push_back(node->val);
 		node = node->right;
 		while (node)
@@ -25,12 +27,6 @@ bool isValidBST(TreeNode* root)
 			s.push(node);
 			node = node->left;
 		}
-	}
-
-	for (int i = 1; i < inorder.size(); ++i)//检验
-	{
-		if (inorder[i] <= inorder[i - 1])
-			return false;
 	}
 	return true;
 }
