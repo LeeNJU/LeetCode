@@ -1,20 +1,36 @@
 #include<vector>
+#include<stack>
 #include"TreeNode.h"
-//题目描述：给定一个树，判断其是否是二叉树
-//解法描述：递归传入两个参数，一个是左界，一个是右界，节点的值必须在两个界的中间，同时在判断做子树和右子树时更新左右界。
-//bugs  此方法行不通  最好是中序
-bool isValidBST(TreeNode* root, int lower, int upper)//注意必须是long，因为当root的值为INT_MAX时为出错
-{
-	if (root == nullptr)
-		return true;
-		
-	if (root->val <= lower || root->val >= upper)
-		return false;
-
-	return root->val > lower && root->val < upper && isValidBST(root->left, lower, root->val) && isValidBST(root->right, root->val, upper);
-}
-
+//题目描述：给定一个树，判断其是否是二叉搜索树
+//解法描述：中序遍历
 bool isValidBST(TreeNode* root)
 {
-	return isValidBST(root, INT_MIN, INT_MAX);
+	std::stack<TreeNode*> s;
+	std::vector<int> inorder;
+	TreeNode* node = root;
+	while (node)//左子节点压入栈中
+	{
+		s.push(node);
+		node = node->left;
+	}
+
+	while (!s.empty())//中序遍历
+	{
+		node = s.top();
+		s.pop();
+		inorder.push_back(node->val);
+		node = node->right;
+		while (node)
+		{
+			s.push(node);
+			node = node->left;
+		}
+	}
+
+	for (int i = 1; i < inorder.size(); ++i)//检验
+	{
+		if (inorder[i] <= inorder[i - 1])
+			return false;
+	}
+	return true;
 }
