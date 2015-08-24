@@ -1,7 +1,7 @@
 #include<vector>
 
 //题目描述：给定一个值k和n，从1到9中求出和为n的组合，组合的大小为k，数字不能重复，例如：k=3，n=7，输出为[[1,2,4]]
-//解法描述：递归
+//解法描述：递归  0ms
 
 
 void dfs(std::vector<std::vector<int>>& result, std::vector<int> t, int index, int k, int value)

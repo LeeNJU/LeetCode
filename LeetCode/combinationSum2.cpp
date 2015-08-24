@@ -13,14 +13,12 @@ void dfs(std::vector<std::vector<int>>& result, const std::vector<int>& num, std
 		return;
 	}
 	if (sum > target)
-	{
 		return;
-	}
 
 	int prev = -1;
 	for (int i = index; i < num.size(); ++i)
 	{
-		if (prev == num[i])//去掉重复元素
+		if (prev == num[i])//去掉重复元素，这里的重复包含两种情况，注意注意！！
 			continue;
 		prev = num[i];
 		temp.push_back(num[i]);
