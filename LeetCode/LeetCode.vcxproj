@@ -68,6 +68,7 @@
     <ClCompile Include="Max Points on a Line.cpp" />
     <ClCompile Include="Maximum Product Subarray.cpp" />
     <ClCompile Include="Maximum Subarray.cpp" />
+    <ClCompile Include="Missing Number.cpp" />
     <ClCompile Include="Palindrome Linked List.cpp" />
     <ClCompile Include="Permutation Sequence.cpp" />
     <ClCompile Include="getRow.cpp" />
