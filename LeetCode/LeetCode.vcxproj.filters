@@ -132,9 +132,6 @@
     <ClCompile Include="threeSumClosest.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="combine.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="maxPathSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -611,6 +608,9 @@
     </ClCompile>
     <ClCompile Include="Missing Number.cpp">
       <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="combine.cpp">
+      <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
