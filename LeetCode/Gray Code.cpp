@@ -1,7 +1,8 @@
 #include<vector>
 
-//题目描述：给定一个值n，求出n位的gray code，相邻两个gray code在二进制表示上只在一位上有差别，例如n = 2，gray code为00， 01， 11，10
-//解法描述：找规律即可，n为的gray code由两部分组成，一部分是n-1位格雷码，再加上 1<<(n-1)和n-1位格雷码的逆序的和
+//题目描述：给定一个值n，求出n位的gray code，相邻两个gray code在二进制表示上只在一位上有差别，例如n = 2，gray code
+//         为00， 01， 11，10
+//解法描述：找规律即可，n位的gray code由两部分组成，一部分是n-1位格雷码，再加上 1<<(n-1)和n-1位格雷码的逆序的和
 
 std::vector<int> grayCode(int n)
 {

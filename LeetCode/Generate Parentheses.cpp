@@ -1,11 +1,13 @@
 #include<string>
 #include<vector>
 
-//题目描述：给定一个值n，返回能够产生多少种的（）序列，例如n=3，可以产生如下序列"((()))", "(()())", "(())()", "()(())", "()()()"
+//题目描述：给定一个值n，返回能够产生多少种的（）序列，例如n=3，可以产生如下序列"((()))", "(()())", "(())()", 
+//         "()(())", "()()()"
 //解法描述：递归回溯法，每次先放（，再放）
 
 
-void dfs(std::vector<std::string>& result, std::string intermediate, int left, int right, int n)//left和right表示（）剩下的个数
+void dfs(std::vector<std::string>& result, std::string intermediate, int left, int right, int n)//left和right
+                                                                           //表示（）剩下的个数
 {
 	if (intermediate.size() == n * 2)
 	{
