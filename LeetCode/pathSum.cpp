@@ -20,9 +20,8 @@ void dfs(TreeNode* root, int sum, std::vector<std::vector<int>>& result, std::ve
 	if (root->left == nullptr && root->right == nullptr)//叶子节点
 	{
 		if (root->val == sum)
-		{
 			result.push_back(temp);
-		}
+		return;
 	}
 
 	dfs(root->left, sum - root->val, result, temp);//左节点递归
