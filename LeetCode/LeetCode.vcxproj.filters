@@ -612,6 +612,9 @@
     <ClCompile Include="combine.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
+    <ClCompile Include="Single Number III.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
