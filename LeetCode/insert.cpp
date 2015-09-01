@@ -1,33 +1,31 @@
 #include<vector>
+#include<algorithm>
 #include"TreeNode.h"
 //题目描述：给定一组已经排好序的数字区间，向其中插入一个数字区间，如果有必要进行区间合并，例如给定[1,2],[3,5],[6,7],[8,10],[12,16]，插入[4,9]，
 //结果为[1,2],[3,10],[12,16]
-//解法描述:遍历数字区间，判断newInterval与当前区间的关系，如果与当前区间有重合部分就进行合并，再删除当前区间，再继续判断新的newInterval与区间的关系
+//解法描述:构造一个新的结果数组result，把intervals和newInterval的结果相继加入到result中
 
-
-//bugs
 std::vector<Interval> insert(std::vector<Interval> &intervals, Interval newInterval)
 {
-	std::vector<Interval>::iterator it = intervals.begin();
-	while (it != intervals.end()) 
+	std::vector<Interval> result;
+	std::vector<Interval>::iterator iter = intervals.begin();
+	while (iter != intervals.end())
 	{
-		if (newInterval.end < it->start) //newInterval在当前区间的前面
+		if (iter->end < newInterval.start)
+			result.push_back(*iter);
+		else if (iter->start > newInterval.end)
 		{
-			intervals.insert(it, newInterval);
-			return intervals;
+			result.push_back(newInterval);
+			result.insert(result.end(), iter, intervals.end());
+			return result;
 		}
-		else if (newInterval.start > it->end) //newInterval区间在当前区间的后面
+		else
 		{
-			it++;
+			newInterval.start = std::min(newInterval.start, iter->start);
+			newInterval.end = std::max(newInterval.end, iter->end);
 		}
-		else//newInterval与当前区间有重复，把newInterval和当前区间合并，删除当前区间
-		{
-			newInterval.start = std::min(newInterval.start, it->start);
-			newInterval.end = std::max(newInterval.end, it->end);
-			it = intervals.erase(it);
-		}
+		++iter;
 	}
-	intervals.insert(intervals.end(), newInterval);//插入最后
-
-	return intervals;
+	result.push_back(newInterval);
+	return result;
 }
