@@ -61,6 +61,7 @@
     <ClCompile Include="generate.cpp" />
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
+    <ClCompile Include="H-Index.cpp" />
     <ClCompile Include="Integer to Roman.cpp" />
     <ClCompile Include="Kth Smallest Element in a BST.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
