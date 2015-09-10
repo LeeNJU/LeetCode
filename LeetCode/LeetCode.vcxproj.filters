@@ -627,6 +627,9 @@
     <ClCompile Include="Perfect Squares.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
+    <ClCompile Include="First Bad Version.cpp">
+      <Filter>Source Files\Array\Binary Search</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
