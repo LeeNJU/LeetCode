@@ -71,6 +71,7 @@
     <ClCompile Include="Maximum Subarray.cpp" />
     <ClCompile Include="Missing Number.cpp" />
     <ClCompile Include="Palindrome Linked List.cpp" />
+    <ClCompile Include="Perfect Squares.cpp" />
     <ClCompile Include="Permutation Sequence.cpp" />
     <ClCompile Include="getRow.cpp" />
     <ClCompile Include="Gray Code.cpp" />
