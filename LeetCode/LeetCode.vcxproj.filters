@@ -630,6 +630,12 @@
     <ClCompile Include="First Bad Version.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
+    <ClCompile Include="Word Search II.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Implement Trie (Prefix Tree).cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

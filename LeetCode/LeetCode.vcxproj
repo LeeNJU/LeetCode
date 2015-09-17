@@ -63,6 +63,7 @@
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
     <ClCompile Include="H-Index.cpp" />
+    <ClCompile Include="Implement Trie (Prefix Tree).cpp" />
     <ClCompile Include="Integer to Roman.cpp" />
     <ClCompile Include="Kth Smallest Element in a BST.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
@@ -199,6 +200,7 @@
     <ClCompile Include="Valid Sudokuk.cpp" />
     <ClCompile Include="Word Ladder II.cpp" />
     <ClCompile Include="Word Ladder.cpp" />
+    <ClCompile Include="Word Search II.cpp" />
     <ClCompile Include="Word Search.cpp" />
     <ClCompile Include="wordBreak.cpp" />
     <ClCompile Include="ZigZag Conversion.cpp" />
