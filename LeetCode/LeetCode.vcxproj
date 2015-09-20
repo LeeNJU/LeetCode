@@ -11,6 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Add and Search Word - Data structure design.cpp" />
     <ClCompile Include="addBinary.cpp" />
     <ClCompile Include="addTwoNumbers.cpp" />
     <ClCompile Include="anagrams.cpp" />
@@ -72,6 +73,7 @@
     <ClCompile Include="Maximum Product Subarray.cpp" />
     <ClCompile Include="Maximum Subarray.cpp" />
     <ClCompile Include="Missing Number.cpp" />
+    <ClCompile Include="Move Zeroes.cpp" />
     <ClCompile Include="Palindrome Linked List.cpp" />
     <ClCompile Include="Perfect Squares.cpp" />
     <ClCompile Include="Permutation Sequence.cpp" />

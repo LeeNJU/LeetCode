@@ -1,37 +1,8 @@
 #include<string>
+#include "TreeNode.h"
 #include<vector>
 //题目描述：实现前缀树
 //解法描述：(个人理解)边用来存储字符，每一个节点有26个指针，指向不同的子节点，nullptr表示子节点不存在
-class TrieNode 
-{
-private:
-	bool isWord; // 表明是否是一个字符串的结束
-	std::vector<TrieNode*> children; //子节点指针
-public:
-	TrieNode() :children(26, nullptr)
-	{
-		this->isWord = false;
-	}
-
-	void setEnd()
-	{
-		isWord = true;
-	}
-
-	bool isEnd()
-	{
-		return isWord;
-	}
-
-	TrieNode* getSon(char c)
-	{
-		return children[c - 'a'];
-	}
-	TrieNode* setSon(char c, TrieNode* node)
-	{
-		children[c - 'a'] = node;
-	}
-};
 
 class Trie 
 {
