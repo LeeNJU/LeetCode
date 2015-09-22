@@ -27,8 +27,9 @@ std::vector<std::string> findRepeatedDnaSequences(std::string s)
 	int value = 0;
 	for (int i = 0; i < s.size(); ++i)
 	{
-		value = ((value << 2) | getValue(s[i])) & 0x000ffff; //注意这里，一个int的后20位是有效的，先左移动2位，是为了把后一个字符的值加
-		                                                      //加上去，然后与操作，把超过出20位的位设为0
+		value = ((value << 2) | getValue(s[i])) & 0x000ffff; //注意这里，一个int的后20位是有效的，先左移动2位，
+		                                                     //是为了把后一个字符的值加上去，然后与操作，把超过
+		                                                     //出20位的位设为0
 		if (i == 9)  //第一个元素
 			++m[value];
 		if (i > 9)
