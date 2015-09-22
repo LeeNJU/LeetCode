@@ -7,10 +7,10 @@ int singleNumber(std::vector<int>& nums)
 	int one = 0, two = 0, three = 0;
 	for (int i = 0; i < nums.size(); ++i) 
 	{
-		two |= (one & nums[i]);
-		one ^= nums[i];
+		two |= (one & nums[i]);  //two保存1出现2次的每一位
+		one ^= nums[i]; // one保存1出现1次的每一位
 		three = ~(one & two);
-		one &= three;
+		one &= three; //three中出现3次的位被置为0，在one和two中这些位也应该被置为0
 		two &= three;
 	}
 	return one;

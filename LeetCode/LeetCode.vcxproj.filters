@@ -237,9 +237,6 @@
     <ClCompile Include="inorderTraversal.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
-    <ClCompile Include="hammingWeight.cpp">
-      <Filter>Source Files\Bit Manipulation</Filter>
-    </ClCompile>
     <ClCompile Include="sumNumbers.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
@@ -649,6 +646,9 @@
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
     <ClCompile Include="Endianness.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Number of 1 Bits.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
   </ItemGroup>

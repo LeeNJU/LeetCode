@@ -81,7 +81,7 @@
     <ClCompile Include="Permutation Sequence.cpp" />
     <ClCompile Include="getRow.cpp" />
     <ClCompile Include="Gray Code.cpp" />
-    <ClCompile Include="hammingWeight.cpp" />
+    <ClCompile Include="Number of 1 Bits.cpp" />
     <ClCompile Include="hasCycle.cpp" />
     <ClCompile Include="hasPathSum.cpp" />
     <ClCompile Include="Implement Stack using Queues.cpp" />
