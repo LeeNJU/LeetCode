@@ -50,6 +50,7 @@
     <ClCompile Include="Distinct Subsequences.cpp" />
     <ClCompile Include="Divide Two Integers.cpp" />
     <ClCompile Include="Edit Distance.cpp" />
+    <ClCompile Include="Endianness.cpp" />
     <ClCompile Include="evalRPN.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="findMin.cpp" />

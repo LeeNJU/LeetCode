@@ -648,6 +648,9 @@
     <ClCompile Include="Single Number II.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
+    <ClCompile Include="Endianness.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
