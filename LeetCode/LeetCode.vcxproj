@@ -172,6 +172,7 @@
     <ClCompile Include="searchRange.cpp" />
     <ClCompile Include="setZeroes.cpp" />
     <ClCompile Include="Simplify Path.cpp" />
+    <ClCompile Include="Single Number II.cpp" />
     <ClCompile Include="Single Number III.cpp" />
     <ClCompile Include="singleNumber.cpp" />
     <ClCompile Include="Sliding Window Maximum.cpp" />

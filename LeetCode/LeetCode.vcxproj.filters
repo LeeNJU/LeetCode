@@ -645,6 +645,9 @@
     <ClCompile Include="Decode Ways.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
+    <ClCompile Include="Single Number II.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
