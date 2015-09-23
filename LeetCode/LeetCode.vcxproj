@@ -12,7 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Add and Search Word - Data structure design.cpp" />
-    <ClCompile Include="addBinary.cpp" />
+    <ClCompile Include="Add Binary.cpp" />
     <ClCompile Include="addTwoNumbers.cpp" />
     <ClCompile Include="anagrams.cpp" />
     <ClCompile Include="atoi.cpp" />
