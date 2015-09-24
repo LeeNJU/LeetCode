@@ -18,6 +18,7 @@
     <ClCompile Include="atoi.cpp" />
     <ClCompile Include="Basic Calculator.cpp" />
     <ClCompile Include="Binary Search Tree Iterator.cpp" />
+    <ClCompile Include="Binary Tree Maximum Path Sum.cpp" />
     <ClCompile Include="Binary Tree Paths.cpp" />
     <ClCompile Include="Binary Tree Right Side View.cpp" />
     <ClCompile Include="Bitwise AND of Numbers Range.cpp" />
@@ -59,6 +60,7 @@
     <ClCompile Include="First Bad Version.cpp" />
     <ClCompile Include="First Missing Positive.cpp" />
     <ClCompile Include="flatten.cpp" />
+    <ClCompile Include="Flowing Water.cpp" />
     <ClCompile Include="fourSum.cpp" />
     <ClCompile Include="Fraction to Recurring Decimal.cpp" />
     <ClCompile Include="Generate Parentheses.cpp" />
@@ -68,6 +70,7 @@
     <ClCompile Include="H-Index.cpp" />
     <ClCompile Include="Implement Trie (Prefix Tree).cpp" />
     <ClCompile Include="Integer to Roman.cpp" />
+    <ClCompile Include="Is Sparse.cpp" />
     <ClCompile Include="Kth Smallest Element in a BST.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
     <ClCompile Include="Lowest Common Ancestor of a Binary Search Tree.cpp" />
@@ -177,6 +180,7 @@
     <ClCompile Include="Single Number III.cpp" />
     <ClCompile Include="singleNumber.cpp" />
     <ClCompile Include="Sliding Window Maximum.cpp" />
+    <ClCompile Include="Smallest Character.cpp" />
     <ClCompile Include="Sort List.cpp" />
     <ClCompile Include="sortColors.cpp" />
     <ClCompile Include="sortedArrayToBST.cpp" />
@@ -203,6 +207,7 @@
     <ClCompile Include="uniquePathsWithObstacles.cpp" />
     <ClCompile Include="Valid Number.cpp" />
     <ClCompile Include="Valid Sudokuk.cpp" />
+    <ClCompile Include="Word Break II.cpp" />
     <ClCompile Include="Word Ladder II.cpp" />
     <ClCompile Include="Word Ladder.cpp" />
     <ClCompile Include="Word Search II.cpp" />
