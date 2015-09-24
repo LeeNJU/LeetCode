@@ -121,7 +121,6 @@
     <ClCompile Include="maxDepth.cpp" />
     <ClCompile Include="Maximal Square.cpp" />
     <ClCompile Include="Maximum Gap.cpp" />
-    <ClCompile Include="maxPathSum.cpp" />
     <ClCompile Include="maxProfit.cpp" />
     <ClCompile Include="Merge Intervals.cpp" />
     <ClCompile Include="mergeKLists.cpp" />
@@ -207,7 +206,6 @@
     <ClCompile Include="uniquePathsWithObstacles.cpp" />
     <ClCompile Include="Valid Number.cpp" />
     <ClCompile Include="Valid Sudokuk.cpp" />
-    <ClCompile Include="Word Break II.cpp" />
     <ClCompile Include="Word Ladder II.cpp" />
     <ClCompile Include="Word Ladder.cpp" />
     <ClCompile Include="Word Search II.cpp" />
