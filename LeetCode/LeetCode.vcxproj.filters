@@ -108,9 +108,6 @@
     <ClCompile Include="twoSum.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="searchInsert.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="reverseWords.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
@@ -139,9 +136,6 @@
       <Filter>Source Files\Math</Filter>
     </ClCompile>
     <ClCompile Include="findPeakElement.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
-    <ClCompile Include="findMin.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="isPalindrome.cpp">
@@ -659,6 +653,12 @@
     </ClCompile>
     <ClCompile Include="Binary Tree Maximum Path Sum.cpp">
       <Filter>Source Files\Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="findMin.cpp">
+      <Filter>Source Files\Array\Binary Search</Filter>
+    </ClCompile>
+    <ClCompile Include="searchInsert.cpp">
+      <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

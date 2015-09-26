@@ -2,7 +2,5 @@
 //解法描述：n向右移动一位，在和n进行与操作，如果不等于0说明有连续的1，如果等于0说明没有连续的1
 bool checkSparse(unsigned n)
 {
-	if (n & (n >> 1))
-		return false;
-	return true;
+	return !(n & (n >> 1));
 }
