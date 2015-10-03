@@ -79,6 +79,7 @@
     <ClCompile Include="Maximum Subarray.cpp" />
     <ClCompile Include="Missing Number.cpp" />
     <ClCompile Include="Move Zeroes.cpp" />
+    <ClCompile Include="Number of Islands.cpp" />
     <ClCompile Include="Palindrome Linked List.cpp" />
     <ClCompile Include="Perfect Squares.cpp" />
     <ClCompile Include="Permutation Sequence.cpp" />
