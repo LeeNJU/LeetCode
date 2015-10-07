@@ -209,6 +209,7 @@
     <ClCompile Include="Valid Sudokuk.cpp" />
     <ClCompile Include="Word Ladder II.cpp" />
     <ClCompile Include="Word Ladder.cpp" />
+    <ClCompile Include="Word Pattern.cpp" />
     <ClCompile Include="Word Search II.cpp" />
     <ClCompile Include="Word Search.cpp" />
     <ClCompile Include="wordBreak.cpp" />
