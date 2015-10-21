@@ -193,6 +193,7 @@
     <ClCompile Include="Sudoku Solver.cpp" />
     <ClCompile Include="Summary Ranges.cpp" />
     <ClCompile Include="sumNumbers.cpp" />
+    <ClCompile Include="Surrounded Regions.cpp" />
     <ClCompile Include="swapPairs.cpp" />
     <ClCompile Include="Text Justification.cpp" />
     <ClCompile Include="threeSum.cpp" />
@@ -214,6 +215,7 @@
     <ClCompile Include="Word Search.cpp" />
     <ClCompile Include="wordBreak.cpp" />
     <ClCompile Include="ZigZag Conversion.cpp" />
+    <ClCompile Include="Zigzag Iterator.cpp" />
     <ClCompile Include="zigzagLevelOrder.cpp" />
   </ItemGroup>
   <ItemGroup>
