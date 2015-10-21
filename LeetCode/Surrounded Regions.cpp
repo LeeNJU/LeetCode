@@ -1,7 +1,8 @@
 #include<vector>
 #include<queue>
 //题目描述:给定一个二维数组，只包含O或者X，找到所有被X包围的O，然后把这些O全部换成X，注意边界上的O不能被换成X
-//解法描述:
+//解法描述:从边界上的O开始进行广搜或者深搜，把能够搜到的O全部换成#，那么剩下的O必然被X包围，然后扫描整个数组，把O换成
+//        X,然后把#换成O
 void bfs(std::vector<std::vector<char>>& board, int i, int j)
 {
 	if (i < 0 || j > board[0].size())
