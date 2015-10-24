@@ -77,5 +77,4 @@ void solve(std::vector<std::vector<char>>& board)
 				board[i][j] = 'O';
 		}
 	}
-}}
 }
