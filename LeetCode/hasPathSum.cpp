@@ -9,8 +9,7 @@ bool hasPathSum(TreeNode* root, int sum)
 		return false;
 
 	if (root->left == nullptr && root->right == nullptr)
-	{
 		return sum == root->val;
-	}
+	
 	return hasPathSum(root->left, sum - root->val) || hasPathSum(root->right, sum - root->val);
 }

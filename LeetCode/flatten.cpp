@@ -14,9 +14,8 @@ void flatten(TreeNode* root)//把二叉树扁平化
 
 	TreeNode* p = root;
 	while (p->right != nullptr)
-	{
 		p = p->right;
-	}
+	
 	p->right = rightSubtree;
 	flatten(rightSubtree);//flatten右子树
 }
