@@ -16,6 +16,7 @@
     <ClCompile Include="addTwoNumbers.cpp" />
     <ClCompile Include="anagrams.cpp" />
     <ClCompile Include="atoi.cpp" />
+    <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="Basic Calculator.cpp" />
     <ClCompile Include="Binary Search Tree Iterator.cpp" />
     <ClCompile Include="Binary Tree Maximum Path Sum.cpp" />
