@@ -20,3 +20,20 @@ int backPack(int m, std::vector<int> A)
 	}
 	return dp[m];
 }
+
+//变种：给定n个item，每个item有重量和价值，要求重量之和不超过m，使得价值之和最大化
+//解法描述:与上题类似，只是加的值变成了value
+int backPackII(int m, std::vector<int> A, std::vector<int> V) {
+	std::vector<int> dp(m + 1, 0);
+	for (int i = 1; i < A.size() + 1; ++i)
+	{
+		for (int j = m; j >= 1; --j)
+		{
+			if (j - A[i - 1] < 0)//要保证j - A[i - 1] >= 0，即装得下
+				dp[j] = dp[j];
+			else
+				dp[j] = std::max(dp[j], dp[j - A[i - 1]] + V[i - 1]);
+		}
+	}
+	return dp[m];
+}
