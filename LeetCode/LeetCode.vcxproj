@@ -49,6 +49,7 @@
     <ClCompile Include="Decode Ways.cpp" />
     <ClCompile Include="deleteDuplicates.cpp" />
     <ClCompile Include="detectCycle.cpp" />
+    <ClCompile Include="Different Ways to Add Parentheses.cpp" />
     <ClCompile Include="Distinct Subsequences.cpp" />
     <ClCompile Include="Divide Two Integers.cpp" />
     <ClCompile Include="Edit Distance.cpp" />

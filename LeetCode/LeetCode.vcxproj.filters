@@ -681,6 +681,9 @@
     <ClCompile Include="Backpack.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
+    <ClCompile Include="Different Ways to Add Parentheses.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
