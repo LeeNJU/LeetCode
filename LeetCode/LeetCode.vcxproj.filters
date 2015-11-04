@@ -684,6 +684,12 @@
     <ClCompile Include="Different Ways to Add Parentheses.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
+    <ClCompile Include="Expression Add Operators.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Longest Increasing Subsequence.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

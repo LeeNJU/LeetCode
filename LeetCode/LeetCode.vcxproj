@@ -55,6 +55,7 @@
     <ClCompile Include="Edit Distance.cpp" />
     <ClCompile Include="Endianness.cpp" />
     <ClCompile Include="evalRPN.cpp" />
+    <ClCompile Include="Expression Add Operators.cpp" />
     <ClCompile Include="Find Median from Data Stream.cpp" />
     <ClCompile Include="Find the Duplicate Number.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
@@ -77,6 +78,7 @@
     <ClCompile Include="Is Sparse.cpp" />
     <ClCompile Include="Kth Smallest Element in a BST.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
+    <ClCompile Include="Longest Increasing Subsequence.cpp" />
     <ClCompile Include="Lowest Common Ancestor of a Binary Search Tree.cpp" />
     <ClCompile Include="Max Points on a Line.cpp" />
     <ClCompile Include="Maximum Product Subarray.cpp" />
