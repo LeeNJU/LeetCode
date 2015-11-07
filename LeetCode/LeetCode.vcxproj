@@ -33,6 +33,7 @@
     <ClCompile Include="canJump.cpp" />
     <ClCompile Include="climbStairs.cpp" />
     <ClCompile Include="Clone Graph.cpp" />
+    <ClCompile Include="Closest Binary Search Tree Value.cpp" />
     <ClCompile Include="combinationSum.cpp" />
     <ClCompile Include="combinationSum2.cpp" />
     <ClCompile Include="combinationSum3.cpp" />
