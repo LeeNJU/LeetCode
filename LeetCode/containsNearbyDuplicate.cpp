@@ -7,9 +7,7 @@ bool containsNearbyDuplicate(std::vector<int>& nums, int k)
 {
 	std::unordered_map<int, std::vector<int>> m;
 	for (int i = 0; i < nums.size(); ++i)
-	{
 		m[nums[i]].push_back(i);//保存相同元素的下标
-	}
 
 	for (int i = 0; i < nums.size(); ++i)
 	{

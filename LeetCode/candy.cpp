@@ -8,25 +8,20 @@
 
 int candy(std::vector<int> &ratings)
 {
-	int result = 0;
 	std::vector<int> candy(ratings.size(), 1);//初始化为1，因为每个小孩最少可以得到1，就不用为波谷赋值了
 
-	for (int i = 1, inc = 1; i < ratings.size(); ++i)//从左往右扫描
+	for (int i = 1; i < ratings.size(); ++i)//从左往右扫描
 	{
 		if (ratings[i] > ratings[i - 1])
-			candy[i] = ++inc;
-		else
-			inc = 1;
+			candy[i] = candy[i - 1] + 1;
 	}
 
-	for (int i = ratings.size() - 2, inc = 1; i >= 0; --i)
+	for (int i = ratings.size() - 2; i >= 0; --i)
 	{
 		if (ratings[i] > ratings[i + 1])
-			candy[i] = std::max(++inc, candy[i]);//波峰要比左右的都大，所以要取最大值
-		else
-			inc = 1;
+			candy[i] = std::max(candy[i + 1] + 1, candy[i]);//波峰要比左右的都大，所以要取最大值
 	}
 
-	result = std::accumulate(candy.begin(), candy.end(), 0);
-	return result;
+	int sum = std::accumulate(candy.begin(), candy.end(), 0);
+	return sum;
 }
