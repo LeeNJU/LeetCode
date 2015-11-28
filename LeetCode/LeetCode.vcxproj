@@ -165,6 +165,7 @@
     <ClCompile Include="Product of Array Except Self.cpp" />
     <ClCompile Include="Recover Binary Search Tree.cpp" />
     <ClCompile Include="Rectangle Area.cpp" />
+    <ClCompile Include="Remove Invalid Parentheses.cpp" />
     <ClCompile Include="removeDuplicates.cpp" />
     <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="removeElements.cpp" />

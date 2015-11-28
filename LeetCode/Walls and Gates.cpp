@@ -1,4 +1,5 @@
 #include<vector>
+#include<list>
 
 void wallsAndGates(std::vector<std::vector<int>>& rooms) 
 {
@@ -17,7 +18,7 @@ void wallsAndGates(std::vector<std::vector<int>>& rooms)
 
 	for (int i = 0; i < gates.size(); i = i + 2) 
 	{
-		list<pair<int, int>> q1, q2;
+		std::vector<std::pair<int, int>> q1, q2;
 		q1.push_back(std::make_pair(gates[i].first, gates[i].second));
 		int dist = 1;
 
@@ -41,11 +42,12 @@ void wallsAndGates(std::vector<std::vector<int>>& rooms)
 			}
 			if (col < rooms[0].size() - 1 && dist <= rooms[row][col + 1]) {
 				rooms[row][col + 1] = dist;
-				q2.push_back(make_pair(row, col + 1));
+				q2.push_back(std::make_pair(row, col + 1));
 			}
 
-			if (q1.empty()) {
-				swap(q1, q2);
+			if (q1.empty()) 
+			{
+				std::swap(q1, q2);
 				dist++;
 			}
 		}

@@ -19,13 +19,9 @@ int sqrt(int x)
 			last_mid = middle;
 		}
 		else if (x / middle < middle) 
-		{
 			right = middle - 1;
-		}
 		else 
-		{
 			return middle;
-		}
 	}
 	return last_mid;
 }
