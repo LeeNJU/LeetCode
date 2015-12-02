@@ -717,6 +717,9 @@
     <ClCompile Include="Remove Invalid Parentheses.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="Shortest Word Distance.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
