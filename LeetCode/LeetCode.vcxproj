@@ -90,6 +90,7 @@
     <ClCompile Include="Maximum Product Subarray.cpp" />
     <ClCompile Include="Maximum Subarray.cpp" />
     <ClCompile Include="Meeting Rooms.cpp" />
+    <ClCompile Include="Minimum Height Trees.cpp" />
     <ClCompile Include="Missing Number.cpp" />
     <ClCompile Include="Move Zeroes.cpp" />
     <ClCompile Include="Number of Islands.cpp" />
@@ -202,6 +203,7 @@
     <ClCompile Include="sortedListToBST.cpp" />
     <ClCompile Include="spirialOrder.cpp" />
     <ClCompile Include="sqrt.cpp" />
+    <ClCompile Include="Strobogrammatic Number.cpp" />
     <ClCompile Include="strStr.cpp" />
     <ClCompile Include="subsets.cpp" />
     <ClCompile Include="subsetsWithDup.cpp" />
