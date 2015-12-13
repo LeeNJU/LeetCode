@@ -18,3 +18,28 @@ bool isStrobogrammatic(std::string num)
 	}
 	return true;
 }
+
+//version2
+//题目描述:给定一个n，找到所有长度为n的strobogramatic字符串,例如n=2，返回["11","69","88","96"]
+std::vector<std::string> findStrobogrammatic(int n) 
+{
+	std::vector<std::string> strobos;
+	if (n % 2 == 1)//奇数 
+		strobos = { "0", "1", "8" };
+	else //偶数
+		strobos = { "" };
+	std::vector<std::string> bases = { "00", "11", "88", "69", "96" };
+	int m = bases.size();
+	while (n > 1) 
+	{
+		n -= 2;
+		std::vector<std::string> temp;
+		for (std::string strobo : strobos)
+		{
+			for (int i = (n < 2 ? 1 : 0); i < m; i++)//每次把base中的字符串加到开始和结尾
+				temp.push_back(bases[i].substr(0, 1) + strobo + bases[i].substr(1));
+		}
+		swap(temp, strobos);//交换temp来实现递归
+	}
+	return strobos;
+}
