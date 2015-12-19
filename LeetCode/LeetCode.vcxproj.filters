@@ -732,6 +732,9 @@
     <ClCompile Include="Bulb Switcher.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
+    <ClCompile Include="Remove Duplicate Letters.cpp">
+      <Filter>Source Files\Array\Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
