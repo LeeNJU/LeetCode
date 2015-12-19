@@ -87,6 +87,7 @@
     <ClCompile Include="Longest Increasing Subsequence.cpp" />
     <ClCompile Include="Lowest Common Ancestor of a Binary Search Tree.cpp" />
     <ClCompile Include="Max Points on a Line.cpp" />
+    <ClCompile Include="Maximum Product of Word Lengths.cpp" />
     <ClCompile Include="Maximum Product Subarray.cpp" />
     <ClCompile Include="Maximum Subarray.cpp" />
     <ClCompile Include="Meeting Rooms.cpp" />
