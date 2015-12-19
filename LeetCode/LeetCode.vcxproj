@@ -28,6 +28,7 @@
     <ClCompile Include="Bitwise AND of Numbers Range.cpp" />
     <ClCompile Include="buildTreeFromInorderAndPostorder.cpp" />
     <ClCompile Include="buildTreeFromPreorderAndInorder.cpp" />
+    <ClCompile Include="Bulb Switcher.cpp" />
     <ClCompile Include="canCompleteCircuit.cpp" />
     <ClCompile Include="candy.cpp" />
     <ClCompile Include="canJump.cpp" />
