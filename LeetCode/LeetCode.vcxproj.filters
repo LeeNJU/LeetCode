@@ -735,6 +735,9 @@
     <ClCompile Include="Remove Duplicate Letters.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
+    <ClCompile Include="Maximal Rectangle.cpp">
+      <Filter>Source Files\Stack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

@@ -7,27 +7,25 @@
 
 int largestRectangleArea(std::vector<int>& height)
 {
-	int area = 0;
-	std::stack<int> stack;
-	for (int i = 0; i < height.size(); ++i) 
+	std::vector<int> s;
+	height.push_back(0);//插入高度为0的bar，是为了计算最后的递增序列的面积
+
+	int sum = 0;
+	int i = 0;
+	while (i < height.size()) 
 	{
-		if (stack.empty() || height[stack.top()] < height[i]) //空栈或者是递增序列，那么入栈
-			stack.push(i);
+		if (s.empty() || height[i] > height[s.back()]) //当前高度比栈顶元素小或者栈为空
+		{
+			s.push_back(i);
+			i++;
+		}
 		else 
 		{
-			int start = stack.top(); //弹出栈顶元素，计算面积
-			stack.pop();
-			int width = stack.empty() ? i : i - stack.top() - 1;
-			area = std::max(area, height[start] * width);
-			i--;  //注意这里i--，是为了计算前面的长方形面积，逐一进行计算
+			int t = s.back();
+			s.pop_back();
+			//这里还需要考虑stack为空的情况
+			sum = std::max(sum, height[t] * (s.empty() ? i : i - s.back() - 1));
 		}
 	}
-	while (!stack.empty()) //栈不为空，说明数组最后的几个元素刚好是递增序列，那么依次计算
-	{
-		int start = stack.top();
-		stack.pop();
-		int width = stack.empty() ? height.size() : height.size() - stack.top() - 1;
-		area = std::max(area, height[start] * width);
-	}
-	return area;
+	return sum;
 }
