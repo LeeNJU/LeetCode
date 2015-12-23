@@ -32,12 +32,40 @@ int nthUglyNumber(int n)
 	for (int i = 1; i < n; i++)
 	{
 		result[i] = std::min(std::min(result[index2] * 2, result[index3] * 3), result[index5] * 5);
-		if (result[i] == result[index2] * 2) 
+		if (result[i] == result[index2] * 2) //注意这里，不能用if else，因为当前最小的ugly number可能乘以2，3或者5同时得到
 			index2++;
 		if (result[i] == result[index3] * 3) 
 			index3++;
 		if (result[i] == result[index5] * 5) 
 			index5++;
+	}
+	return result[n - 1];
+}
+
+//version 3:super ugly number
+//题目描述:给定一个因数数组，找到第n个以这些数字为因数的ugly number
+//解法描述:解法相似，不过因数个数为k，需要用数组保存每一个因数的下标
+
+int nthSuperUglyNumber(int n, std::vector<int>& primes)
+{
+	std::vector<int> index(primes.size(), 0);
+	std::vector<int> result(n,1);
+
+	for (int i = 1; i < n; ++i)
+	{
+		int num = INT_MAX;
+		for (int j = 0; j < primes.size(); ++j)//找到最小值
+		{
+			if (result[index[j]] * primes[j] < num)
+				num = result[index[j]] * primes[j];
+		}
+
+		for (int j = 0; j < primes.size(); ++j)//更新得到最小值的下标
+		{
+			if (result[index[j]] * primes[j] == num)
+				++index[j];
+		}
+		result[i] = num;
 	}
 	return result[n - 1];
 }
