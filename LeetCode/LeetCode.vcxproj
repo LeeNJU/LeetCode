@@ -35,6 +35,7 @@
     <ClCompile Include="climbStairs.cpp" />
     <ClCompile Include="Clone Graph.cpp" />
     <ClCompile Include="Closest Binary Search Tree Value.cpp" />
+    <ClCompile Include="Coin Change.cpp" />
     <ClCompile Include="combinationSum.cpp" />
     <ClCompile Include="combinationSum2.cpp" />
     <ClCompile Include="combinationSum3.cpp" />
@@ -193,6 +194,7 @@
     <ClCompile Include="searchInsert.cpp" />
     <ClCompile Include="searchMatrix.cpp" />
     <ClCompile Include="searchRange.cpp" />
+    <ClCompile Include="Serialize and Deserialize Binary Tree.cpp" />
     <ClCompile Include="setZeroes.cpp" />
     <ClCompile Include="Shortest Word Distance.cpp" />
     <ClCompile Include="Simplify Path.cpp" />
