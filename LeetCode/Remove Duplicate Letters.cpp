@@ -7,14 +7,14 @@
 std::string removeDuplicateLetters(std::string s) 
 {
 	std::vector<bool> exist(26, false);//在栈中是否出现
-	std::vector<int> vec(26, 0), apperance(26, 0); //统计每个字符的次数和已经出现的次数
+	std::vector<int> vec(26, 0); //统计每个字符的次数和已经出现的次数
 	for (int i = 0; i < s.length(); ++i)
 		++vec[s[i] - 'a'];
 
 	std::stack<char> stack;//栈保存当前的最优解
 	for (int i = 0; i < s.length(); ++i)
 	{
-		while (!stack.empty() && stack.top() > s[i] && apperance[stack.top() - 'a'] < vec[stack.top() - 'a']
+		while (!stack.empty() && stack.top() > s[i] && vec[stack.top() - 'a']
 			&& !exist[s[i] - 'a'])//当前字符比栈顶字符要小，并且栈顶字符并不是最后一次出现，并且当前字符不在栈中
 		{
 			exist[stack.top() - 'a'] = false;
@@ -26,7 +26,7 @@ std::string removeDuplicateLetters(std::string s)
 			stack.push(s[i]);
 			exist[s[i] - 'a'] = true;
 		}
-		++apperance[s[i] - 'a'];
+		--vec[s[i] - 'a'];
 	}
 
 	std::string result;

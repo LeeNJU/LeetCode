@@ -7,11 +7,11 @@ bool isBadVersion(int n);
 int firstBadVersion(int n) 
 {
 	int first = 1, last = n, middle = 1;
-	while (first <= last)
+	while (first < last)
 	{
 		middle = first + (last - first) / 2;//注意这里，middle = (first + last) / 2的写法可能会导致firsr + last溢出
 		if (isBadVersion(middle))
-			last = middle - 1;
+			last = middle;
 		else
 			first = middle + 1;
 	}

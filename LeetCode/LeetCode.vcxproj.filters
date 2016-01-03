@@ -768,6 +768,9 @@
     <ClCompile Include="Fast Power.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
+    <ClCompile Include="Maximum Subarray II.cpp">
+      <Filter>Source Files\Array\Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
