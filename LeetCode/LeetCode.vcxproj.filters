@@ -771,6 +771,9 @@
     <ClCompile Include="Maximum Subarray II.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
+    <ClCompile Include="Convert Binary Search Tree to Doubly Linked List.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

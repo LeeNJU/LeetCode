@@ -47,6 +47,7 @@
     <ClCompile Include="containsDuplicate.cpp" />
     <ClCompile Include="containsNearbyDuplicate.cpp" />
     <ClCompile Include="Continuous Subarray Sum.cpp" />
+    <ClCompile Include="Convert Binary Search Tree to Doubly Linked List.cpp" />
     <ClCompile Include="convert.cpp" />
     <ClCompile Include="copyRandomList.cpp" />
     <ClCompile Include="Count Complete Tree Nodes.cpp" />

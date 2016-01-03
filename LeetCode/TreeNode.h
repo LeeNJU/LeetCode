@@ -6,6 +6,19 @@ struct TreeNode
 	TreeNode* right;
 	TreeNode(int x) : val(x), left(nullptr), right(nullptr){}
 };
+
+class DoublyListNode 
+{
+public:
+	int val;
+	DoublyListNode *next, *prev;
+	DoublyListNode(int val) 
+	{
+		this->val = val;
+		this->prev = this->next = nullptr;
+	}
+};
+
 struct TreeLinkNode
 {
 	int val;
