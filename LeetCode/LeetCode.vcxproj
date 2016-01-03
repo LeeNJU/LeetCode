@@ -14,6 +14,7 @@
     <ClCompile Include="3Sum Smaller.cpp" />
     <ClCompile Include="Add and Search Word - Data structure design.cpp" />
     <ClCompile Include="Add Binary.cpp" />
+    <ClCompile Include="Additive Number.cpp" />
     <ClCompile Include="addTwoNumbers.cpp" />
     <ClCompile Include="anagrams.cpp" />
     <ClCompile Include="atoi.cpp" />
@@ -97,6 +98,7 @@
     <ClCompile Include="Maximum Subarray.cpp" />
     <ClCompile Include="Meeting Rooms.cpp" />
     <ClCompile Include="Minimum Height Trees.cpp" />
+    <ClCompile Include="Minimum Subarray.cpp" />
     <ClCompile Include="Missing Number.cpp" />
     <ClCompile Include="Move Zeroes.cpp" />
     <ClCompile Include="Number of Islands.cpp" />
