@@ -216,6 +216,7 @@
     <ClCompile Include="sqrt.cpp" />
     <ClCompile Include="Strobogrammatic Number.cpp" />
     <ClCompile Include="strStr.cpp" />
+    <ClCompile Include="Subarray Sum Closest.cpp" />
     <ClCompile Include="subsets.cpp" />
     <ClCompile Include="subsetsWithDup.cpp" />
     <ClCompile Include="Sudoku Solver.cpp" />

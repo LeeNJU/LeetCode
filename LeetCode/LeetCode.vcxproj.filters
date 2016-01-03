@@ -762,6 +762,9 @@
     <ClCompile Include="Continuous Subarray Sum.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="Subarray Sum Closest.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
