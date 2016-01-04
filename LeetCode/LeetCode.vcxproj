@@ -90,6 +90,7 @@
     <ClCompile Include="Implement Trie (Prefix Tree).cpp" />
     <ClCompile Include="Inorder Successor in BST.cpp" />
     <ClCompile Include="Integer to Roman.cpp" />
+    <ClCompile Include="Interval Sum.cpp" />
     <ClCompile Include="Is Sparse.cpp" />
     <ClCompile Include="Kth Smallest Element in a BST.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
@@ -204,6 +205,7 @@
     <ClCompile Include="searchMatrix.cpp" />
     <ClCompile Include="searchRange.cpp" />
     <ClCompile Include="Segment Tree Build.cpp" />
+    <ClCompile Include="Segment Tree Modify.cpp" />
     <ClCompile Include="Segment Tree Query.cpp" />
     <ClCompile Include="Serialize and Deserialize Binary Tree.cpp" />
     <ClCompile Include="setZeroes.cpp" />

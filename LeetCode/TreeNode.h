@@ -22,14 +22,15 @@ public:
 class SegmentTreeNode 
 {
 public:
-	int start, end, max, count;
+	int start, end, max, count, sum;
 	SegmentTreeNode *left, *right;
-	SegmentTreeNode(int start, int end, int m = 0, int c = 0) 
+	SegmentTreeNode(int start, int end, int m = 0, int c = 0, int s = 0) 
 	{
 		this->start = start;
 		this->end = end;
 		this->max = m;
 		this->count = c;
+		this->sum = s;
 		this->left = nullptr;
 		this->right = nullptr;
 	}
