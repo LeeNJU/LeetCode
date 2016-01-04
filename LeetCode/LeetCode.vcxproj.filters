@@ -780,6 +780,9 @@
     <ClCompile Include="Segment Tree Build.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Segment Tree Query.cpp">
+      <Filter>Source Files\Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
