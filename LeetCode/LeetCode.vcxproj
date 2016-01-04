@@ -203,6 +203,7 @@
     <ClCompile Include="searchInsert.cpp" />
     <ClCompile Include="searchMatrix.cpp" />
     <ClCompile Include="searchRange.cpp" />
+    <ClCompile Include="Segment Tree Build.cpp" />
     <ClCompile Include="Serialize and Deserialize Binary Tree.cpp" />
     <ClCompile Include="setZeroes.cpp" />
     <ClCompile Include="Shortest Word Distance.cpp" />

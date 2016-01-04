@@ -19,6 +19,21 @@ public:
 	}
 };
 
+class SegmentTreeNode 
+{
+public:
+	int start, end, max;
+	SegmentTreeNode *left, *right;
+	SegmentTreeNode(int start, int end, int m = 0) 
+	{
+		this->start = start;
+		this->end = end;
+		this->max = m;
+		this->left = nullptr;
+		this->right = nullptr;
+	}
+};
+
 struct TreeLinkNode
 {
 	int val;
