@@ -21,6 +21,7 @@
     <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="Basic Calculator.cpp" />
     <ClCompile Include="Best Meeting Point.cpp" />
+    <ClCompile Include="Binary Representation.cpp" />
     <ClCompile Include="Binary Search Tree Iterator.cpp" />
     <ClCompile Include="Binary Tree Longest Consecutive Sequence.cpp" />
     <ClCompile Include="Binary Tree Maximum Path Sum.cpp" />

@@ -774,6 +774,9 @@
     <ClCompile Include="Convert Binary Search Tree to Doubly Linked List.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Binary Representation.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
