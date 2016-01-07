@@ -7,6 +7,32 @@ struct TreeNode
 	TreeNode(int x) : val(x), left(nullptr), right(nullptr){}
 };
 
+class Node
+{
+private:
+	int val;
+	int row;
+	int col;
+public:
+	Node(int r, int c, int v) :val(v), row(r), col(c){};
+	int get_row()
+	{
+		return row;
+	}
+	int get_col()
+	{
+		return col;
+	}
+	int get_value()
+	{
+		return val;
+	}
+	bool operator < (Node& node)
+	{
+		return this->val < node.get_value();
+	}
+};
+
 class DoublyListNode 
 {
 public:

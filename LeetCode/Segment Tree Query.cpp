@@ -11,12 +11,7 @@ int query(SegmentTreeNode* root, int start, int end)
 
 	int num1 = query(root->left, start, end);//在左子节点进行查询
 	int num2 = query(root->right, start, end);//在右子节点进行查询
-	if (num1 == INT_MIN)//与坐子节点没有交集
-		return num2;
-	else if (num2 == INT_MIN)//与右子节点没有交集
-		return num1;
-	else
-		return std::max(num1, num2);//取最大值
+	return std::max(num1, num2);//取最大值
 }
 
 //version 2

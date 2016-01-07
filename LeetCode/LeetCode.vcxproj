@@ -91,9 +91,11 @@
     <ClCompile Include="Inorder Successor in BST.cpp" />
     <ClCompile Include="Integer to Roman.cpp" />
     <ClCompile Include="Interval Minimum Number.cpp" />
+    <ClCompile Include="Interval Sum II.cpp" />
     <ClCompile Include="Interval Sum.cpp" />
     <ClCompile Include="Is Sparse.cpp" />
     <ClCompile Include="Kth Smallest Element in a BST.cpp" />
+    <ClCompile Include="Kth Smallest Number in Sorted Matrix.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
     <ClCompile Include="Longest Increasing Subsequence.cpp" />
     <ClCompile Include="Lowest Common Ancestor of a Binary Search Tree.cpp" />
