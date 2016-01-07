@@ -807,6 +807,9 @@
     <ClCompile Include="flatten.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Count of Smaller Number before itself.cpp">
+      <Filter>Source Files\Tree\Sgement Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

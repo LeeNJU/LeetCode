@@ -52,6 +52,7 @@
     <ClCompile Include="convert.cpp" />
     <ClCompile Include="copyRandomList.cpp" />
     <ClCompile Include="Count Complete Tree Nodes.cpp" />
+    <ClCompile Include="Count of Smaller Number before itself.cpp" />
     <ClCompile Include="Count of Smaller Number.cpp" />
     <ClCompile Include="Count Primes.cpp" />
     <ClCompile Include="countAndSay.cpp" />
