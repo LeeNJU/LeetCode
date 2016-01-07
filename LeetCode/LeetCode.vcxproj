@@ -54,6 +54,7 @@
     <ClCompile Include="Count Complete Tree Nodes.cpp" />
     <ClCompile Include="Count of Smaller Number before itself.cpp" />
     <ClCompile Include="Count of Smaller Number.cpp" />
+    <ClCompile Include="Count of Smaller Numbers After Self.cpp" />
     <ClCompile Include="Count Primes.cpp" />
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="Course Schedule II.cpp" />
