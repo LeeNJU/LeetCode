@@ -52,6 +52,12 @@
     <Filter Include="Source Files\BackTracking">
       <UniqueIdentifier>{e32a49b2-5bc8-42d1-8949-53cdf6f64bf8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Tree\Sgement Tree">
+      <UniqueIdentifier>{eb740623-69de-49df-bbee-c5b919e4749d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tree\Binary Tree">
+      <UniqueIdentifier>{48b1f58d-eb42-4a2c-a00e-2cfe5c288095}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp">
@@ -76,9 +82,6 @@
       <Filter>Source Files\String</Filter>
     </ClCompile>
     <ClCompile Include="connect.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="flatten.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="hasCycle.cpp">
@@ -777,26 +780,32 @@
     <ClCompile Include="Binary Representation.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="Segment Tree Build.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="Segment Tree Query.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="Segment Tree Modify.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Interval Sum.cpp">
       <Filter>Source Files\Array</Filter>
-    </ClCompile>
-    <ClCompile Include="Interval Minimum Number.cpp">
-      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="Kth Smallest Number in Sorted Matrix.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="Segment Tree Build.cpp">
+      <Filter>Source Files\Tree\Sgement Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment Tree Modify.cpp">
+      <Filter>Source Files\Tree\Sgement Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment Tree Query.cpp">
+      <Filter>Source Files\Tree\Sgement Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Interval Minimum Number.cpp">
+      <Filter>Source Files\Tree\Sgement Tree</Filter>
+    </ClCompile>
     <ClCompile Include="Interval Sum II.cpp">
-      <Filter>Source Files\Tree</Filter>
+      <Filter>Source Files\Tree\Sgement Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Count of Smaller Number.cpp">
+      <Filter>Source Files\Tree\Sgement Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="flatten.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
