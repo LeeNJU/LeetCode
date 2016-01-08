@@ -58,6 +58,9 @@
     <Filter Include="Source Files\Tree\Binary Tree">
       <UniqueIdentifier>{48b1f58d-eb42-4a2c-a00e-2cfe5c288095}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Union Find">
+      <UniqueIdentifier>{4c76e611-b04e-4cbc-ba28-1b1147c66520}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="isBalanced.cpp">
@@ -588,9 +591,6 @@
     <ClCompile Include="Maximum Subarray.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
-    <ClCompile Include="Binary Tree Paths.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Missing Number.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -694,9 +694,6 @@
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
     <ClCompile Include="Binary Tree Longest Consecutive Sequence.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="Graph Valid Tree.cpp">
       <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="Walls and Gates.cpp">
@@ -812,6 +809,12 @@
     </ClCompile>
     <ClCompile Include="Count of Smaller Numbers After Self.cpp">
       <Filter>Source Files\Tree\Sgement Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph Valid Tree.cpp">
+      <Filter>Source Files\Union Find</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Tree Paths.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
