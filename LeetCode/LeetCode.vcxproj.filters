@@ -777,9 +777,6 @@
     <ClCompile Include="Binary Representation.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="Interval Sum.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="Kth Smallest Number in Sorted Matrix.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -815,6 +812,12 @@
     </ClCompile>
     <ClCompile Include="Binary Tree Paths.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Interval Sum.cpp">
+      <Filter>Source Files\Tree\Sgement Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Range Sum Query 2D - Immutable.cpp">
+      <Filter>Source Files\Tree\Sgement Tree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
