@@ -819,6 +819,9 @@
     <ClCompile Include="Range Sum Query 2D - Immutable.cpp">
       <Filter>Source Files\Tree\Sgement Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Power of Three.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

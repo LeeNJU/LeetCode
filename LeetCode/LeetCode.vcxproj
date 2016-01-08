@@ -181,6 +181,7 @@
     <ClCompile Include="plusOne.cpp" />
     <ClCompile Include="postorderTraversal.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />
+    <ClCompile Include="Power of Three.cpp" />
     <ClCompile Include="Power of Two.cpp" />
     <ClCompile Include="preorderTraversal.cpp" />
     <ClCompile Include="Product of Array Except Self.cpp" />
