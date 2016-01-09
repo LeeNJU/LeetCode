@@ -840,6 +840,9 @@
     <ClCompile Include="Binary Tree Vertical Order Traversal.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Smallest Rectangle Enclosing Black Pixels.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
