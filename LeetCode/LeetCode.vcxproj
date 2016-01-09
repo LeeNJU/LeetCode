@@ -231,6 +231,7 @@
     <ClCompile Include="sortColors.cpp" />
     <ClCompile Include="sortedArrayToBST.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
+    <ClCompile Include="Generalized Abbreviation.cpp" />
     <ClCompile Include="spirialOrder.cpp" />
     <ClCompile Include="sqrt.cpp" />
     <ClCompile Include="Strobogrammatic Number.cpp" />

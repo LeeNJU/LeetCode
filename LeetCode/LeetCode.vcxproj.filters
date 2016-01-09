@@ -831,6 +831,9 @@
     <ClCompile Include="Number of Connected Components in an Undirected Graph.cpp">
       <Filter>Source Files\Union Find</Filter>
     </ClCompile>
+    <ClCompile Include="Generalized Abbreviation.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
