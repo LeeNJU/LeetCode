@@ -80,6 +80,7 @@
     <ClCompile Include="First Bad Version.cpp" />
     <ClCompile Include="First Missing Positive.cpp" />
     <ClCompile Include="flatten.cpp" />
+    <ClCompile Include="Flip Game.cpp" />
     <ClCompile Include="Flowing Water.cpp" />
     <ClCompile Include="fourSum.cpp" />
     <ClCompile Include="Fraction to Recurring Decimal.cpp" />
