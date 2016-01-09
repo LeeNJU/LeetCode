@@ -837,6 +837,9 @@
     <ClCompile Include="Shortest Distance from All Buildings.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="Binary Tree Vertical Order Traversal.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
