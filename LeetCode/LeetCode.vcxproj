@@ -220,6 +220,7 @@
     <ClCompile Include="Segment Tree Query.cpp" />
     <ClCompile Include="Serialize and Deserialize Binary Tree.cpp" />
     <ClCompile Include="setZeroes.cpp" />
+    <ClCompile Include="Shortest Distance from All Buildings.cpp" />
     <ClCompile Include="Shortest Word Distance.cpp" />
     <ClCompile Include="Simplify Path.cpp" />
     <ClCompile Include="Single Number II.cpp" />
