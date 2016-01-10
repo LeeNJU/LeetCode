@@ -41,3 +41,56 @@ bool wordPattern(std::string pattern, std::string str)
 	}
 	return true;
 }
+
+
+//version 2
+//题目描述:s字符串不再用空格隔开，然后判断pattern和s是不是同一个模式，能不能进行匹配
+//解法描述:回溯法，逐个尝试
+bool dfs(const std::string& pattern, int pindex, const std::string& s, int sindex, std::unordered_map<char, std::string>& m)
+{
+	if (pindex == pattern.size())
+		return sindex == s.size();
+
+	if (sindex == s.size())
+		return false;
+
+	if (m.find(pattern[pindex]) != m.end())//当前要匹配的字符之前已经出现过，就与之前对应的字符串比较
+	{
+		std::string str = m[pattern[pindex]];
+		if (str.size() > s.size() - sindex || s.substr(sindex, str.size()) != str)
+			return false;
+		return dfs(pattern, pindex + 1, s, sindex + str.size(), m);
+	}
+	else//当前的字符在之前没有出现过
+	{
+		for (int i = sindex; i < s.size(); ++i)
+		{
+			std::string sub = s.substr(sindex, i - sindex + 1);
+			bool exist = false;
+			auto iter = m.begin();
+			while (iter != m.end())//这里判断字符串sub是不是在之前被匹配过
+			{
+				if (iter->second == sub)
+				{
+					exist = true;
+					break;
+				}
+			}
+
+			if (exist)//之前被匹配过
+				continue;
+
+			m[pattern[pindex]] = sub;
+			if (dfs(pattern, pindex + 1, s, i + 1, m))
+				return true;
+			m.erase(pattern[pindex]);
+		}
+	}
+	return false;
+}
+
+bool wordPatternMatch(std::string pattern, std::string str)
+{
+	std::unordered_map<char, std::string> mp;
+	return dfs(pattern, 0, str, 0, mp);
+}
