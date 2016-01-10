@@ -259,6 +259,7 @@
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="twoSum.cpp" />
     <ClCompile Include="Ugly Number.cpp" />
+    <ClCompile Include="Unique Word Abbreviation.cpp" />
     <ClCompile Include="uniquePaths.cpp" />
     <ClCompile Include="uniquePathsWithObstacles.cpp" />
     <ClCompile Include="Valid Number.cpp" />
