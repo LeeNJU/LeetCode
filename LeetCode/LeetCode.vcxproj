@@ -265,7 +265,7 @@
     <ClCompile Include="Valid Number.cpp" />
     <ClCompile Include="Valid Sudokuk.cpp" />
     <ClCompile Include="Walls and Gates.cpp" />
-    <ClCompile Include="Wiggle Sort II.cpp" />
+    <ClCompile Include="Wiggle Sort.cpp" />
     <ClCompile Include="Word Ladder II.cpp" />
     <ClCompile Include="Word Ladder.cpp" />
     <ClCompile Include="Word Pattern.cpp" />

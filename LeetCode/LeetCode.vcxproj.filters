@@ -741,9 +741,6 @@
     <ClCompile Include="Coin Change.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
-    <ClCompile Include="Wiggle Sort II.cpp">
-      <Filter>Source Files\Sort</Filter>
-    </ClCompile>
     <ClCompile Include="Create Maximum Number.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
@@ -854,6 +851,9 @@
     </ClCompile>
     <ClCompile Include="Unique Word Abbreviation.cpp">
       <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Wiggle Sort.cpp">
+      <Filter>Source Files\Sort</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
