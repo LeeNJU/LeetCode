@@ -76,6 +76,7 @@
     <ClCompile Include="Expression Add Operators.cpp" />
     <ClCompile Include="Fast Power.cpp" />
     <ClCompile Include="Find Median from Data Stream.cpp" />
+    <ClCompile Include="Find the Celebrity.cpp" />
     <ClCompile Include="Find the Duplicate Number.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="findMin.cpp" />
