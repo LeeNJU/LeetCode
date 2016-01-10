@@ -861,6 +861,9 @@
     <ClCompile Include="Paint Fence.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
+    <ClCompile Include="Encode and Decode Strings.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
