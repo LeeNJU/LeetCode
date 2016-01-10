@@ -108,3 +108,20 @@ public:
 		children[c - 'a'] = node;
 	}
 };
+
+class Iterator
+{
+private:
+	int* pointer;
+public:
+	bool hasNext()
+	{
+		return pointer != nullptr;
+	}
+	int getNext()
+	{
+		int result = *pointer;
+		++pointer;
+		return result;
+	}
+};
