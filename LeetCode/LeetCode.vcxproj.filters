@@ -61,46 +61,25 @@
     <Filter Include="Source Files\Union Find">
       <UniqueIdentifier>{4c76e611-b04e-4cbc-ba28-1b1147c66520}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Tree\Binary Search Tree">
+      <UniqueIdentifier>{8002fb0a-08c6-4cbf-8607-4035c1472ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tree\Prefix Tree">
+      <UniqueIdentifier>{1ed7e437-ad6a-40e0-80f9-64d77e47cede}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="isBalanced.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="isSameTree.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="isValidBST.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="swapPairs.cpp">
       <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="preorderTraversal.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="sortedListToBST.cpp">
-      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="isValid.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="connect.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="hasCycle.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
-    <ClCompile Include="hasPathSum.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="lengthOfLastWord.cpp">
       <Filter>Source Files\String</Filter>
-    </ClCompile>
-    <ClCompile Include="maxDepth.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="minDepth.cpp">
-      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="removeNthFromEnd.cpp">
       <Filter>Source Files\List</Filter>
@@ -116,12 +95,6 @@
     </ClCompile>
     <ClCompile Include="reverseWords.cpp">
       <Filter>Source Files\String</Filter>
-    </ClCompile>
-    <ClCompile Include="buildTreeFromInorderAndPostorder.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="buildTreeFromPreorderAndInorder.cpp">
-      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="mergeSortedArray.cpp">
       <Filter>Source Files\Array</Filter>
@@ -225,15 +198,6 @@
     <ClCompile Include="evalRPN.cpp">
       <Filter>Source Files\Stack</Filter>
     </ClCompile>
-    <ClCompile Include="inorderTraversal.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="sumNumbers.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="pathSum.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="convert.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
@@ -285,14 +249,8 @@
     <ClCompile Include="partition.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
-    <ClCompile Include="isSymmetric.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="copyRandomList.cpp">
       <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="numTrees.cpp">
-      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="uniquePaths.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
@@ -357,21 +315,6 @@
     <ClCompile Include="Valid Sudokuk.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="sortedArrayToBST.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="zigzagLevelOrder.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="postorderTraversal.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="levelOrder.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="levelOrderBottom.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Maximal Square.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
@@ -380,9 +323,6 @@
     </ClCompile>
     <ClCompile Include="Isomorphic Strings.cpp">
       <Filter>Source Files\String</Filter>
-    </ClCompile>
-    <ClCompile Include="Binary Tree Right Side View.cpp">
-      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="Reverse Nodes in k-Group.cpp">
       <Filter>Source Files\List</Filter>
@@ -429,9 +369,6 @@
     <ClCompile Include="Reverse Bits.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
-    <ClCompile Include="Invert Binary Tree.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Basic Calculator.cpp">
       <Filter>Source Files\Stack</Filter>
     </ClCompile>
@@ -446,9 +383,6 @@
     </ClCompile>
     <ClCompile Include="Rectangle Area.cpp">
       <Filter>Source Files\Math</Filter>
-    </ClCompile>
-    <ClCompile Include="Count Complete Tree Nodes.cpp">
-      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="Trapping Rain Water.cpp">
       <Filter>Source Files\Array</Filter>
@@ -480,14 +414,8 @@
     <ClCompile Include="insert.cpp">
       <Filter>Source Files\Sort</Filter>
     </ClCompile>
-    <ClCompile Include="Recover Binary Search Tree.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Clone Graph.cpp">
       <Filter>Source Files\Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="Binary Search Tree Iterator.cpp">
-      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="Maximum Gap.cpp">
       <Filter>Source Files\Sort</Filter>
@@ -576,12 +504,6 @@
     <ClCompile Include="Palindrome Linked List.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
-    <ClCompile Include="Lowest Common Ancestor of a Binary Search Tree.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="Kth Smallest Element in a BST.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Sliding Window Maximum.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -618,12 +540,6 @@
     <ClCompile Include="Word Search II.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
-    <ClCompile Include="Implement Trie (Prefix Tree).cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="Add and Search Word - Data structure design.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Move Zeroes.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -650,9 +566,6 @@
     </ClCompile>
     <ClCompile Include="Smallest Character.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
-    </ClCompile>
-    <ClCompile Include="Binary Tree Maximum Path Sum.cpp">
-      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="findMin.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
@@ -701,12 +614,6 @@
     </ClCompile>
     <ClCompile Include="Best Meeting Point.cpp">
       <Filter>Source Files\Array</Filter>
-    </ClCompile>
-    <ClCompile Include="Closest Binary Search Tree Value.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="Inorder Successor in BST.cpp">
-      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="Meeting Rooms.cpp">
       <Filter>Source Files\Array</Filter>
@@ -764,9 +671,6 @@
     </ClCompile>
     <ClCompile Include="Maximum Subarray II.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="Convert Binary Search Tree to Doubly Linked List.cpp">
-      <Filter>Source Files\Tree</Filter>
     </ClCompile>
     <ClCompile Include="Binary Representation.cpp">
       <Filter>Source Files\String</Filter>
@@ -863,6 +767,108 @@
     </ClCompile>
     <ClCompile Include="Encode and Decode Strings.cpp">
       <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Closest Binary Search Tree Value.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Search Tree Iterator.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Tree Maximum Path Sum.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Tree Right Side View.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="buildTreeFromInorderAndPostorder.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="buildTreeFromPreorderAndInorder.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="connect.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Convert Binary Search Tree to Doubly Linked List.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Count Complete Tree Nodes.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="hasPathSum.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="inorderTraversal.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Inorder Successor in BST.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Invert Binary Tree.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="isBalanced.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="isSameTree.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="isSymmetric.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="isValidBST.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Kth Smallest Element in a BST.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="levelOrder.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="levelOrderBottom.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Lowest Common Ancestor of a Binary Search Tree.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="maxDepth.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="minDepth.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="numTrees.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="pathSum.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="postorderTraversal.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="preorderTraversal.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Recover Binary Search Tree.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="sortedArrayToBST.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="sortedListToBST.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Implement Trie (Prefix Tree).cpp">
+      <Filter>Source Files\Tree\Prefix Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Add and Search Word - Data structure design.cpp">
+      <Filter>Source Files\Tree\Prefix Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="zigzagLevelOrder.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="sumNumbers.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
