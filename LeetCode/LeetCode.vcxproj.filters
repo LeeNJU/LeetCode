@@ -693,9 +693,6 @@
     <ClCompile Include="Longest Increasing Subsequence.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
-    <ClCompile Include="Binary Tree Longest Consecutive Sequence.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Walls and Gates.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -842,6 +839,12 @@
     </ClCompile>
     <ClCompile Include="Smallest Rectangle Enclosing Black Pixels.cpp">
       <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Tree Longest Consecutive Sequence.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Alien Dictionary.cpp">
+      <Filter>Source Files\Graph</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

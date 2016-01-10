@@ -16,6 +16,7 @@
     <ClCompile Include="Add Binary.cpp" />
     <ClCompile Include="Additive Number.cpp" />
     <ClCompile Include="addTwoNumbers.cpp" />
+    <ClCompile Include="Alien Dictionary.cpp" />
     <ClCompile Include="anagrams.cpp" />
     <ClCompile Include="atoi.cpp" />
     <ClCompile Include="Backpack.cpp" />
