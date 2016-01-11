@@ -29,6 +29,7 @@
     <ClCompile Include="Binary Tree Maximum Path Sum.cpp" />
     <ClCompile Include="Binary Tree Paths.cpp" />
     <ClCompile Include="Binary Tree Right Side View.cpp" />
+    <ClCompile Include="Binary Tree Upside Down.cpp" />
     <ClCompile Include="Binary Tree Vertical Order Traversal.cpp" />
     <ClCompile Include="Bitwise AND of Numbers Range.cpp" />
     <ClCompile Include="buildTreeFromInorderAndPostorder.cpp" />

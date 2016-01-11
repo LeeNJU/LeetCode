@@ -579,9 +579,6 @@
     <ClCompile Include="Word Pattern.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="Zigzag Iterator.cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="Surrounded Regions.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -869,6 +866,12 @@
     </ClCompile>
     <ClCompile Include="Number of Islands.cpp">
       <Filter>Source Files\Union Find</Filter>
+    </ClCompile>
+    <ClCompile Include="Zigzag Iterator.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Tree Upside Down.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
