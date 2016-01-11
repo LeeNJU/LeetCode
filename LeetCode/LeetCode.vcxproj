@@ -269,6 +269,7 @@
     <ClCompile Include="uniquePathsWithObstacles.cpp" />
     <ClCompile Include="Valid Number.cpp" />
     <ClCompile Include="Valid Sudokuk.cpp" />
+    <ClCompile Include="Verify Preorder Sequence in Binary Search Tree.cpp" />
     <ClCompile Include="Walls and Gates.cpp" />
     <ClCompile Include="Wiggle Sort.cpp" />
     <ClCompile Include="Word Ladder II.cpp" />

@@ -876,6 +876,9 @@
     <ClCompile Include="Factor Combinations.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
+    <ClCompile Include="Verify Preorder Sequence in Binary Search Tree.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
