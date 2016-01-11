@@ -126,6 +126,7 @@
     <ClCompile Include="Number of Connected Components in an Undirected Graph.cpp" />
     <ClCompile Include="Number of Islands.cpp" />
     <ClCompile Include="Paint Fence.cpp" />
+    <ClCompile Include="Paint House.cpp" />
     <ClCompile Include="Palindrome Linked List.cpp" />
     <ClCompile Include="Perfect Squares.cpp" />
     <ClCompile Include="Permutation Sequence.cpp" />

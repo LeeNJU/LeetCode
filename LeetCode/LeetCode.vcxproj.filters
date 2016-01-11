@@ -879,6 +879,9 @@
     <ClCompile Include="Verify Preorder Sequence in Binary Search Tree.cpp">
       <Filter>Source Files\Tree\Binary Search Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Paint House.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
