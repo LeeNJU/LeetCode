@@ -93,9 +93,6 @@
     <ClCompile Include="twoSum.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="reverseWords.cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="mergeSortedArray.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -872,6 +869,9 @@
     </ClCompile>
     <ClCompile Include="Binary Tree Upside Down.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Reverse Words in a String.cpp">
+      <Filter>Source Files\String</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
