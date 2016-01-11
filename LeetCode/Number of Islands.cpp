@@ -1,45 +1,56 @@
-#include<vector>
 #include<unordered_map>
 //题目描述：给定一个二维矩阵，值为1或者为0.找到其中小岛的个数，小岛的定义为被0保卫的1，小岛可以包含多个1
-//解法描述：对每一个值为1的点进行深搜，访问过的点进行标记，每遇到一个值为1并且没被访问过的点就表示有一个小岛，深搜把
-//         该小岛上的点进行标记
-void dfs(std::vector<std::vector<char>>& grid, int i, int j, std::vector<std::vector<bool>>& visit)
-{                             //深搜，对相邻的1进行标记
-	if (visit[i][j] || grid[i][j] == '0')
-		return;
+//解法描述：用union find,把二维坐标映射到一维坐标
 
-	visit[i][j] = true;
-	if (i - 1 >= 0)
-		dfs(grid, i - 1, j, visit);
-	if (j - 1 >= 0)
-		dfs(grid, i, j - 1, visit);
-	if (j + 1 < grid[0].size())
-		dfs(grid, i, j + 1, visit);
-	if (i + 1 < grid.size())
-		dfs(grid, i + 1, j, visit);
-
-}
-int numIslands(std::vector<std::vector<char>>& grid) 
+int root(std::vector<int>& vec, int num)
 {
-	int count = 0;
-	if (grid.empty())
-		return count;
+	while (num != vec[num])
+		num = vec[num];
+	return num;
+}
 
-	std::vector<std::vector<bool>> visit(grid.size(), std::vector<bool>(grid[0].size(), false));
+int numIslands(std::vector<std::vector<char>>& grid)
+{
+	std::vector<int> vec(grid.size() * grid[0].size(), 0);
+	for (int i = 0; i < vec.size(); ++i)
+		vec[i] = i;
+
+	int count = 0;
 	for (int i = 0; i < grid.size(); ++i)
 	{
 		for (int j = 0; j < grid[0].size(); ++j)
 		{
-			if (grid[i][j] == '1' && !visit[i][j])//当前的点为1，并且没有被访问过
+			if (grid[i][j] == '1')
 			{
-				dfs(grid, i, j, visit);
 				++count;
+				int position = i * grid[0].size() + j;
+				int root1 = root(vec, position);
+
+				std::vector<int> dx = { 0, 0, -1, 1 };
+				std::vector<int> dy = { 1, -1, 0, 0 };
+
+				for (int k = 0; k < dx.size(); ++k)//查看上下左右的点
+				{
+					if (i + dx[k] < 0 || i + dx[k] >= grid.size() ||
+						j + dy[k] < 0 || j + dy[k] >= grid[0].size() ||
+						grid[i + dx[k]][j + dy[k]] == '0')
+						continue;
+
+					int new_position = (i + dx[k]) * grid[0].size() + j + dy[k];
+					int root2 = root(vec, new_position);
+					if (root2 != root1)//注意这里更新根节点，必须是更新root2
+					{
+						--count;
+						vec[root2] = root1;
+					}
+				}
 			}
 		}
 	}
-
 	return count;
 }
+
+
 
 //version2:
 //题目描述:给定一个二维数组，全是0，表示水，再给一组操作，表示把(x,y)的值设为1，变成island，现在要求出每一个操作之后有

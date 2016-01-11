@@ -576,9 +576,6 @@
     <ClCompile Include="searchRange.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
-    <ClCompile Include="Number of Islands.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="Word Pattern.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -869,6 +866,9 @@
     </ClCompile>
     <ClCompile Include="sumNumbers.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Number of Islands.cpp">
+      <Filter>Source Files\Union Find</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
