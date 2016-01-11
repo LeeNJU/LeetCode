@@ -1,54 +1,41 @@
 #include<vector>
-#include<list>
-
+#include<queue>
+//题目描述:给定一个二维数组，0表示gate，-1表示obstacle，INF表示empty room,求每个empty room到最近的gate的距离
+//解法描述:从gate出发，广搜
 void wallsAndGates(std::vector<std::vector<int>>& rooms) 
 {
-    std::vector<int> gates;
+    std::queue<int> gates;
 	for (int i = 0; i<rooms.size(); i++) 
 	{
 		for (int j = 0; j<rooms[i].size(); j++) 
 		{
-			if (rooms[i][j] == 0)
+			if (rooms[i][j] == 0)//找到所有的gate
 			{
-				gates.push_back(i);
-				gates.push_back(j);
+				gates.push(i);
+				gates.push(j);
 			}
 		}
 	}
 
-	for (int i = 0; i < gates.size(); i = i + 2) 
+	while (!gates.empty())
 	{
-		std::vector<std::pair<int, int>> q1, q2;
-		q1.push_back(std::make_pair(gates[i].first, gates[i].second));
-		int dist = 1;
+		int x = gates.front();
+		gates.pop();
+		int y = gates.front();
+		gates.pop();
 
-		while (!q1.empty()) 
+		std::vector<int> dx = { 0, 0, 1, -1 };
+		std::vector<int> dy = { -1, 1, 0, 0 };
+		for (int i = 0; i < dx.size(); ++i)//上下左右4个点
 		{
-			int row = q1.front().first;
-			int col = q1.front().second;
-			q1.pop_front();
+			if (x + dx[i] < 0 || y + dy[i] < 0 || x + dx[i] >= rooms.size() || 
+				y + dy[i] >= rooms[0].size() || rooms[x + dx[i]][y + dy[i]] == 0 || 
+				rooms[x + dx[i]][y + dy[i]] == -1)//下标越界或者为obstacle或者为gate
+				continue;
 
-			if (row > 0 && dist <= rooms[row - 1][col]) {
-				rooms[row - 1][col] = dist;
-				q2.push_back(std::make_pair(row - 1, col));
-			}
-			if (row < rooms.size() - 1 && dist <= rooms[row + 1][col]) {
-				rooms[row + 1][col] = dist;
-				q2.push_back(std::make_pair(row + 1, col));
-			}
-			if (col > 0 && dist <= rooms[row][col - 1]) {
-				rooms[row][col - 1] = dist;
-				q2.push_back(std::make_pair(row, col - 1));
-			}
-			if (col < rooms[0].size() - 1 && dist <= rooms[row][col + 1]) {
-				rooms[row][col + 1] = dist;
-				q2.push_back(std::make_pair(row, col + 1));
-			}
-
-			if (q1.empty()) 
-			{
-				std::swap(q1, q2);
-				dist++;
-			}
+			rooms[x + dx[i]][y + dy[i]] = std::min(rooms[x + dx[i]][y + dy[i]], rooms[x][y] + 1);
+			gates.push(x + dx[i]);
+			gates.push(y + dx[i]);
 		}
 	}
+}
