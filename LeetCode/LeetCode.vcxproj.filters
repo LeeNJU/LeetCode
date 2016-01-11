@@ -873,6 +873,9 @@
     <ClCompile Include="Reverse Words in a String.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="Factor Combinations.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

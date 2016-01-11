@@ -76,6 +76,7 @@
     <ClCompile Include="Endianness.cpp" />
     <ClCompile Include="evalRPN.cpp" />
     <ClCompile Include="Expression Add Operators.cpp" />
+    <ClCompile Include="Factor Combinations.cpp" />
     <ClCompile Include="Fast Power.cpp" />
     <ClCompile Include="Find Median from Data Stream.cpp" />
     <ClCompile Include="Find the Celebrity.cpp" />
