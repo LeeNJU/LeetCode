@@ -122,6 +122,7 @@
     <ClCompile Include="Minimum Height Trees.cpp" />
     <ClCompile Include="Minimum Subarray.cpp" />
     <ClCompile Include="Missing Number.cpp" />
+    <ClCompile Include="Missing Ranges.cpp" />
     <ClCompile Include="Move Zeroes.cpp" />
     <ClCompile Include="Nim Game.cpp" />
     <ClCompile Include="Number of Connected Components in an Undirected Graph.cpp" />

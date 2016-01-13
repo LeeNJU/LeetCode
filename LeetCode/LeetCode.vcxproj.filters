@@ -888,6 +888,9 @@
     <ClCompile Include="Count Univalue Subtrees.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Missing Ranges.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
