@@ -99,6 +99,7 @@
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
     <ClCompile Include="Graph Valid Tree.cpp" />
+    <ClCompile Include="Group Shifted Strings.cpp" />
     <ClCompile Include="H-Index.cpp" />
     <ClCompile Include="Implement Trie (Prefix Tree).cpp" />
     <ClCompile Include="Inorder Successor in BST.cpp" />
