@@ -1,6 +1,8 @@
 #include<string>
+#include<vector>
 #include<unordered_map>
-//题目描述:给定一个字符串数字，如果这些数字翻转180度，判断是否跟原来的数字字符串相等，例如"69",翻转180度后，还是"69"
+//题目描述:给定一个字符串数字，如果这些数字翻转180度，判断是否跟原来的数字字符串相等，例如"69",翻转180度后，
+//        还是"69"
 //解法描述:两个指针往中间走，两边翻转之后必须相等
 bool isStrobogrammatic(std::string num) 
 {
@@ -43,3 +45,52 @@ std::vector<std::string> findStrobogrammatic(int n)
 	}
 	return strobos;
 }
+
+//version 3
+//题目描述:给定一个range，low和high，找到所有在low<=num<=high的Strobogrammatic Number
+//解法描述:类似上一题，在产生的时候，要判断是不是在range之内
+bool compare(std::string s1, std::string s2) 
+{
+	if (s1.length() != s2.length())
+		return s1.length() <= s2.length();
+
+	for (int i = 0; i < s1.length(); i++) 
+	{
+		if (s1[i] < s2[i]) 
+			return true;
+		else if (s1[i] > s2[i]) 
+			return false;
+	}
+
+	return true;
+}
+
+int strobogrammaticInRange(const std::vector<std::pair<char, char>>& nums, const std::string& low, const std::string& high, std::string t, int count) 
+{
+	if (high.length() < t.length())
+		return count;
+	if (compare(low, t) && compare(t, high))
+	{
+		if (t.length() == 1 || t.length() > 1 && t.front() != '0')
+			++count;
+	}
+
+	for (auto iter = nums.begin(); iter != nums.end(); ++iter)
+		count = strobogrammaticInRange(nums, low, high, std::string(1, iter->first) + t + std::string(1, iter->second), count);
+
+	return count;
+}
+
+int strobogrammaticInRange(std::string low, std::string high) 
+{
+	if (!compare(low, high)) 
+		return 0;
+
+	std::vector<std::pair<char, char>> nums = { { '0', '0' }, { '1', '1' }, { '6', '9' }, { '8', '8' }, { '9', '6' } };
+
+	int count = strobogrammaticInRange(nums, low, high, "", 0);
+	count = strobogrammaticInRange(nums, low, high, "0", count);
+	count = strobogrammaticInRange(nums, low, high, "1", count);
+	count = strobogrammaticInRange(nums, low, high, "8", count);
+
+	return count;
