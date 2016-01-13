@@ -1,6 +1,6 @@
 #include<string>
 #include<vector>
-//题目描述:给定一个字符串只包含+和0，现在把连续的两个++变成两个连续的--，求最后会得到多少种结果
+//题目描述:给定一个字符串只包含+和-，现在把连续的两个++变成两个连续的--，求最后会得到多少种结果
 //解法描述:扫描一遍
 std::vector<std::string> generatePossibleNextMoves(std::string s) 
 {
@@ -18,7 +18,8 @@ std::vector<std::string> generatePossibleNextMoves(std::string s)
 }
 
 //version 2
-//题目描述:给定一个字符串只包含+和-，两个人轮流把连续的+变成-，经过变换后，如果没有连续的++，那么该人获胜，判断该人是否获胜
+//题目描述:给定一个字符串只包含+和-，两个人轮流把连续的+变成-，经过变换后，如果没有连续的++，那么该人获胜，
+//        判断该人是否获胜
 //解法描述:递归，遍历所有的解
 bool canWin(std::string s) 
 {
