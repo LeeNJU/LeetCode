@@ -61,6 +61,7 @@
     <ClCompile Include="Count of Smaller Number.cpp" />
     <ClCompile Include="Count of Smaller Numbers After Self.cpp" />
     <ClCompile Include="Count Primes.cpp" />
+    <ClCompile Include="Count Univalue Subtrees.cpp" />
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="Course Schedule II.cpp" />
     <ClCompile Include="Course Schedule.cpp" />
@@ -128,6 +129,7 @@
     <ClCompile Include="Paint Fence.cpp" />
     <ClCompile Include="Paint House.cpp" />
     <ClCompile Include="Palindrome Linked List.cpp" />
+    <ClCompile Include="Palindrome Permutation.cpp" />
     <ClCompile Include="Perfect Squares.cpp" />
     <ClCompile Include="Permutation Sequence.cpp" />
     <ClCompile Include="getRow.cpp" />

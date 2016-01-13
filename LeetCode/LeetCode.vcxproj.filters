@@ -882,6 +882,12 @@
     <ClCompile Include="Paint House.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
+    <ClCompile Include="Palindrome Permutation.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Count Univalue Subtrees.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
