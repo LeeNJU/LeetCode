@@ -6,23 +6,20 @@
 //解法描述：先排序，再递归，注意避免重复
 void dfs(std::vector<std::vector<int>>& result, const std::vector<int>& num, std::vector<int> temp, int index, int target)
 {
-	int sum = std::accumulate(temp.begin(), temp.end(), 0);
-	if (sum == target)
+	if (target == 0)
 	{
 		result.push_back(temp);
 		return;
 	}
-	if (sum > target)
+	if (target < 0)
 		return;
 
-	int prev = -1;
 	for (int i = index; i < num.size(); ++i)
 	{
-		if (prev == num[i])//去掉重复元素，这里的重复包含两种情况，注意注意！！
+		if (i > index && num[i] == num[i - 1])//去掉重复元素，这里的重复包含两种情况，注意注意！！
 			continue;
-		prev = num[i];
 		temp.push_back(num[i]);
-		dfs(result, num, temp, i + 1, target);
+		dfs(result, num, temp, i + 1, target - num[i]);
 		temp.pop_back();
 	}
 }

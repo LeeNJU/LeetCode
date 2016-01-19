@@ -57,6 +57,7 @@
     <ClCompile Include="convert.cpp" />
     <ClCompile Include="copyRandomList.cpp" />
     <ClCompile Include="Count Complete Tree Nodes.cpp" />
+    <ClCompile Include="Count of Range Sum.cpp" />
     <ClCompile Include="Count of Smaller Number before itself.cpp" />
     <ClCompile Include="Count of Smaller Number.cpp" />
     <ClCompile Include="Count of Smaller Numbers After Self.cpp" />
