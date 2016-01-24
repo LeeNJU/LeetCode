@@ -8,7 +8,7 @@ ListNode *detectCycle(ListNode *head)
 		return nullptr;
 
 	ListNode* ptr1 = head, *ptr2 = head;
-	while (ptr2->next != nullptr && ptr2->next->next != nullptr)//ptr2走的快，只需要判断ptr2就可以了
+	while (ptr2->next && ptr2->next->next)//ptr2走的快，只需要判断ptr2就可以了
 	{
 		ptr1 = ptr1->next;
 		ptr2 = ptr2->next->next;

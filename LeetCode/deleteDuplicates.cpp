@@ -14,16 +14,15 @@ ListNode *deleteDuplicates(ListNode *head) {
 			delete cur;
 		}
 		else 
-		{
 			prev = cur;
-		}
 	}
 	return head;
 }
 
 
 //版本二：给定一个已序链表，如果有重复的元素，就把所有重复的元素删除，1->2->3->3->4->4->5，删除后为1->2->5
-//解法描述：添加一个哨兵节点，两个指针prev和cur分别指向哨兵节点和头节点，2层循环，当cur遇到重复元素时，循环删除重复元素
+//解法描述：添加一个哨兵节点，两个指针prev和cur分别指向哨兵节点和头节点，2层循环，当cur遇到重复元素时，循环
+//         删除重复元素
 
 ListNode *deleteDuplicate(ListNode *head)
 {
@@ -33,7 +32,7 @@ ListNode *deleteDuplicate(ListNode *head)
 	ListNode dummy(INT_MIN);
 	dummy.next = head;
 	ListNode* prev = &dummy, *cur = head;
-	while (cur != nullptr)
+	while (cur)
 	{
 		bool duplicated = false;
 		while (cur->next != nullptr && cur->val == cur->next->val)

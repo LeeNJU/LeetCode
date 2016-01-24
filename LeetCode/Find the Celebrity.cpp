@@ -1,8 +1,8 @@
 #include<vector>
-//题目描述:给定n个人，分别用0,1,2...n-1表示，celebrity的定义是，所有人都认识他，但是他不认识其他人，判断这n个人里面是否
-//        有celebrity，如果没有返回-1，如果有返回对应的label
-//解法描述:每次选两个人a和b,如果a认识b，那么a肯定不是celebrity，如果a不认识b,那么b肯定不是celebrity，最后只剩一个人，判
-//        这个人是不是celebrity
+//题目描述:给定n个人，分别用0,1,2...n-1表示，celebrity的定义是，所有人都认识他，但是他不认识其他人，判断这n个
+//        人里面是否有celebrity，如果没有返回-1，如果有返回对应的label
+//解法描述:每次选两个人a和b,如果a认识b，那么a肯定不是celebrity，如果a不认识b,那么b肯定不是celebrity，最后只
+//         剩一个人，判这个人是不是celebrity
 
 bool knows(int a, int b);
 

@@ -1,20 +1,27 @@
 #include<string>
 #include<algorithm>
-
+#include<unordered_map>
 int lengthOfLongestSubstringTwoDistinct(std::string s)
 {
-	int i = 0, j = -1;
-	int maxLen = 0;
-	for (int k = 1; k < s.size(); k++)
+	if (s.size() <= 2)
+		return s.size();
+
+	std::unordered_map<char, int> m;
+	int count = 0;
+	for (int i = 0, j = 0; j < s.size(); ++j)
 	{
-		if (s[k] == s[k - 1])
-			continue;
-		if (j > -1 && s[k] != s[j])
+		if (m.find(s[j]) == m.end() && m.size() <= 2)
 		{
-			maxLen = max(maxLen, k - i);
-			i = j + 1;
+			while (m.size() > 2)
+			{
+				--m[s[i]];
+				if (m[s[i]] == 0)
+					m.erase(s[i]);
+			}
 		}
-		j = k - 1;
+
+		++m[s[j]];
+		count = std::max(count, j - i + 1);
 	}
-	return maxLen > (s.size() - i) ? maxLen : s.size() - i;
+	return count;
 }

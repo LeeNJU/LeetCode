@@ -14,9 +14,7 @@ std::vector<std::vector<int> > generate(int numRows)
 		std::vector<int> current(i, 1); // 本行
 		const std::vector<int> &prev = result[i - 2]; // 上一行
 		for (int j = 1; j < i - 1; ++j) 
-		{
 			current[j] = prev[j - 1] + prev[j]; // 左上角和右上角之和
-		}
 		result.push_back(current);
 	}
 	return result;
