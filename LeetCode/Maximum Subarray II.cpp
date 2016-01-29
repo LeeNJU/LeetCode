@@ -1,8 +1,8 @@
 #include<vector>
 #include<algorithm>
 //题目描述:给定一个数组，找到两个不重叠的子数组，使得两个子数组的和最大
-//解法描述:用两个数组left和right，left表示从0到i的最大子数组的和，right表示从n-1到i的最大子数组的和，先求出left，再反向
-//        扫描求出right，扫描过程中求出两个子数组的最大和
+//解法描述:用两个数组left和right，left表示从0到i的最大子数组的和，right表示从n-1到i的最大子数组的和，先求出
+//        left，再反向扫描求出right，扫描过程中求出两个子数组的最大和
 int maxTwoSubArrays(std::vector<int> nums) 
 {
 	if (nums.size() < 2)
