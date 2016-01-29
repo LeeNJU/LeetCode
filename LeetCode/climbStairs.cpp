@@ -12,20 +12,3 @@ int climbStairs(int n)
 	}
 	return cur;
 }
-
-//自己的版本：
-/*
-int climbStairs(int n)
-{
-	if (n == 1 || n == 2)
-		return n;
-
-	int prev = 1, cur = 2;
-	for (int i = 3; i <= n; ++i)
-	{
-		int temp = cur;
-		cur = prev + cur;
-		prev = temp;
-	}
-	return cur;
-}*/

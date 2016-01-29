@@ -17,13 +17,9 @@ int maximalSquare(std::vector<std::vector<char>>& matrix)
 		for (int j = 0; j < matrix[0].size(); ++j)
 		{
 			if (matrix[i][j] == '1')
-			{
 				dp[i + 1][j + 1] = std::min(std::min(dp[i][j], dp[i][j + 1]), dp[i + 1][j]) + 1;//注意这里的下标
-			}
 			else
-			{
 				dp[i + 1][j + 1] = 0;
-			}
 			max_length = std::max(dp[i + 1][j + 1], max_length);
 		}
 	}

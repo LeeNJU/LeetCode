@@ -2,7 +2,8 @@
 #include<string>
 
 //题目描述：给定两个字符串s和t，找到s中有多少个不同的子序列和t相等
-//解法描述：动态规划  如果s[i] == t[j],那么dp[i][j] = dp[i - 1][j - 1] + dp[i - 1][j],如果s[i] != t[j], 那么dp[i][j] = dp[i - 1][j]
+//解法描述：动态规划  如果s[i] == t[j],那么dp[i][j] = dp[i - 1][j - 1] + dp[i - 1][j],如果s[i] != t[j], 
+//         那么dp[i][j] = dp[i - 1][j]
 
 int numDistinct(std::string s, std::string t)
 {
