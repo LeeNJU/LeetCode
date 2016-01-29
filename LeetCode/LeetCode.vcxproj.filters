@@ -258,9 +258,6 @@
     <ClCompile Include="minPathSum.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
-    <ClCompile Include="numDecodings.cpp">
-      <Filter>Source Files\Dynamic Programming</Filter>
-    </ClCompile>
     <ClCompile Include="removeElements.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
