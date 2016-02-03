@@ -915,6 +915,9 @@
     <ClCompile Include="Implement Queue using Stacks.cpp">
       <Filter>Source Files\Stack</Filter>
     </ClCompile>
+    <ClCompile Include="Maximum Size Subarray Sum Equals k.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
