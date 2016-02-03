@@ -1,6 +1,7 @@
 #include"TreeNode.h"
 #include<vector>
-//题目描述:给定一个数组和一些query和modify命令，query求出区间(start, end)的和，modify修改区间(index,value)index的值
+//题目描述:给定一个数组和一些query和modify命令，query求出区间(start, end)的和，modify修改区间(index,value)
+//        index的值
 //解法描述:线段树和单点更新
 class Solution
 {
@@ -48,10 +49,8 @@ private:
 		}
 
 		int mid = (node->start + node->end) / 2;
-		if (index <= mid)
-			modify(node->left, index, value);
-		else
-			modify(node->right, index, value);
+		modify(node->left, index, value);
+		modify(node->right, index, value);
 		node->max = node->left->max + node->right->max;
 	}
 public:

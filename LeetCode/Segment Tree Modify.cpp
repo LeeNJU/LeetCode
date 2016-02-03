@@ -13,9 +13,7 @@ void modify(SegmentTreeNode* root, int index, int value)
 		return;
 	}
 
-	if (index <= (root->start + root->end) / 2)//要修改的index在左子节点
-		modify(root->left, index, value);
-	else//要修改的index在右子节点
-		modify(root->right, index, value);
+	modify(root->left, index, value);
+	modify(root->right, index, value);
 	root->max = std::max(root->left->max, root->right->max);
 }

@@ -918,6 +918,9 @@
     <ClCompile Include="Maximum Size Subarray Sum Equals k.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="Verify Preorder Serialization of a Binary Tree.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

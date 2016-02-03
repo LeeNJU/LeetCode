@@ -15,7 +15,8 @@ int query(SegmentTreeNode* root, int start, int end)
 }
 
 //version 2
-//题目描述:给定一个数组对应的线段树，每个节点包含这个数组中值在当前区间的个数，给定一个查询区间，求出在这个区间范围内的个数
+//题目描述:给定一个数组对应的线段树，每个节点包含这个数组中值在当前区间的个数，给定一个查询区间，求出在这个区间
+//        范围内的个数
 //解法描述:由于每个节点存的是个数，分别在左右节点查询然后求和
 
 int query2(SegmentTreeNode *root, int start, int end) 
