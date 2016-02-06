@@ -123,6 +123,7 @@
     <ClCompile Include="Maximum Product of Word Lengths.cpp" />
     <ClCompile Include="Maximum Product Subarray.cpp" />
     <ClCompile Include="Maximum Size Subarray Sum Equals k.cpp" />
+    <ClCompile Include="Maximum Subarray Difference.cpp" />
     <ClCompile Include="Maximum Subarray II.cpp" />
     <ClCompile Include="Maximum Subarray.cpp" />
     <ClCompile Include="Meeting Rooms.cpp" />
@@ -211,6 +212,7 @@
     <ClCompile Include="Product of Array Except Self.cpp" />
     <ClCompile Include="Range Sum Query 2D - Immutable.cpp" />
     <ClCompile Include="Read N Characters Given Read4.cpp" />
+    <ClCompile Include="Reconstruct Itinerary.cpp" />
     <ClCompile Include="Recover Binary Search Tree.cpp" />
     <ClCompile Include="Rectangle Area.cpp" />
     <ClCompile Include="Remove Duplicate Letters.cpp" />
