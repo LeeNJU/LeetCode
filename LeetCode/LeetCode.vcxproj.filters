@@ -37,9 +37,6 @@
     <Filter Include="Source Files\Array\Greedy">
       <UniqueIdentifier>{541d03b6-d3c5-456d-b3c5-55676a30a2bf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Stack">
-      <UniqueIdentifier>{57d04a17-aeaf-455e-926b-2a639cb319f9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Dynamic Programming">
       <UniqueIdentifier>{604167dd-35ad-49b3-93f1-c03bbf01ce60}</UniqueIdentifier>
     </Filter>
@@ -66,6 +63,9 @@
     </Filter>
     <Filter Include="Source Files\Tree\Prefix Tree">
       <UniqueIdentifier>{1ed7e437-ad6a-40e0-80f9-64d77e47cede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stack and Heap">
+      <UniqueIdentifier>{57d04a17-aeaf-455e-926b-2a639cb319f9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -193,7 +193,7 @@
       <Filter>Source Files\String</Filter>
     </ClCompile>
     <ClCompile Include="evalRPN.cpp">
-      <Filter>Source Files\Stack</Filter>
+      <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
     <ClCompile Include="convert.cpp">
       <Filter>Source Files\String</Filter>
@@ -238,7 +238,7 @@
       <Filter>Source Files\List</Filter>
     </ClCompile>
     <ClCompile Include="minStack.cpp">
-      <Filter>Source Files\Stack</Filter>
+      <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
     <ClCompile Include="mergeTwoLists.cpp">
       <Filter>Source Files\List</Filter>
@@ -364,13 +364,13 @@
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
     <ClCompile Include="Basic Calculator.cpp">
-      <Filter>Source Files\Stack</Filter>
+      <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
     <ClCompile Include="Repeated DNA Sequences.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
     <ClCompile Include="Implement Stack using Queues.cpp">
-      <Filter>Source Files\Stack</Filter>
+      <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
     <ClCompile Include="Count Primes.cpp">
       <Filter>Source Files\Math</Filter>
@@ -487,7 +487,7 @@
       <Filter>Source Files\String</Filter>
     </ClCompile>
     <ClCompile Include="Largest Rectangle in Histogram.cpp">
-      <Filter>Source Files\Stack</Filter>
+      <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
     <ClCompile Include="Summary Ranges.cpp">
       <Filter>Source Files\Array</Filter>
@@ -628,7 +628,7 @@
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
     <ClCompile Include="Maximal Rectangle.cpp">
-      <Filter>Source Files\Stack</Filter>
+      <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
     <ClCompile Include="Serialize and Deserialize Binary Tree.cpp">
       <Filter>Source Files\Tree</Filter>
@@ -662,9 +662,6 @@
     </ClCompile>
     <ClCompile Include="Binary Representation.cpp">
       <Filter>Source Files\String</Filter>
-    </ClCompile>
-    <ClCompile Include="Kth Smallest Number in Sorted Matrix.cpp">
-      <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="Segment Tree Build.cpp">
       <Filter>Source Files\Tree\Sgement Tree</Filter>
@@ -913,7 +910,7 @@
       <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="Implement Queue using Stacks.cpp">
-      <Filter>Source Files\Stack</Filter>
+      <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
     <ClCompile Include="Maximum Size Subarray Sum Equals k.cpp">
       <Filter>Source Files\Array</Filter>
@@ -929,6 +926,9 @@
     </ClCompile>
     <ClCompile Include="k Sum II.cpp">
       <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Kth Smallest Number in Sorted Matrix.cpp">
+      <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
