@@ -8,13 +8,13 @@ bool wordBreak(std::string s, std::unordered_set<std::string>& wordDict)
 {
 	std::vector<bool> vec(s.size() + 1, false);
 	vec[0] = true;
-	for (int i = 1; i <= s.size(); ++i) 
+	for (int i = 0; i < s.size(); ++i)
 	{
-		for (int j = i - 1; j >= 0; --j)//注意这里是逆向遍历
+		for (int j = i; j >= 0; --j)//注意这里是逆向遍历
 		{
-			if (vec[j] && wordDict.find(s.substr(j, i - j)) != wordDict.end()) 
+			if (vec[j] && wordDict.find(s.substr(j, i - j + 1)) != wordDict.end())
 			{
-				vec[i] = true;
+				vec[i + 1] = true;
 				break;
 			}
 		}
@@ -24,51 +24,36 @@ bool wordBreak(std::string s, std::unordered_set<std::string>& wordDict)
 
 //变种二
 //题目描述：给定一个字符串和字符串数组，返回该字符串被拆分成字符串数组中的单词
-//解法描述：通过动态规划找到所有的解，再用递归生成所有的解
-
-void gen_path(const std::string &s, const std::vector<std::vector<bool>>& prev,
-	int cur, std::vector<std::string>& path, std::vector<std::string>& result) 
-{
-	if (cur == 0) 
-	{
-		std::string tmp;
-		for (auto iter = path.rbegin(); iter != path.rend(); ++iter)
-			tmp += *iter + " ";
-		tmp.erase(tmp.end() - 1);
-		result.push_back(tmp);
-	}
-	for (int i = 0; i < s.length(); ++i) 
-	{
-		if (prev[cur][i]) 
-		{
-			path.push_back(s.substr(i, cur - i));
-			gen_path(s, prev, i, path, result);
-			path.pop_back();
-		}
-	}
-}
+//解法描述：直接递归生成所有的解，但是要注意剪枝
 
 std::vector<std::string> wordBreak2(std::string s, std::unordered_set<std::string>& dict) 
 {
-	// 长度为n 的字符串有n+1 个隔板
-	std::vector<bool> f(s.length() + 1, false);
-	// path[i][j] 为true，表示s[j, i) 是一个合法单词，可以从j 处切开
-	// 第一行未用
-	std::vector<std::vector<bool>> prev(s.length() + 1, std::vector<bool>(s.length()));
-	f[0] = true;
-	for (int i = 1; i <= s.length(); ++i) 
+	std::string result;
+	std::vector<std::string> solutions;
+	int len = s.size();
+	std::vector<bool> possible(len + 1, true); //possible[i]为true表示[i, n - 1]有解
+	GetAllSolution(0, s, dict, len, result, solutions, possible);
+	return solutions;
+}
+
+void GetAllSolution(int start, const std::string& s, const std::unordered_set<std::string>& dict, int len, std::string& result, std::vector<std::string>& solutions, std::vector<bool>& possible)
+{
+	if (start == len)
 	{
-		for (int j = i - 1; j >= 0; --j) 
+		solutions.push_back(result.substr(0, result.size() - 1));//去除最后的空格
+		return;
+	}
+	for (int i = start; i< len; ++i)
+	{
+		std::string piece = s.substr(start, i - start + 1);
+		if (dict.find(piece) != dict.end() && possible[i + 1]) // 必须是剩余区间有解才继续递归
 		{
-			if (f[j] && dict.find(s.substr(j, i - j)) != dict.end()) 
-			{
-				f[i] = true;
-				prev[i][j] = true;
-			}
+			result.append(piece).append(" ");
+			int beforeChange = solutions.size();
+			GetAllSolution(i + 1, s, dict, len, result, solutions, possible);
+			if (solutions.size() == beforeChange) // 判断剩余区间是否有解
+				possible[i + 1] = false;
+			result.resize(result.size() - piece.size() - 1);
 		}
 	}
-	std::vector<std::string> result;
-	std::vector<std::string> path;
-	gen_path(s, prev, s.length(), path, result);
-	return result;
 }
