@@ -1,24 +1,19 @@
-#include<vector>
-
+#include <vector>
+#include <deque>
 //题目描述：给定一个数组和一个窗口，大小为k，该窗口依次向右移动一步得到一个新的大小为k的窗口，记录每个窗口的最大值
 //解法描述：
 std::vector<int> maxSlidingWindow(std::vector<int>& nums, int k)
 {
-	std::vector<int> result;
-	int max_position = 0, int max = 0;
-	for (int i = 0; i < k; ++i)
+	vector<int> res;
+	deque<int> q;
+	for (int i = 0; i < nums.size(); ++i) 
 	{
-		if (nums[i] > max)
-		{
-			max_position = i;
-			max = nums[i];
-		}
+		if (!q.empty() && q.front() == i - k) q.pop_front();
+		while (!q.empty() && nums[q.back()] < nums[i]) 
+			q.pop_back();
+		q.push_back(i);
+		if (i >= k - 1) 
+			res.push_back(nums[q.front()]);
 	}
-	result.push_back(max);
-
-	int left = 0, right = k - 1;
-	for (int i = k; i < nums.size(); ++i)
-	{
-
-	}
+	return res;
 }
