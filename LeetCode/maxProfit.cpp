@@ -39,7 +39,7 @@ int maxProfitTwo(std::vector<int> &prices)
 //解法描述：两次交易必然在两个区间，所以可以以每个元素进行划分，区间0 - i和(i + 1) - (n - 1)，最后的结果应该
 //         是二者和的最大值。用动态规划dp[i]表示0 - i的最大profit，先扫描一遍得到0到n的最大值，然后从右往左
 //         扫描，保存最大值，求出i到n的最大值，也就是第二个交易的最大值，最后的结果是二者之和
-int maxProfit(std::vector<int>& prices) 
+int maxProfit3(std::vector<int>& prices) 
 {
 	if (prices.size() <= 1)
 		return 0;

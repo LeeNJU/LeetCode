@@ -26,16 +26,6 @@ bool wordBreak(std::string s, std::unordered_set<std::string>& wordDict)
 //题目描述：给定一个字符串和字符串数组，返回该字符串被拆分成字符串数组中的单词
 //解法描述：直接递归生成所有的解，但是要注意剪枝
 
-std::vector<std::string> wordBreak2(std::string s, std::unordered_set<std::string>& dict) 
-{
-	std::string result;
-	std::vector<std::string> solutions;
-	int len = s.size();
-	std::vector<bool> possible(len + 1, true); //possible[i]为true表示[i, n - 1]有解
-	GetAllSolution(0, s, dict, len, result, solutions, possible);
-	return solutions;
-}
-
 void GetAllSolution(int start, const std::string& s, const std::unordered_set<std::string>& dict, int len, std::string& result, std::vector<std::string>& solutions, std::vector<bool>& possible)
 {
 	if (start == len)
@@ -57,3 +47,14 @@ void GetAllSolution(int start, const std::string& s, const std::unordered_set<st
 		}
 	}
 }
+
+std::vector<std::string> wordBreak2(std::string s, std::unordered_set<std::string>& dict) 
+{
+	std::string result;
+	std::vector<std::string> solutions;
+	int len = s.size();
+	std::vector<bool> possible(len + 1, true); //possible[i]为true表示[i, n - 1]有解
+	GetAllSolution(0, s, dict, len, result, solutions, possible);
+	return solutions;
+}
+

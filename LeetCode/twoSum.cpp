@@ -32,7 +32,7 @@ std::vector<int> twoSum(std::vector<int>& numbers, int target)
 
 //version 2
 //数组已排好序，找两个元素，使得它们的和等于target
-std::vector<int> twoSum(std::vector<int> &numbers, int target)
+std::vector<int> twoSum2(std::vector<int> &numbers, int target)
 {
 	std::vector<int> result(2,0);
 	int left = 0, right = numbers.size() - 1;

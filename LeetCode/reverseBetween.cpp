@@ -7,7 +7,7 @@ ListNode* reverseBetween(ListNode* head, int m, int n)
 	ListNode dummy(-1);
 
 	dummy.next = head;
-	ListNode *prev_m, *prev = &dummy; //prev_m指向第m个节点的前一个节点，prev指向第m个节点，head指向第m个节点下一个节点
+	ListNode *prev_m = nullptr, *prev = &dummy; //prev_m指向第m个节点的前一个节点，prev指向第m个节点，head指向第m个节点下一个节点
 	for (int i = 1; i <= n; ++i) 
 	{
 		if (i == m) 
