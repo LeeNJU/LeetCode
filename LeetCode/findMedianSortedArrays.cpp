@@ -1,16 +1,8 @@
 #include<algorithm>
 //题目描述：给定两个已序数组，找到这两个数组的中位数，要求时间复杂度为O(log(m+n))
 //解法描述：转换为找到第K小的元素问题，k为两个数组的中位数，用两个指针分别指向两个数组的第k/2个元素（要判断数组是否有这么长），
-double findMedianSortedArrays(int A [], int m, int B [], int n)
-{
-	const int total = m + n;
-	if (total % 2)//奇数
-		return find_kth(A, m, B, n, total / 2 + 1);
-	else//偶数
-		return (find_kth(A, m, B, n, total / 2) + find_kth(A, m, B, n, total / 2 + 1)) / 2;
-}
 
-double find_kth(int A [], int m, int B [], int n, int k)
+double find_kth(int A[], int m, int B[], int n, int k)
 {
 	if (m > n)//总是假设m小于n，如果大于，把数组A和B调换
 		return find_kth(B, n, A, m, k);
@@ -27,3 +19,13 @@ double find_kth(int A [], int m, int B [], int n, int k)
 	else//相等，表示这就是第k小的元素，因为pa+pb等于k
 		return A[pa - 1];
 }
+
+double findMedianSortedArrays(int A [], int m, int B [], int n)
+{
+	const int total = m + n;
+	if (total % 2)//奇数
+		return find_kth(A, m, B, n, total / 2 + 1);
+	else//偶数
+		return (find_kth(A, m, B, n, total / 2) + find_kth(A, m, B, n, total / 2 + 1)) / 2;
+}
+

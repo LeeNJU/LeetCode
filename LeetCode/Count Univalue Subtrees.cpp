@@ -4,16 +4,10 @@
 //            1    5
 //          5   5    5
 //解法描述:递归，关键是判断子树是不是uni-value subtres
-int countUnivalSubtrees(TreeNode* root) 
-{
-	int count = 0;
-	countUnivalSubtreesRecursive(root, count);
-	return count;
-}
 
 bool countUnivalSubtreesRecursive(TreeNode* root, int& count)
 {
-	if (root == nullptr) 
+	if (root == nullptr)
 		return true;
 
 	bool isLeftUnival = countUnivalSubtreesRecursive(root->left, count);
@@ -28,3 +22,11 @@ bool countUnivalSubtreesRecursive(TreeNode* root, int& count)
 	}
 	return false;
 }
+
+int countUnivalSubtrees(TreeNode* root) 
+{
+	int count = 0;
+	countUnivalSubtreesRecursive(root, count);
+	return count;
+}
+

@@ -103,7 +103,7 @@ public:
 	{
 		return children;
 	}
-	TrieNode* setSon(char c, TrieNode* node)
+	void setSon(char c, TrieNode* node)
 	{
 		children[c - 'a'] = node;
 	}

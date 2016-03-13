@@ -17,4 +17,5 @@ std::vector<std::string> findItinerary(std::vector<std::pair<std::string, std::s
 	{
 
 	}
+	return std::vector<std::string>();
 }

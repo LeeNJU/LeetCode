@@ -34,7 +34,7 @@ int calculate(std::string s)
 //解法描述：用一个stack保存数字，另一个stack保存操作符。当得到一个数字并且符号栈的栈顶元素是乘号或者除号的时候，进行
 //         乘除操作，直到符号栈顶元素不是乘除号为止，把计算结果压入数字栈中。这样循环结束时，符号栈中就只包含加减号。
 //         然后对栈里的元素进行求值。另一个技巧是把减号当成负号，这样栈里就只剩加号，进行累加就可以了
-int calculate(std::string s)
+int calculate2(std::string s)
 {
 	std::stack<int> num;
 	std::stack<char> op;

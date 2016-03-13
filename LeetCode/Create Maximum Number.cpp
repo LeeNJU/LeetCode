@@ -29,14 +29,5 @@ std::vector<int> maxNumber(std::vector<int>& nums1, std::vector<int>& nums2, int
 		}
 	}
 
-	for (int i = 0; i < nums1.size(); ++i)
-	{
-		for (int j = 0; j < nums2.size(); ++j)
-		{
-			for (int m = 1; m <= k; ++m)
-			{
-				dp[i + 1][j + 1][m] = std::max()
-			}
-		}
-	}
+	return std::vector<int>();
 }

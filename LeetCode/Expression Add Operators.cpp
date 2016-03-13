@@ -1,7 +1,7 @@
 #include<vector>
 #include<string>
 
-int dfs(std::vector<std::string>& result, std::string t,const std::string& num, int index, int target)
+void dfs(std::vector<std::string>& result, std::string t,const std::string& num, int index, int target)
 {
 	if (index == num.size() - 1)
 	{

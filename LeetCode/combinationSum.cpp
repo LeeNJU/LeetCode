@@ -4,15 +4,6 @@
 //         {2,3,6,7}中找和为7的组合，答案为{7}，{2,2,3}
 //解法：先对数组排序，再递归求解
 
-std::vector<std::vector<int> > combinationSum(std::vector<int> &candidates, int target)
-{
-	sort(candidates.begin(), candidates.end());//先进行排序
-	std::vector<std::vector<int>> result;
-	std::vector<int> intermediate;
-	dfs(result, intermediate, candidates, 0, target);
-	return result;
-}
-
 void dfs(std::vector<std::vector<int>>& result, std::vector<int>& intermediate, std::vector<int> num, int index, int target)//index为开始的下标，target为寻找的值，该值逐渐减少
 {
 	if (target == 0)//target为0，表示已经找到一个合适的值
@@ -27,5 +18,15 @@ void dfs(std::vector<std::vector<int>>& result, std::vector<int>& intermediate, 
 		intermediate.push_back(num[i]);
 		dfs(result, intermediate, num, i, target - num[i]);//递归调用，其中target要减去当前元素的值
 		intermediate.pop_back();//弹出最后一个元素，表示之前选中的元素经过上一步的递归没有找到解
-	}	
+	}
 }
+
+std::vector<std::vector<int> > combinationSum(std::vector<int> &candidates, int target)
+{
+	sort(candidates.begin(), candidates.end());//先进行排序
+	std::vector<std::vector<int>> result;
+	std::vector<int> intermediate;
+	dfs(result, intermediate, candidates, 0, target);
+	return result;
+}
+

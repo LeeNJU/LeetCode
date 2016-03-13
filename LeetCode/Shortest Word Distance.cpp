@@ -19,6 +19,7 @@ int shortestDistance(std::vector<std::string>& words, std::string word1, std::st
 		if (index1 != -1 && index2 != -1)
 			min_distance = std::min(abs(index1 - index2), min_distance);
 	}
+	return min_distance;
 }
 
 //version2
