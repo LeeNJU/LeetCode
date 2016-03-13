@@ -113,6 +113,7 @@
     <ClCompile Include="Interval Sum.cpp" />
     <ClCompile Include="Is Sparse.cpp" />
     <ClCompile Include="k Sum II.cpp" />
+    <ClCompile Include="K Sum.cpp" />
     <ClCompile Include="Kth Smallest Element in a BST.cpp" />
     <ClCompile Include="Kth Smallest Number in Sorted Matrix.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
