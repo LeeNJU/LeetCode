@@ -81,9 +81,9 @@ int strobogrammaticInRange(const std::vector<std::pair<char, char>>& nums, const
 	return count;
 }
 
-int strobogrammaticInRange(std::string low, std::string high) 
+int strobogrammaticInRange(std::string low, std::string high)
 {
-	if (!compare(low, high)) 
+	if (!compare(low, high))
 		return 0;
 
 	std::vector<std::pair<char, char>> nums = { { '0', '0' }, { '1', '1' }, { '6', '9' }, { '8', '8' }, { '9', '6' } };
@@ -94,3 +94,4 @@ int strobogrammaticInRange(std::string low, std::string high)
 	count = strobogrammaticInRange(nums, low, high, "8", count);
 
 	return count;
+}

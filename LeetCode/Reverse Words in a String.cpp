@@ -32,7 +32,7 @@ void reverse(std::string& s, int left, int right)
 		std::swap(s[left++], s[right--]);
 }
 
-void reverseWords(std::string& s) 
+void reverseWords2(std::string& s) 
 {
 	reverse(s, 0, s.size() - 1);//反转整个字符串
 

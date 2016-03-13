@@ -24,7 +24,7 @@ bool isSameLen(std::string s, std::string t)//长度相等，最多有一个不同的字符
 }
 bool isOneEditDistance(std::string s, std::string t)
 {
-	if (std::abs(s.length - t.length) > 1) //长度差超过1
+	if (std::abs(static_cast<int>(s.size()) - static_cast<int>(t.size())) > 1) //长度差超过1
 		return false;
 	if (s.size() == t.size()) //长度相等，最多有一个不同的字符
 		return isSameLen(s, t);

@@ -1,6 +1,7 @@
-#include <vector>
-#include <algorithm>
-#include <limits.h>
+#include<vector>
+#include<algorithm>
+#include<limits.h>
+#include<numeric>
 
 int copyBooks(std::vector<int>& pages, int k) 
 {
