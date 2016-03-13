@@ -930,6 +930,9 @@
     <ClCompile Include="Kth Smallest Number in Sorted Matrix.cpp">
       <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
+    <ClCompile Include="Copy Books.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
