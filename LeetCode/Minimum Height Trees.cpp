@@ -1,6 +1,6 @@
 #include<vector>
 #include<queue>
-//题目描述:给定一个值n和一些边，以每一个节点都可以形成一个数，要求找到所有的点，使得以这些点为根节点的树的高度最小。
+//题目描述:给定一个值n和一些边，以每一个节点都可以形成一棵树，要求找到所有的点，使得以这些点为根节点的树的高度最小。
 //解法描述:类似于拓扑排序，先删除叶子节点，入度减1，继续删除叶子节点，直到节点的个数小于等于2
 
 std::vector<int> findMinHeightTrees(int n, std::vector<std::pair<int, int>>& edges)
