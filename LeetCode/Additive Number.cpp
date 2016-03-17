@@ -7,9 +7,9 @@ bool isAdditiveNumber(std::string num)
 		return false;
 
 	std::vector<bool> dp(num.size(), false);
-	for (int i = 0; i < num.size() - 2; ++i)
+	for (int i = 2; i < num.size(); ++i)
 	{
-		for (int j = i + 1; j < num.size() - 1; ++j)
+		for (int j = i - 1; j > 0; --j)
 		{
 			int num1 = stoi(num.substr(0, i + 1));
 			int num2 = stoi(num.substr(i + 1, j - i));
