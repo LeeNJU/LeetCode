@@ -209,6 +209,7 @@
     <ClCompile Include="plusOne.cpp" />
     <ClCompile Include="postorderTraversal.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />
+    <ClCompile Include="Power of Four.cpp" />
     <ClCompile Include="Power of Three.cpp" />
     <ClCompile Include="Power of Two.cpp" />
     <ClCompile Include="preorderTraversal.cpp" />
