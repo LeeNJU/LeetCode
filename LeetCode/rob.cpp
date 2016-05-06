@@ -43,24 +43,21 @@ int rob2(std::vector<int>& nums)
 
 //变种3:
 //房子被组织成二叉树的形式，父子节点不能同时被抢，求能抢到的最大值
-
-int dfs(TreeNode* root, bool rob)
+//
+std::pair<int, int> dfs(TreeNode* root)
 {
-	if (root == nullptr)
-		return 0;
-
-	if (rob)
+	std::pair<int, int> dp = std::make_pair<int, int>(0, 0);
+	if(root)
 	{
-		int sum = std::max(dfs(root->left, true), dfs(root->right, true));
-		return std::max(sum, root->val + std::max(dfs(root->left, false), dfs(root->right, false)));
+		std::pair<int,int> left = dfs(root->left);
+		std::pair<int, int> right = dfs(root->right);
+		dp.second = left.first + right.first;
+		dp.first = std::max(dp.second, root->val + left.second + right.second);
 	}
-	else
-	{
-		return std::max(dfs(root->left, false), dfs(root->right, false));
-	}
+	return dp;
 }
 
 int rob(TreeNode* root) 
 {
-	return dfs(root, true);
+	return dfs(root).first;
 }
