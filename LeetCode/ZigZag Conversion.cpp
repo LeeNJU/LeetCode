@@ -1,6 +1,5 @@
 #include<vector>
 #include<string>
-
 //题目描述：给定一个字符串s，把它转换成zigzag的格式，然后每一行从左往右读，形成一个新的字符串
 //解法描述：找到数学规律，垂直元素的坐标(i; j) = (j + 1) * n + i，斜对角元素(i; j) = (j + 1) * n + i
 std::string convert(std::string s, int numRows)
