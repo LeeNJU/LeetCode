@@ -207,6 +207,7 @@
     <ClCompile Include="pathSum.cpp" />
     <ClCompile Include="Permutations II.cpp" />
     <ClCompile Include="Permutations.cpp" />
+    <ClCompile Include="Plus One Linked List.cpp" />
     <ClCompile Include="plusOne.cpp" />
     <ClCompile Include="postorderTraversal.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />
