@@ -939,6 +939,9 @@
     <ClCompile Include="Power of Four.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
+    <ClCompile Include="Find K Pairs with Smallest Sums.cpp">
+      <Filter>Source Files\Stack and Heap</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
