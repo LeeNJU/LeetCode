@@ -104,6 +104,7 @@
     <ClCompile Include="getIntersectionNode.cpp" />
     <ClCompile Include="Graph Valid Tree.cpp" />
     <ClCompile Include="Group Shifted Strings.cpp" />
+    <ClCompile Include="Guess Number Higher or Lower.cpp" />
     <ClCompile Include="H-Index.cpp" />
     <ClCompile Include="Implement Queue using Stacks.cpp" />
     <ClCompile Include="Implement Trie (Prefix Tree).cpp" />
