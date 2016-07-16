@@ -67,6 +67,9 @@
     <Filter Include="Source Files\Stack and Heap">
       <UniqueIdentifier>{57d04a17-aeaf-455e-926b-2a639cb319f9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Design">
+      <UniqueIdentifier>{879ae4ce-ac0c-4357-a07e-f0c0cf7cfa00}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="swapPairs.cpp">
@@ -947,6 +950,9 @@
     </ClCompile>
     <ClCompile Include="Guess Number Higher or Lower.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Design Hit Counter.cpp">
+      <Filter>Source Files\Design</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

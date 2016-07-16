@@ -70,6 +70,7 @@
     <ClCompile Include="Create Maximum Number.cpp" />
     <ClCompile Include="Decode Ways.cpp" />
     <ClCompile Include="deleteDuplicates.cpp" />
+    <ClCompile Include="Design Hit Counter.cpp" />
     <ClCompile Include="detectCycle.cpp" />
     <ClCompile Include="Different Ways to Add Parentheses.cpp" />
     <ClCompile Include="Distinct Subsequences.cpp" />
