@@ -954,6 +954,9 @@
     <ClCompile Include="Design Hit Counter.cpp">
       <Filter>Source Files\Design</Filter>
     </ClCompile>
+    <ClCompile Include="Logger Rate Limiter.cpp">
+      <Filter>Source Files\Design</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
