@@ -120,6 +120,7 @@
     <ClCompile Include="Kth Smallest Element in a BST.cpp" />
     <ClCompile Include="Kth Smallest Number in Sorted Matrix.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
+    <ClCompile Include="Line Reflection.cpp" />
     <ClCompile Include="Logger Rate Limiter.cpp" />
     <ClCompile Include="Longest Increasing Path in a Matrix.cpp" />
     <ClCompile Include="Longest Increasing Subsequence.cpp" />
