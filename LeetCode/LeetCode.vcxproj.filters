@@ -966,6 +966,9 @@
     <ClCompile Include="Shape Factory.cpp">
       <Filter>Source Files\Design</Filter>
     </ClCompile>
+    <ClCompile Include="Find Leaves of Binary Tree.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
