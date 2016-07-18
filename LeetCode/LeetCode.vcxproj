@@ -142,6 +142,7 @@
     <ClCompile Include="Missing Number.cpp" />
     <ClCompile Include="Missing Ranges.cpp" />
     <ClCompile Include="Move Zeroes.cpp" />
+    <ClCompile Include="Nested List Weight Sum.cpp" />
     <ClCompile Include="Nim Game.cpp" />
     <ClCompile Include="Number of Connected Components in an Undirected Graph.cpp" />
     <ClCompile Include="Number of Islands.cpp" />

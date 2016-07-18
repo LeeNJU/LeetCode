@@ -125,3 +125,11 @@ public:
 		return result;
 	}
 };
+
+class NestedInteger
+{
+public:
+	bool isInteger();
+	int getInteger();
+	std::vector<NestedInteger> getList();
+};
