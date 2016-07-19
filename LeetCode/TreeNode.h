@@ -126,10 +126,10 @@ public:
 	}
 };
 
-class NestedInteger
+class NestedInteger 
 {
 public:
-	bool isInteger();
-	int getInteger();
-	std::vector<NestedInteger> getList();
+	bool isInteger() const;
+	int getInteger() const;
+	const std::vector<NestedInteger> &getList() const;
 };

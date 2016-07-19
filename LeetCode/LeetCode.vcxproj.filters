@@ -981,6 +981,9 @@
     <ClCompile Include="Moving Average from Data Stream.cpp">
       <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
+    <ClCompile Include="Flatten Nested List Iterator.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
