@@ -251,6 +251,7 @@
     <ClCompile Include="rotate.cpp" />
     <ClCompile Include="rotateArray.cpp" />
     <ClCompile Include="rotateRight.cpp" />
+    <ClCompile Include="Russian Doll Envelopes.cpp" />
     <ClCompile Include="search.cpp" />
     <ClCompile Include="searchInsert.cpp" />
     <ClCompile Include="searchMatrix.cpp" />
