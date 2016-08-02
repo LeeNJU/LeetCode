@@ -7,8 +7,16 @@
 int dfs(std::vector<NestedInteger>& nestedList, int depth) 
 {
 	int sum = 0;
-	for (auto  element : nestedList) 
-		sum += element.isInteger() ? element.getInteger() * depth : dfs(element.getList(), depth + 1);
+	for (auto element : nestedList)
+	{
+		if (element.isInteger())
+			sum += element.getInteger() * depth;
+		else
+		{
+			std::vector<NestedInteger> t = element.getList();
+			sum += dfs(t, depth + 1);
+		}
+	}
 	return sum;
 }
 

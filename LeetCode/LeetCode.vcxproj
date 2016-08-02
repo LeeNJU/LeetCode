@@ -121,6 +121,7 @@
     <ClCompile Include="k Sum II.cpp" />
     <ClCompile Include="K Sum.cpp" />
     <ClCompile Include="Kth Smallest Element in a BST.cpp" />
+    <ClCompile Include="Kth Smallest Element in a Sorted Matrix.cpp" />
     <ClCompile Include="Kth Smallest Number in Sorted Matrix.cpp" />
     <ClCompile Include="Largest BST Subtree.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />

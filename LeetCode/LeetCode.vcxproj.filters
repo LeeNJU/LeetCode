@@ -987,6 +987,9 @@
     <ClCompile Include="Russian Doll Envelopes.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
+    <ClCompile Include="Kth Smallest Element in a Sorted Matrix.cpp">
+      <Filter>Source Files\Stack and Heap</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
