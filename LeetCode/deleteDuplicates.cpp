@@ -3,11 +3,13 @@
 //题目描述：给定一个已序链表，删除其中的重复元素，使得每个元素只出现一次
 //解法描述：两个指针prev和cur，当prev和cur的元素相等的时候，prev指向cur的下一个元素
 
-ListNode *deleteDuplicates(ListNode *head) {
+ListNode *deleteDuplicates(ListNode *head) 
+{
 	if (head == nullptr)
 		return nullptr;
 
-	for (ListNode *prev = head, *cur = head->next; cur; cur = cur->next) {
+	for (ListNode *prev = head, *cur = head->next; cur; cur = cur->next) 
+	{
 		if (prev->val == cur->val) 
 		{
 			prev->next = cur->next;
