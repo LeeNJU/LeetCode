@@ -43,6 +43,7 @@
     <ClCompile Include="Closest Binary Search Tree Value.cpp" />
     <ClCompile Include="Coin Change.cpp" />
     <ClCompile Include="Coins in a Line.cpp" />
+    <ClCompile Include="Combination Sum IV.cpp" />
     <ClCompile Include="combinationSum.cpp" />
     <ClCompile Include="combinationSum2.cpp" />
     <ClCompile Include="combinationSum3.cpp" />
