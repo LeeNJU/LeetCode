@@ -996,6 +996,9 @@
     <ClCompile Include="Shuffle an Array.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="Insert Delete GetRandom O(1).cpp">
+      <Filter>Source Files\Design</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
