@@ -266,6 +266,7 @@
     <ClCompile Include="Shape Factory.cpp" />
     <ClCompile Include="Shortest Distance from All Buildings.cpp" />
     <ClCompile Include="Shortest Word Distance.cpp" />
+    <ClCompile Include="Shuffle an Array.cpp" />
     <ClCompile Include="Simplify Path.cpp" />
     <ClCompile Include="Single Number II.cpp" />
     <ClCompile Include="Single Number III.cpp" />

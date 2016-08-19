@@ -993,6 +993,9 @@
     <ClCompile Include="Combination Sum IV.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
+    <ClCompile Include="Shuffle an Array.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
