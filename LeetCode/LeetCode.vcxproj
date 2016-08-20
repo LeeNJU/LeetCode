@@ -19,6 +19,7 @@
     <ClCompile Include="addTwoNumbers.cpp" />
     <ClCompile Include="Alien Dictionary.cpp" />
     <ClCompile Include="anagrams.cpp" />
+    <ClCompile Include="Android Unlock Patterns.cpp" />
     <ClCompile Include="atoi.cpp" />
     <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="Basic Calculator.cpp" />
