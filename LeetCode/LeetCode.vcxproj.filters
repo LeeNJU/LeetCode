@@ -1002,6 +1002,9 @@
     <ClCompile Include="Insert Delete GetRandom O(1) - Duplicates allowed.cpp">
       <Filter>Source Files\Design</Filter>
     </ClCompile>
+    <ClCompile Include="Design Tic-Tac-Toe.cpp">
+      <Filter>Source Files\Design</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
