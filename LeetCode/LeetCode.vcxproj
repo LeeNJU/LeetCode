@@ -96,6 +96,7 @@
     <ClCompile Include="findSubstring.cpp" />
     <ClCompile Include="First Bad Version.cpp" />
     <ClCompile Include="First Missing Positive.cpp" />
+    <ClCompile Include="Flatten 2D Vector.cpp" />
     <ClCompile Include="Flatten Nested List Iterator.cpp" />
     <ClCompile Include="flatten.cpp" />
     <ClCompile Include="Flip Game.cpp" />
