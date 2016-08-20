@@ -21,3 +21,30 @@ bool canAttendMeetings(std::vector<Interval>& intervals)
 	}
 	return true;
 }
+
+//version2
+//题目描述:给定一组开会的开始和结束时间，最少需要几个会议室
+//解法描述:把不重叠的会议安排在同一个会议室，先按照开始时间排序，对每一个interval，遍历之前的internval，看是否
+//        重复，没有重复，就放到相应的rooms数组的index，有重复，就加入room
+int findNonOverlapping(std::vector<Interval>& rooms, Interval& interval) 
+{ //遍历room中的internval，找到没有重合的interval，如果没有，就返回-1
+	for (int i = 0; i < rooms.size(); ++i)
+		if (interval.start >= rooms[i].end)
+		    return i;
+	return -1;
+}
+
+int minMeetingRooms(std::vector<Interval>& intervals) 
+{
+	sort(intervals.begin(), intervals.end(), compare);
+	std::vector<Interval> rooms;
+	for (int i = 0; i < intervals.size(); ++i) 
+	{
+		int idx = findNonOverlapping(rooms, intervals[i]);
+		if (rooms.empty() || idx == -1)
+			rooms.push_back(intervals[i]);
+		else 
+			rooms[idx] = intervals[i];
+	}
+	return rooms.size();
+}

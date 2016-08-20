@@ -70,6 +70,9 @@
     <Filter Include="Source Files\Design">
       <UniqueIdentifier>{879ae4ce-ac0c-4357-a07e-f0c0cf7cfa00}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Hash Table">
+      <UniqueIdentifier>{93b8e298-3b75-4d59-85b1-543af580209a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="swapPairs.cpp">
@@ -741,9 +744,6 @@
     <ClCompile Include="A + B Problem.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
-    <ClCompile Include="Unique Word Abbreviation.cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="Wiggle Sort.cpp">
       <Filter>Source Files\Sort</Filter>
     </ClCompile>
@@ -1004,6 +1004,9 @@
     </ClCompile>
     <ClCompile Include="Design Tic-Tac-Toe.cpp">
       <Filter>Source Files\Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Unique Word Abbreviation.cpp">
+      <Filter>Source Files\Hash Table</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
