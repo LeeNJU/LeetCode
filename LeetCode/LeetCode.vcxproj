@@ -67,6 +67,7 @@
     <ClCompile Include="Count Primes.cpp" />
     <ClCompile Include="Count Univalue Subtrees.cpp" />
     <ClCompile Include="countAndSay.cpp" />
+    <ClCompile Include="Counting Bits.cpp" />
     <ClCompile Include="Course Schedule II.cpp" />
     <ClCompile Include="Course Schedule.cpp" />
     <ClCompile Include="Create Maximum Number.cpp" />
