@@ -135,6 +135,7 @@
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
     <ClCompile Include="Line Reflection.cpp" />
     <ClCompile Include="Logger Rate Limiter.cpp" />
+    <ClCompile Include="Longest Increasing Continuous Subsequence.cpp" />
     <ClCompile Include="Longest Increasing Path in a Matrix.cpp" />
     <ClCompile Include="Longest Increasing Subsequence.cpp" />
     <ClCompile Include="Longest Substring with At Most K Distinct Characters.cpp" />

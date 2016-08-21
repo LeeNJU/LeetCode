@@ -42,7 +42,7 @@ std::vector<int> twoSum2(std::vector<int> &numbers, int target)
 		{
 			result[0] = left + 1;
 			result[1] = right + 1;
-			return result;
+			break;
 		}
 		else if (numbers[left] + numbers[right] < target)
 			++left;
