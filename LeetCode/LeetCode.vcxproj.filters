@@ -219,9 +219,6 @@
     <ClCompile Include="lengthOfLongestSubstring.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="maxProfit.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="maxArea.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -648,9 +645,6 @@
     <ClCompile Include="Game of Life.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="Additive Number.cpp">
-      <Filter>Source Files\Dynamic Programming</Filter>
-    </ClCompile>
     <ClCompile Include="Minimum Subarray.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
@@ -1016,6 +1010,15 @@
     </ClCompile>
     <ClCompile Include="Android Unlock Patterns.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Additive Number.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Best Time to Buy and Sell Stock.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Largest Divisible Subset.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
