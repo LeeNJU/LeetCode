@@ -7,7 +7,7 @@
 //        返回结果为[[4,5,3], [2],[1]]
 //解法描述:递归找到叶子节点，然后设为nullptr
 
-TreeNode* remove(TreeNode *node, std::vector<int>& leaves) 
+TreeNode* remove(TreeNode *node, std::vector<int>& leaves) //每次调用就删除叶子节点，返回剩余的树
 {
 	if (!node) 
 		return nullptr;
