@@ -248,6 +248,7 @@
     <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="removeElements.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
+    <ClCompile Include="Reorder array to construct the minimum numbere.cpp" />
     <ClCompile Include="reorderList.cpp" />
     <ClCompile Include="Repeated DNA Sequences.cpp" />
     <ClCompile Include="restoreIpAddresses.cpp" />

@@ -1026,6 +1026,9 @@
     <ClCompile Include="Longest Increasing Continuous Subsequence.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="Reorder array to construct the minimum numbere.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
