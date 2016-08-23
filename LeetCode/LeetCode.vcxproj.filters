@@ -171,9 +171,6 @@
     <ClCompile Include="search.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
-    <ClCompile Include="canCompleteCircuit.cpp">
-      <Filter>Source Files\Array\Greedy</Filter>
-    </ClCompile>
     <ClCompile Include="candy.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
@@ -1028,6 +1025,9 @@
     </ClCompile>
     <ClCompile Include="Reorder array to construct the minimum numbere.cpp">
       <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Gas Station.cpp">
+      <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
