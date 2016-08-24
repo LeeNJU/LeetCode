@@ -609,9 +609,6 @@
     <ClCompile Include="Maximal Rectangle.cpp">
       <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
-    <ClCompile Include="Serialize and Deserialize Binary Tree.cpp">
-      <Filter>Source Files\Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Coin Change.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
@@ -1034,6 +1031,9 @@
     </ClCompile>
     <ClCompile Include="Patching Array.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Serialize and Deserialize Binary Tree.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
