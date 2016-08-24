@@ -50,7 +50,7 @@
     <ClCompile Include="Combination Sum III.cpp" />
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="compareVersion.cpp" />
-    <ClCompile Include="connect.cpp" />
+    <ClCompile Include="Populating Next Right Pointers in Each Node.cpp" />
     <ClCompile Include="Contains Duplicate III.cpp" />
     <ClCompile Include="containsDuplicate.cpp" />
     <ClCompile Include="containsNearbyDuplicate.cpp" />
@@ -265,8 +265,8 @@
     <ClCompile Include="rotateRight.cpp" />
     <ClCompile Include="Russian Doll Envelopes.cpp" />
     <ClCompile Include="search.cpp" />
-    <ClCompile Include="searchInsert.cpp" />
-    <ClCompile Include="searchMatrix.cpp" />
+    <ClCompile Include="Search Insert Position.cpp" />
+    <ClCompile Include="Search a 2D Matrix.cpp" />
     <ClCompile Include="searchRange.cpp" />
     <ClCompile Include="Segment Tree Build.cpp" />
     <ClCompile Include="Segment Tree Modify.cpp" />

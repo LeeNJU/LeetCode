@@ -138,9 +138,6 @@
     <ClCompile Include="singleNumber.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
-    <ClCompile Include="searchMatrix.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="removeElement.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -552,9 +549,6 @@
     <ClCompile Include="findMin.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
-    <ClCompile Include="searchInsert.cpp">
-      <Filter>Source Files\Array\Binary Search</Filter>
-    </ClCompile>
     <ClCompile Include="searchRange.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
@@ -751,9 +745,6 @@
       <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
     <ClCompile Include="buildTreeFromPreorderAndInorder.cpp">
-      <Filter>Source Files\Tree\Binary Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="connect.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
     <ClCompile Include="Convert Binary Search Tree to Doubly Linked List.cpp">
@@ -1028,6 +1019,15 @@
     </ClCompile>
     <ClCompile Include="House Robber.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Search Insert Position.cpp">
+      <Filter>Source Files\Array\Binary Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Populating Next Right Pointers in Each Node.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Search a 2D Matrix.cpp">
+      <Filter>Source Files\Array</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
