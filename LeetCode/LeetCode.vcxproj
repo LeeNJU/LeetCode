@@ -50,6 +50,7 @@
     <ClCompile Include="Combination Sum III.cpp" />
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="compareVersion.cpp" />
+    <ClCompile Include="Patching Array.cpp" />
     <ClCompile Include="Peeking Iterator.cpp" />
     <ClCompile Include="Populating Next Right Pointers in Each Node.cpp" />
     <ClCompile Include="Contains Duplicate III.cpp" />

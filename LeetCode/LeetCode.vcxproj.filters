@@ -1032,6 +1032,9 @@
     <ClCompile Include="Peeking Iterator.cpp">
       <Filter>Source Files\Design</Filter>
     </ClCompile>
+    <ClCompile Include="Patching Array.cpp">
+      <Filter>Source Files\Array\Greedy</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
