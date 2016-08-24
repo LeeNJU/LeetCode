@@ -384,9 +384,6 @@
     <ClCompile Include="LRU Cache.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
-    <ClCompile Include="sortColors.cpp">
-      <Filter>Source Files\Sort</Filter>
-    </ClCompile>
     <ClCompile Include="Sort List.cpp">
       <Filter>Source Files\Sort</Filter>
     </ClCompile>
@@ -1028,6 +1025,12 @@
     </ClCompile>
     <ClCompile Include="Search a 2D Matrix.cpp">
       <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort Colors.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Peeking Iterator.cpp">
+      <Filter>Source Files\Design</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

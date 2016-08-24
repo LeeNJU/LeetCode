@@ -50,6 +50,7 @@
     <ClCompile Include="Combination Sum III.cpp" />
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="compareVersion.cpp" />
+    <ClCompile Include="Peeking Iterator.cpp" />
     <ClCompile Include="Populating Next Right Pointers in Each Node.cpp" />
     <ClCompile Include="Contains Duplicate III.cpp" />
     <ClCompile Include="containsDuplicate.cpp" />
@@ -285,7 +286,7 @@
     <ClCompile Include="Smallest Character.cpp" />
     <ClCompile Include="Smallest Rectangle Enclosing Black Pixels.cpp" />
     <ClCompile Include="Sort List.cpp" />
-    <ClCompile Include="sortColors.cpp" />
+    <ClCompile Include="Sort Colors.cpp" />
     <ClCompile Include="sortedArrayToBST.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
     <ClCompile Include="Generalized Abbreviation.cpp" />
