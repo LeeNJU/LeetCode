@@ -18,7 +18,8 @@ int rob(std::vector<int>& nums)
 }
 
 //变种2：假设房子的排列是首尾相连的，即第一个房子和最后一个房子是相邻的，不能同时抢劫
-//解法描述：由于第一家和最后一家不能同时抢，那就分别把第一家和最后一家去掉，分别算出能够抢的最大值，然后二者去最大
+//解法描述:由于第一家和最后一家不能同时抢，那就分别把第一家和最后一家去掉，分别算出能够抢的最大值，然后二者
+//        取最大
 int rob(std::vector<int> &nums, int left, int right)
 {
 	if (right - left <= 1) 
@@ -43,21 +44,24 @@ int rob2(std::vector<int>& nums)
 
 //变种3:
 //房子被组织成二叉树的形式，父子节点不能同时被抢，求能抢到的最大值
-//
+//解法描述:递归，用一个pair表示值，pair.first表示不包含当前节点的最大值，pair.second表示包含当前节点的最大值
+//        
 std::pair<int, int> dfs(TreeNode* root)
 {
 	std::pair<int, int> dp = std::make_pair<int, int>(0, 0);
-	if(root)
-	{
-		std::pair<int,int> left = dfs(root->left);
-		std::pair<int, int> right = dfs(root->right);
-		dp.second = left.first + right.first;
-		dp.first = std::max(dp.second, root->val + left.second + right.second);
-	}
+	if (!root)
+		return dp;
+
+	std::pair<int,int> left = dfs(root->left);
+	std::pair<int, int> right = dfs(root->right);
+	dp.first = std::max(left.first, left.second) + std::max(right.first, right.second);
+	dp.second = left.first + right.first + root->val;
+	
 	return dp;
 }
 
 int rob(TreeNode* root) 
 {
-	return dfs(root).first;
+	std::pair<int, int> result = dfs(root);
+	return std::max(result[0], result[1]);
 }

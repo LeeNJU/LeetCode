@@ -15,8 +15,8 @@ int threeSumSmaller(std::vector<int>& nums, int target)
 				--right;
 			else 
 			{
+				count += (right - left);//注意这里，找到一个解之后，如果继续减小right，依然是一个解
 				++left;
-				++count;
 			}
 		}
 	}
