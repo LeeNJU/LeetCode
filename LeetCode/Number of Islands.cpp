@@ -53,8 +53,8 @@ int numIslands(std::vector<std::vector<char>>& grid)
 
 
 //version2:
-//题目描述:给定一个二维数组，全是0，表示水，再给一组操作，表示把(x,y)的值设为1，变成island，现在要求出每一个操作之后有
-//        多少个island
+//题目描述:给定一个二维数组，全是0，表示水，再给一组操作，表示把(x,y)的值设为1，变成island，现在要求出每一个
+//        操作之后有多少个island
 //解法描述:用并查集，路径压缩，关键是把二维坐标映射成一维
 
 int root(std::unordered_map<int, int>& map, int value)

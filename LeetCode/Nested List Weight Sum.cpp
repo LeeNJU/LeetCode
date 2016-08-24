@@ -24,3 +24,8 @@ int depthSum(std::vector<NestedInteger>& nestedList)
 {
 	return dfs(nestedList, 1);
 }
+
+
+//题目描述:权重反过来，最里面的元素权重为1，例如[[1,1],3,[1,1]]，1的权重是1,3的权重是2，所以和应该是2 * 3 + 
+//        1 * 1 * 4 = 10
+//解法描述:可以先求深度，然后用类似上一题的方法求解

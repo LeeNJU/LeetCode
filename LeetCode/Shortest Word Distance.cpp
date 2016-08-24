@@ -46,9 +46,9 @@ public:
 		{
 			dist = std::min(dist, abs(indexes1[i] - indexes2[j]));
 			if (indexes1[i] < indexes2[j]) 
-				i++;
+				++i;
 			else 
-				j++;
+				++j;
 		}
 		return dist;
 	}
