@@ -45,9 +45,9 @@
     <ClCompile Include="Coin Change.cpp" />
     <ClCompile Include="Coins in a Line.cpp" />
     <ClCompile Include="Combination Sum IV.cpp" />
-    <ClCompile Include="combinationSum.cpp" />
-    <ClCompile Include="combinationSum2.cpp" />
-    <ClCompile Include="combinationSum3.cpp" />
+    <ClCompile Include="Combination Sum.cpp" />
+    <ClCompile Include="Combination Sum II.cpp" />
+    <ClCompile Include="Combination Sum III.cpp" />
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="compareVersion.cpp" />
     <ClCompile Include="connect.cpp" />
@@ -258,7 +258,7 @@
     <ClCompile Include="reverseBetween.cpp" />
     <ClCompile Include="reverseList.cpp" />
     <ClCompile Include="Reverse Words in a String.cpp" />
-    <ClCompile Include="rob.cpp" />
+    <ClCompile Include="House Robber.cpp" />
     <ClCompile Include="romanToInt.cpp" />
     <ClCompile Include="rotate.cpp" />
     <ClCompile Include="rotateArray.cpp" />

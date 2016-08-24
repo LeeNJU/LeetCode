@@ -282,9 +282,6 @@
     <ClCompile Include="compareVersion.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="rob.cpp">
-      <Filter>Source Files\Dynamic Programming</Filter>
-    </ClCompile>
     <ClCompile Include="nextPermutation.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -419,15 +416,6 @@
     </ClCompile>
     <ClCompile Include="Gray Code.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
-    </ClCompile>
-    <ClCompile Include="combinationSum.cpp">
-      <Filter>Source Files\BackTracking</Filter>
-    </ClCompile>
-    <ClCompile Include="combinationSum2.cpp">
-      <Filter>Source Files\BackTracking</Filter>
-    </ClCompile>
-    <ClCompile Include="combinationSum3.cpp">
-      <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
     <ClCompile Include="Generate Parentheses.cpp">
       <Filter>Source Files\BackTracking</Filter>
@@ -1028,6 +1016,18 @@
     </ClCompile>
     <ClCompile Include="Gas Station.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Combination Sum.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Combination Sum II.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Combination Sum III.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="House Robber.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
