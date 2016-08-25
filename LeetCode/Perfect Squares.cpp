@@ -8,7 +8,7 @@ int numSquares(int n)
 	dp[0] = 1;
 	for (int i = 0; i < n; ++i)
 	{
-		for (int j = 1; i - j * j >= -1; ++j)//注意之类的终止条件
+		for (int j = 1; i - j * j >= -1; ++j)//注意这里的终止条件
 			dp[i] = std::min(dp[i - j * j] + 1, dp[i]);
 	}
 	return dp[n - 1];

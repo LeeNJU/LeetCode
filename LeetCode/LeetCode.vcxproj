@@ -77,7 +77,6 @@
     <ClCompile Include="deleteDuplicates.cpp" />
     <ClCompile Include="Design Hit Counter.cpp" />
     <ClCompile Include="Design Tic-Tac-Toe.cpp" />
-    <ClCompile Include="detectCycle.cpp" />
     <ClCompile Include="Different Ways to Add Parentheses.cpp" />
     <ClCompile Include="Distinct Subsequences.cpp" />
     <ClCompile Include="Divide Two Integers.cpp" />
@@ -96,13 +95,13 @@
     <ClCompile Include="Find the Duplicate Number.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
     <ClCompile Include="Find Minimum in Rotated Sorted Array.cpp" />
-    <ClCompile Include="findPeakElement.cpp" />
+    <ClCompile Include="Find Peak Element.cpp" />
     <ClCompile Include="findSubstring.cpp" />
     <ClCompile Include="First Bad Version.cpp" />
     <ClCompile Include="First Missing Positive.cpp" />
     <ClCompile Include="Flatten 2D Vector.cpp" />
     <ClCompile Include="Flatten Nested List Iterator.cpp" />
-    <ClCompile Include="flatten.cpp" />
+    <ClCompile Include="Flatten Binary Tree to Linked List.cpp" />
     <ClCompile Include="Flip Game.cpp" />
     <ClCompile Include="Flowing Water.cpp" />
     <ClCompile Include="fourSum.cpp" />
@@ -173,7 +172,7 @@
     <ClCompile Include="getRow.cpp" />
     <ClCompile Include="Gray Code.cpp" />
     <ClCompile Include="Number of 1 Bits.cpp" />
-    <ClCompile Include="hasCycle.cpp" />
+    <ClCompile Include="Linked List Cycle.cpp" />
     <ClCompile Include="hasPathSum.cpp" />
     <ClCompile Include="Implement Stack using Queues.cpp" />
     <ClCompile Include="inorderTraversal.cpp" />
@@ -274,7 +273,7 @@
     <ClCompile Include="Segment Tree Modify.cpp" />
     <ClCompile Include="Segment Tree Query.cpp" />
     <ClCompile Include="Serialize and Deserialize Binary Tree.cpp" />
-    <ClCompile Include="setZeroes.cpp" />
+    <ClCompile Include="Set Matrix Zeroes.cpp" />
     <ClCompile Include="Shape Factory.cpp" />
     <ClCompile Include="Shortest Distance from All Buildings.cpp" />
     <ClCompile Include="Shortest Word Distance.cpp" />
@@ -289,7 +288,7 @@
     <ClCompile Include="Sort List.cpp" />
     <ClCompile Include="Sort Colors.cpp" />
     <ClCompile Include="sortedArrayToBST.cpp" />
-    <ClCompile Include="sortedListToBST.cpp" />
+    <ClCompile Include="Convert Sorted List to Binary Search Tree.cpp" />
     <ClCompile Include="Generalized Abbreviation.cpp" />
     <ClCompile Include="sqrt.cpp" />
     <ClCompile Include="Strobogrammatic Number.cpp" />
@@ -299,7 +298,7 @@
     <ClCompile Include="subsetsWithDup.cpp" />
     <ClCompile Include="Sudoku Solver.cpp" />
     <ClCompile Include="Summary Ranges.cpp" />
-    <ClCompile Include="sumNumbers.cpp" />
+    <ClCompile Include="Sum Root to Leaf Numbers.cpp" />
     <ClCompile Include="Surrounded Regions.cpp" />
     <ClCompile Include="swapPairs.cpp" />
     <ClCompile Include="Text Justification.cpp" />

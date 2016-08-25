@@ -81,9 +81,6 @@
     <ClCompile Include="isValid.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="hasCycle.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
     <ClCompile Include="lengthOfLastWord.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
@@ -117,9 +114,6 @@
     <ClCompile Include="trailingZeroes.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
-    <ClCompile Include="findPeakElement.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="isPalindrome.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
@@ -146,9 +140,6 @@
     </ClCompile>
     <ClCompile Include="multiply.cpp">
       <Filter>Source Files\String</Filter>
-    </ClCompile>
-    <ClCompile Include="setZeroes.cpp">
-      <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="rotate.cpp">
       <Filter>Source Files\Array</Filter>
@@ -214,9 +205,6 @@
       <Filter>Source Files\Math</Filter>
     </ClCompile>
     <ClCompile Include="getIntersectionNode.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="detectCycle.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
     <ClCompile Include="deleteDuplicates.cpp">
@@ -639,9 +627,6 @@
     <ClCompile Include="Count of Smaller Number.cpp">
       <Filter>Source Files\Tree\Sgement Tree</Filter>
     </ClCompile>
-    <ClCompile Include="flatten.cpp">
-      <Filter>Source Files\Tree\Binary Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Count of Smaller Number before itself.cpp">
       <Filter>Source Files\Tree\Sgement Tree</Filter>
     </ClCompile>
@@ -792,9 +777,6 @@
     <ClCompile Include="sortedArrayToBST.cpp">
       <Filter>Source Files\Tree\Binary Search Tree</Filter>
     </ClCompile>
-    <ClCompile Include="sortedListToBST.cpp">
-      <Filter>Source Files\Tree\Binary Search Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Implement Trie (Prefix Tree).cpp">
       <Filter>Source Files\Tree\Prefix Tree</Filter>
     </ClCompile>
@@ -802,9 +784,6 @@
       <Filter>Source Files\Tree\Prefix Tree</Filter>
     </ClCompile>
     <ClCompile Include="zigzagLevelOrder.cpp">
-      <Filter>Source Files\Tree\Binary Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="sumNumbers.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
     <ClCompile Include="Number of Islands.cpp">
@@ -1031,6 +1010,24 @@
     </ClCompile>
     <ClCompile Include="Spiral Matrix.cpp">
       <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Find Peak Element.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Set Matrix Zeroes.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Sum Root to Leaf Numbers.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Flatten Binary Tree to Linked List.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Convert Sorted List to Binary Search Tree.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Linked List Cycle.cpp">
+      <Filter>Source Files\List</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
