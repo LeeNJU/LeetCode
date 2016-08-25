@@ -95,7 +95,7 @@
     <ClCompile Include="Find the Celebrity.cpp" />
     <ClCompile Include="Find the Duplicate Number.cpp" />
     <ClCompile Include="findMedianSortedArrays.cpp" />
-    <ClCompile Include="findMin.cpp" />
+    <ClCompile Include="Find Minimum in Rotated Sorted Array.cpp" />
     <ClCompile Include="findPeakElement.cpp" />
     <ClCompile Include="findSubstring.cpp" />
     <ClCompile Include="First Bad Version.cpp" />
@@ -200,7 +200,7 @@
     <ClCompile Include="levelOrder.cpp" />
     <ClCompile Include="levelOrderBottom.cpp" />
     <ClCompile Include="longestCommonPrefix.cpp" />
-    <ClCompile Include="longestConsecutive.cpp" />
+    <ClCompile Include="Longest Consecutive Sequence.cpp" />
     <ClCompile Include="longestPalindrome.cpp" />
     <ClCompile Include="longestValidParentheses.cpp" />
     <ClCompile Include="LRU Cache.cpp" />
@@ -266,7 +266,7 @@
     <ClCompile Include="rotateArray.cpp" />
     <ClCompile Include="rotateRight.cpp" />
     <ClCompile Include="Russian Doll Envelopes.cpp" />
-    <ClCompile Include="search.cpp" />
+    <ClCompile Include="Search in Rotated Sorted Array.cpp" />
     <ClCompile Include="Search Insert Position.cpp" />
     <ClCompile Include="Search a 2D Matrix.cpp" />
     <ClCompile Include="searchRange.cpp" />

@@ -165,9 +165,6 @@
     <ClCompile Include="climbStairs.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
-    <ClCompile Include="search.cpp">
-      <Filter>Source Files\Array\Binary Search</Filter>
-    </ClCompile>
     <ClCompile Include="candy.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
@@ -221,9 +218,6 @@
     </ClCompile>
     <ClCompile Include="sqrt.cpp">
       <Filter>Source Files\Math</Filter>
-    </ClCompile>
-    <ClCompile Include="longestConsecutive.cpp">
-      <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="getIntersectionNode.cpp">
       <Filter>Source Files\List</Filter>
@@ -541,9 +535,6 @@
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
     <ClCompile Include="Smallest Character.cpp">
-      <Filter>Source Files\Array\Binary Search</Filter>
-    </ClCompile>
-    <ClCompile Include="findMin.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
     <ClCompile Include="searchRange.cpp">
@@ -1034,6 +1025,15 @@
     </ClCompile>
     <ClCompile Include="Serialize and Deserialize Binary Tree.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Find Minimum in Rotated Sorted Array.cpp">
+      <Filter>Source Files\Array\Binary Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Longest Consecutive Sequence.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Search in Rotated Sorted Array.cpp">
+      <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
