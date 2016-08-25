@@ -110,7 +110,7 @@
     <ClCompile Include="Game of Life.cpp" />
     <ClCompile Include="Generate Parentheses.cpp" />
     <ClCompile Include="generate.cpp" />
-    <ClCompile Include="generateMatrix.cpp" />
+    <ClCompile Include="Spiral Matrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
     <ClCompile Include="Graph Valid Tree.cpp" />
     <ClCompile Include="Group Shifted Strings.cpp" />
@@ -291,7 +291,6 @@
     <ClCompile Include="sortedArrayToBST.cpp" />
     <ClCompile Include="sortedListToBST.cpp" />
     <ClCompile Include="Generalized Abbreviation.cpp" />
-    <ClCompile Include="spirialOrder.cpp" />
     <ClCompile Include="sqrt.cpp" />
     <ClCompile Include="Strobogrammatic Number.cpp" />
     <ClCompile Include="strStr.cpp" />
