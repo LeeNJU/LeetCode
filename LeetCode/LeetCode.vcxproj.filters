@@ -153,9 +153,6 @@
     <ClCompile Include="candy.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="canJump.cpp">
-      <Filter>Source Files\Array\Greedy</Filter>
-    </ClCompile>
     <ClCompile Include="atoi.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
@@ -316,9 +313,6 @@
       <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="Course Schedule.cpp">
-      <Filter>Source Files\Graph</Filter>
-    </ClCompile>
-    <ClCompile Include="Course Schedule II.cpp">
       <Filter>Source Files\Graph</Filter>
     </ClCompile>
     <ClCompile Include="Kth Largest Element in an Array.cpp">
@@ -1031,6 +1025,9 @@
     </ClCompile>
     <ClCompile Include="Lowest Common Ancestor of a Binary Tree.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Jump Game.cpp">
+      <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

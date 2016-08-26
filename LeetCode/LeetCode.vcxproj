@@ -38,7 +38,7 @@
     <ClCompile Include="Bulb Switcher.cpp" />
     <ClCompile Include="Gas Station.cpp" />
     <ClCompile Include="candy.cpp" />
-    <ClCompile Include="canJump.cpp" />
+    <ClCompile Include="Jump Game.cpp" />
     <ClCompile Include="climbStairs.cpp" />
     <ClCompile Include="Clone Graph.cpp" />
     <ClCompile Include="Closest Binary Search Tree Value.cpp" />
@@ -71,7 +71,6 @@
     <ClCompile Include="Count Univalue Subtrees.cpp" />
     <ClCompile Include="countAndSay.cpp" />
     <ClCompile Include="Counting Bits.cpp" />
-    <ClCompile Include="Course Schedule II.cpp" />
     <ClCompile Include="Course Schedule.cpp" />
     <ClCompile Include="Create Maximum Number.cpp" />
     <ClCompile Include="Decode Ways.cpp" />
