@@ -9,6 +9,9 @@ std::vector<std::string> findMissingRanges(std::vector<int>& nums, int lower, in
 	int i = lower;
 	for (int j = 0; j < nums.size(); ++j)
 	{
+		if (nums[j] < lower || nums[j] > upper)//排除不在区间的元素
+			continue;
+
 		if (nums[j] != i)//找到不相符的数字，说明找到了一个区间
 		{
 			if (i == nums[j] - 1)//区间只有一个元素

@@ -50,6 +50,7 @@
     <ClCompile Include="Combination Sum III.cpp" />
     <ClCompile Include="combine.cpp" />
     <ClCompile Include="compareVersion.cpp" />
+    <ClCompile Include="Lowest Common Ancestor of a Binary Tree.cpp" />
     <ClCompile Include="Patching Array.cpp" />
     <ClCompile Include="Peeking Iterator.cpp" />
     <ClCompile Include="Populating Next Right Pointers in Each Node.cpp" />
@@ -268,7 +269,7 @@
     <ClCompile Include="Search in Rotated Sorted Array.cpp" />
     <ClCompile Include="Search Insert Position.cpp" />
     <ClCompile Include="Search a 2D Matrix.cpp" />
-    <ClCompile Include="searchRange.cpp" />
+    <ClCompile Include="Search for a Range.cpp" />
     <ClCompile Include="Segment Tree Build.cpp" />
     <ClCompile Include="Segment Tree Modify.cpp" />
     <ClCompile Include="Segment Tree Query.cpp" />
