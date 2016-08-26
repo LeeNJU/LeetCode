@@ -34,7 +34,8 @@ void GetAllSolution(int start, const std::string& s, const std::unordered_set<st
 		solutions.push_back(result.substr(0, result.size() - 1));//去除最后的空格
 		return;
 	}
-	for (int i = start; i< len; ++i)
+
+	for (int i = start; i < len; ++i)
 	{
 		std::string piece = s.substr(start, i - start + 1);
 		if (dict.find(piece) != dict.end() && possible[i + 1]) // 必须是剩余区间有解才继续递归

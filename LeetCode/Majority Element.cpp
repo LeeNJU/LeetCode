@@ -26,3 +26,50 @@ int majorityElement(std::vector<int>& nums)
 	}
 	return candidate;
 }
+
+//题目描述:找到数组中出现次数大于n / 3的元素
+//解法描述:最多有两个元素出现的次数大于n / 3，解法类似上一题
+std::vector<int> majorityElement2(std::vector<int>& nums) 
+{
+	std::vector<int> result;
+
+	int count1 = 0, count2 = 0, candidate1 = 0, candidate2 = 0;
+	for (int i = 0; i < nums.size(); ++i)
+	{
+		if (nums[i] == candidate1) //注意这里必须先判断当前元素是不是与两个candidate元素相等
+			++count1;
+		else if (nums[i] == candidate2)
+			++count2;
+		else if (count1 == 0)
+		{
+			++count1;
+			candidate1 = nums[i];
+		}
+		else if (count2 == 0)
+		{
+			++count2;
+			candidate2 = nums[i];
+		}
+		else
+		{
+			--count1;
+			--count2;
+		}
+	}
+
+	count1 = 0;
+	count2 = 0;
+	for (int i = 0; i < nums.size(); ++i) //验证两个candidate元素的出现次数的确大于n / 3
+	{
+		if (nums[i] == candidate1)
+			++count1;
+		else if (nums[i] == candidate2)
+			++count2;
+	}
+
+	if (count1 > nums.size() / 3)
+		result.push_back(candidate1);
+	if (count2 > nums.size() / 3)
+		result.push_back(candidate2);
+	return result;
+}
