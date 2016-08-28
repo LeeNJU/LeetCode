@@ -1,8 +1,9 @@
 #include<string>
 
-//题目描述：给定两个整数，进行除法操作，不能用乘法，除法或取模运算
-//解法描述：排除一些特殊情况后，转换成long类型防止运算过程中出现溢出，将divisor向左移动n位，使得divisor小于等于dividend，相当于divisor乘2的n次方
-//divident减去divisor，然后又移动divisor a位，直到divisor小于等于divident，相当于divisor乘2的a次方，...把这些加起来就是结果。注意判断结果的溢出
+//题目描述:给定两个整数，进行除法操作，不能用乘法，除法或取模运算
+//解法描述:排除一些特殊情况后，转换成long类型防止运算过程中出现溢出，将divisor向左移动n位，使得divisor小于
+//        等于dividend，相当于divisor乘2的n次方,divident减去divisor，然后又移动divisor a位，直到divisor
+//        小于等于divident，相当于divisor乘2的a次方，...把这些加起来就是结果。注意判断结果的溢出
 
 int divide(int dividend, int divisor)
 {

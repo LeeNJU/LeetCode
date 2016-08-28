@@ -138,9 +138,6 @@
     <ClCompile Include="strStr.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="multiply.cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="rotate.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -170,9 +167,6 @@
     </ClCompile>
     <ClCompile Include="longestValidParentheses.cpp">
       <Filter>Source Files\String</Filter>
-    </ClCompile>
-    <ClCompile Include="evalRPN.cpp">
-      <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
     <ClCompile Include="convert.cpp">
       <Filter>Source Files\String</Filter>
@@ -261,14 +255,8 @@
     <ClCompile Include="reorderList.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
-    <ClCompile Include="containsDuplicate.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="reverseList.cpp">
       <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="containsNearbyDuplicate.cpp">
-      <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="First Missing Positive.cpp">
       <Filter>Source Files\Array</Filter>
@@ -308,9 +296,6 @@
     </ClCompile>
     <ClCompile Include="Triangle.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
-    </ClCompile>
-    <ClCompile Include="Contains Duplicate III.cpp">
-      <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="Course Schedule.cpp">
       <Filter>Source Files\Graph</Filter>
@@ -1028,6 +1013,15 @@
     </ClCompile>
     <ClCompile Include="Jump Game.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Evaluate Reverse Polish Notation.cpp">
+      <Filter>Source Files\Stack and Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiply Strings.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Contains Duplicate.cpp">
+      <Filter>Source Files\Array</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

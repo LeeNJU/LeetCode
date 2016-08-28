@@ -54,9 +54,7 @@
     <ClCompile Include="Patching Array.cpp" />
     <ClCompile Include="Peeking Iterator.cpp" />
     <ClCompile Include="Populating Next Right Pointers in Each Node.cpp" />
-    <ClCompile Include="Contains Duplicate III.cpp" />
-    <ClCompile Include="containsDuplicate.cpp" />
-    <ClCompile Include="containsNearbyDuplicate.cpp" />
+    <ClCompile Include="Contains Duplicate.cpp" />
     <ClCompile Include="Continuous Subarray Sum.cpp" />
     <ClCompile Include="Convert Binary Search Tree to Doubly Linked List.cpp" />
     <ClCompile Include="convert.cpp" />
@@ -84,7 +82,7 @@
     <ClCompile Include="Edit Distance.cpp" />
     <ClCompile Include="Encode and Decode Strings.cpp" />
     <ClCompile Include="Endianness.cpp" />
-    <ClCompile Include="evalRPN.cpp" />
+    <ClCompile Include="Evaluate Reverse Polish Notation.cpp" />
     <ClCompile Include="Expression Add Operators.cpp" />
     <ClCompile Include="Factor Combinations.cpp" />
     <ClCompile Include="Fast Power.cpp" />
@@ -218,7 +216,7 @@
     <ClCompile Include="Minimum Window Substring.cpp" />
     <ClCompile Include="minPathSum.cpp" />
     <ClCompile Include="minStack.cpp" />
-    <ClCompile Include="multiply.cpp" />
+    <ClCompile Include="Multiply Strings.cpp" />
     <ClCompile Include="N-Queens II.cpp" />
     <ClCompile Include="N-Queens.cpp" />
     <ClCompile Include="nextPermutation.cpp" />
