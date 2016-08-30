@@ -120,9 +120,6 @@
     <ClCompile Include="isPalindromeNumber.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
-    <ClCompile Include="fourSum.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="singleNumber.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
@@ -140,9 +137,6 @@
     </ClCompile>
     <ClCompile Include="rotate.cpp">
       <Filter>Source Files\Array</Filter>
-    </ClCompile>
-    <ClCompile Include="findMedianSortedArrays.cpp">
-      <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
     <ClCompile Include="climbStairs.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
@@ -1025,6 +1019,12 @@
     </ClCompile>
     <ClCompile Include="Regular Expression Matching.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Median of Two Sorted Arrays.cpp">
+      <Filter>Source Files\Array\Binary Search</Filter>
+    </ClCompile>
+    <ClCompile Include="4Sum.cpp">
+      <Filter>Source Files\Array</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

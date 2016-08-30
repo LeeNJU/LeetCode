@@ -1,6 +1,6 @@
 #include<vector>
-//给定一个已序数组和一个值，从中找出这个值在数组的范围，用下标表示，如果该值不存在，则返回2个-1
-//解法：二分法，用lower_bound和upper_bound
+//题目描述:给定一个已序数组和一个值，从中找出这个值在数组的范围，用下标表示，如果该值不存在，则返回2个-1
+//解法描述:二分法，用lower_bound和upper_bound
 std::vector<int> searchRange(int A [], int n, int target)
 {
 	std::vector<int> result;
@@ -30,7 +30,6 @@ std::vector<int> searchRange(int A [], int n, int target)
 			left = middle + 1;
 		else
 			right = middle - 1;
-
 	}
 	last = left;
 

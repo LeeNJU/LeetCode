@@ -91,7 +91,7 @@
     <ClCompile Include="Find Median from Data Stream.cpp" />
     <ClCompile Include="Find the Celebrity.cpp" />
     <ClCompile Include="Find the Duplicate Number.cpp" />
-    <ClCompile Include="findMedianSortedArrays.cpp" />
+    <ClCompile Include="Median of Two Sorted Arrays.cpp" />
     <ClCompile Include="Find Minimum in Rotated Sorted Array.cpp" />
     <ClCompile Include="Find Peak Element.cpp" />
     <ClCompile Include="findSubstring.cpp" />
@@ -102,7 +102,7 @@
     <ClCompile Include="Flatten Binary Tree to Linked List.cpp" />
     <ClCompile Include="Flip Game.cpp" />
     <ClCompile Include="Flowing Water.cpp" />
-    <ClCompile Include="fourSum.cpp" />
+    <ClCompile Include="4Sum.cpp" />
     <ClCompile Include="Fraction to Recurring Decimal.cpp" />
     <ClCompile Include="Game of Life.cpp" />
     <ClCompile Include="Generate Parentheses.cpp" />
