@@ -106,7 +106,7 @@
     <ClCompile Include="Fraction to Recurring Decimal.cpp" />
     <ClCompile Include="Game of Life.cpp" />
     <ClCompile Include="Generate Parentheses.cpp" />
-    <ClCompile Include="generate.cpp" />
+    <ClCompile Include="Pascal%27s Triangle.cpp" />
     <ClCompile Include="Regular Expression Matching.cpp" />
     <ClCompile Include="Spiral Matrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
@@ -168,7 +168,6 @@
     <ClCompile Include="Palindrome Permutation.cpp" />
     <ClCompile Include="Perfect Squares.cpp" />
     <ClCompile Include="Permutation Sequence.cpp" />
-    <ClCompile Include="getRow.cpp" />
     <ClCompile Include="Gray Code.cpp" />
     <ClCompile Include="Number of 1 Bits.cpp" />
     <ClCompile Include="Linked List Cycle.cpp" />
@@ -209,7 +208,7 @@
     <ClCompile Include="Best Time to Buy and Sell Stock.cpp" />
     <ClCompile Include="Merge Intervals.cpp" />
     <ClCompile Include="mergeKLists.cpp" />
-    <ClCompile Include="mergeSortedArray.cpp" />
+    <ClCompile Include="Merge Sorted Array.cpp" />
     <ClCompile Include="mergeTwoLists.cpp" />
     <ClCompile Include="minDepth.cpp" />
     <ClCompile Include="Minimum Size Subarray Sum.cpp" />
@@ -219,7 +218,7 @@
     <ClCompile Include="Multiply Strings.cpp" />
     <ClCompile Include="N-Queens II.cpp" />
     <ClCompile Include="N-Queens.cpp" />
-    <ClCompile Include="nextPermutation.cpp" />
+    <ClCompile Include="Next Permutation.cpp" />
     <ClCompile Include="numTrees.cpp" />
     <ClCompile Include="Palindrome Partitioning II.cpp" />
     <ClCompile Include="Palindrome Partitioning.cpp" />

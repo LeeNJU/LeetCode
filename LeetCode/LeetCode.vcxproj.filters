@@ -96,9 +96,6 @@
     <ClCompile Include="twoSum.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="mergeSortedArray.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="addTwoNumbers.cpp">
       <Filter>Source Files\List</Filter>
     </ClCompile>
@@ -222,12 +219,6 @@
     <ClCompile Include="wordBreak.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
-    <ClCompile Include="generate.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
-    <ClCompile Include="getRow.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="findSubstring.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
@@ -236,9 +227,6 @@
     </ClCompile>
     <ClCompile Include="compareVersion.cpp">
       <Filter>Source Files\String</Filter>
-    </ClCompile>
-    <ClCompile Include="nextPermutation.cpp">
-      <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="mergeKLists.cpp">
       <Filter>Source Files\List</Filter>
@@ -1024,6 +1012,15 @@
       <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
     <ClCompile Include="4Sum.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Pascal%27s Triangle.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Merge Sorted Array.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Next Permutation.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
   </ItemGroup>

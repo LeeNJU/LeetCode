@@ -21,11 +21,13 @@ int longestConsecutive(std::vector<int> &num)
 		int length = 1;
 		used[i] = true;
 
-		for (int j = i + 1; used.find(j) != used.end(); ++j) {//向右扩张，依次加1，判断是否存在数组中
+		for (int j = i + 1; used.find(j) != used.end(); ++j) //向右扩张，依次加1，判断是否存在数组中
+		{	
 			used[j] = true;
 			++length;
 		}
-		for (int j = i - 1; used.find(j) != used.end(); --j) {//向左扩张，依次减1,
+		for (int j = i - 1; used.find(j) != used.end(); --j) //向左扩张，依次减1,
+		{	
 			used[j] = true;
 			++length;
 		}
