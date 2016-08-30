@@ -227,7 +227,7 @@
     <ClCompile Include="Permutations II.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="Plus One Linked List.cpp" />
-    <ClCompile Include="plusOne.cpp" />
+    <ClCompile Include="Plus One.cpp" />
     <ClCompile Include="postorderTraversal.cpp" />
     <ClCompile Include="Pow(x, n).cpp" />
     <ClCompile Include="Power of Four.cpp" />
@@ -242,8 +242,8 @@
     <ClCompile Include="Rectangle Area.cpp" />
     <ClCompile Include="Remove Duplicate Letters.cpp" />
     <ClCompile Include="Remove Invalid Parentheses.cpp" />
-    <ClCompile Include="removeDuplicates.cpp" />
-    <ClCompile Include="removeElement.cpp" />
+    <ClCompile Include="Remove Duplicates from Sorted Array.cpp" />
+    <ClCompile Include="Remove Element.cpp" />
     <ClCompile Include="removeElements.cpp" />
     <ClCompile Include="removeNthFromEnd.cpp" />
     <ClCompile Include="Reorder array to construct the minimum numbere.cpp" />
@@ -258,8 +258,8 @@
     <ClCompile Include="Reverse Words in a String.cpp" />
     <ClCompile Include="House Robber.cpp" />
     <ClCompile Include="romanToInt.cpp" />
-    <ClCompile Include="rotate.cpp" />
-    <ClCompile Include="rotateArray.cpp" />
+    <ClCompile Include="Rotate Image.cpp" />
+    <ClCompile Include="Rotate Array.cpp" />
     <ClCompile Include="rotateRight.cpp" />
     <ClCompile Include="Russian Doll Envelopes.cpp" />
     <ClCompile Include="Search in Rotated Sorted Array.cpp" />
