@@ -107,6 +107,7 @@
     <ClCompile Include="Game of Life.cpp" />
     <ClCompile Include="Generate Parentheses.cpp" />
     <ClCompile Include="generate.cpp" />
+    <ClCompile Include="Regular Expression Matching.cpp" />
     <ClCompile Include="Spiral Matrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
     <ClCompile Include="Graph Valid Tree.cpp" />
@@ -180,7 +181,6 @@
     <ClCompile Include="Invert Binary Tree.cpp" />
     <ClCompile Include="isBalanced.cpp" />
     <ClCompile Include="isHappy.cpp" />
-    <ClCompile Include="isMatch.cpp" />
     <ClCompile Include="Isomorphic Strings.cpp" />
     <ClCompile Include="isPalindrome.cpp" />
     <ClCompile Include="isPalindromeNumber.cpp" />
@@ -318,6 +318,7 @@
     <ClCompile Include="Verify Preorder Serialization of a Binary Tree.cpp" />
     <ClCompile Include="Walls and Gates.cpp" />
     <ClCompile Include="Wiggle Sort.cpp" />
+    <ClCompile Include="Wildcard Matching.cpp" />
     <ClCompile Include="Word Ladder II.cpp" />
     <ClCompile Include="Word Ladder.cpp" />
     <ClCompile Include="Word Pattern.cpp" />

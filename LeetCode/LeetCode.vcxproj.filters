@@ -162,9 +162,6 @@
     <ClCompile Include="romanToInt.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="isMatch.cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="longestValidParentheses.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
@@ -1022,6 +1019,12 @@
     </ClCompile>
     <ClCompile Include="Contains Duplicate.cpp">
       <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Wildcard Matching.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Regular Expression Matching.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
