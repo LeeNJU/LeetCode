@@ -109,6 +109,7 @@
     <ClCompile Include="Generate Parentheses.cpp" />
     <ClCompile Include="Pascal%27s Triangle.cpp" />
     <ClCompile Include="Regular Expression Matching.cpp" />
+    <ClCompile Include="Reverse Pairs.cpp" />
     <ClCompile Include="Spiral Matrix.cpp" />
     <ClCompile Include="Intersection of Two Linked Lists.cpp" />
     <ClCompile Include="Graph Valid Tree.cpp" />
