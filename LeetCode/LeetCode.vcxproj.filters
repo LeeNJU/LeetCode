@@ -105,9 +105,6 @@
     <ClCompile Include="isPalindrome.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="isPalindromeNumber.cpp">
-      <Filter>Source Files\Math</Filter>
-    </ClCompile>
     <ClCompile Include="singleNumber.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
@@ -138,9 +135,6 @@
     <ClCompile Include="convert.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="reverse.cpp">
-      <Filter>Source Files\Math</Filter>
-    </ClCompile>
     <ClCompile Include="longestCommonPrefix.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
@@ -155,9 +149,6 @@
     </ClCompile>
     <ClCompile Include="jump.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="sqrt.cpp">
-      <Filter>Source Files\Math</Filter>
     </ClCompile>
     <ClCompile Include="getIntersectionNode.cpp">
       <Filter>Source Files\List</Filter>
@@ -188,9 +179,6 @@
     </ClCompile>
     <ClCompile Include="removeElements.cpp">
       <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="isHappy.cpp">
-      <Filter>Source Files\Math</Filter>
     </ClCompile>
     <ClCompile Include="wordBreak.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
@@ -298,15 +286,6 @@
       <Filter>Source Files\Sort</Filter>
     </ClCompile>
     <ClCompile Include="Merge Intervals.cpp">
-      <Filter>Source Files\Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="largestNumber.cpp">
-      <Filter>Source Files\Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="insertionSortList.cpp">
-      <Filter>Source Files\Sort</Filter>
-    </ClCompile>
-    <ClCompile Include="insert.cpp">
       <Filter>Source Files\Sort</Filter>
     </ClCompile>
     <ClCompile Include="Clone Graph.cpp">
@@ -1025,6 +1004,27 @@
     </ClCompile>
     <ClCompile Include="Palindrome Pairs.cpp">
       <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Largest Number.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Insertion Sort List.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Insert Interval.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Happy Number.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Palindrome Number.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Reverse Integer.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Sqrt%28x%29.cpp">
+      <Filter>Source Files\Math</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

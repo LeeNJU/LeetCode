@@ -1,8 +1,8 @@
 #include<vector>
 #include<algorithm>
 //题目描述:给定一个数组，要求找到一个区间，使得这个区间的和的绝对值最接近0
-//解法描述:f[i]表示数组从0到i的和，那么最优解必然是某两个f[i]和f[j]的差，构造pair，first代表从0到i的和，second代表下标，
-//        对pair数组排序，最优解必然存在于两个相邻的数中
+//解法描述:f[i]表示数组从0到i的和，那么最优解必然是某两个f[i]和f[j]的差，构造pair，first代表从0到i的和，
+//        second代表下标，对pair数组排序，最优解必然存在于两个相邻的数中
 std::vector<int> subarraySumClosest(std::vector<int> nums)
 {
 	std::vector<int> vec(2, 0);

@@ -18,7 +18,7 @@ std::string minNumber(std::vector<int>& nums)
 	for (int num : nums)
 		result += std::to_string(num);
 	
-		int index = 0; //要注意排除最前面的0
+	int index = 0; //要注意排除最前面的0
 	while (index < result.size() && result[index] == '0')
 		++index;
 
