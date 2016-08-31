@@ -1,24 +1,28 @@
 #include<vector>
 #include<string>
 
-void dfs(std::vector<std::string>& result, std::string t,const std::string& num, int index, int target)
+void dfs(std::vector<std::string>& result, std::string t, const std::string& num, int index, int target)
 {
-	if (index == num.size() - 1)
+	if (index == num.length())
 	{
-		if (num[num.size() - 1] - '0' == target)
-		{
+		if (target == 0)
 			result.push_back(t);
-			return;
-		}
+		return;
 	}
 
-	for (int i = index; i < num.size() - 1; ++i)
+	if (stoi(num.substr(index)) == target)
 	{
-		int left_value = stoi(num.substr(index, i - index + 1));
-		dfs(result, num.substr(index, i - index + 1) + "+" + num.substr(i + 1), num, i + 1, target - left_value);
-		dfs(result, num.substr(index, i - index + 1) + "-" + num.substr(i + 1), num, i + 1, left_value - target);
-		if (left_value != 0)
-			dfs(result, num.substr(index, i - index + 1) + "*" + num.substr(i + 1), num, i + 1, target / left_value);
+		result.push_back(t);
+		return;
+	}
+
+	for (int i = index; i < num.size(); ++i)
+	{
+		std::string num1 = num.substr(index, i - index + 1);
+		int val = stoi(num1);
+		dfs(result, num1 + "+" + num.substr(i + 1), num, i + 1, target - val);
+		dfs(result, num1 + "-" + num.substr(i + 1), num, i + 1, val - target);
+		dfs(result, num1 + "*" + num.substr(i + 1), num, i + 1, target / val);
 	}
 }
 

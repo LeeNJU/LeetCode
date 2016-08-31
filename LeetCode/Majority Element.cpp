@@ -1,4 +1,5 @@
 #include<vector>
+#include<unordered_map>
 
 //题目描述：给定一个数组，其长度为n，找到其中出现次数大于n/2的元素，假设数组非空，并且一定存在这样的元素
 //解法描述：用candidate表示最后的结果，count表示candidate出现的次数，遍历数组，如果count等于0，那么candidate
@@ -72,4 +73,19 @@ std::vector<int> majorityElement2(std::vector<int>& nums)
 	if (count2 > nums.size() / 3)
 		result.push_back(candidate2);
 	return result;
+}
+
+//题目描述：给定一个数组和一个值k，找到数组中出现次数大于n/k的元素
+//解法描述：用hashtable记录每个元素出现的次数
+
+int majorityNumber(std::vector<int> nums, int k)
+{
+	std::unordered_map<int, int> m;
+	int count = nums.size() / k;
+	for (int i = 0; i < nums.size(); ++i)
+	{
+		++m[nums[i]];
+		if (m[nums[i]] > count)
+			return nums[i];
+	}
 }
