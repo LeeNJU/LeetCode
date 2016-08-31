@@ -21,7 +21,8 @@ ListNode* reverse(ListNode* head) //·´×ªÁ´±í
 	return node.next;
 }
 
-bool isPalindrome(ListNode* head) {
+bool isPalindrome(ListNode* head) 
+{
 	if (head == nullptr || head->next == nullptr)
 		return true;
 

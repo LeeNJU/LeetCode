@@ -2,7 +2,6 @@
 //题目描述：给定一个链表，将其向右旋转k位，1->2->3->4->5->NULL旋转2位，4->5->1->2->3->NULL
 //解法描述：直接调整链表，但注意k的值可能很大，当k是链表长度的倍数时，不需要旋转，此外k需要对长度取模
 
-
 ListNode* rotateRight(ListNode* head, int k)
 {
 	if (head == nullptr || k <= 0)

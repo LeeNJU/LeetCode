@@ -2,7 +2,6 @@
 //题目描述：给定一个链表，要求删除倒数第n个元素
 //解法描述：添加一个哨兵节点，求出链表长度，把指针移动到要删除的元素的前一个元素，进行删除
 
-
 ListNode* removeNthFromEnd(ListNode* head, int n)
 {
 	int length = 0;

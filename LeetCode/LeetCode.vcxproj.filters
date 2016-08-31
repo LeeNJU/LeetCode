@@ -75,26 +75,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="swapPairs.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
     <ClCompile Include="isValid.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
     <ClCompile Include="lengthOfLastWord.cpp">
       <Filter>Source Files\String</Filter>
-    </ClCompile>
-    <ClCompile Include="removeNthFromEnd.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="reverseBetween.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="rotateRight.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="addTwoNumbers.cpp">
-      <Filter>Source Files\List</Filter>
     </ClCompile>
     <ClCompile Include="titileToNumber.cpp">
       <Filter>Source Files\Math</Filter>
@@ -150,23 +135,8 @@
     <ClCompile Include="jump.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="getIntersectionNode.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="deleteDuplicates.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
     <ClCompile Include="minStack.cpp">
       <Filter>Source Files\Stack and Heap</Filter>
-    </ClCompile>
-    <ClCompile Include="mergeTwoLists.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="partition.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="copyRandomList.cpp">
-      <Filter>Source Files\List</Filter>
     </ClCompile>
     <ClCompile Include="uniquePaths.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
@@ -176,9 +146,6 @@
     </ClCompile>
     <ClCompile Include="minPathSum.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
-    </ClCompile>
-    <ClCompile Include="removeElements.cpp">
-      <Filter>Source Files\List</Filter>
     </ClCompile>
     <ClCompile Include="wordBreak.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
@@ -191,15 +158,6 @@
     </ClCompile>
     <ClCompile Include="compareVersion.cpp">
       <Filter>Source Files\String</Filter>
-    </ClCompile>
-    <ClCompile Include="mergeKLists.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="reorderList.cpp">
-      <Filter>Source Files\List</Filter>
-    </ClCompile>
-    <ClCompile Include="reverseList.cpp">
-      <Filter>Source Files\List</Filter>
     </ClCompile>
     <ClCompile Include="First Missing Positive.cpp">
       <Filter>Source Files\Array</Filter>
@@ -1025,6 +983,45 @@
     </ClCompile>
     <ClCompile Include="Sqrt%28x%29.cpp">
       <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Add Two Numbers.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Copy List with Random Pointer.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Remove Duplicates from Sorted List.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Intersection of Two Linked Lists.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Merge k Sorted Lists.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Merge Two Sorted Lists.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Partition List.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Remove Linked List Elements.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Remove Nth Node From End of List.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Reorder List.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Reverse Linked List.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotate List.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
+    <ClCompile Include="Swap Nodes in Pairs.cpp">
+      <Filter>Source Files\List</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

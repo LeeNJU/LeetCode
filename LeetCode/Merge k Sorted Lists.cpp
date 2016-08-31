@@ -14,9 +14,7 @@ ListNode *mergeTwoLists(ListNode *l1, ListNode *l2)
 	while (l1 && l2)//判断链表是否为空
 	{
 		if (l1->val <= l2->val)//l1的值比l2的小，则l1和prev向后移动一位
-		{
 			l1 = l1->next;
-		}
 		else//l1的值l2的大，把l2的值合并到l1之前
 		{
 			prev->next = l2;
