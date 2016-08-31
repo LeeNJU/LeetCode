@@ -1029,6 +1029,9 @@
     <ClCompile Include="Reverse Pairs.cpp">
       <Filter>Source Files\Sort</Filter>
     </ClCompile>
+    <ClCompile Include="Dices Sum.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
