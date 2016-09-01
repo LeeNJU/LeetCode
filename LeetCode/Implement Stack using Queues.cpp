@@ -3,7 +3,8 @@
 //题目描述：用queue实现一个栈，其中只能使用queue的标准操作，pop，push，top等
 //解法描述：用两个que，current指向当前的que，这两个que交替使用
 
-class Stack {
+class Stack 
+{
 private:
 	std::queue<int> que[2]; //两个queue，这两个queue交替使用
 	int current = 0; //current表示当前queue的下标
