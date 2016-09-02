@@ -96,13 +96,7 @@
     <ClCompile Include="romanToInt.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="longestValidParentheses.cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="convert.cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
-    <ClCompile Include="restoreIpAddresses.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
     <ClCompile Include="maxArea.cpp">
@@ -1027,6 +1021,12 @@
       <Filter>Source Files\String</Filter>
     </ClCompile>
     <ClCompile Include="Longest Palindromic Substring.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Longest Valid Parentheses.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Restore IP Addresses  .cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
   </ItemGroup>

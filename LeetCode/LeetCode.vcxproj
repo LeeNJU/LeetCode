@@ -200,7 +200,7 @@
     <ClCompile Include="Longest Common Prefix.cpp" />
     <ClCompile Include="Longest Consecutive Sequence.cpp" />
     <ClCompile Include="Longest Palindromic Substring.cpp" />
-    <ClCompile Include="longestValidParentheses.cpp" />
+    <ClCompile Include="Longest Valid Parentheses.cpp" />
     <ClCompile Include="LRU Cache.cpp" />
     <ClCompile Include="Majority Element.cpp" />
     <ClCompile Include="maxArea.cpp" />
@@ -251,7 +251,7 @@
     <ClCompile Include="Reorder array to construct the minimum numbere.cpp" />
     <ClCompile Include="Reorder List.cpp" />
     <ClCompile Include="Repeated DNA Sequences.cpp" />
-    <ClCompile Include="restoreIpAddresses.cpp" />
+    <ClCompile Include="Restore IP Addresses  .cpp" />
     <ClCompile Include="Reverse Bits.cpp" />
     <ClCompile Include="Reverse Nodes in k-Group.cpp" />
     <ClCompile Include="Reverse Integer.cpp" />
