@@ -6,7 +6,7 @@
 //这些有效数字后可以跟其他非数字字符，但不影响值。如果值越界了，返回INT_MAX或者INT_MIN.如果是非法字符，则返回0
 //解法描述：先忽略前面的空白，直到第一个非空字符，再确定符号，剩下的简单了
 
-int atoi(std::string str)
+int myAtoi(std::string str)
 {
 	const int length = str.length();
 	int i = 0, result = 0, sign = 1;
@@ -20,8 +20,6 @@ int atoi(std::string str)
 	}
 	else if (str[i] == '+')
 		++i;
-	else
-		;
 
 	for (; i < length; ++i)
 	{

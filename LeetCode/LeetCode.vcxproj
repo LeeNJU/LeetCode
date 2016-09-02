@@ -20,7 +20,7 @@
     <ClCompile Include="Alien Dictionary.cpp" />
     <ClCompile Include="anagrams.cpp" />
     <ClCompile Include="Android Unlock Patterns.cpp" />
-    <ClCompile Include="atoi.cpp" />
+    <ClCompile Include="String to Integer %28atoi%29.cpp" />
     <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="Basic Calculator.cpp" />
     <ClCompile Include="Best Meeting Point.cpp" />
@@ -132,7 +132,6 @@
     <ClCompile Include="K Sum.cpp" />
     <ClCompile Include="Kth Smallest Element in a BST.cpp" />
     <ClCompile Include="Kth Smallest Element in a Sorted Matrix.cpp" />
-    <ClCompile Include="Kth Smallest Number in Sorted Matrix.cpp" />
     <ClCompile Include="Largest BST Subtree.cpp" />
     <ClCompile Include="Largest Divisible Subset.cpp" />
     <ClCompile Include="Largest Rectangle in Histogram.cpp" />
@@ -217,7 +216,7 @@
     <ClCompile Include="Minimum Size Subarray Sum.cpp" />
     <ClCompile Include="Minimum Window Substring.cpp" />
     <ClCompile Include="minPathSum.cpp" />
-    <ClCompile Include="minStack.cpp" />
+    <ClCompile Include="Min Stack.cpp" />
     <ClCompile Include="Multiply Strings.cpp" />
     <ClCompile Include="N-Queens II.cpp" />
     <ClCompile Include="N-Queens.cpp" />

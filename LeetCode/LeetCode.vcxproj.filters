@@ -99,9 +99,6 @@
     <ClCompile Include="candy.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="atoi.cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="anagrams.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
@@ -131,9 +128,6 @@
     </ClCompile>
     <ClCompile Include="jump.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="minStack.cpp">
-      <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
     <ClCompile Include="uniquePaths.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
@@ -717,9 +711,6 @@
     <ClCompile Include="k Sum II.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
-    <ClCompile Include="Kth Smallest Number in Sorted Matrix.cpp">
-      <Filter>Source Files\Stack and Heap</Filter>
-    </ClCompile>
     <ClCompile Include="Copy Books.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
@@ -1031,6 +1022,12 @@
     </ClCompile>
     <ClCompile Include="Dices Sum.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Min Stack.cpp">
+      <Filter>Source Files\Stack and Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="String to Integer %28atoi%29.cpp">
+      <Filter>Source Files\String</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
