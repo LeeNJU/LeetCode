@@ -1,6 +1,6 @@
 #include<string>
 #include<vector>
-//题目描述：比较版本号数字，例如0.1 < 1.1 < 1.2 < 13.37，假设只有数字和点
+//题目描述：比较版本号数字，例如0.1 < 1.1 < 1.2 < 13.37.89，假设只有数字和点
 //解法描述：分割字符串，用vector保存每个子串，然后转换成数字逐一比较,注意末尾是0的情况
 void split(std::vector<int>& vec, const std::string s)
 {
@@ -12,10 +12,8 @@ void split(std::vector<int>& vec, const std::string s)
 		str = str.substr(index + 1);
 	}
 	vec.push_back(stoi(str));//把最后的数字放入vec中
-	while (vec[vec.size() - 1] == 0)//把最后无意义的0去掉，防止出现1.0 和1的情况
-	{
+	while (vec.back() == 0)//把最后无意义的0去掉，防止出现1.0 和1的情况
 		vec.pop_back();
-	}
 }
 
 int compareVersion(std::string version1, std::string version2)
@@ -30,8 +28,6 @@ int compareVersion(std::string version1, std::string version2)
 			return -1;
 		else if (vec1[i] > vec2[i])
 			return 1;
-		else
-			;
 	}
 
 	if (vec1.size() > vec2.size())
