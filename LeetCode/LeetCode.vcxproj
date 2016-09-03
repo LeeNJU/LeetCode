@@ -20,6 +20,8 @@
     <ClCompile Include="Alien Dictionary.cpp" />
     <ClCompile Include="anagrams.cpp" />
     <ClCompile Include="Android Unlock Patterns.cpp" />
+    <ClCompile Include="Data Stream as Disjoint Intervals.cpp" />
+    <ClCompile Include="Mini Parser.cpp" />
     <ClCompile Include="String to Integer %28atoi%29.cpp" />
     <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="Basic Calculator.cpp" />

@@ -1029,6 +1029,12 @@
     <ClCompile Include="Restore IP Addresses  .cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="Data Stream as Disjoint Intervals.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Mini Parser.cpp">
+      <Filter>Source Files\Stack and Heap</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

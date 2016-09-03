@@ -4,8 +4,8 @@
 #include<queue>
 #include<unordered_set>
 #include<algorithm>
-//题目描述:给定一个字符串数组，里面的字符串按照一定顺序排列，找到这些字符串的相对顺序，例如["wrt","wrf","er","ett",
-//        "rftt"]，那么字符的相对顺序是"wertf"
+//题目描述:给定一个字符串数组，里面的字符串按照一定顺序排列，找到这些字符串的相对顺序，例如["wrt","wrf","er",
+//        "ett","rftt"]，那么字符的相对顺序是"wertf"
 //解法描述:本质其实就是图，字符之间的相对顺序就是一条有向边，先构造一个图，然后用广搜判断是否有环
 
 std::unordered_map<char, std::unordered_set<char>> build_graph(std::vector<std::string>& words) 
