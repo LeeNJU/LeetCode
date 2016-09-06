@@ -19,9 +19,9 @@ int maxDiffSubArrays(std::vector<int> nums)
 	for (int i = 1; i < nums.size(); ++i)  //计算最大和最小的子数组
 	{
 		max_local = std::max(max_local + nums[i], nums[i]);
-		max_dp[i] = std::max(max_dp[i], max_local);
+		max_dp[i] = std::max(max_dp[i - 1], max_local);
 		min_local = std::min(min_local + nums[i], nums[i]);
-		min_dp[i] = std::min(min_dp[i], min_local);
+		min_dp[i] = std::min(min_dp[i - 1], min_local);
 	}
 
 	max_local = nums[nums.size() - 1];

@@ -8,11 +8,9 @@ void moveZeroes(std::vector<int>& nums)
 		if (nums[i] == 0)
 		{
 			int index = i + 1;
-			for (; index < nums.size(); ++index) //寻找后序元素中的非0元素
-			{
-				if (nums[index] != 0)
-					break;
-			}
+			while (index < nums.size() && nums[index] == 0) //寻找后序元素中的非0元素
+				++index;
+
 			if (index == nums.size()) //后序元素中没有非0元素，说明已经完成操作
 				return;
 			else

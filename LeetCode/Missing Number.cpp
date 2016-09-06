@@ -6,9 +6,7 @@ int missingNumber(std::vector<int>& nums)
 	for (int i = 0; i < nums.size(); ++i)
 	{
 		while (nums[i] < nums.size() && i != nums[i])//注意这里的结束条件，可能有一个数的大小超过数组的下标
-		{
 			std::swap(nums[i], nums[nums[i]]);
-		}
 	}
 
 	for (int i = 0; i < nums.size(); ++i)//找到第一个不等的数
