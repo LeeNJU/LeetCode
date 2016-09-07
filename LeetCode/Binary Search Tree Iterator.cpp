@@ -13,14 +13,10 @@ public:
 	BSTIterator(TreeNode *root) 
 	{
 		TreeNode* cur = root;  //所有左子结点压入栈中
-		if (cur)
+		while (cur)
 		{
 			s.push(cur);
-			while (cur->left)
-			{
-				s.push(cur->left);
-				cur = cur->left;
-			}
+			cur = cur->left;
 		}
 	}
 

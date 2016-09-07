@@ -8,12 +8,11 @@ int maxTwoSubArrays(std::vector<int> nums)
 	if (nums.size() < 2)
 		return 0;
 
-	std::vector<int> left(nums.size(), 0), right(nums.size(), 0);
+	std::vector<int> left(nums.size(), 0);
 	left[0] = nums[0];
-	right[right.size() - 1] = nums[nums.size() - 1];
 
 	int local = nums[0];
-	for (int i = 1; i < nums.size(); ++i)//求出left
+	for (int i = 1; i < nums.size(); ++i)
 	{
 		local = std::max(nums[i], nums[i] + local);
 		left[i] = std::max(left[i - 1], local);
@@ -21,11 +20,12 @@ int maxTwoSubArrays(std::vector<int> nums)
 
 	local = nums[nums.size() - 1];
 	int sum = left[nums.size() - 2] + nums[nums.size() - 1];
-	for (int i = nums.size() - 2; i > 0; --i)//求出right，并求出子数组的最大和
+	int right_max = nums.back();
+	for (int i = nums.size() - 2; i > 0; --i)
 	{
 		local = std::max(nums[i], nums[i] + local);
-		right[i] = std::max(local, right[i + 1]);
-		sum = std::max(sum, left[i - 1] + right[i]);
+		right_max = std::max(local, right_max);
+		sum = std::max(sum, left[i - 1] + right_max);
 	}
 	return sum;
 }

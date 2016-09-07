@@ -5,15 +5,15 @@
 int read4(char* buf);
 int read(char *buf, int n) 
 {
-	int res = 0;
-	while (n > 0) 
+	int result = 0;
+	int value = n;
+	while (value > 0) 
 	{
-		int tmp = std::min(read4(buf), n);
-		res += tmp;
-		buf += tmp;
-		if (tmp < 4)
+		int cur = read4(buf + result);
+		if (cur == 0) 
 			break;
-		n -= 4;
+		result += cur;
+		value -= cur;
 	}
-	return res;
+	return std::min(result, n);
 }
