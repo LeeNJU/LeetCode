@@ -2,8 +2,9 @@
 #include<vector>
 #include<unordered_set>
 
-//题目描述：给定一个字符串和字符串数组，判断该字符串能否被拆分成字符串数组中的单词，例如s = "leetcode"， dict = "leet", "code"， 那么s能被拆分
-//解法描述：动态规划 转移方程vec[i] = any_of(vec[j]&&s[j + 1; i] 属于 dict); 0 <=j < i
+//题目描述:给定一个字符串和字符串数组，判断该字符串能否被拆分成字符串数组中的单词，例如s = "leetcode"，
+//        dict = "leet", "code"， 那么s能被拆分
+//解法描述:动态规划 转移方程dp[i] = any_of(dp[j]&&s[j + 1; i] 属于 dict); 0 <=j < i
 
 bool wordBreak(std::string s, std::unordered_set<std::string>& wordDict)
 {

@@ -4,7 +4,7 @@
 //        到这个pair里，求最多能放多少个
 //解法描述:先排序，再动态规划，复杂度为n平方。可以通过二分查找优化成nlogn。
 
-bool compare(std::pair<int, int>&x , std::pair<int, int>& y) 
+bool compare(const std::pair<int, int>&x , const std::pair<int, int>& y) 
 { //注意这里的排序方式
 	return x.first != y.first ? x.first < y.first : x.second > y.second;
 }

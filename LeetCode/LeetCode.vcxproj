@@ -22,6 +22,7 @@
     <ClCompile Include="Android Unlock Patterns.cpp" />
     <ClCompile Include="Burst Balloons.cpp" />
     <ClCompile Include="Data Stream as Disjoint Intervals.cpp" />
+    <ClCompile Include="Is Subsequence.cpp" />
     <ClCompile Include="Mini Parser.cpp" />
     <ClCompile Include="String to Integer %28atoi%29.cpp" />
     <ClCompile Include="Backpack.cpp" />
@@ -312,8 +313,7 @@
     <ClCompile Include="Two Sum.cpp" />
     <ClCompile Include="Ugly Number.cpp" />
     <ClCompile Include="Unique Word Abbreviation.cpp" />
-    <ClCompile Include="uniquePaths.cpp" />
-    <ClCompile Include="uniquePathsWithObstacles.cpp" />
+    <ClCompile Include="Unique Paths.cpp" />
     <ClCompile Include="Valid Number.cpp" />
     <ClCompile Include="Valid Sudokuk.cpp" />
     <ClCompile Include="Verify Preorder Sequence in Binary Search Tree.cpp" />
@@ -326,7 +326,7 @@
     <ClCompile Include="Word Pattern.cpp" />
     <ClCompile Include="Word Search II.cpp" />
     <ClCompile Include="Word Search.cpp" />
-    <ClCompile Include="wordBreak.cpp" />
+    <ClCompile Include="Word Break.cpp" />
     <ClCompile Include="ZigZag Conversion.cpp" />
     <ClCompile Include="Zigzag Iterator.cpp" />
     <ClCompile Include="Binary Tree Zigzag Level Order Traversal.cpp" />

@@ -105,16 +105,7 @@
     <ClCompile Include="jump.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
-    <ClCompile Include="uniquePaths.cpp">
-      <Filter>Source Files\Dynamic Programming</Filter>
-    </ClCompile>
-    <ClCompile Include="uniquePathsWithObstacles.cpp">
-      <Filter>Source Files\Dynamic Programming</Filter>
-    </ClCompile>
     <ClCompile Include="minPathSum.cpp">
-      <Filter>Source Files\Dynamic Programming</Filter>
-    </ClCompile>
-    <ClCompile Include="wordBreak.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
     <ClCompile Include="First Missing Positive.cpp">
@@ -1031,6 +1022,15 @@
     </ClCompile>
     <ClCompile Include="Binary Tree Zigzag Level Order Traversal.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Word Break.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Unique Paths.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Is Subsequence.cpp">
+      <Filter>Source Files\String</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

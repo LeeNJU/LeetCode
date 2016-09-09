@@ -10,9 +10,7 @@ int minimumTotal(std::vector<std::vector<int>> &triangle)
 	for (int i = triangle.size() - 2; i >= 0; --i)//从倒数第二行开始计算
 	{
 		for (int j = 0; j < i + 1; ++j)
-		{
 			triangle[i][j] += std::min(triangle[i + 1][j], triangle[i + 1][j + 1]);
-		}
 	}
 	return triangle[0][0];
 }
