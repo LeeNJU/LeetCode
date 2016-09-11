@@ -234,9 +234,6 @@
     <ClCompile Include="Permutations.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
-    <ClCompile Include="Permutations II.cpp">
-      <Filter>Source Files\BackTracking</Filter>
-    </ClCompile>
     <ClCompile Include="Sudoku Solver.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
@@ -530,9 +527,6 @@
     </ClCompile>
     <ClCompile Include="Invert Binary Tree.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
-    </ClCompile>
-    <ClCompile Include="isValidBST.cpp">
-      <Filter>Source Files\Tree\Binary Search Tree</Filter>
     </ClCompile>
     <ClCompile Include="Kth Smallest Element in a BST.cpp">
       <Filter>Source Files\Tree\Binary Search Tree</Filter>
@@ -1034,6 +1028,12 @@
     </ClCompile>
     <ClCompile Include="Lexicographical Numbers.cpp">
       <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Validate Binary Search Tree.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Previous Permutation.cpp">
+      <Filter>Source Files\Array</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

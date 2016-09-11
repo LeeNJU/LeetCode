@@ -29,4 +29,3 @@ int countUnivalSubtrees(TreeNode* root)
 	countUnivalSubtreesRecursive(root, count);
 	return count;
 }
-

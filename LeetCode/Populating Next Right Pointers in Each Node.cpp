@@ -23,26 +23,35 @@ void connect(TreeLinkNode* root)
 
 //变种
 //题目描述：上一题的二叉树是满二叉树，现在要求变为任意的二叉树
-//解法描述：递归求解，从每一层的最左边的节点开始，遍历同一层的节点，设置同一层的节点的next指针，然后递归调用设置下一
+//解法描述：从每一层的最左边的节点开始，遍历同一层的节点，设置同一层的节点的next指针，然后循环设置下一
 //         层，dummy节点用来记录每一层最左边的节点
 void connect2(TreeLinkNode* root)
 {
-	if (root == nullptr) 
+	if (!root)
 		return;
 
-	TreeLinkNode dummy(-1);//dummy节点的下一个节点是每一层的最左边的节点
-	for (TreeLinkNode *curr = root, *prev = &dummy; curr; curr = curr->next)//遍历同一层的节点，设置root节点的 
-	{                                                     //下一层节点的next指针
-		if (curr->left != nullptr)
+	TreeLinkNode dummy(0);
+	TreeLinkNode* prev = &dummy;
+	TreeLinkNode* cur = root;
+	while (cur)//遍历数的每一层
+	{
+		while (cur)//遍历树的某一层
 		{
-			prev->next = curr->left;
-			prev = prev->next;
+			if (cur->left)
+			{
+				prev->next = cur->left;
+				prev = prev->next;
+			}
+			if (cur->right)
+			{
+				prev->next = cur->right;
+				prev = prev->next;
+			}
+			cur = cur->next;
 		}
-		if (curr->right != nullptr)
-		{
-			prev->next = curr->right;
-			prev = prev->next;
-		}
+
+		cur = dummy.next;//上一层遍历完之后，说明下一层的next指针都已经设置好了，开始遍历下一层
+		dummy.next = nullptr;
+		prev = &dummy;
 	}
-	connect2(dummy.next);//递归调用
 }

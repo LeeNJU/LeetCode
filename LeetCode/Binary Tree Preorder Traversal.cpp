@@ -6,7 +6,8 @@
 //解法描述：先用栈保留根节点，然后遍历，注意先把右子节点压入栈中，再把左子节点压入栈中，因为栈是后进先出，这样下一个循环就先遍历左子节点
 
 
-std::vector<int> preorderTraversal(TreeNode *root) {
+std::vector<int> preorderTraversal(TreeNode *root) 
+{
 	std::vector<int> result;
 	if (root == nullptr)
 		return result;

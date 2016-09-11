@@ -2,8 +2,9 @@
 #include<queue>
 #include"TreeNode.h"
 
-//题目描述：给定一个二叉树，返回用zigzag方式的层次遍历结果，即偶数层的遍历结果要反转一下
-//解法描述：本质是层次遍历，但是加一个变量标记每一层是否需要反转，在每一层的结尾，加入一个nullptr作为层与层之间的分隔符
+//题目描述:给定一个二叉树，返回用zigzag方式的层次遍历结果，即偶数层的遍历结果要反转一下
+//解法描述:本质是层次遍历，但是加一个变量标记每一层是否需要反转，在每一层的结尾，加入一个nullptr作为层与
+//         层之间的分隔符
 
 std::vector<std::vector<int>> zigzagLevelOrder(TreeNode* root)
 {
@@ -36,8 +37,8 @@ std::vector<std::vector<int>> zigzagLevelOrder(TreeNode* root)
 
 			level.clear();
 			left_to_right = !left_to_right;
-			if (q.size() > 0) //注意这里，当q不为空的时候，才把nullptr加入q，说明q里面还有非空元素。如果此时q为空，说明循环该结束了，不应该再加入
-				q.push(nullptr);//其他的元素，否则会出错
+			if (q.size() > 0) //注意这里，当q不为空的时候，才把nullptr加入q，说明q里面还有非空元素。如果此时
+				q.push(nullptr);//q为空，说明循环该结束了，不应该再加入其他的元素，否则会出错
 		}
 	}
 	return result;

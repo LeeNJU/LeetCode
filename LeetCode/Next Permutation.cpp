@@ -1,9 +1,9 @@
 #include<vector>
 #include<algorithm>
-//题目描述：求出下一个排列
-//解法描述：1.从右往左扫描，找到第一个非递增的值value，2.从右往左扫描，找到第一个比value大的值 3.交换这两个值 4.把value后面的值进行反转
-//要注意数组全部递减的情况  这时只要反转整个数组就可以了
-void nextPermutation(std::vector<int> &num)
+//题目描述:求出下一个排列
+//解法描述:1.从右往左扫描，找到第一个非递增的值value，2.从右往左扫描，找到第一个比value大的值 3.交换这两个值
+//         4.把value后面的值进行反转,要注意数组全部递减的情况  这时只要反转整个数组就可以了
+void nextPermutation(std::vector<int>& num)
 {
 	int left = num.size() - 1;
 	for (int i = num.size() - 1; i >= 1; --i)//从右往左扫描，找到第一个非递增的值left

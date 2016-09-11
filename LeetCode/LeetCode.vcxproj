@@ -25,6 +25,7 @@
     <ClCompile Include="Is Subsequence.cpp" />
     <ClCompile Include="Lexicographical Numbers.cpp" />
     <ClCompile Include="Mini Parser.cpp" />
+    <ClCompile Include="Previous Permutation.cpp" />
     <ClCompile Include="String to Integer %28atoi%29.cpp" />
     <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="Basic Calculator.cpp" />
@@ -193,7 +194,7 @@
     <ClCompile Include="Same Tree.cpp" />
     <ClCompile Include="Symmetric Tree.cpp" />
     <ClCompile Include="Valid Parentheses.cpp" />
-    <ClCompile Include="isValidBST.cpp" />
+    <ClCompile Include="Validate Binary Search Tree.cpp" />
     <ClCompile Include="jump.cpp" />
     <ClCompile Include="Kth Largest Element in an Array.cpp" />
     <ClCompile Include="Largest Number.cpp" />
@@ -229,7 +230,6 @@
     <ClCompile Include="Palindrome Partitioning II.cpp" />
     <ClCompile Include="Palindrome Partitioning.cpp" />
     <ClCompile Include="Partition List.cpp" />
-    <ClCompile Include="Permutations II.cpp" />
     <ClCompile Include="Permutations.cpp" />
     <ClCompile Include="Plus One Linked List.cpp" />
     <ClCompile Include="Plus One.cpp" />
