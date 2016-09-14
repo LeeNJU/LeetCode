@@ -16,9 +16,7 @@ int evalRPN(std::vector<std::string> &tokens)
 	for (int i = 0; i < tokens.size(); ++i)
 	{
 		if (!isOperator(tokens[i]))
-		{
 			s.push(stoi(tokens[i]));//stoi把string转换成int
-		}
 		else//取出栈顶的2个元素，根据运算符号进行运算
 		{
 			int x = s.top();//注意取出的两个元素的顺序，尤其是进行除法或者减法的时候

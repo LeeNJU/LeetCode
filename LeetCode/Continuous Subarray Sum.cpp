@@ -29,7 +29,6 @@ std::vector<int> continuousSubarraySum(std::vector<int>& A)
 			result[0] = local_left;
 			result[1] = local_right;
 		}
-
 	}
 	return result;
 }
