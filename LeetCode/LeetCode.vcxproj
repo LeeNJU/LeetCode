@@ -22,8 +22,10 @@
     <ClCompile Include="Android Unlock Patterns.cpp" />
     <ClCompile Include="Burst Balloons.cpp" />
     <ClCompile Include="Data Stream as Disjoint Intervals.cpp" />
+    <ClCompile Include="Evaluate Division.cpp" />
     <ClCompile Include="Is Subsequence.cpp" />
     <ClCompile Include="Lexicographical Numbers.cpp" />
+    <ClCompile Include="Longest Absolute File Path.cpp" />
     <ClCompile Include="Mini Parser.cpp" />
     <ClCompile Include="Permutation Index.cpp" />
     <ClCompile Include="Previous Permutation.cpp" />
