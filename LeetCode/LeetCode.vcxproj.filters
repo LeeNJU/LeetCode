@@ -1047,6 +1047,9 @@
     <ClCompile Include="Longest Absolute File Path.cpp">
       <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
+    <ClCompile Include="Decode String.cpp">
+      <Filter>Source Files\Stack and Heap</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

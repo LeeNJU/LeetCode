@@ -22,6 +22,7 @@
     <ClCompile Include="Android Unlock Patterns.cpp" />
     <ClCompile Include="Burst Balloons.cpp" />
     <ClCompile Include="Data Stream as Disjoint Intervals.cpp" />
+    <ClCompile Include="Decode String.cpp" />
     <ClCompile Include="Evaluate Division.cpp" />
     <ClCompile Include="Is Subsequence.cpp" />
     <ClCompile Include="Lexicographical Numbers.cpp" />
