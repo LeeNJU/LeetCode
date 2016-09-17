@@ -1050,6 +1050,9 @@
     <ClCompile Include="Decode String.cpp">
       <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
+    <ClCompile Include="Longest Substring with At Least K Repeating Characters.cpp">
+      <Filter>Source Files\Hash Table</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
