@@ -774,9 +774,6 @@
     <ClCompile Include="Set Matrix Zeroes.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="Sum Root to Leaf Numbers.cpp">
-      <Filter>Source Files\Tree\Binary Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Flatten Binary Tree to Linked List.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
@@ -1052,6 +1049,9 @@
     </ClCompile>
     <ClCompile Include="Longest Substring with At Least K Repeating Characters.cpp">
       <Filter>Source Files\Hash Table</Filter>
+    </ClCompile>
+    <ClCompile Include="Convert a Number to Hexadecimal.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
