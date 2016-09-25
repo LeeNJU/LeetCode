@@ -1053,6 +1053,12 @@
     <ClCompile Include="Convert a Number to Hexadecimal.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
+    <ClCompile Include="Remove K Digits.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary Watch.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

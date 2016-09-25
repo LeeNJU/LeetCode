@@ -20,6 +20,7 @@
     <ClCompile Include="Alien Dictionary.cpp" />
     <ClCompile Include="anagrams.cpp" />
     <ClCompile Include="Android Unlock Patterns.cpp" />
+    <ClCompile Include="Binary Watch.cpp" />
     <ClCompile Include="Burst Balloons.cpp" />
     <ClCompile Include="Convert a Number to Hexadecimal.cpp" />
     <ClCompile Include="Data Stream as Disjoint Intervals.cpp" />
@@ -32,6 +33,7 @@
     <ClCompile Include="Mini Parser.cpp" />
     <ClCompile Include="Permutation Index.cpp" />
     <ClCompile Include="Previous Permutation.cpp" />
+    <ClCompile Include="Remove K Digits.cpp" />
     <ClCompile Include="Rotate Function.cpp" />
     <ClCompile Include="String to Integer %28atoi%29.cpp" />
     <ClCompile Include="Backpack.cpp" />
