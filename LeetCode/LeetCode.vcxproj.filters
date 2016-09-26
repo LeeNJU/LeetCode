@@ -81,9 +81,6 @@
     <ClCompile Include="trailingZeroes.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
-    <ClCompile Include="singleNumber.cpp">
-      <Filter>Source Files\Bit Manipulation</Filter>
-    </ClCompile>
     <ClCompile Include="strStr.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
@@ -285,9 +282,6 @@
     <ClCompile Include="Missing Number.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="Single Number III.cpp">
-      <Filter>Source Files\Bit Manipulation</Filter>
-    </ClCompile>
     <ClCompile Include="H-Index.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -311,9 +305,6 @@
     </ClCompile>
     <ClCompile Include="Decode Ways.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
-    </ClCompile>
-    <ClCompile Include="Single Number II.cpp">
-      <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
     <ClCompile Include="Endianness.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
@@ -1057,6 +1048,12 @@
       <Filter>Source Files\String</Filter>
     </ClCompile>
     <ClCompile Include="Binary Watch.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Range Addition.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Single Number.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
   </ItemGroup>
