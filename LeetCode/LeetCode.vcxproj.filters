@@ -405,9 +405,6 @@
     <ClCompile Include="Fast Power.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
-    <ClCompile Include="Maximum Subarray II.cpp">
-      <Filter>Source Files\Array\Greedy</Filter>
-    </ClCompile>
     <ClCompile Include="Binary Representation.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>

@@ -63,5 +63,5 @@ std::pair<int, int> dfs(TreeNode* root)
 int rob(TreeNode* root) 
 {
 	std::pair<int, int> result = dfs(root);
-	return std::max(result[0], result[1]);
+	return std::max(result.first, result.second);
 }

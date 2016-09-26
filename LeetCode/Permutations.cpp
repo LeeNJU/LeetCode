@@ -44,7 +44,7 @@ void dfs(std::vector<int>& num, std::vector<bool>& visited, std::vector<int>& so
 		result.push_back(solution);
 		return;
 	}
-	for (int i = 0; i< num.size(); i++)//每次都是从0开始遍历
+	for (int i = 0; i < num.size(); i++)//每次都是从0开始遍历
 	{
 		if (visited[i] == false)//元素没有被访问过才加入到solution中
 		{

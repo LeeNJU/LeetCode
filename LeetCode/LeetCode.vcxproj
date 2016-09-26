@@ -165,7 +165,6 @@
     <ClCompile Include="Maximum Product Subarray.cpp" />
     <ClCompile Include="Maximum Size Subarray Sum Equals k.cpp" />
     <ClCompile Include="Maximum Subarray Difference.cpp" />
-    <ClCompile Include="Maximum Subarray II.cpp" />
     <ClCompile Include="Maximum Subarray.cpp" />
     <ClCompile Include="Meeting Rooms.cpp" />
     <ClCompile Include="Minimum Height Trees.cpp" />
