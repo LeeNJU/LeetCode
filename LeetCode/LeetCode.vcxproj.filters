@@ -1059,6 +1059,9 @@
     <ClCompile Include="Wiggle Subsequence.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
+    <ClCompile Include="Sum Root to Leaf Numbers.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
