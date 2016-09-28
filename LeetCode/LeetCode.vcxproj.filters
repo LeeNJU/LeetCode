@@ -207,9 +207,6 @@
     <ClCompile Include="Generate Parentheses.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
-    <ClCompile Include="letterCombinations.cpp">
-      <Filter>Source Files\BackTracking</Filter>
-    </ClCompile>
     <ClCompile Include="Palindrome Partitioning.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
@@ -1052,6 +1049,12 @@
     </ClCompile>
     <ClCompile Include="Single Number.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Letter Combinations of a Phone Number.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Valid Perfect Square.cpp">
+      <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
