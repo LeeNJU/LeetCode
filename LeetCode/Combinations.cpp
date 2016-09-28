@@ -17,7 +17,8 @@ void dfs(std::vector<std::vector<int>>& result, std::vector<int> intermediate, i
 		intermediate.pop_back();
 	}
 }
-std::vector<std::vector<int>> combine(int n, int k) {
+std::vector<std::vector<int>> combine(int n, int k) 
+{
 	std::vector<std::vector<int>> result;
 	std::vector<int> t;
 	dfs(result, t, 1, k, n);
