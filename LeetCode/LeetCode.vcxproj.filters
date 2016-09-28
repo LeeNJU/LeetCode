@@ -96,9 +96,6 @@
     <ClCompile Include="convert.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="maxArea.cpp">
-      <Filter>Source Files\Array</Filter>
-    </ClCompile>
     <ClCompile Include="jump.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
@@ -1055,6 +1052,12 @@
     </ClCompile>
     <ClCompile Include="Valid Perfect Square.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
+    </ClCompile>
+    <ClCompile Include="Container With Most Water.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Wiggle Subsequence.cpp">
+      <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -33,11 +33,11 @@ int nthUglyNumber(int n)
 	{
 		result[i] = std::min(std::min(result[index2] * 2, result[index3] * 3), result[index5] * 5);
 		if (result[i] == result[index2] * 2) //注意这里，不能用if else，因为当前最小的ugly number可能乘以2，3或者5同时得到
-			index2++;
+			++index2;
 		if (result[i] == result[index3] * 3) 
-			index3++;
+			++index3;
 		if (result[i] == result[index5] * 5) 
-			index5++;
+			++index5;
 	}
 	return result[n - 1];
 }

@@ -1,9 +1,9 @@
 #include<vector>
 
-//题目描述：给定一个未排序的数组，找到其中第k大的元素
-//解法描述：数组中第k大的元素的下标为n - k，利用快排里面的partition操作，first指向数组开头，last指向结尾，对first到last区间的进行partition操作，
-//会返回一个下标index，如果index等于n - k，那么A[n - k]元素就是结果，如果index小于n - k，first指向index的下一个元素，如果大于n - k，last指向
-//index的上一个元素
+//题目描述:给定一个未排序的数组，找到其中第k大的元素
+//解法描述:数组中第k大的元素的下标为n - k，利用快排里面的partition操作，first指向数组开头，last指向结尾，
+//        对first到last区间的进行partition操作，会返回一个下标index，如果index等于n - k，那么A[n - k]元素
+//        就是结果，如果index小于n - k，first指向index的下一个元素，如果大于n - k，last指向index的上一个元素
 
 int partition(std::vector<int>& nums, int first, int last)
 {

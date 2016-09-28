@@ -218,7 +218,7 @@
     <ClCompile Include="Longest Valid Parentheses.cpp" />
     <ClCompile Include="LRU Cache.cpp" />
     <ClCompile Include="Majority Element.cpp" />
-    <ClCompile Include="maxArea.cpp" />
+    <ClCompile Include="Container With Most Water.cpp" />
     <ClCompile Include="Maximum Depth of Binary Tree.cpp" />
     <ClCompile Include="Maximal Square.cpp" />
     <ClCompile Include="Maximum Gap.cpp" />
@@ -328,6 +328,7 @@
     <ClCompile Include="Verify Preorder Serialization of a Binary Tree.cpp" />
     <ClCompile Include="Walls and Gates.cpp" />
     <ClCompile Include="Wiggle Sort.cpp" />
+    <ClCompile Include="Wiggle Subsequence.cpp" />
     <ClCompile Include="Wildcard Matching.cpp" />
     <ClCompile Include="Word Ladder II.cpp" />
     <ClCompile Include="Word Ladder.cpp" />

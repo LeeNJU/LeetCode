@@ -16,7 +16,6 @@ void dfs(std::vector<std::vector<int>>& result, std::vector<int> t, const std::v
 	}
 }
 
-
 std::vector<std::vector<int> > subsets(std::vector<int>& nums)
 {
 	sort(nums.begin(), nums.end());
@@ -25,4 +24,3 @@ std::vector<std::vector<int> > subsets(std::vector<int>& nums)
 	dfs(result, path, nums, 0);
 	return result;
 }
-
