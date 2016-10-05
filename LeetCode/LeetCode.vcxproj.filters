@@ -1062,6 +1062,9 @@
     <ClCompile Include="Sum Root to Leaf Numbers.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Longest Palindrome.cpp">
+      <Filter>Source Files\Hash Table</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

@@ -29,6 +29,7 @@
     <ClCompile Include="Is Subsequence.cpp" />
     <ClCompile Include="Lexicographical Numbers.cpp" />
     <ClCompile Include="Longest Absolute File Path.cpp" />
+    <ClCompile Include="Longest Palindrome.cpp" />
     <ClCompile Include="Longest Substring with At Least K Repeating Characters.cpp" />
     <ClCompile Include="Mini Parser.cpp" />
     <ClCompile Include="Permutation Index.cpp" />

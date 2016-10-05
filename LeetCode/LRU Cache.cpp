@@ -1,8 +1,9 @@
 #include<list>
 #include<unordered_map>
-//题目描述：实现一个LRU cache算法，即Least Recently Used算法，最近没有被访问到的数据，之后被访问到的可能性就很低
-//解法描述：CacheNode表示一个节点，包括key和value，用双向链表表示cache，一个hashtable表示每一个key到list中的元素，刚刚访问的元素放到链表前面，最后
-//一个元素就是最不经常使用的元素。
+//题目描述:实现一个LRU cache算法，即Least Recently Used算法，最近没有被访问到的数据，之后被访问到的可能性
+//         就很低
+//解法描述:CacheNode表示一个节点，包括key和value，用双向链表表示cache，一个hashtable表示每一个key到list中
+//        的元素，刚刚访问的元素放到链表前面，最后一个元素就是最不经常使用的元素。
 class LRUCache
 {
 private:
