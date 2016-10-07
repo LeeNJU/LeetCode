@@ -1065,6 +1065,9 @@
     <ClCompile Include="Longest Palindrome.cpp">
       <Filter>Source Files\Hash Table</Filter>
     </ClCompile>
+    <ClCompile Include="Queue Reconstruction by Height.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
