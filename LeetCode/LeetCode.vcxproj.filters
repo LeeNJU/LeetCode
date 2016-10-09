@@ -942,9 +942,6 @@
     <ClCompile Include="Longest Valid Parentheses.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="Restore IP Addresses  .cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="Data Stream as Disjoint Intervals.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -1070,6 +1067,12 @@
     </ClCompile>
     <ClCompile Include="Random Pick Index.cpp">
       <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Restore IP Addresses.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Split Array Largest Sum.cpp">
+      <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

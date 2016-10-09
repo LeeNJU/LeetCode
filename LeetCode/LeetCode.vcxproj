@@ -39,6 +39,7 @@
     <ClCompile Include="Range Addition.cpp" />
     <ClCompile Include="Remove K Digits.cpp" />
     <ClCompile Include="Rotate Function.cpp" />
+    <ClCompile Include="Split Array Largest Sum.cpp" />
     <ClCompile Include="String to Integer %28atoi%29.cpp" />
     <ClCompile Include="Backpack.cpp" />
     <ClCompile Include="Basic Calculator.cpp" />
@@ -268,7 +269,7 @@
     <ClCompile Include="Reorder array to construct the minimum numbere.cpp" />
     <ClCompile Include="Reorder List.cpp" />
     <ClCompile Include="Repeated DNA Sequences.cpp" />
-    <ClCompile Include="Restore IP Addresses  .cpp" />
+    <ClCompile Include="Restore IP Addresses.cpp" />
     <ClCompile Include="Reverse Bits.cpp" />
     <ClCompile Include="Reverse Nodes in k-Group.cpp" />
     <ClCompile Include="Reverse Integer.cpp" />
