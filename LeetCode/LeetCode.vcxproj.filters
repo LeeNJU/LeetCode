@@ -1074,6 +1074,9 @@
     <ClCompile Include="Split Array Largest Sum.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
+    <ClCompile Include="The Skyline Problem.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

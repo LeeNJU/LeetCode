@@ -14,10 +14,12 @@ public:
 
 	bool shouldPrintMessage(int timestamp, std::string message)
 	{
-		if (!hash.count(message)) {
+		if (!hash.count(message)) 
+		{
 			hash[message] = timestamp;
 			return true;
 		}
+
 		if (timestamp - hash[message] >= 10) 
 		{
 			hash[message] = timestamp;
