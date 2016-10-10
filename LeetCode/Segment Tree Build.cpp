@@ -4,7 +4,7 @@
 //题目描述:给定一个区间，构造一颗线段树
 //解法描述:线段树的每个节点代表一个区间，对区间[start, end]进行划分，左子节点的区间为[start, mid], 右子节点的区间为
 //        [mid + 1, end],其中mid = (start + end) / 2.
-SegmentTreeNode * build(int start, int end) 
+SegmentTreeNode* build(int start, int end) 
 {
 	if (start > end)
 		return nullptr;

@@ -30,3 +30,17 @@ bool isValidBST(TreeNode* root)
 	}
 	return true;
 }
+
+//递归解法:对每一个节点，传入当前节点的取值范围，即最大值和最小值,对于刚开始的根节点low去long的最小值，up
+//        取long的最大值
+/*
+bool dfs(TreeNode* root, long low, long up) 
+{
+	if (root == nullptr) 
+		return true;
+
+	if (root->val >= up || root->val <= low) 
+		return false;
+
+	return dfs(root->left, low, root->val) && dfs(root->right, root->val, up);
+}*/

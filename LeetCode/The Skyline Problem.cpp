@@ -14,7 +14,7 @@ std::vector<std::pair<int, int>> getSkyline(std::vector<std::vector<int>>& build
 	int prev = 0, cur = 0;
 	for (auto &a : buildings) 
 	{
-		height.push_back(std::pair<int, int>(a[0], -a[2]));//取负数表明这是坐端点
+		height.push_back(std::pair<int, int>(a[0], -a[2]));//取负数表明这是左端点
 		height.push_back(std::pair<int, int>(a[1], a[2]));//这是右端点
 	}
 	
@@ -22,10 +22,10 @@ std::vector<std::pair<int, int>> getSkyline(std::vector<std::vector<int>>& build
 	m.insert(0);
 	for (auto &a : height) 
 	{
-		if (a.second < 0) 
+		if (a.second < 0)//左端点 
 			m.insert(-a.second);
 		else 
-			m.erase(m.find(a.second));
+			m.erase(m.find(a.second));//右端点，表明线段的结束
 		
 		cur = *m.rbegin();
 		if (cur != prev) 

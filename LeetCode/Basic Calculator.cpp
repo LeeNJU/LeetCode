@@ -96,3 +96,97 @@ int calculate2(std::string s)
 	}
 	return result;
 }
+
+//中缀表达式求值:一个栈装数字，一个栈存操作符，数字入栈，左括号入栈，碰到操作符，如果栈顶操作符的优先级大于等于
+//             当前操作符的优先级，就对栈顶操作符进行操作，直到栈顶操作符优先级低于当前操作符，然后把当前
+//             操作符入栈，如果当前操作符的优先级本来就大于栈顶操作符，直接入栈，如果碰到)，就要对括号中的值
+//             进行求值，直到遇到左括号
+/*
+int get_priority(char c)
+{
+	if (c == '+')
+		return 1;
+	else if (c == '-')
+		return 1;
+	else if (c == '*')
+		return 2;
+	else if (c == '/')
+		return 2;
+	else if (c == '(')
+		return 0;
+	else if (c == ')')
+		return 3;
+	return -1;
+}
+
+void calculate(stack<int>& operand, stack<char>& ops)
+{
+	int num1 = operand.top();
+	operand.pop();
+	int num2 = operand.top();
+	operand.pop();
+	if (ops.top() == '+')
+		operand.push(num1 + num2);
+	else if (ops.top() == '-')
+		operand.push(num2 - num1);
+	else if (ops.top() == '*')
+		operand.push(num1 * num2);
+	else if (ops.top() == '/')
+		operand.push(num2 / num1);
+}
+
+int calculate(string s)
+{
+	stack<int> operand;
+	stack<char> ops;
+
+	for (int i = 0; i < s.length(); ++i)
+	{
+		if (s[i] == ' ')
+			continue;
+		else if (isdigit(s[i]))
+		{
+			int val = 0;
+			while (i < s.length() && isdigit(s[i]))
+				val = val * 10 + s[i++] - '0';
+
+			operand.push(val);
+			--i;
+		}
+		else if (s[i] == '(')
+			ops.push('(');
+		else if (s[i] == ')')
+		{
+			while (ops.top() != '(')
+			{
+				calculate(operand, ops);
+				ops.pop();
+			}
+			ops.pop();
+		}
+		else
+		{
+			int priority = get_priority(s[i]);
+			if (ops.empty() || priority > get_priority(ops.top()))
+			{
+				ops.push(s[i]);
+				continue;
+			}
+
+			while (!ops.empty() && priority <= get_priority(ops.top()))
+			{
+				calculate(operand, ops);
+				ops.pop();
+			}
+			ops.push(s[i]);
+		}
+	}
+
+	while (!ops.empty())
+	{
+		calculate(operand, ops);
+		ops.pop();
+	}
+
+	return operand.top();
+}*/

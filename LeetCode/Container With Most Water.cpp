@@ -4,7 +4,7 @@
 //         面积最大
 //解法描述：贪心，两个指针往中间移动，保持最大的面积
 
-int maxArea(std::vector<int> &height)
+int maxArea(std::vector<int>& height)
 {
 	int result = 0;
 	int i = 0, j = height.size() - 1;
