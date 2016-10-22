@@ -37,6 +37,7 @@
     <ClCompile Include="Queue Reconstruction by Height.cpp" />
     <ClCompile Include="Random Pick Index.cpp" />
     <ClCompile Include="Range Addition.cpp" />
+    <ClCompile Include="Reconstruct Original Digits from English.cpp" />
     <ClCompile Include="Remove K Digits.cpp" />
     <ClCompile Include="Rotate Function.cpp" />
     <ClCompile Include="Split Array Largest Sum.cpp" />
