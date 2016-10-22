@@ -15,6 +15,7 @@
     <ClCompile Include="A + B Problem.cpp" />
     <ClCompile Include="Add and Search Word - Data structure design.cpp" />
     <ClCompile Include="Add Binary.cpp" />
+    <ClCompile Include="Add Strings.cpp" />
     <ClCompile Include="Additive Number.cpp" />
     <ClCompile Include="Add Two Numbers.cpp" />
     <ClCompile Include="Alien Dictionary.cpp" />
