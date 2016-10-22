@@ -208,6 +208,7 @@
     <ClCompile Include="Isomorphic Strings.cpp" />
     <ClCompile Include="Sum Root to Leaf Numbers.cpp" />
     <ClCompile Include="The Skyline Problem.cpp" />
+    <ClCompile Include="Third Maximum Number.cpp" />
     <ClCompile Include="Valid Palindrome.cpp" />
     <ClCompile Include="Palindrome Number.cpp" />
     <ClCompile Include="Same Tree.cpp" />
