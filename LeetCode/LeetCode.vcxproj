@@ -211,6 +211,7 @@
     <ClCompile Include="Symmetric Tree.cpp" />
     <ClCompile Include="Valid Parentheses.cpp" />
     <ClCompile Include="Valid Perfect Square.cpp" />
+    <ClCompile Include="Valid Word Square.cpp" />
     <ClCompile Include="Validate Binary Search Tree.cpp" />
     <ClCompile Include="jump.cpp" />
     <ClCompile Include="Kth Largest Element in an Array.cpp" />
