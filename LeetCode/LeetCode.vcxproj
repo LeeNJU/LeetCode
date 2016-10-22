@@ -20,6 +20,7 @@
     <ClCompile Include="Alien Dictionary.cpp" />
     <ClCompile Include="anagrams.cpp" />
     <ClCompile Include="Android Unlock Patterns.cpp" />
+    <ClCompile Include="Arithmetic Slices.cpp" />
     <ClCompile Include="Binary Watch.cpp" />
     <ClCompile Include="Burst Balloons.cpp" />
     <ClCompile Include="Convert a Number to Hexadecimal.cpp" />
