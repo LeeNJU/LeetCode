@@ -309,9 +309,6 @@
     <ClCompile Include="Add Binary.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="Flowing Water.cpp">
-      <Filter>Source Files\BackTracking</Filter>
-    </ClCompile>
     <ClCompile Include="Is Sparse.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
@@ -1094,6 +1091,9 @@
     </ClCompile>
     <ClCompile Include="Third Maximum Number.cpp">
       <Filter>Source Files\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="Pacific Atlantic Water Flow.cpp">
+      <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
