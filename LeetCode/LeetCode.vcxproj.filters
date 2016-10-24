@@ -1098,6 +1098,12 @@
     <ClCompile Include="Design Twitter.cpp">
       <Filter>Source Files\Design</Filter>
     </ClCompile>
+    <ClCompile Include="Find All Anagrams in a String.cpp">
+      <Filter>Source Files\Hash Table</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleships in a Board.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
