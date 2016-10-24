@@ -27,6 +27,7 @@
     <ClCompile Include="Convert a Number to Hexadecimal.cpp" />
     <ClCompile Include="Data Stream as Disjoint Intervals.cpp" />
     <ClCompile Include="Decode String.cpp" />
+    <ClCompile Include="Design Twitter.cpp" />
     <ClCompile Include="Evaluate Division.cpp" />
     <ClCompile Include="Is Subsequence.cpp" />
     <ClCompile Include="Lexicographical Numbers.cpp" />
