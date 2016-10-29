@@ -1110,6 +1110,9 @@
     <ClCompile Include="Minimum Genetic Mutation.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="Ternary Expression Parser.cpp">
+      <Filter>Source Files\Stack and Heap</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

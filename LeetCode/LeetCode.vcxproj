@@ -212,6 +212,7 @@
     <ClCompile Include="Happy Number.cpp" />
     <ClCompile Include="Isomorphic Strings.cpp" />
     <ClCompile Include="Sum Root to Leaf Numbers.cpp" />
+    <ClCompile Include="Ternary Expression Parser.cpp" />
     <ClCompile Include="The Skyline Problem.cpp" />
     <ClCompile Include="Third Maximum Number.cpp" />
     <ClCompile Include="Valid Palindrome.cpp" />
