@@ -38,6 +38,7 @@
     <ClCompile Include="Longest Palindrome.cpp" />
     <ClCompile Include="Longest Substring with At Least K Repeating Characters.cpp" />
     <ClCompile Include="Mini Parser.cpp" />
+    <ClCompile Include="Minimum Genetic Mutation.cpp" />
     <ClCompile Include="Partition Equal Subset Sum.cpp" />
     <ClCompile Include="Permutation Index.cpp" />
     <ClCompile Include="Previous Permutation.cpp" />
