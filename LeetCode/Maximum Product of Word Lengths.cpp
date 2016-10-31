@@ -9,9 +9,7 @@ int maxProduct(std::vector<std::string>& words)
 	for (int i = 0; i < words.size(); ++i)
 	{
 		for (int j = 0; j < words[i].length(); ++j)
-		{
 			vec[i] |= (1 << (words[i][j] - 'a')); //×ª»»³ÉintÖµ
-		}
 	}
 
 

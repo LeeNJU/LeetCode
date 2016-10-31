@@ -16,10 +16,10 @@ int findMax(TreeNode* root, int& result)
 	return  max_sum; //注意这里，返回的是左路径之和，右路径之和，当前节点之间的最大值，不包括左路径 + 右路径 + 当前
 	                 //节点
 }
+
 int maxPathSum(TreeNode* root) 
 {
 	int result = INT_MIN;
 	findMax(root, result);
 	return result;
-
 }

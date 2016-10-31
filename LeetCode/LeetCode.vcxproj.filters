@@ -1113,6 +1113,9 @@
     <ClCompile Include="Ternary Expression Parser.cpp">
       <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
+    <ClCompile Include="Non-overlapping Intervals.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
