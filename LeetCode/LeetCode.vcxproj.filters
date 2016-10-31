@@ -1116,6 +1116,9 @@
     <ClCompile Include="Non-overlapping Intervals.cpp">
       <Filter>Source Files\Sort</Filter>
     </ClCompile>
+    <ClCompile Include="Find Right Interval.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
