@@ -1119,6 +1119,9 @@
     <ClCompile Include="Find Right Interval.cpp">
       <Filter>Source Files\Sort</Filter>
     </ClCompile>
+    <ClCompile Include="Arranging Coins.cpp">
+      <Filter>Source Files\Array\Binary Search</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
