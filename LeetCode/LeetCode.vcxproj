@@ -29,6 +29,7 @@
     <ClCompile Include="Convert a Number to Hexadecimal.cpp" />
     <ClCompile Include="Data Stream as Disjoint Intervals.cpp" />
     <ClCompile Include="Decode String.cpp" />
+    <ClCompile Include="Delete Node in a BST.cpp" />
     <ClCompile Include="Design Twitter.cpp" />
     <ClCompile Include="Evaluate Division.cpp" />
     <ClCompile Include="Find All Anagrams in a String.cpp" />

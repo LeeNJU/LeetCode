@@ -1122,6 +1122,9 @@
     <ClCompile Include="Arranging Coins.cpp">
       <Filter>Source Files\Array\Binary Search</Filter>
     </ClCompile>
+    <ClCompile Include="Delete Node in a BST.cpp">
+      <Filter>Source Files\Tree\Binary Search Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
