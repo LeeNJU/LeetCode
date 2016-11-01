@@ -52,6 +52,7 @@
     <ClCompile Include="Reconstruct Original Digits from English.cpp" />
     <ClCompile Include="Remove K Digits.cpp" />
     <ClCompile Include="Rotate Function.cpp" />
+    <ClCompile Include="Serialize and Deserialize BST.cpp" />
     <ClCompile Include="Split Array Largest Sum.cpp" />
     <ClCompile Include="String to Integer %28atoi%29.cpp" />
     <ClCompile Include="Backpack.cpp" />
