@@ -34,6 +34,7 @@
     <ClCompile Include="Evaluate Division.cpp" />
     <ClCompile Include="Find All Anagrams in a String.cpp" />
     <ClCompile Include="Find All Duplicates in an Array.cpp" />
+    <ClCompile Include="Find All Numbers Disappeared in an Array.cpp" />
     <ClCompile Include="Find Right Interval.cpp" />
     <ClCompile Include="Is Subsequence.cpp" />
     <ClCompile Include="Lexicographical Numbers.cpp" />

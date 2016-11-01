@@ -1128,6 +1128,9 @@
     <ClCompile Include="Serialize and Deserialize BST.cpp">
       <Filter>Source Files\Tree\Binary Search Tree</Filter>
     </ClCompile>
+    <ClCompile Include="Find All Numbers Disappeared in an Array.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
