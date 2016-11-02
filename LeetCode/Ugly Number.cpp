@@ -21,9 +21,9 @@ bool isUgly(int num)
 	return true;
 }
 
-//变种2：求出第n个ugly number
-//解法描述：找出生成ugly number的规律，一个ugly number都是由一个较小的ugly number乘以2，3或5得到，index2，index3和
-//         index5用来表示前一个较小的ugly number
+//变种2:求出第n个ugly number
+//解法描述:找出生成ugly number的规律，一个ugly number都是由一个较小的ugly number乘以2，3或5得到，index2，
+//         index3和index5用来表示前一个较小的ugly number
 int nthUglyNumber(int n) 
 {
 	std::vector<int> result(n, 0);
@@ -32,8 +32,8 @@ int nthUglyNumber(int n)
 	for (int i = 1; i < n; i++)
 	{
 		result[i] = std::min(std::min(result[index2] * 2, result[index3] * 3), result[index5] * 5);
-		if (result[i] == result[index2] * 2) //注意这里，不能用if else，因为当前最小的ugly number可能乘以2，3或者5同时得到
-			++index2;
+		if (result[i] == result[index2] * 2) //注意这里，不能用if else，因为当前最小的ugly number可能
+			++index2;                        //乘以2，3或者5同时得到
 		if (result[i] == result[index3] * 3) 
 			++index3;
 		if (result[i] == result[index5] * 5) 

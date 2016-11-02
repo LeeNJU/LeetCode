@@ -1,13 +1,17 @@
 #include<vector>
 #include<queue>
 //题目描述:给定一个二维数组，只包含O或者X，找到所有被X包围的O，然后把这些O全部换成X，注意边界上的O不能被换成X
-//解法描述:从边界上的O开始进行广搜或者深搜，把能够搜到的O全部换成#，那么剩下的O必然被X包围，然后扫描整个数组，把O换成
-//        X,然后把#换成O
+//解法描述:从边界上的O开始进行广搜或者深搜，把能够搜到的O全部换成#，那么剩下的O必然被X包围，然后扫描整个数组，
+//        把O换成X,然后把#换成O
 void bfs(std::vector<std::vector<char>>& board, int i, int j)
 {
 	if (i < 0 || j > board[0].size())
 		return;
 
+	std::vector<int> dx = { 1, -1, 0, 0 };
+	std::vector<int> dy = { 0, 0, 1, -1 };
+
+	board[i][j] = '#';
 	std::queue<int> q;
 	q.push(i);
 	q.push(j);
@@ -17,29 +21,18 @@ void bfs(std::vector<std::vector<char>>& board, int i, int j)
 		q.pop();
 		int col = q.front();
 		q.pop();
-		if (board[row][col] == '#')
-			continue;
 
-		board[row][col] = '#';
-		if (row + 1 < board.size() && board[row + 1][col] == 'O')
+		for (int i = 0; i < dx.size(); ++i)
 		{
-			q.push(row + 1);
-			q.push(col);
-		}
-		if (col + 1 < board[0].size() && board[row][col + 1] == 'O')
-		{
-			q.push(row);
-			q.push(col + 1);
-		}
-		if (row - 1 >= 0 && board[row - 1][col] == 'O')
-		{
-			q.push(row - 1);
-			q.push(col);
-		}
-		if (row - 1 >= 0 && board[row][col - 1] == 'O')
-		{
-			q.push(row);
-			q.push(col - 1);
+			int x = row + dx[i];
+			int y = col + dy[i];
+			if (x < 0 || y < 0 || x >= board.size() || y >= board[0].size() || board[x][y] == '#'
+				|| board[x][y] == 'X')
+				continue;
+
+			board[x][y] = '#';//注意这里，把点标记为visited
+			q.push(x);
+			q.push(y);
 		}
 	}
 }

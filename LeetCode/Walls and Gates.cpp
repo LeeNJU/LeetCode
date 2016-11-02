@@ -7,9 +7,9 @@
 void wallsAndGates(std::vector<std::vector<int>>& rooms) 
 {
     std::queue<int> gates;
-	for (int i = 0; i<rooms.size(); i++) 
+	for (int i = 0; i < rooms.size(); ++i) 
 	{
-		for (int j = 0; j<rooms[i].size(); j++) 
+		for (int j = 0; j < rooms[i].size(); ++j) 
 		{
 			if (rooms[i][j] == 0)//找到所有的gate
 			{
