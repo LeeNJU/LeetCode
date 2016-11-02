@@ -11,7 +11,7 @@ int shortestDistance(std::vector<std::vector<int>>& grid)
 		return -1;
 	const int col = grid[0].size();
 
-	std::vector<std::vector<int> > distance(row, std::vector<int>(col, 0));//building到节点的距离
+	std::vector<std::vector<int>> distance(row, std::vector<int>(col, 0));//building到节点的距离
 	std::vector<std::vector<int>> reach(row, std::vector<int>(col, 0));//有多少个building可以到达该节点
 	int building = 0, res = INT_MAX;
 
