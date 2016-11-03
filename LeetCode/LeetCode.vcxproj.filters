@@ -96,9 +96,6 @@
     <ClCompile Include="convert.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="jump.cpp">
-      <Filter>Source Files\Array\Greedy</Filter>
-    </ClCompile>
     <ClCompile Include="minPathSum.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>

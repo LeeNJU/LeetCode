@@ -31,9 +31,9 @@ std::vector<int> searchRange(int A [], int n, int target)
 		else
 			right = middle - 1;
 	}
-	last = left;
+	last = right;
 
 	result.push_back(first);
-	result.push_back(last - 1);//upper_bound返回的是元素的下一个位置，所以要减去1
+	result.push_back(last);//upper_bound返回的是元素的下一个位置，所以要减去1
 	return result;
 }
