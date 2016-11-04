@@ -2,8 +2,10 @@
 #include<queue>
 #include"TreeNode.h"
 #include<unordered_map>
-//题目描述:给定一个二叉树，求出它的垂直遍历，例如二叉树为[3,9,20,4,5,2,7]，那么垂直遍历为[[4],[9],[3, 5, 2],[20],[7]]
-//解法描述:根节点的col比左子节点的col大1，比右子节点的col小1，进行层次遍历，更新每个点的col，并且用map存储每个col的节点
+//题目描述:给定一个二叉树，求出它的垂直遍历，例如二叉树为[3,9,20,4,5,2,7]，那么垂直遍历为[[4],[9],[3, 5, 2],
+//        [20],[7]]
+//解法描述:根节点的col比左子节点的col大1，比右子节点的col小1，进行层次遍历，更新每个点的col，并且用map存储
+//        每个col的节点
 std::vector<std::vector<int>> verticalOrder(TreeNode* root) 
 {
 	std::unordered_map<int, std::vector<int>> mp;//存同一个col里面的节点
