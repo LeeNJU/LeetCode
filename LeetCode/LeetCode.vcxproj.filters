@@ -1128,6 +1128,12 @@
     <ClCompile Include="Find All Numbers Disappeared in an Array.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
+    <ClCompile Include="Sort Characters By Frequency.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="Sparse Matrix Multiplication.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
