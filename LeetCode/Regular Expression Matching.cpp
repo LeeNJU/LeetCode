@@ -13,19 +13,19 @@ bool isMatch(std::string s, std::string p)
 	std::vector<std::vector<bool>> dp(m + 1, std::vector<bool>(n + 1, false));
 	dp[0][0] = true;
 
-	//初始化第0行,除了[0][0]全为false，毋庸置疑，因为空串p只能匹配空串，其他都无能匹配
-	for (int i = 1; i < m + 1; i++)
+	//初始化第0列,除了[0][0]全为false，毋庸置疑，因为空串p只能匹配空串，其他都无能匹配
+	for (int i = 1; i < m + 1; ++i)
 		dp[i][0] = false;
-	//初始化第0列，只有X*能匹配空串，如果有*，它的真值一定和p[0][j-2]的相同（略过它之前的符号）
-	for (int j = 1; j < n + 1; j++)
+	//初始化第0行，只有X*能匹配空串，如果有*，它的真值一定和p[0][j-2]的相同（略过它之前的符号）
+	for (int j = 1; j < n + 1; ++j)
 		dp[0][j] = j > 1 && '*' == p[j - 1] && dp[0][j - 2];
 
-	for (int i = 1; i < m + 1; i++)
+	for (int i = 1; i < m + 1; ++i)
 	{
-		for (int j = 1; j < n + 1; j++)
+		for (int j = 1; j < n + 1; ++j)
 		{
 			if (p[j - 1] == '*')
-				dp[i][j] = dp[i][j - 2] || (s[i - 1] == p[j - 2] || p[j - 2] == '.') && dp[i - 1][j];
+				dp[i][j] = dp[i][j - 2] || ((s[i - 1] == p[j - 2] || p[j - 2] == '.') && dp[i - 1][j]);
 			else   //只有当前字符完全匹配，才有资格传递dp[i-1][j-1] 真值
 				dp[i][j] = (p[j - 1] == '.' || s[i - 1] == p[j - 1]) && dp[i - 1][j - 1];
 		}

@@ -16,7 +16,7 @@ int numDecodings(std::string s)
 	{
 		if (s[i] == '0')
 		{
-			if (i >= 0 && s[i - 1] <= '2' && s[i - 1] >= '1') //0前面必须是1或者2才能被decode
+			if (i > 0 && s[i - 1] <= '2' && s[i - 1] >= '1') //0前面必须是1或者2才能被decode
 				dp[i + 2] = dp[i];
 		}
 		else

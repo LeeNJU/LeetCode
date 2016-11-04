@@ -30,5 +30,6 @@ bool isOneEditDistance(std::string s, std::string t)
 		return isSameLen(s, t);
 	else if (s.size() < t.size()) //长度相差1，那么长的字符串比短的字符串多一个字符，其余的字符必须相同
 		return isOneDifL(s, t);
-	else return isOneDifL(t, s);
+	else 
+		return isOneDifL(t, s);
 }
