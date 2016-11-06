@@ -19,7 +19,7 @@
     <ClCompile Include="Additive Number.cpp" />
     <ClCompile Include="Add Two Numbers.cpp" />
     <ClCompile Include="Alien Dictionary.cpp" />
-    <ClCompile Include="anagrams.cpp" />
+    <ClCompile Include="Group Anagrams.cpp" />
     <ClCompile Include="Android Unlock Patterns.cpp" />
     <ClCompile Include="Arithmetic Slices.cpp" />
     <ClCompile Include="Arranging Coins.cpp" />
@@ -327,7 +327,7 @@
     <ClCompile Include="Generalized Abbreviation.cpp" />
     <ClCompile Include="Sqrt%28x%29.cpp" />
     <ClCompile Include="Strobogrammatic Number.cpp" />
-    <ClCompile Include="strStr.cpp" />
+    <ClCompile Include="Implement strStr%28%29.cpp" />
     <ClCompile Include="Subarray Sum Closest.cpp" />
     <ClCompile Include="subsets.cpp" />
     <ClCompile Include="subsetsWithDup.cpp" />

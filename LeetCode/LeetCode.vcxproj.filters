@@ -81,14 +81,8 @@
     <ClCompile Include="trailingZeroes.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
-    <ClCompile Include="strStr.cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="candy.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="anagrams.cpp">
-      <Filter>Source Files\String</Filter>
     </ClCompile>
     <ClCompile Include="romanToInt.cpp">
       <Filter>Source Files\String</Filter>
@@ -1135,6 +1129,12 @@
       <Filter>Source Files\Array</Filter>
     </ClCompile>
     <ClCompile Include="Integer to English Words.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Group Anagrams.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Implement strStr%28%29.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
   </ItemGroup>

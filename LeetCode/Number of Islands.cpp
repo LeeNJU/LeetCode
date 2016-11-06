@@ -38,10 +38,10 @@ int numIslands(std::vector<std::vector<char>>& grid)
 
 					int new_position = (i + dx[k]) * grid[0].size() + j + dy[k];
 					int root2 = root(vec, new_position);
-					if (root2 != root1)//注意这里更新根节点，必须是更新root2
+					if (root2 != root1)
 					{
 						--count;
-						vec[root2] = root1;
+						vec[root1] = root2;
 					}
 				}
 			}

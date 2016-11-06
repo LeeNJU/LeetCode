@@ -1,28 +1,24 @@
 //题目描述：给定一个值x，求出它的平方根
-//解法描述：二分查找，从1到x/2的范围，注意要记录上一个middle的值，因为下一个middle的值可能不符要求，上一个
-//         middle的值才是正解
+//解法描述：二分查找
 
 int sqrt(int x) 
 {
-	int left = 1, right = x / 2;//范围是1到x/2
-	int middle = (left + right) / 2;
-	int last_mid = middle; // 记录最近一次mid
-	
-	if (x < 2) 
-		return x;
-	
-	while (left <= right) 
+	if (x == 0)
+		return 0;
+	if (x == 1)
+		return 1;
+
+	int left = 1, right = x;
+	while (left <= right)//循环结束，left指向正确解的下一个元素
 	{
-		middle = (right + left) / 2;
-		if (x / middle > middle) // 不要用x > mid * mid，会溢出
-		{
-			left = middle + 1;
-			last_mid = middle;
-		}
-		else if (x / middle < middle) 
-			right = middle - 1;
-		else 
+		int middle = (left + right) / 2;
+		if (middle == x / middle)
 			return middle;
+		else if (middle < x / middle)
+			left = middle + 1;
+		else
+			right = middle - 1;
 	}
-	return last_mid;
+
+	return left - 1;
 }

@@ -2,7 +2,8 @@
 #include<vector>
 #include "TreeNode.h"
 //题目描述:定义一个数据结构，可以对字符串进行添加和搜索，支持正则匹配搜索，碰到'.'表示任意字符
-//解法描述:用trie tree,添加操作和trie tree一样，在搜索的时候，如果碰到'.'就进行递归搜索，没有碰到'.'就进行正常搜索
+//解法描述:用trie tree,添加操作和trie tree一样，在搜索的时候，如果碰到'.'就进行递归搜索，没有碰到'.'就进行
+//        正常搜索
 class WordDictionary
 {
 private:

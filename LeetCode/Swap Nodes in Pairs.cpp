@@ -4,21 +4,21 @@
 
 ListNode *swapPairs(ListNode *head) 
 {
-	if (head == nullptr || head->next == nullptr)//排除只有一个元素和空的情况
+	if (!head || !head->next)//排除空链表和只有一个元素的情况
 		return head;
 
-	ListNode* p = head;
-	head = head->next;  //保存返回值  head指向原链表的第二个元素
-	while (p != nullptr && p->next != nullptr)
-	{
-		ListNode* temp = p->next;
-		p->next = temp->next;
-		temp->next = p;
+	ListNode dummy(0);//加一个dummy节点
+	dummy.next = head;
+	ListNode* prev = &dummy;
 
-		ListNode* next = p->next;//保存p下一个元素
-		if (p->next != nullptr && p->next->next != nullptr)//检查下两个元素的情况
-			p->next = p->next->next;
-		p = next;
+	while (head && head->next)
+	{
+		prev->next = head->next;
+		head->next = prev->next->next;
+		prev->next->next = head;
+		prev = head;
+		head = head->next;
 	}
-	return head;
+
+	return dummy.next;
 }
