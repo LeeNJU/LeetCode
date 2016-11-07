@@ -342,7 +342,7 @@
     <ClCompile Include="Text Justification.cpp" />
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="3Sum Closest.cpp" />
-    <ClCompile Include="titileToNumber.cpp" />
+    <ClCompile Include="Excel Sheet Column Number.cpp" />
     <ClCompile Include="Top K Frequent Elements.cpp" />
     <ClCompile Include="trailingZeroes.cpp" />
     <ClCompile Include="Trapping Rain Water.cpp" />

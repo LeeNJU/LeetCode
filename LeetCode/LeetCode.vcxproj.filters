@@ -75,9 +75,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="titileToNumber.cpp">
-      <Filter>Source Files\Math</Filter>
-    </ClCompile>
     <ClCompile Include="trailingZeroes.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
@@ -1145,6 +1142,9 @@
     </ClCompile>
     <ClCompile Include="Ransom Note.cpp">
       <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Excel Sheet Column Number.cpp">
+      <Filter>Source Files\Math</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
