@@ -1140,6 +1140,12 @@
     <ClCompile Include="Sum of Two Integers.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
+    <ClCompile Include="Sum of Left Leaves.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Ransom Note.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">

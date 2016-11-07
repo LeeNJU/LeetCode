@@ -51,6 +51,7 @@
     <ClCompile Include="Queue Reconstruction by Height.cpp" />
     <ClCompile Include="Random Pick Index.cpp" />
     <ClCompile Include="Range Addition.cpp" />
+    <ClCompile Include="Ransom Note.cpp" />
     <ClCompile Include="Reconstruct Original Digits from English.cpp" />
     <ClCompile Include="Remove K Digits.cpp" />
     <ClCompile Include="Rotate Function.cpp" />
@@ -220,6 +221,7 @@
     <ClCompile Include="Balanced Binary Tree.cpp" />
     <ClCompile Include="Happy Number.cpp" />
     <ClCompile Include="Isomorphic Strings.cpp" />
+    <ClCompile Include="Sum of Left Leaves.cpp" />
     <ClCompile Include="Sum of Two Integers.cpp" />
     <ClCompile Include="Sum Root to Leaf Numbers.cpp" />
     <ClCompile Include="Ternary Expression Parser.cpp" />
