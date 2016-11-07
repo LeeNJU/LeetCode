@@ -1152,6 +1152,9 @@
     <ClCompile Include="Minimum Moves to Equal Array Elements.cpp">
       <Filter>Source Files\Math</Filter>
     </ClCompile>
+    <ClCompile Include="Number of Boomerangs.cpp">
+      <Filter>Source Files\Hash Table</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
