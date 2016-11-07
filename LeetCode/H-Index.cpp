@@ -23,13 +23,13 @@ int hIndex2(std::vector<int>& citations)
 		return 0;
 
 	int left = 0, right = citations.size() - 1, middle = 0;
-	while (left < right)//二分法查找下标，当left和right相等时，还要继续比较citations[left]
+	while (left <= right)//二分法查找下标，当left和right相等时，还要继续比较citations[left]
 	{
 		middle = (left + right) / 2;
 		if (citations[middle] >= (citations.size() - middle))//注意之类的下标是citations.size() - middle
-			right = middle;
+			right = middle - 1;
 		else
 			left = middle + 1;
 	}
-	return citations[left] >= citations.size() - left ? citations.size() - left : citations.size() - left - 1;
+	return citations.size() - left;
 }
