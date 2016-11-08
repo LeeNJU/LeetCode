@@ -8,20 +8,36 @@
 class Codec 
 {
 private:
-	TreeNode* deserialize(std::istringstream& in)
+	TreeNode* Deserialize(const std::string& data, int& index)
 	{
-		std::string value;
-		in >> value;
-		if (value == "#")
+		if (index >= data.size()) 
 			return nullptr;
-		else
+		if (data[index] == '#')
 		{
-			TreeNode* root = new TreeNode(stoi(value));
-			root->left = deserialize(in);
-			root->right = deserialize(in);
-			return root;
+			index = index + 2;
+			return nullptr;
 		}
+
+		int flag = 1;//有可能是负数
+		if (data[index] == '-')
+		{
+			flag = -1;
+			++index;
+		}
+
+		int val = 0;
+		while (data[index] != ' ')
+		{
+			val = val * 10 + data[index] - '0';
+			++index;
+		}
+
+		TreeNode* node = new TreeNode(val * flag);
+		node->left = Deserialize(data, ++index);
+		node->right = Deserialize(data, index);
+		return node;
 	}
+
 public:
 	std::string serialize(TreeNode* root) 
 	{
@@ -35,7 +51,7 @@ public:
 
 	TreeNode* deserialize(std::string data) 
 	{
-		std::istringstream in(data);
-		return deserialize(in);
+		int index = 0;
+		return Deserialize(data, index);
 	}
 };
