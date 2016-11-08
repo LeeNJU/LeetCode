@@ -75,14 +75,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="trailingZeroes.cpp">
-      <Filter>Source Files\Math</Filter>
-    </ClCompile>
     <ClCompile Include="candy.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
-    </ClCompile>
-    <ClCompile Include="romanToInt.cpp">
-      <Filter>Source Files\String</Filter>
     </ClCompile>
     <ClCompile Include="convert.cpp">
       <Filter>Source Files\String</Filter>
@@ -900,9 +894,6 @@
     <ClCompile Include="Compare Version Numbers.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="Count and Say  .cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="Substring with Concatenation of All Words.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
@@ -1154,6 +1145,15 @@
     </ClCompile>
     <ClCompile Include="Number of Boomerangs.cpp">
       <Filter>Source Files\Hash Table</Filter>
+    </ClCompile>
+    <ClCompile Include="Factorial Trailing Zeroes.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Count and Say.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Roman to Integer.cpp">
+      <Filter>Source Files\String</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

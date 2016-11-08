@@ -38,9 +38,7 @@ std::string countAndSay(int n)
 		for (int j = 1; j < prev.size(); ++j)
 		{
 			if (prev[j] == prev[j - 1])
-			{
 				++count;
-			}
 			else
 			{
 				cur += std::string(1, count + '0');

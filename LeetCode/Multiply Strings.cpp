@@ -25,9 +25,7 @@ std::string multiply(std::string num1, std::string num2)
 				result[index] = value % 10 + '0';
 			}
 			else//表示位数多了，需要增加长度
-			{
 				result.append(1, value % 10 + '0');
-			}
 
 			carry = value / 10;
 			++index;

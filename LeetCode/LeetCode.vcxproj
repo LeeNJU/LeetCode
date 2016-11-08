@@ -111,7 +111,7 @@
     <ClCompile Include="Count of Smaller Numbers After Self.cpp" />
     <ClCompile Include="Count Primes.cpp" />
     <ClCompile Include="Count Univalue Subtrees.cpp" />
-    <ClCompile Include="Count and Say  .cpp" />
+    <ClCompile Include="Count and Say.cpp" />
     <ClCompile Include="Counting Bits.cpp" />
     <ClCompile Include="Course Schedule.cpp" />
     <ClCompile Include="Create Maximum Number.cpp" />
@@ -303,7 +303,7 @@
     <ClCompile Include="Reverse Linked List.cpp" />
     <ClCompile Include="Reverse Words in a String.cpp" />
     <ClCompile Include="House Robber.cpp" />
-    <ClCompile Include="romanToInt.cpp" />
+    <ClCompile Include="Roman to Integer.cpp" />
     <ClCompile Include="Rotate Image.cpp" />
     <ClCompile Include="Rotate Array.cpp" />
     <ClCompile Include="Rotate List.cpp" />
@@ -347,7 +347,7 @@
     <ClCompile Include="3Sum Closest.cpp" />
     <ClCompile Include="Excel Sheet Column Number.cpp" />
     <ClCompile Include="Top K Frequent Elements.cpp" />
-    <ClCompile Include="trailingZeroes.cpp" />
+    <ClCompile Include="Factorial Trailing Zeroes.cpp" />
     <ClCompile Include="Trapping Rain Water.cpp" />
     <ClCompile Include="Triangle.cpp" />
     <ClCompile Include="Two Sum.cpp" />

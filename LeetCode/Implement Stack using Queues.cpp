@@ -9,13 +9,11 @@ private:
 	std::queue<int> que[2]; //两个queue，这两个queue交替使用
 	int current = 0; //current表示当前queue的下标
 public:
-	// Push element x onto stack.
 	void push(int x) 
 	{
 		que[current].push(x);
 	}
 
-	// Removes the element on top of the stack.
 	void pop() 
 	{
 		while (que[current].size() > 1)
@@ -28,7 +26,6 @@ public:
 		current = 1 - current; //转换que的下标，交替使用
 	}
 
-	// Get the top element.
 	int top() 
 	{
 		while (que[current].size() > 1)
@@ -44,7 +41,6 @@ public:
 		return top;
 	}
 
-	// Return whether the stack is empty.
 	bool empty() 
 	{
 		return que[current].empty();
