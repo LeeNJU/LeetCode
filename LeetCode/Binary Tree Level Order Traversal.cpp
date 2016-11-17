@@ -2,8 +2,8 @@
 #include<queue>
 #include"TreeNode.h"
 
-//题目描述：层次遍历二叉树，返回一个二维数组
-//解法描述：用队列层次遍历，队列中加入nullptr作为层与层之间的分隔符
+//题目描述:层次遍历二叉树，返回一个二维数组
+//解法描述:用队列层次遍历，队列中加入nullptr作为层与层之间的分隔符
 
 std::vector<std::vector<int>> levelOrder(TreeNode* root)
 {

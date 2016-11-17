@@ -4,9 +4,10 @@
 #include<unordered_map>
 #include<queue>
 
-//题目描述：给定一个起始单词，一个终止单词和一个字典，每次把起始单词变换一个字符，把起始单词变换成终止单词，其中每次变换得到的中间过渡单词必须在字典
-//         中能够找到，求出合格的变换序列
-//解法描述：广度优先遍历，用队列，依次用a到z去代替起始单词的每个元素，判断得到的中间单词是否在字典中，如果在，加入到队列中，其中要注意记录单词的层数
+//题目描述:给定一个起始单词，一个终止单词和一个字典，每次把起始单词变换一个字符，把起始单词变换成终止单词，
+//         其中每次变换得到的中间过渡单词必须在字典中能够找到，求出合格的变换序列
+//解法描述:广度优先遍历，用队列，依次用a到z去代替起始单词的每个元素，判断得到的中间单词是否在字典中，如果在，
+//         加入到队列中，其中要注意记录单词的层数
 
 void dfs(std::vector<std::vector<std::string>>& result, std::vector<std::string> intermediate, const std::string& start, const std::string& end, std::unordered_map<std::string, std::vector<std::string>>& dict)
 {

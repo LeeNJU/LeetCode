@@ -33,7 +33,6 @@ void dfs(int row, std::vector<int> &C, std::vector<std::vector<std::string> > &r
 			columns[j] = principal_diagonals[row + j] = counter_diagonals[row - j + N] = 1; //同一条主对角线的下标为row + j
 			dfs(row + 1, C, result, columns, principal_diagonals, counter_diagonals); //同一条副对角线下标为row - j + N
 			// 撤销动作
-			// C[row] = 0;
 			columns[j] = principal_diagonals[row + j] =
 				counter_diagonals[row - j + N] = 0;
 		}

@@ -1,5 +1,5 @@
 #include<string>
-#include "TreeNode.h"
+#include"TreeNode.h"
 #include<vector>
 //题目描述：实现前缀树
 //解法描述：(个人理解)边用来存储字符，每一个节点有26个指针，指向不同的子节点，nullptr表示子节点不存在
@@ -31,7 +31,6 @@ public:
 		node->setEnd(); //插入完一个字符串之后，setEnd表示字符串结束
 	}
 
-	// Returns if the word is in the trie.
 	bool search(std::string word) 
 	{
 		TrieNode* current = root, *node = nullptr;
@@ -45,8 +44,6 @@ public:
 		return node->isEnd(); //注意这里，就算所有字符都存在，也要看是不是一个字符串的结尾
 	}
 
-	// Returns if there is any word in the trie
-	// that starts with the given prefix.
 	bool startsWith(std::string prefix) 
 	{
 		TrieNode* current = root, *node = nullptr;
