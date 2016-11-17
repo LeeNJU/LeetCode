@@ -32,25 +32,26 @@ std::vector<std::vector<int>> palindromePairs(std::vector<std::string>& words)
 
 	for (int i = 0; i < words.size(); ++i)
 	{
-		for (int j = 0; j < words[i].length(); ++j)//考虑所有子字符串
+		for (int j = 0; j <= words[i].length(); ++j)//注意这里是小于等于，因为要考虑空字符串
 		{
-			std::string str1 = words[i].substr(0, j + 1);
-			std::string str2 = words[i].substr(j + 1);
+			std::string str1 = words[i].substr(0, j);
+			std::string str2 = words[i].substr(j);
 
 			if (isPalindrome(str1))
 			{
 				std::string rstr2(str2);
 				std::reverse(rstr2.begin(), rstr2.end());//反转剩下的字符串
-				if (map.find(rstr2) != map.end() && map[rstr2] != i)
-					result.push_back({ map[rstr2], i });
+				if (map.find(rstr2) != map.end() && map[rstr2] != i)//下标不能等于自身
+					result.push_back({ map[rstr2], i });//注意这里放下标的顺序
 			}
+
 			if (isPalindrome(str2))
 			{
 				std::string rstr1(str1);
 				std::reverse(rstr1.begin(), rstr1.end());
 
-				if (map.find(rstr1) != map.end() && map[rstr1] != i)
-					result.push_back({ map[rstr1], i });
+				if (map.find(rstr1) != map.end() && map[rstr1] != i && !str2.empty())//注意之类str2不能
+					result.push_back({ i, map[rstr1] });//是空字符串
 			}
 		}
 	}
