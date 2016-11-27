@@ -17,7 +17,7 @@ int countBattleships(std::vector<std::vector<char>>& board)
 	int count = 0;
 	for (int i = 0; i < m; ++i) 
 	{
-		for (int j = 0; j<n; ++j) 
+		for (int j = 0; j < n; ++j) 
 		{
 			if (board[i][j] == '.') 
 				continue;
