@@ -12,7 +12,9 @@ int arrangeCoins(int n)
 	{
 		long middle = left + (right - left) / 2;
 		long sum = ((1 + middle) * middle) / 2;
-		if (sum <= n)
+		if (sum == n)
+			return middle;
+		else if (sum < n)
 			left = middle + 1; 
 		else  
 			right = middle - 1; 

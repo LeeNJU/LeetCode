@@ -16,14 +16,14 @@ int count_number(std::vector<int>& num, int value)
 int findDuplicate(std::vector<int>& nums)
 {
 	int left = 1, right = nums.size() - 1, middle = 0;
-	while (left <= right)
+	while (left < right)
 	{
 		middle = (left + right) / 2;
 		int count = count_number(nums, middle);
 		if (count <= middle)
 			left = middle + 1;
-		else
-			right = middle - 1;
+		else if (count > middle)
+			right = middle;
 	}
 	return left;
 }

@@ -43,6 +43,7 @@
     <ClCompile Include="Longest Absolute File Path.cpp" />
     <ClCompile Include="Longest Palindrome.cpp" />
     <ClCompile Include="Longest Substring with At Least K Repeating Characters.cpp" />
+    <ClCompile Include="Maximum XOR of Two Numbers in an Array.cpp" />
     <ClCompile Include="Mini Parser.cpp" />
     <ClCompile Include="Minimum Genetic Mutation.cpp" />
     <ClCompile Include="Minimum Moves to Equal Array Elements.cpp" />
