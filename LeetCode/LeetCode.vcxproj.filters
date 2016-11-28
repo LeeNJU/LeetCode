@@ -1161,6 +1161,9 @@
     <ClCompile Include="Repeated Substring Pattern.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="Longest Repeating Character Replacement.cpp">
+      <Filter>Source Files\Hash Table</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
