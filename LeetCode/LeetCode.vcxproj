@@ -58,6 +58,7 @@
     <ClCompile Include="Ransom Note.cpp" />
     <ClCompile Include="Reconstruct Original Digits from English.cpp" />
     <ClCompile Include="Remove K Digits.cpp" />
+    <ClCompile Include="Repeated Substring Pattern.cpp" />
     <ClCompile Include="Rotate Function.cpp" />
     <ClCompile Include="Serialize and Deserialize BST.cpp" />
     <ClCompile Include="Sort Characters By Frequency.cpp" />

@@ -1158,6 +1158,9 @@
     <ClCompile Include="Maximum XOR of Two Numbers in an Array.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
+    <ClCompile Include="Repeated Substring Pattern.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
