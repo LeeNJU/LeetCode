@@ -234,6 +234,7 @@
     <ClCompile Include="Ternary Expression Parser.cpp" />
     <ClCompile Include="The Skyline Problem.cpp" />
     <ClCompile Include="Third Maximum Number.cpp" />
+    <ClCompile Include="Unique Substrings in Wraparound String.cpp" />
     <ClCompile Include="Valid Palindrome.cpp" />
     <ClCompile Include="Palindrome Number.cpp" />
     <ClCompile Include="Same Tree.cpp" />
