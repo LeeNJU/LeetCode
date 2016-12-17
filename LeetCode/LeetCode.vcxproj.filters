@@ -1164,6 +1164,9 @@
     <ClCompile Include="Longest Repeating Character Replacement.cpp">
       <Filter>Source Files\Hash Table</Filter>
     </ClCompile>
+    <ClCompile Include="Ones and Zeroes.cpp">
+      <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
