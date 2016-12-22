@@ -22,7 +22,7 @@ int findDuplicate(std::vector<int>& nums)
 		int count = count_number(nums, middle);
 		if (count <= middle)
 			left = middle + 1;
-		else if (count > middle)
+		else
 			right = middle;
 	}
 	return left;

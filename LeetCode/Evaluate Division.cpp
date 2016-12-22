@@ -6,7 +6,7 @@
 //        a / c = ?, b / a = ?, a / e = ?, a / a = ?, x / x = ?
 //解法描述:用图来表示倍数关系，然后从query的起始字符串开始深搜
 
-bool dfs(std::unordered_map<std::string, std::vector<std::pair<std::string, double>>>& graph, std::unordered_map<std::string, bool> visited, std::string start, string& end, double& result)
+bool dfs(std::unordered_map<std::string, std::vector<std::pair<std::string, double>>>& graph, std::unordered_map<std::string, bool> visited, std::string start, std::string& end, double& result)
 {
 	if (visited[start])
 		return false;

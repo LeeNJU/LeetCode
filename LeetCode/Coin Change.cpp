@@ -7,13 +7,8 @@ int coinChange(std::vector<int>& coins, int amount)
 	if (amount == 0)
 		return 0;
 
-	const int MAX = 1000; //用一个很大的值初始化
+	const int MAX = amount + 1; //用一个很大的值初始化
 	std::vector<int> dp(amount + 1, MAX);
-	for (int i = 0; i < coins.size(); ++i)
-	{
-		if (coins[i] < dp.size()) //初始化
-			dp[coins[i]] = 1;
-	}
 	dp[0] = 0;
 
 	for (int i = 1; i <= amount; ++i)
