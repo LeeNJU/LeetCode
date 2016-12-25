@@ -43,10 +43,9 @@ bool isSymmetric(TreeNode* root)
 		q2.pop();
 		if (left == nullptr && right == nullptr)
 			continue;
-		if (left == nullptr || right == nullptr)
+		if (left == nullptr || right == nullptr || left->val != right->val)
 			return false;
-		if (left->val != right->val)
-			return false;
+
 		q1.push(left->left);
 		q1.push(left->right);
 		q2.push(right->right);

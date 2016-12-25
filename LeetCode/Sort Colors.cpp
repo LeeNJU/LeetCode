@@ -38,22 +38,22 @@ void sortColors2(std::vector<int> &colors, int k)
 /*
 void sortColors2(std::vector<int>& colors, int k) 
 {
-	int left = 0, right = colors.size() - 1;;
-	int color1 = 1, color2 = k;
-
-	while (color1 < color2 && left <= right)
-	{
-		for (int i = left; i <= right && left <= right;)
-		{
-			if (colors[i] == color1)
-				std::swap(colors[left++], colors[i++]);
-			else if (colors[i] == color2)
-				std::swap(colors[right--], colors[i]);
-			else
-				++i;
-		}
-
-		++color1;
-		--color2;
-	}
-}*/
+	int left = -1, right = colors.size();
+        int color1 = 1, color2 = k;
+        
+        while(color1 < color2 && left < right)
+        {
+            for(int i = left + 1; i < right; )
+            {
+                if(colors[i] == color2)
+					swap(colors[i], colors[--right]);
+                else if(colors[i] == color1)
+					swap(colors[i++], colors[++left]);
+                else
+					++i;
+            }
+            ++color1;
+            --color2;
+        }
+}
+*/
