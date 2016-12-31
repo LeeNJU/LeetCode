@@ -33,8 +33,8 @@ bool isSymmetric(TreeNode* root)
 		return true;
 
 	std::queue<TreeNode*> q1, q2;
-	q1.push(root->left);
-	q2.push(root->right);
+	q1.push(root);
+	q2.push(root);
 	while (!q1.empty() && !q2.empty())
 	{
 		left = q1.front();
