@@ -14,7 +14,7 @@ int maxArea(std::vector<int>& height)
 		int area = (j - i) * std::min(height[i], height[j]);
 		result = std::max(result, area);
 
-		if (height[i] < height[j])
+		if (height[i] <= height[j])
 			++i;
 		else
 			--j;

@@ -11,7 +11,8 @@ int maxProfit(std::vector<int> &prices)
 
 	int profit = 0; // 差价，也就是利润
 	int cur_min = prices[0]; // 假设当前最小
-	for (int i = 1; i < prices.size(); i++) {//遍历数组，更新最小值和利润
+	for (int i = 1; i < prices.size(); i++) //遍历数组，更新最小值和利润
+	{	
 		profit = std::max(profit, prices[i] - cur_min);//注意这两行代码的顺序，不能调换
 		cur_min = std::min(cur_min, prices[i]);
 	}

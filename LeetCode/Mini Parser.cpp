@@ -43,7 +43,5 @@ NestedInteger deserialize(std::string s)
 		}
 	}
 
-	while (stack.size() > 1)
-		stack.pop();
 	return stack.top();
 }

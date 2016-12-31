@@ -1,8 +1,8 @@
 #include<vector>
 #include<algorithm>
-//题目描述：给定一个数组和一个值target，从数组中找到和为target的所有组合，其中每一个元素可以被使用无数次，例如
+//题目描述:给定一个数组和一个值target，从数组中找到和为target的所有组合，其中每一个元素可以被使用无数次，例如
 //         {2,3,6,7}中找和为7的组合，答案为{7}，{2,2,3}
-//解法：先对数组排序，再递归求解
+//解法描述:先对数组排序，再递归求解
 
 void dfs(std::vector<std::vector<int>>& result, std::vector<int>& intermediate, std::vector<int> num, int index, int target)//index为开始的下标，target为寻找的值，该值逐渐减少
 {

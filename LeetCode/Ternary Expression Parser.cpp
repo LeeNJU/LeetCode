@@ -16,6 +16,7 @@ std::string parseTernary(std::string expression)
 		{
 			stack.pop(); //pop '?'
 			char first = stack.top();
+			stack.pop();
 			stack.pop(); //pop ':'
 			char second = stack.top();
 			stack.pop();
