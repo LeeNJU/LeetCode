@@ -7,20 +7,18 @@
 
 int lengthOfLongestSubstring(std::string s)
 {
-	int result = 0;
-	for (int i = 0, j = 0; i <= j && j < s.length(); ++j)
+	int length = 0;
+	std::unordered_map<char, int> map;
+	for (int i = 0, j = 0; j < s.size(); ++j)
 	{
-		int index = i;
-		while (index < j)
+		if (map.find(s[j]) != map.end())
 		{
-			if (s[index] == s[j])
-			{
-				i = index + 1;
-				break;
-			}
-			++index;
+			int index = map[s[j]];
+			while (i <= index)
+				map.erase(s[i++]);
 		}
-		result = result >= j - i + 1 ? result : j - i + 1;
+		map[s[j]] = j;
+		length = std::max(length, j - i + 1);
 	}
-	return result;
+	return length;
 }
