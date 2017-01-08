@@ -900,9 +900,6 @@
     <ClCompile Include="Valid Parentheses.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="Length of Last Word  .cpp">
-      <Filter>Source Files\String</Filter>
-    </ClCompile>
     <ClCompile Include="Longest Substring Without Repeating Characters.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
@@ -1175,6 +1172,12 @@
     </ClCompile>
     <ClCompile Include="Minimum Path Sum.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Length of Last Word.cpp">
+      <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Total Hamming Distance.cpp">
+      <Filter>Source Files\Bit Manipulation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
