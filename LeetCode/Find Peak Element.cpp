@@ -1,14 +1,20 @@
 #include <vector>
 //题目描述：给定一个数组，其中相邻元素不等，找到一个peak element，使它比左右相邻的两个元素都大，假设n[0]和n[n]都等于负无穷
-//解法描述：扫描一遍，找到第一个比前面元素小的元素，下标减1即是答案
+//解法描述：二分查找，缩小peak元素的范围
 
-int findPeakElement(const std::vector<int> &num) 
+int findPeakElement(const std::vector<int>& nums) 
 {
-	for (int i = 1; i < num.size(); ++i)
-	    if (num[i] < num[i - 1])
-		   return i - 1;
+	int left = 0, right = nums.size() - 1;
+	while (left < right)
+	{
+		int middle = (right + left) / 2;
+		if (nums[middle] < nums[middle + 1])//说明在middle + 1和right范围内有peak元素
+			left = middle + 1;
+		else
+			right = middle;
+	}
 
-	return num.size() - 1;
+	return left;
 }
 
 

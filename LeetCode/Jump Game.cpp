@@ -30,7 +30,7 @@ int jump(std::vector<int>& nums)
 	int count = 0;//最小步数
 	int last = 0;//上一次算出的覆盖范围
 	int cur = 0;//目前能够到达的最长范围
-	for (int i = 0; i < nums.size(); i++)
+	for (int i = 0; i < nums.size(); ++i)
 	{
 		if (last < i)
 		{
