@@ -48,6 +48,7 @@
     <ClCompile Include="Longest Palindrome.cpp" />
     <ClCompile Include="Longest Repeating Character Replacement.cpp" />
     <ClCompile Include="Longest Substring with At Least K Repeating Characters.cpp" />
+    <ClCompile Include="Max Consecutive Ones.cpp" />
     <ClCompile Include="Maximum XOR of Two Numbers in an Array.cpp" />
     <ClCompile Include="Mini Parser.cpp" />
     <ClCompile Include="Minimum Genetic Mutation.cpp" />
