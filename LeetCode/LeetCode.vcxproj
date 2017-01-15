@@ -42,6 +42,7 @@
     <ClCompile Include="Integer to English Words.cpp" />
     <ClCompile Include="Is Subsequence.cpp" />
     <ClCompile Include="Lexicographical Numbers.cpp" />
+    <ClCompile Include="License Key Formatting.cpp" />
     <ClCompile Include="Longest Absolute File Path.cpp" />
     <ClCompile Include="Longest Palindrome.cpp" />
     <ClCompile Include="Longest Repeating Character Replacement.cpp" />
@@ -301,7 +302,7 @@
     <ClCompile Include="Remove Element.cpp" />
     <ClCompile Include="Remove Linked List Elements.cpp" />
     <ClCompile Include="Remove Nth Node From End of List.cpp" />
-    <ClCompile Include="Reorder array to construct the minimum numbere.cpp" />
+    <ClCompile Include="Reorder array to construct the minimum number.cpp" />
     <ClCompile Include="Reorder List.cpp" />
     <ClCompile Include="Repeated DNA Sequences.cpp" />
     <ClCompile Include="Restore IP Addresses.cpp" />

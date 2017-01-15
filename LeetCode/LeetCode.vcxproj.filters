@@ -675,9 +675,6 @@
     <ClCompile Include="Longest Increasing Continuous Subsequence.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
-    <ClCompile Include="Reorder array to construct the minimum numbere.cpp">
-      <Filter>Source Files\Sort</Filter>
-    </ClCompile>
     <ClCompile Include="Gas Station.cpp">
       <Filter>Source Files\Array\Greedy</Filter>
     </ClCompile>
@@ -1178,6 +1175,12 @@
     </ClCompile>
     <ClCompile Include="Total Hamming Distance.cpp">
       <Filter>Source Files\Bit Manipulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Reorder array to construct the minimum number.cpp">
+      <Filter>Source Files\Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="License Key Formatting.cpp">
+      <Filter>Source Files\String</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
