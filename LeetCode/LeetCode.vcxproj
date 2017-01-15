@@ -52,6 +52,7 @@
     <ClCompile Include="Minimum Genetic Mutation.cpp" />
     <ClCompile Include="Minimum Moves to Equal Array Elements.cpp" />
     <ClCompile Include="Non-overlapping Intervals.cpp" />
+    <ClCompile Include="Number Complement.cpp" />
     <ClCompile Include="Number of Boomerangs.cpp" />
     <ClCompile Include="Ones and Zeroes.cpp" />
     <ClCompile Include="Partition Equal Subset Sum.cpp" />
