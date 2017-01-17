@@ -1116,9 +1116,6 @@
     <ClCompile Include="Implement strStr%28%29.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
-    <ClCompile Include="Sum of Two Integers.cpp">
-      <Filter>Source Files\Bit Manipulation</Filter>
-    </ClCompile>
     <ClCompile Include="Sum of Left Leaves.cpp">
       <Filter>Source Files\Tree\Binary Tree</Filter>
     </ClCompile>

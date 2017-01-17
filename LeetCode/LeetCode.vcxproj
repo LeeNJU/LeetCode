@@ -236,7 +236,6 @@
     <ClCompile Include="Happy Number.cpp" />
     <ClCompile Include="Isomorphic Strings.cpp" />
     <ClCompile Include="Sum of Left Leaves.cpp" />
-    <ClCompile Include="Sum of Two Integers.cpp" />
     <ClCompile Include="Sum Root to Leaf Numbers.cpp" />
     <ClCompile Include="Ternary Expression Parser.cpp" />
     <ClCompile Include="The Skyline Problem.cpp" />
