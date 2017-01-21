@@ -357,9 +357,6 @@
     <ClCompile Include="Coin Change.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
     </ClCompile>
-    <ClCompile Include="Create Maximum Number.cpp">
-      <Filter>Source Files\Dynamic Programming</Filter>
-    </ClCompile>
     <ClCompile Include="Game of Life.cpp">
       <Filter>Source Files\Array</Filter>
     </ClCompile>
@@ -1190,6 +1187,9 @@
     </ClCompile>
     <ClCompile Include="Number of Segments in a String.cpp">
       <Filter>Source Files\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Create Maximum Number.cpp">
+      <Filter>Source Files\Array</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
