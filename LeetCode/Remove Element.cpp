@@ -8,7 +8,7 @@ int removeElement(std::vector<int>& nums, int val)
 	for (int i = 0; i < nums.size(); ++i)
 	{
 		if (nums[i] != val)
-			std::swap(nums[++index], nums[i]);
+			nums[++index] = nums[i];
 	}
 	return index + 1;
 }

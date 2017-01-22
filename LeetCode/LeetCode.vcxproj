@@ -241,6 +241,7 @@
     <ClCompile Include="The Skyline Problem.cpp" />
     <ClCompile Include="Third Maximum Number.cpp" />
     <ClCompile Include="Total Hamming Distance.cpp" />
+    <ClCompile Include="Unique Binary Search Trees.cpp" />
     <ClCompile Include="Unique Substrings in Wraparound String.cpp" />
     <ClCompile Include="Valid Palindrome.cpp" />
     <ClCompile Include="Palindrome Number.cpp" />

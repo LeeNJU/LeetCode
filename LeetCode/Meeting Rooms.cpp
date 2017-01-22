@@ -48,3 +48,18 @@ int minMeetingRooms(std::vector<Interval>& intervals)
 	}
 	return rooms.size();
 }
+
+/*
+int minMeetingRooms(vector<Interval>& intervals) 
+{
+	sort(intervals.begin(), intervals.end(), compare);
+	priority_queue<int, vector<int>, greater<int>> q; // 建立最小堆
+	for (auto a : intervals) 
+	{
+		if (!q.empty() && q.top() <= a.start) 
+			q.pop();
+		q.push(a.end);
+	}
+
+	return q.size();
+}*/
