@@ -13,7 +13,7 @@ bool isValid(std::string num1, std::string num2, std::string num)
 	std::string sum = std::to_string(std::stol(num1) + std::stol(num2));
 	if (num == sum) 
 		return true;
-	if (num.size() <= sum.size() || sum.compare(num.substr(0, sum.size())) != 0) 
+	if (num.size() < sum.size() || sum.compare(num.substr(0, sum.size())) != 0) 
 		return false;
 	else 
 		return isValid(num2, sum, num.substr(sum.size()));//µİ¹éÅĞ¶Ï

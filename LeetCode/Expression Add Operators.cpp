@@ -5,7 +5,7 @@
 //解法描述:递归，注意要记录上一步所产生的值，来处理连续的乘号，还要处理类似"012"的数字，数字可以是0，但是不能
 //        出现0开头的数字。
 
-void dfs(std::vector<std::string> &result, std::string path, std::string num, int target, int index, 
+void dfs(std::vector<std::string>& result, std::string path, std::string num, int target, int index, 
 			long cur, long prev)//cur表示到递归到当前，算出的值是多少，prev表示上一步的数字是多少
 {
 	if (index == num.size())

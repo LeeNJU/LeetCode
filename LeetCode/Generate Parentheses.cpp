@@ -15,7 +15,7 @@ void dfs(std::vector<std::string>& result, std::string intermediate, int left, i
 		return;
 	}
 
-	if (left && left <= right) //left一定要小于right才能放
+	if (left > 0) 
 		dfs(result, intermediate + "(", left - 1, right, n);
 	if (right && right > left)//right一定要大于left才能放
 		dfs(result, intermediate + ")", left, right - 1, n);
