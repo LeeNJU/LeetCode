@@ -654,9 +654,6 @@
     <ClCompile Include="Flatten 2D Vector.cpp">
       <Filter>Source Files\Design</Filter>
     </ClCompile>
-    <ClCompile Include="Android Unlock Patterns.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Additive Number.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
@@ -1193,6 +1190,12 @@
     </ClCompile>
     <ClCompile Include="Unique Binary Search Trees.cpp">
       <Filter>Source Files\Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Android Unlock Patterns.cpp">
+      <Filter>Source Files\BackTracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Increasing Subsequences.cpp">
+      <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
