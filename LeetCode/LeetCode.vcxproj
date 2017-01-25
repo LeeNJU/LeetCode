@@ -20,6 +20,7 @@
     <ClCompile Include="Add Two Numbers.cpp" />
     <ClCompile Include="Alien Dictionary.cpp" />
     <ClCompile Include="Concatenated Words.cpp" />
+    <ClCompile Include="Count Numbers with Unique Digits.cpp" />
     <ClCompile Include="Excel Sheet Column Title.cpp" />
     <ClCompile Include="Group Anagrams.cpp" />
     <ClCompile Include="Android Unlock Patterns.cpp" />

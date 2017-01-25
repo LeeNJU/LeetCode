@@ -1197,6 +1197,9 @@
     <ClCompile Include="Increasing Subsequences.cpp">
       <Filter>Source Files\BackTracking</Filter>
     </ClCompile>
+    <ClCompile Include="Count Numbers with Unique Digits.cpp">
+      <Filter>Source Files\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
