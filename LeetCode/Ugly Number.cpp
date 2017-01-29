@@ -55,10 +55,7 @@ int nthSuperUglyNumber(int n, std::vector<int>& primes)
 	{
 		int num = INT_MAX;
 		for (int j = 0; j < primes.size(); ++j)//找到最小值
-		{
-			if (result[index[j]] * primes[j] < num)
-				num = result[index[j]] * primes[j];
-		}
+			num = std::min(num, result[index[j]] * primes[j]);
 
 		for (int j = 0; j < primes.size(); ++j)//更新得到最小值的下标
 		{

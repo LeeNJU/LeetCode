@@ -5,7 +5,7 @@
 //        一个元素a[i][j]等于0，那么把a[0][j]和a[i][0]设为0作为标记，然后扫描整个矩阵，如果a[0][j]或者
 //        a[i][0]等于0，就把a[i][j]设为0
 
-void setZeroes(std::vector<std::vector<int> > &matrix)
+void setZeroes(std::vector<std::vector<int>>& matrix)
 {
 	const int row = matrix.size();
 	const int col = matrix[0].size();
