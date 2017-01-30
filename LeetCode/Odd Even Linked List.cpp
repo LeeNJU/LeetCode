@@ -3,30 +3,30 @@
 //解法描述:用两个哨兵节点分别代表奇数节点和偶数节点
 ListNode* oddEvenList(ListNode* head) 
 {
-	if (head == nullptr || head->next == nullptr)
-		return head;
+	ListNode even_dummy(0);
+	ListNode odd_dummy(0);
+	ListNode* even = &even_dummy;
+	ListNode* odd = &odd_dummy;
 
-	ListNode o(0);
-	ListNode e(0);
-	ListNode* odd = &o;
-	ListNode* even = &e;
-	ListNode* current = head;//每次前进两位
-	while (current && current->next)
+	int count = 0;
+	while (head)
 	{
-		odd->next = current;
-		odd = odd->next;
-		even->next = current->next;
-		even = even->next;
-		current = current->next->next;
+		++count;
+		if (count % 2 == 1)
+		{
+			odd->next = head;
+			odd = odd->next;
+		}
+		else
+		{
+			even->next = head;
+			even = even->next;
+		}
+
+		head = head->next;
 	}
 
-	if (current)
-	{
-		odd->next = current;
-		odd = odd->next;
-	}
-
-	odd->next = e.next;
 	even->next = nullptr;
-	return o.next;
+	odd->next = even_dummy.next;
+	return odd_dummy.next;
 }

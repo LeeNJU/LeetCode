@@ -24,7 +24,7 @@ ListNode *deleteDuplicates(ListNode *head)
 
 //版本二：给定一个已序链表，如果有重复的元素，就把所有重复的元素删除，1->2->3->3->4->4->5，删除后为1->2->5
 //解法描述：添加一个哨兵节点，两个指针prev和cur分别指向哨兵节点和头节点，2层循环，当cur遇到重复元素时，循环
-//         删除重复元素
+//         删除重复元素,如果该元素不是重复元素，加到哨兵节点的末尾
 
 ListNode *deleteDuplicate(ListNode *head)
 {
