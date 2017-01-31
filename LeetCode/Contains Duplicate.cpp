@@ -1,5 +1,6 @@
 #include<vector>
 #include<unordered_map>
+#include<unordered_set>
 #include<map>
 
 //题目描述:给定一个数组，判断其中是否包含重复元素
@@ -17,25 +18,18 @@ bool containsDuplicate(std::vector<int>& nums)
 }
 
 //题目描述：给定一个数组和一个值k，判断是否存在重复的元素，并且重复元素的下标之差不能超过k
-//解法描述：用hashtable保存相同值的下标集合，遍历该集合，比较下标之差
+//解法描述：sliding window的思路，用hashtset保存i到j之间的元素，i到j的差不超过k
 bool containsNearbyDuplicate(std::vector<int>& nums, int k)
 {
-	std::unordered_map<int, std::vector<int>> m;
-	for (int i = 0; i < nums.size(); ++i)
-		m[nums[i]].push_back(i);//保存相同元素的下标
-
-	for (int i = 0; i < nums.size(); ++i)
+	std::unordered_set<int> set;
+	for (int i = 0, j = 0; j < nums.size(); ++j)
 	{
-		if (m[nums[i]].size() >= 2)//下标集合大于2
-		{
-			for (int j = 0; j < m[nums[i]].size() - 1; ++j)//遍历下标集合，分别比较相邻下标的差
-			{
-				if (m[nums[i]][j + 1] - m[nums[i]][j] <= k)
-					return true;
-			}
-		}
+		if (j - i > k)
+			set.erase(nums[i++]);
+		if (set.find(nums[j]) != set.end())
+			return true;
+		set.insert(nums[j]);
 	}
-
 	return false;
 }
 

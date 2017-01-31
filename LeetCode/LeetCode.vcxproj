@@ -283,7 +283,6 @@
     <ClCompile Include="N-Queens II.cpp" />
     <ClCompile Include="N-Queens.cpp" />
     <ClCompile Include="Next Permutation.cpp" />
-    <ClCompile Include="numTrees.cpp" />
     <ClCompile Include="Palindrome Partitioning II.cpp" />
     <ClCompile Include="Palindrome Partitioning.cpp" />
     <ClCompile Include="Partition List.cpp" />

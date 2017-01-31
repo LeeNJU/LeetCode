@@ -489,9 +489,6 @@
     <ClCompile Include="Lowest Common Ancestor of a Binary Search Tree.cpp">
       <Filter>Source Files\Tree\Binary Search Tree</Filter>
     </ClCompile>
-    <ClCompile Include="numTrees.cpp">
-      <Filter>Source Files\Tree\Binary Search Tree</Filter>
-    </ClCompile>
     <ClCompile Include="Recover Binary Search Tree.cpp">
       <Filter>Source Files\Tree\Binary Search Tree</Filter>
     </ClCompile>
