@@ -1,14 +1,16 @@
 #include<vector>
-//题目描述：给定一个数组gas，gas[i]表示第i个加气站中气的含量，再给定一个数组cost，cost[i]表示从i站到i+1站所消耗的气
-//要求找到加气站的下标，使得汽车可以通过所有的加气站（汽车通过加气站加气的总量要大于消耗的量），返回该加气站的下标，如果没有就返回-1
+//题目描述:给定一个数组gas，gas[i]表示第i个加气站中气的含量，再给定一个数组cost，cost[i]表示从i站到i+1站所消
+//         耗的气,要求找到加气站的下标，使得汽车可以通过所有的加气站（汽车通过加气站加气的总量要大于消耗的量),
+//         返回该加气站的下标，如果没有就返回-1
 //解法描述：考虑一下情况：
-//a.最开始，站0是始发站，假设车开到p站后油箱空了，sum1=diff[0]+diff[1]+……+diff[p]<0,此时站0，站1一直到站p都不是最终结果
+//a.最开始，站0是始发站，假设车开到p站后油箱空了，sum1=diff[0]+diff[1]+……+diff[p]<0,此时站0，站1一直到站p都
+//        不是最终结果
 //b.再把p+1站作为始发站，开出q站后油箱又空了，sum2=diff[p+1]+diff[p+2]+……diff[q]<0，同上
 //c.再把q+1站作为始发站，假设一直开到结尾，油箱没空，sum3=diff[q+1]+diff[q+2]+……+diff[size-1]>=0
-//要想开回q+1站，其实就看sum3加上diff[0]到diff[q]的过程中有没有小于0。看sum3+sum1是否大于0就能知道能否开回p+1站，看sum3+sum1+sum2
-//是否大于0就能知道能否开回q+1
+//要想开回q+1站，其实就看sum3加上diff[0]到diff[q]的过程中有没有小于0。看sum3+sum1是否大于0就能知道能否开回p+1
+//    站，看sum3+sum1+sum2是否大于0就能知道能否开回q+1
 
-int canCompleteCircuit(std::vector<int> &gas, std::vector<int> &cost)
+int canCompleteCircuit(std::vector<int>& gas, std::vector<int>& cost)
 {
 	int sum = 0, total = 0, index = -1;//index表示最终的结果
 	for (int i = 0; i < gas.size(); ++i)

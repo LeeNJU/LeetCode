@@ -8,13 +8,18 @@
 
 int wiggleMaxLength(std::vector<int>& nums) 
 {
-	int p = 1, q = 1, n = nums.size();
-	for (int i = 1; i < n; ++i) 
+	if (nums.empty())
+		return 0;
+
+	int p = 1, q = 1, result = 1;
+	for (int i = 1; i < nums.size(); ++i) 
 	{
 		if (nums[i] > nums[i - 1]) 
 			p = q + 1;
 		else if (nums[i] < nums[i - 1]) 
 			q = p + 1;
+
+		result = std::max(std::max(p, q), result);
 	}
-	return std::min(n, std::max(p, q));
+	return result;
 }

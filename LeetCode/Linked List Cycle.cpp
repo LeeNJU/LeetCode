@@ -19,7 +19,7 @@ bool hasCycle(ListNode* head)
 //解法描述:两个指针ptr1和ptr2都指向head，ptr1走一步，ptr2走2步，二者重合的时候，让ptr1指向head，然后二者同时
 //        每次向后走一步，直到二者再次重合，即为解
 
-ListNode *detectCycle(ListNode *head)
+ListNode* detectCycle(ListNode *head)
 {
 	ListNode* ptr1 = head, *ptr2 = head;
 	while (ptr2 && ptr2->next)//ptr2走的快，只需要判断ptr2就可以了
