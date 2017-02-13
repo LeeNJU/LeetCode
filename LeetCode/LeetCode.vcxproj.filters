@@ -1203,6 +1203,9 @@
     <ClCompile Include="Next Greater Element.cpp">
       <Filter>Source Files\Stack and Heap</Filter>
     </ClCompile>
+    <ClCompile Include="Find Bottom Left Tree Value.cpp">
+      <Filter>Source Files\Tree\Binary Tree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
