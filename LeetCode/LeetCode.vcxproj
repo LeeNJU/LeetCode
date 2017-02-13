@@ -23,6 +23,7 @@
     <ClCompile Include="Count Numbers with Unique Digits.cpp" />
     <ClCompile Include="Excel Sheet Column Title.cpp" />
     <ClCompile Include="Find Bottom Left Tree Value.cpp" />
+    <ClCompile Include="Find Largest Value in Each Tree Row.cpp" />
     <ClCompile Include="Group Anagrams.cpp" />
     <ClCompile Include="Android Unlock Patterns.cpp" />
     <ClCompile Include="Arithmetic Slices.cpp" />
