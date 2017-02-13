@@ -72,6 +72,7 @@
     <ClCompile Include="Range Addition.cpp" />
     <ClCompile Include="Ransom Note.cpp" />
     <ClCompile Include="Reconstruct Original Digits from English.cpp" />
+    <ClCompile Include="Relative Ranks.cpp" />
     <ClCompile Include="Remove K Digits.cpp" />
     <ClCompile Include="Repeated Substring Pattern.cpp" />
     <ClCompile Include="Rotate Function.cpp" />
