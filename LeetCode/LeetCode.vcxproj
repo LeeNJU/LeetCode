@@ -51,6 +51,7 @@
     <ClCompile Include="License Key Formatting.cpp" />
     <ClCompile Include="Longest Absolute File Path.cpp" />
     <ClCompile Include="Longest Palindrome.cpp" />
+    <ClCompile Include="Longest Palindromic Subsequence.cpp" />
     <ClCompile Include="Longest Repeating Character Replacement.cpp" />
     <ClCompile Include="Longest Substring with At Least K Repeating Characters.cpp" />
     <ClCompile Include="Max Consecutive Ones.cpp" />

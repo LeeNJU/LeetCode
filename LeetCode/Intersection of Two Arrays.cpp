@@ -25,8 +25,7 @@ std::vector<int> intersection(std::vector<int>& nums1, std::vector<int>& nums2)
 		}
 	}
 
-	std::vector<int> result(set.begin(), set.end());
-	return result;
+	return std::vector<int>(set.begin(), set.end());
 }
 
 //version2:允许结果中有重复元素，即元素出现了几次，应该在结果中反映出来
