@@ -17,3 +17,18 @@ int minMoves(std::vector<int>& nums)
 
 	return count;
 }
+
+//版本2:给定一个数组，现有有一个move操作，可以把一个元素加1或者减1，求最少需要多少个move操作，使得数组中的元素
+//      全部相等，例如[1,2,3],需要2个move操作,所有元素变成2
+//解法描述:排序，找到中间的元素，把所有元素变成中间的元素，记录每个元素与中间的差，然后求和
+
+int minMoves2(std::vector<int>& nums) 
+{
+	sort(nums.begin(), nums.end());
+	int median = nums[nums.size() / 2];
+
+	int sum = 0;
+	for (int val : nums)
+		sum += abs(val - median);
+	return sum;
+}
