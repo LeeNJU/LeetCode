@@ -49,6 +49,7 @@
     <ClCompile Include="Integer to English Words.cpp" />
     <ClCompile Include="Is Subsequence.cpp" />
     <ClCompile Include="Lexicographical Numbers.cpp" />
+    <ClCompile Include="LFU Cache.cpp" />
     <ClCompile Include="License Key Formatting.cpp" />
     <ClCompile Include="Longest Absolute File Path.cpp" />
     <ClCompile Include="Longest Palindrome.cpp" />

@@ -1221,6 +1221,9 @@
     <ClCompile Include="Detect Capital.cpp">
       <Filter>Source Files\String</Filter>
     </ClCompile>
+    <ClCompile Include="LFU Cache.cpp">
+      <Filter>Source Files\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="TreeNode.h">
