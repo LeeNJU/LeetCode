@@ -29,6 +29,10 @@ int trap(std::vector<int>& height)
 	return area;
 }
 
+//题目描述:给定一个二维矩阵，每个元素表示高度，求在这个二维数组里能装多少水
+//解法描述:从外到内扫描，先把边界上的点加入到最小堆里，依次取出堆里的元素，查看周围没有被访问过的元素，如果高度
+//        比当前高度小，记录水量，标记为visited
+
 struct Cell
 {
 	int row;
@@ -85,7 +89,7 @@ int trapRainWater(std::vector<std::vector<int>>& heightMap)
 			{
 				visited[x][y] = true;
 				result += std::max(0, cell.height - heightMap[x][y]);
-				queue.push(Cell(x, y, std::max(heightMap[x][y], cell.height)));
+				queue.push(Cell(x, y, std::max(heightMap[x][y], cell.height)));//注意这里，要去二者的最大值
 			}
 		}
 	}
